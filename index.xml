@@ -16,7 +16,11 @@
       
       <guid>http://jorin-vogel.github.io/homepage/404/</guid>
       <description>&lt;p&gt;Sorry the page you are looking for couldn&amp;rsquo;t be found.
-Try the &lt;a href=&#34;/&#34;&gt;start page&lt;/a&gt; and look again.&lt;/p&gt;
+Try the &lt;a href=&#34;http://jorin-vogel.github.io/homepage/&#34;/&gt;
+    &lt;p&gt;start page&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/a&gt;
+ and look again.&lt;/p&gt;
 
 &lt;p&gt;Cheers Jorin&lt;/p&gt;
 </description>
