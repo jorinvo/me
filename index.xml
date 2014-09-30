@@ -7,7 +7,29 @@
     
     
     
-    <updated>Tue, 30 Sep 2014 15:50:00 ICT</updated>
+    <updated>Tue, 30 Sep 2014 23:06:41 ICT</updated>
+    
+    <item>
+      <title>Sir Sierpinski - PIXI.js Demo</title>
+      <link>http://jorin-vogel.github.io/homepage/lab/sir-sierpinski/</link>
+      <pubDate>Tue, 30 Sep 2014 23:06:41 ICT</pubDate>
+      
+      <guid>http://jorin-vogel.github.io/homepage/lab/sir-sierpinski/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>404 - Not Found</title>
+      <link>http://jorin-vogel.github.io/homepage/404/</link>
+      <pubDate>Tue, 30 Sep 2014 23:06:41 ICT</pubDate>
+      
+      <guid>http://jorin-vogel.github.io/homepage/404/</guid>
+      <description>&lt;p&gt;Sorry the page you are looking for couldn&amp;rsquo;t be found.
+Try the &lt;a href=&#34;/&#34;&gt;start page&lt;/a&gt; and look again.&lt;/p&gt;
+
+&lt;p&gt;Cheers Jorin&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Interactive Public Advertisment</title>
@@ -176,45 +198,6 @@ and as soon as you get into the area an alarm will be triggered.&lt;/p&gt;
       <description>&lt;p&gt;Throw a Party where no one is allowed to bring someone he knows.
     So there are only strangers.
     Could be interesting.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>3D Model to Find out About Diseases</title>
-      <link>http://jorin-vogel.github.io/homepage/ideas/desease-3d-model/</link>
-      <pubDate>Tue, 30 Sep 2014 15:41:06 ICT</pubDate>
-      
-      <guid>http://jorin-vogel.github.io/homepage/ideas/desease-3d-model/</guid>
-      <description>&lt;p&gt;A website or app where you have a 3D model of the human body.&lt;/p&gt;
-
-&lt;p&gt;You can click on any part of the body and get a list of possible diseases in this area.&lt;/p&gt;
-
-&lt;p&gt;Additionally there could be information for each disease on how to heal it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Startrek-like Computer</title>
-      <link>http://jorin-vogel.github.io/homepage/ideas/startrek-computer/</link>
-      <pubDate>Tue, 30 Sep 2014 15:39:52 ICT</pubDate>
-      
-      <guid>http://jorin-vogel.github.io/homepage/ideas/startrek-computer/</guid>
-      <description>&lt;p&gt;Actually it is pretty easy to enable your own computer to talk with you.
-Checkout the Web Speech APi:
-&lt;a href=&#34;https://www.google.com/intl/en/chrome/demos/speech.html&#34;&gt;https://www.google.com/intl/en/chrome/demos/speech.html&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The voice recognition is pretty good already.&lt;/p&gt;
-
-&lt;p&gt;Now you only have to setup hubot (&lt;a href=&#34;http://hubot.github.com/&#34;&gt;http://hubot.github.com/&lt;/a&gt;)
-and you have a really big palette of command available:
-&lt;a href=&#34;https://hubot-script-catalog.herokuapp.com/&#34;&gt;https://hubot-script-catalog.herokuapp.com/&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It shouldn’t be that hard to write a little web app sending requests to hubot.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately Web Speech API only available in Chrome yet. Would be even more fun on mobile.&lt;/p&gt;
-
-&lt;p&gt;btw: Did you ever clicked the little microphone in the google search field (only in Chrome)?
-Just tell her “make me a sandwich” :)&lt;/p&gt;
 </description>
     </item>
     
