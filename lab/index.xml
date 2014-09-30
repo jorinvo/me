@@ -3,7 +3,7 @@
   <channel>
       <title>Labs on Jorin&#39;s Page </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://jorin.in/lab/index.xml/</link>
+    <link>http://jorin-vogel.github.io/homepage/lab/index.xml/</link>
     
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Image Filtering Using a Canvas Element</title>
-      <link>http://jorin.in/lab/canvas-filter/</link>
+      <link>http://jorin-vogel.github.io/homepage/lab/canvas-filter/</link>
       <pubDate>Fri, 04 Apr 2014 19:07:13 ICT</pubDate>
       
-      <guid>http://jorin.in/lab/canvas-filter/</guid>
+      <guid>http://jorin-vogel.github.io/homepage/lab/canvas-filter/</guid>
       <description>&lt;p&gt;Normally we don&amp;rsquo;t need to implement our own filters.
 Photoshop does a way better job than we could.
 But someone has to build Photoshop and the camera app on your phone right?&lt;/p&gt;
@@ -46,10 +46,10 @@ Feel free to play around and create some nice filters!&lt;/p&gt;
     
     <item>
       <title>Canvas Animation</title>
-      <link>http://jorin.in/lab/chart-animation/</link>
+      <link>http://jorin-vogel.github.io/homepage/lab/chart-animation/</link>
       <pubDate>Fri, 10 Jan 2014 19:07:13 ICT</pubDate>
       
-      <guid>http://jorin.in/lab/chart-animation/</guid>
+      <guid>http://jorin-vogel.github.io/homepage/lab/chart-animation/</guid>
       <description>&lt;script
     data-height=&#34;500&#34;
     data-theme-id=&#34;8862&#34;
