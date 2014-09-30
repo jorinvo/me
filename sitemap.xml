@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>http://jorin-vogel.github.io/homepage/lab/sir-sierpinski/</loc>
-    <lastmod>2014-09-30T23:06:41+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jorin-vogel.github.io/homepage/404/</loc>
     <lastmod>2014-09-30T23:06:41+07:00</lastmod>
   </url>
@@ -133,12 +128,17 @@
   </url>
   
   <url>
-    <loc>http://jorin-vogel.github.io/homepage/lab/canvas-filter/</loc>
+    <loc>http://jorin-vogel.github.io/homepage/lab/chart-animation/</loc>
+    <lastmod>2014-05-20T23:06:41+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jorin-vogel.github.io/homepage/lab/sir-sierpinski/</loc>
     <lastmod>2014-04-04T19:07:13+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jorin-vogel.github.io/homepage/lab/chart-animation/</loc>
+    <loc>http://jorin-vogel.github.io/homepage/lab/canvas-filter/</loc>
     <lastmod>2014-01-10T19:07:13+07:00</lastmod>
   </url>
   

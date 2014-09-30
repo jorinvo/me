@@ -7,56 +7,12 @@
     
     
     
-    <updated>Tue, 30 Sep 2014 23:06:41 ICT</updated>
-    
-    <item>
-      <title>Sir Sierpinski - PIXI.js Demo</title>
-      <link>http://jorin-vogel.github.io/homepage/lab/sir-sierpinski/</link>
-      <pubDate>Tue, 30 Sep 2014 23:06:41 ICT</pubDate>
-      
-      <guid>http://jorin-vogel.github.io/homepage/lab/sir-sierpinski/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Image Filtering Using a Canvas Element</title>
-      <link>http://jorin-vogel.github.io/homepage/lab/canvas-filter/</link>
-      <pubDate>Fri, 04 Apr 2014 19:07:13 ICT</pubDate>
-      
-      <guid>http://jorin-vogel.github.io/homepage/lab/canvas-filter/</guid>
-      <description>&lt;p&gt;Normally we don&amp;rsquo;t need to implement our own filters.
-Photoshop does a way better job than we could.
-But someone has to build Photoshop and the camera app on your phone, right?&lt;/p&gt;
-
-&lt;p&gt;As a web developer it might also be interesting to know how filtering actually works.
-It&amp;rsquo;s always good to understand the tools you work with
-and filters are part of the web now with the latest SVG and CSS updates.&lt;/p&gt;
-
-&lt;p&gt;So here are some basic filters implemented manually with just Javascript and the &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; element:&lt;/p&gt;
-
-&lt;script
-    data-height=&#34;500&#34;
-    data-theme-id=&#34;8862&#34;
-    data-slug-hash=&#34;eFlkh&#34;
-    data-default-tab=&#34;result&#34;
-    data-user=&#34;jorin&#34;
-    class=&#39;codepen&#39;
-    async
-    src=&#34;//codepen.io/assets/embed/ei.js&#34;
-&gt;
-
-&lt;/script&gt;
-
-&lt;p&gt;You can test the different filters and look at the code.
-It might surprise you how little code is neccessary.
-Feel free to play around and create some nice filters!&lt;/p&gt;
-</description>
-    </item>
+    <updated>Tue, 20 May 2014 23:06:41 ICT</updated>
     
     <item>
       <title>Chart Animation with SVG and jQuery</title>
       <link>http://jorin-vogel.github.io/homepage/lab/chart-animation/</link>
-      <pubDate>Fri, 10 Jan 2014 19:07:13 ICT</pubDate>
+      <pubDate>Tue, 20 May 2014 23:06:41 ICT</pubDate>
       
       <guid>http://jorin-vogel.github.io/homepage/lab/chart-animation/</guid>
       <description>&lt;p&gt;SVG is an underrated tool. It seems people are more exited about Canvas because it&amp;rsquo;s simple.
@@ -79,7 +35,7 @@ Don&amp;rsquo;t be afraid of SVG. Canvas is not always the easier option for gra
     data-height=&#34;500&#34;
     data-theme-id=&#34;8862&#34;
     data-slug-hash=&#34;LxGni&#34;
-    data-default-tab=&#34;result&#34;
+    data-default-tab=&#34;&#34;
     data-user=&#34;jorin&#34;
     class=&#39;codepen&#39;
     async
@@ -87,6 +43,75 @@ Don&amp;rsquo;t be afraid of SVG. Canvas is not always the easier option for gra
 &gt;
 
 &lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sir Sierpinski - PIXI.js Demo</title>
+      <link>http://jorin-vogel.github.io/homepage/lab/sir-sierpinski/</link>
+      <pubDate>Fri, 04 Apr 2014 19:07:13 ICT</pubDate>
+      
+      <guid>http://jorin-vogel.github.io/homepage/lab/sir-sierpinski/</guid>
+      <description>&lt;p&gt;&lt;img
+    src=&#34;http://jorin-vogel.github.io/homepage/img/sir-sierpinski.png&#34;
+    alt=&#34;Preview&#34;
+/&gt;&lt;/p&gt;
+
+&lt;p&gt;The only really reason you create something with &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; is performance (think games).
+For almost all other 2D graphics you better use SVG.
+If you want speed WebGL ist even better.
+Luckily &lt;a href=&#34;http://www.pixijs.com/&#34;&gt;PIXI.js&lt;/a&gt; uses WebGL with Canvas fallback so you don&amp;rsquo;t have to worry about bad browser support and difficult APIs.
+And it works pretty well.
+Checkout out this demo. It re-calculates and re-draws this whole graphic every frame and still appears smooth.
+And as you can see the API is pretty straight forward.&lt;/p&gt;
+
+&lt;script
+    data-height=&#34;500&#34;
+    data-theme-id=&#34;8862&#34;
+    data-slug-hash=&#34;Gflmy&#34;
+    data-default-tab=&#34;js&#34;
+    data-user=&#34;jorin&#34;
+    class=&#39;codepen&#39;
+    async
+    src=&#34;//codepen.io/assets/embed/ei.js&#34;
+&gt;
+
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image Filtering Using a Canvas Element</title>
+      <link>http://jorin-vogel.github.io/homepage/lab/canvas-filter/</link>
+      <pubDate>Fri, 10 Jan 2014 19:07:13 ICT</pubDate>
+      
+      <guid>http://jorin-vogel.github.io/homepage/lab/canvas-filter/</guid>
+      <description>&lt;p&gt;Normally we don&amp;rsquo;t need to implement our own filters.
+Photoshop does a way better job than we could.
+But someone has to build Photoshop and the camera app on your phone, right?&lt;/p&gt;
+
+&lt;p&gt;As a web developer it might also be interesting to know how filtering actually works.
+It&amp;rsquo;s always good to understand the tools you work with
+and filters are part of the web now with the latest SVG and CSS updates.&lt;/p&gt;
+
+&lt;p&gt;So here are some basic filters implemented manually with just Javascript and the &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; element:&lt;/p&gt;
+
+&lt;script
+    data-height=&#34;500&#34;
+    data-theme-id=&#34;8862&#34;
+    data-slug-hash=&#34;eFlkh&#34;
+    data-default-tab=&#34;&#34;
+    data-user=&#34;jorin&#34;
+    class=&#39;codepen&#39;
+    async
+    src=&#34;//codepen.io/assets/embed/ei.js&#34;
+&gt;
+
+&lt;/script&gt;
+
+&lt;p&gt;You can test the different filters and look at the code.
+It might surprise you how little code is neccessary.
+Feel free to play around and create some nice filters!&lt;/p&gt;
 </description>
     </item>
     
