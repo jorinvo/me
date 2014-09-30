@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Labs on Jorin&#39;s Page </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://jorin.in/lab/index.xml/</link>
+    
+    
+    
+    <updated>Fri, 04 Apr 2014 19:07:13 ICT</updated>
+    
+    <item>
+      <title>Image Filtering Using a Canvas Element</title>
+      <link>http://jorin.in/lab/canvas-filter/</link>
+      <pubDate>Fri, 04 Apr 2014 19:07:13 ICT</pubDate>
+      
+      <guid>http://jorin.in/lab/canvas-filter/</guid>
+      <description>&lt;p&gt;Normally we don&amp;rsquo;t need to implement our own filters.
+Photoshop does a way better job than we could.
+But someone has to build Photoshop and the camera app on your phone right?&lt;/p&gt;
+
+&lt;p&gt;As a web developer it might also be interesting to know how filtering actually works.
+It&amp;rsquo;s always good to understand the tools you work with
+and filters are part of the web know with modern SVG and CSS.&lt;/p&gt;
+
+&lt;p&gt;So here are some basic filters implemented manually with just javascript and the &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; element:&lt;/p&gt;
+
+&lt;script
+    data-height=&#34;500&#34;
+    data-theme-id=&#34;8862&#34;
+    data-slug-hash=&#34;eFlkh&#34;
+    data-default-tab=&#34;result&#34;
+    data-user=&#34;jorin&#34;
+    class=&#39;codepen&#39;
+    async
+    src=&#34;//codepen.io/assets/embed/ei.js&#34;
+&gt;
+
+&lt;/script&gt;
+
+&lt;p&gt;You can test the different filters and look at the code.
+It might surprise you how little code is neccessary.
+Feel free to play around and create some nice filters!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Canvas Animation</title>
+      <link>http://jorin.in/lab/chart-animation/</link>
+      <pubDate>Fri, 10 Jan 2014 19:07:13 ICT</pubDate>
+      
+      <guid>http://jorin.in/lab/chart-animation/</guid>
+      <description>&lt;script
+    data-height=&#34;500&#34;
+    data-theme-id=&#34;8862&#34;
+    data-slug-hash=&#34;LxGni&#34;
+    data-default-tab=&#34;result&#34;
+    data-user=&#34;jorin&#34;
+    class=&#39;codepen&#39;
+    async
+    src=&#34;//codepen.io/assets/embed/ei.js&#34;
+&gt;
+
+&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
