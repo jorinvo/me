@@ -68,13 +68,13 @@
 
     <p>Normally we don&rsquo;t need to implement our own filters.
 Photoshop does a way better job than we could.
-But someone has to build Photoshop and the camera app on your phone right?</p>
+But someone has to build Photoshop and the camera app on your phone, right?</p>
 
 <p>As a web developer it might also be interesting to know how filtering actually works.
 It&rsquo;s always good to understand the tools you work with
-and filters are part of the web know with modern SVG and CSS.</p>
+and filters are part of the web now with the latest SVG and CSS updates.</p>
 
-<p>So here are some basic filters implemented manually with just javascript and the <code>&lt;canvas&gt;</code> element:</p>
+<p>So here are some basic filters implemented manually with just Javascript and the <code>&lt;canvas&gt;</code> element:</p>
 
 <script
     data-height="500"
@@ -98,14 +98,30 @@ Feel free to play around and create some nice filters!</p>
     
         <div class="post">
     <h1 class="post-title">
-        <a href="http://jorin-vogel.github.io/homepage/lab/chart-animation/">Canvas Animation</a>
+        <a href="http://jorin-vogel.github.io/homepage/lab/chart-animation/">Chart Animation with SVG and jQuery</a>
     </h1>
 
     
         <span class="post-date">Fri, Jan 10, 2014</span>
     
 
-    <script
+    <p>SVG is an underrated tool. It seems people are more exited about Canvas because it&rsquo;s simple.
+But SVG lets you do a lot of things with way less effort.
+It&rsquo;s just scary because it&rsquo;s so powerful.</p>
+
+<p>Normally when I should do something in SVG I automatically start thinking about which library to use this time.
+But for most simple stuff (like charts) you don&rsquo;t even need a library.
+All the styling can be done in CSS. And you can dynamically manipulate it with jQuery.
+Sounds familiar? - SVG just works like the DOM you&rsquo;re used to work with!
+Look at this nice, animated graph below. Doesn&rsquo;t it look like normal jQuery code?
+You can just start using SVG with your existing tools.
+Don&rsquo;t be afraid of SVG. Canvas is not always the easier option for grafics.</p>
+
+<blockquote>
+<p>Choose the right tool for the job.</p>
+</blockquote>
+
+<script
     data-height="500"
     data-theme-id="8862"
     data-slug-hash="LxGni"
