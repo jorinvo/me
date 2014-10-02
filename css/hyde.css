@@ -248,3 +248,17 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+
+
+
+/*
+    CUSTOM
+*/
+
+
+
+.content .footnote {
+    font-size: 13px;
+    padding-top: 50px;
+}
