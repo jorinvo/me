@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Labs on Jorin&#39;s Page </title>
+      <title>Jorin&#39;s Page</title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
     <link>http://jorin.in/lab/index.xml/</link>
     
@@ -32,17 +32,15 @@ Don&amp;rsquo;t be afraid of SVG. Canvas is not always the easier option for gra
 &lt;/blockquote&gt;
 
 &lt;script
-    data-height=&#34;500&#34;
-    data-theme-id=&#34;8862&#34;
     data-slug-hash=&#34;LxGni&#34;
-    data-default-tab=&#34;&#34;
     data-user=&#34;jorin&#34;
+    data-height=&#34;500&#34;
+    data-default-tab=&#34;result&#34;
+    data-theme-id=&#34;8862&#34;
     class=&#39;codepen&#39;
     async
     src=&#34;//codepen.io/assets/embed/ei.js&#34;
-&gt;
-
-&lt;/script&gt;
+&gt;&lt;/script&gt;
 </description>
     </item>
     
@@ -66,17 +64,15 @@ Checkout out this demo. It re-calculates and re-draws this whole graphic every f
 And as you can see the API is pretty straight forward.&lt;/p&gt;
 
 &lt;script
-    data-height=&#34;500&#34;
-    data-theme-id=&#34;8862&#34;
     data-slug-hash=&#34;Gflmy&#34;
-    data-default-tab=&#34;js&#34;
     data-user=&#34;jorin&#34;
+    data-height=&#34;500&#34;
+    data-default-tab=&#34;js&#34;
+    data-theme-id=&#34;8862&#34;
     class=&#39;codepen&#39;
     async
     src=&#34;//codepen.io/assets/embed/ei.js&#34;
-&gt;
-
-&lt;/script&gt;
+&gt;&lt;/script&gt;
 </description>
     </item>
     
@@ -97,17 +93,15 @@ and filters are part of the web now with the latest SVG and CSS updates.&lt;/p&g
 &lt;p&gt;So here are some basic filters implemented manually with just Javascript and the &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; element:&lt;/p&gt;
 
 &lt;script
-    data-height=&#34;500&#34;
-    data-theme-id=&#34;8862&#34;
     data-slug-hash=&#34;eFlkh&#34;
-    data-default-tab=&#34;&#34;
     data-user=&#34;jorin&#34;
+    data-height=&#34;500&#34;
+    data-default-tab=&#34;result&#34;
+    data-theme-id=&#34;8862&#34;
     class=&#39;codepen&#39;
     async
     src=&#34;//codepen.io/assets/embed/ei.js&#34;
-&gt;
-
-&lt;/script&gt;
+&gt;&lt;/script&gt;
 
 &lt;p&gt;You can test the different filters and look at the code.
 It might surprise you how little code is neccessary.
