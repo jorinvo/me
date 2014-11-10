@@ -3,18 +3,18 @@
   <channel>
       <title>Jorin&#39;s Page</title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://jorin.in/index.xml/</link>
+    <link>http://jorin.me/index.xml</link>
     
     
     
-    <updated>Tue, 30 Sep 2014 15:50:00 ICT</updated>
+    <updated>Tue, 30 Sep 2014 15:50:00 &#43;0700</updated>
     
     <item>
       <title>Chart Animation with SVG and jQuery</title>
-      <link>http://jorin.in/lab/chart-animation/</link>
-      <pubDate>Tue, 20 May 2014 23:06:41 ICT</pubDate>
+      <link>http://jorin.me/lab/chart-animation/</link>
+      <pubDate>Tue, 20 May 2014 23:06:41 &#43;0700</pubDate>
       
-      <guid>http://jorin.in/lab/chart-animation/</guid>
+      <guid>http://jorin.me/lab/chart-animation/</guid>
       <description>&lt;p&gt;SVG is an underrated tool. It seems people are more exited about Canvas because it&amp;rsquo;s simple.
 But SVG lets you do a lot of things with way less effort.
 It&amp;rsquo;s just scary because it&amp;rsquo;s so powerful.&lt;/p&gt;
@@ -46,12 +46,12 @@ Don&amp;rsquo;t be afraid of SVG. Canvas is not always the easier option for gra
     
     <item>
       <title>Sir Sierpinski - PIXI.js Demo</title>
-      <link>http://jorin.in/lab/sir-sierpinski/</link>
-      <pubDate>Fri, 04 Apr 2014 19:07:13 ICT</pubDate>
+      <link>http://jorin.me/lab/sir-sierpinski/</link>
+      <pubDate>Fri, 04 Apr 2014 19:07:13 &#43;0700</pubDate>
       
-      <guid>http://jorin.in/lab/sir-sierpinski/</guid>
+      <guid>http://jorin.me/lab/sir-sierpinski/</guid>
       <description>&lt;p&gt;&lt;img
-    src=&#34;http://jorin.in/img/sir-sierpinski.png&#34;
+    src=&#34;http://jorin.me/img/sir-sierpinski.png&#34;
     alt=&#34;Preview&#34;
 /&gt;&lt;/p&gt;
 
@@ -78,10 +78,10 @@ And as you can see the API is pretty straight forward.&lt;/p&gt;
     
     <item>
       <title>Image Filtering Using a Canvas Element</title>
-      <link>http://jorin.in/lab/canvas-filter/</link>
-      <pubDate>Fri, 10 Jan 2014 19:07:13 ICT</pubDate>
+      <link>http://jorin.me/lab/canvas-filter/</link>
+      <pubDate>Fri, 10 Jan 2014 19:07:13 &#43;0700</pubDate>
       
-      <guid>http://jorin.in/lab/canvas-filter/</guid>
+      <guid>http://jorin.me/lab/canvas-filter/</guid>
       <description>&lt;p&gt;Normally we don&amp;rsquo;t need to implement our own filters.
 Photoshop does a way better job than we could.
 But someone has to build Photoshop and the camera app on your phone, right?&lt;/p&gt;
