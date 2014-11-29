@@ -108,6 +108,31 @@ Don&amp;rsquo;t be afraid of SVG. Canvas is not always the easier option for gra
     </item>
     
     <item>
+      <title>Ruby Makes Writing Scripts Fun</title>
+      <link>http://jorin.me/lab/ruby-video-converter/</link>
+      <pubDate>Sat, 03 May 2014 22:14:41 &#43;0700</pubDate>
+      
+      <guid>http://jorin.me/lab/ruby-video-converter/</guid>
+      <description>&lt;p&gt;Writing short automation scripts is a common task.
+But figureing out the right shell script syntax can the a daunting task.&lt;/p&gt;
+
+&lt;p&gt;Fortunately Ruby has really well designed System APIs
+and comes with all the tools you need.&lt;/p&gt;
+
+&lt;p&gt;Even better is that the focus on usability also
+extends to third-party modules and you have a big community
+providing you everything you need.&lt;/p&gt;
+
+&lt;p&gt;Another nice thing about Ruby is that you don&amp;rsquo;t need to look up
+APIs that ofen because they work exactly the way you would expect them to.&lt;/p&gt;
+
+&lt;p&gt;Here is a short script to take some screenshots of a video collection:&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/jorin-vogel/96f3ae4f4b76b0430abf.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sir Sierpinski - PIXI.js Demo</title>
       <link>http://jorin.me/lab/sir-sierpinski/</link>
       <pubDate>Fri, 04 Apr 2014 19:07:13 &#43;0700</pubDate>
@@ -136,31 +161,6 @@ And as you can see the API is pretty straight forward.&lt;/p&gt;
     async
     src=&#34;//codepen.io/assets/embed/ei.js&#34;
 &gt;&lt;/script&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ruby Makes Writing Scripts Fun</title>
-      <link>http://jorin.me/lab/ruby-video-converter/</link>
-      <pubDate>Wed, 05 Mar 2014 22:14:41 &#43;0700</pubDate>
-      
-      <guid>http://jorin.me/lab/ruby-video-converter/</guid>
-      <description>&lt;p&gt;Writing short automation scripts is a common task.
-But figureing out the right shell script syntax can the a daunting task.&lt;/p&gt;
-
-&lt;p&gt;Fortunately Ruby has really well designed System APIs
-and comes with all the tools you need.&lt;/p&gt;
-
-&lt;p&gt;Even better is that the focus on usability also
-extends to third-party modules and you have a big community
-providing you everything you need.&lt;/p&gt;
-
-&lt;p&gt;Another nice thing about Ruby is that you don&amp;rsquo;t need to look up
-APIs that ofen because they work exactly the way you would expect them to.&lt;/p&gt;
-
-&lt;p&gt;Here is a short script to take some screenshots of a video collection:&lt;/p&gt;
-
-&lt;script src=&#34;https://gist.github.com/jorin-vogel/96f3ae4f4b76b0430abf.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
