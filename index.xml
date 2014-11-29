@@ -114,7 +114,7 @@ Don&amp;rsquo;t be afraid of SVG. Canvas is not always the easier option for gra
       
       <guid>http://jorin.me/lab/ruby-video-converter/</guid>
       <description>&lt;p&gt;Writing short automation scripts is a common task.
-But figureing out the right shell script syntax can the a daunting task.&lt;/p&gt;
+But figuring out the right shell script syntax can be a daunting task.&lt;/p&gt;
 
 &lt;p&gt;Fortunately Ruby has really well designed System APIs
 and comes with all the tools you need.&lt;/p&gt;
