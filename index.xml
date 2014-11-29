@@ -10,6 +10,69 @@
     <updated>Tue, 30 Sep 2014 15:50:00 &#43;0700</updated>
     
     <item>
+      <title>5 Lessons Learned Building an Angular App with Node.js API</title>
+      <link>http://jorin.me/lab/lessons-learned-zudu/</link>
+      <pubDate>Thu, 12 Jun 2014 12:07:13 &#43;0700</pubDate>
+      
+      <guid>http://jorin.me/lab/lessons-learned-zudu/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://www.zudu.cc/&#34;&gt;
+&lt;img
+    src=&#34;http://jorin.me/img/zudu-logo.png&#34;
+    alt=&#34;Zudu&#34;
+/&gt;
+ &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&#34;http://sope.io/&#34;&gt;sope.io&lt;/a&gt; we built a product discovery app, &lt;a href=&#34;http://www.zudu.cc/&#34;&gt;Zudu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I want to sum up some things I learned along the way here:&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;Choose the Right Framework&lt;/h3&gt;
+
+&lt;p&gt;The first version of Zudu was built using &lt;a href=&#34;http://marionettejs.com/&#34;&gt;Backbone Marionette&lt;/a&gt;. We decided to rewrite it because Marionette turned out as unnecessary abstraction and we often had to work around it.&lt;/p&gt;
+
+&lt;p&gt;Writing the &lt;a href=&#34;https://angularjs.org/&#34;&gt;Angular&lt;/a&gt; version was straight forward and we ended up with less than half of lines of code. Also the minifed version is a little smaller.&lt;/p&gt;
+
+&lt;p&gt;Sure, it&amp;rsquo;s easier to write good code if you do it the second time, but the &lt;em&gt;Angular Way&lt;/em&gt; seems to be a better fit for this kind of application.
+&lt;a href=&#34;http://backbonejs.org/&#34;&gt;Backbone&lt;/a&gt; is still a good tool for other usecases.
+Both have their strengths.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_1&#34;&gt;Design Your API Carefully&lt;/h3&gt;
+
+&lt;p&gt;Building a proper REST API makes the required client-side code for syncing the data quiet simple and HTTP status codes map nicely to appropriate messages for the user.
+A good API Design can make a big difference.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_2&#34;&gt;Build Pluggable Components&lt;/h3&gt;
+
+&lt;p&gt;If you happen to build your own node.js framework around &lt;a href=&#34;http://expressjs.com/&#34;&gt;express.js&lt;/a&gt; make use of the pluggable nature of express. You can build independent components and just plug them in at whatever url you want.&lt;/p&gt;
+
+&lt;p&gt;&lt;img
+    src=&#34;http://jorin.me/img/zudu-middlewares.png&#34;
+    alt=&#34;Our&#34;
+/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_3&#34;&gt;Skip Unnecessary Abstractions&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mongodb.org/&#34;&gt;MongoDB&lt;/a&gt; is a powerful and flexible database and it served use well. However, looking back I would skip the &lt;a href=&#34;http://mongoosejs.com/&#34;&gt;mongoose&lt;/a&gt; abstraction. The main thing mongoose gives you is validation via schemas. This makes it more familiar if you mainly worked with relational databases before. But it&amp;rsquo;s not really needed for MongoDB. Having schemas you tend to think relational again.&lt;/p&gt;
+
+&lt;p&gt;You are better off just using the native driver for MongoDB and keep the hands from abstractions you don&amp;rsquo;t need.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_4&#34;&gt;Write Many Small Functions&lt;/h3&gt;
+
+&lt;p&gt;For most server components the API is the entrypoint. The method handlers get easily big and bloaded with asynchronous code. Make sure to separate different concerns in their own functions to avoid too many nested callbacks.&lt;/p&gt;
+
+&lt;p&gt;Also separate buisness logic from the API completely where possible.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_5&#34;&gt;Wrapping Up&lt;/h3&gt;
+
+&lt;p&gt;These might look like basic software design principles, but working with new technologies we end up running in the same pitfalls over and over again.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s not an easy task to find the right way to use general principles in an idomatic way for a certain software stack.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Chart Animation with SVG and jQuery</title>
       <link>http://jorin.me/lab/chart-animation/</link>
       <pubDate>Tue, 20 May 2014 23:06:41 &#43;0700</pubDate>
