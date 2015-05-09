@@ -3,79 +3,26 @@
   <channel>
       <title>Jorin&#39;s Page</title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://jorin.me/index.xml</link>
+    <link>http://jorin.me/</link>
     
     
     
-    <updated>Fri, 20 Feb 2015 16:16:26 CET</updated>
+    <updated>Fri, 20 Feb 2015 16:16:26 &#43;0100</updated>
     
     <item>
       <title>5 Lessons Learned Building an Angular App with Node.js API</title>
       <link>http://jorin.me/lab/lessons-learned-zudu/</link>
-      <pubDate>Thu, 12 Jun 2014 12:07:13 &#43;0700</pubDate>
+      <pubDate>Thu, 12 Jun 2014 12:07:13 ICT</pubDate>
       
       <guid>http://jorin.me/lab/lessons-learned-zudu/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://www.zudu.cc/&#34;&gt;
-&lt;img
-    src=&#34;http://jorin.me/img/zudu-logo.png&#34;
-    alt=&#34;Zudu&#34;
-/&gt;
- &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;At &lt;a href=&#34;http://sope.io/&#34;&gt;sope.io&lt;/a&gt; we built a product discovery app, &lt;a href=&#34;http://www.zudu.cc/&#34;&gt;Zudu&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I want to sum up some things I learned along the way here:&lt;/p&gt;
-
-&lt;h3 id=&#34;toc_0&#34;&gt;Choose the Right Framework&lt;/h3&gt;
-
-&lt;p&gt;The first version of Zudu was built using &lt;a href=&#34;http://marionettejs.com/&#34;&gt;Backbone Marionette&lt;/a&gt;. We decided to rewrite it because Marionette turned out as unnecessary abstraction and we often had to work around it.&lt;/p&gt;
-
-&lt;p&gt;Writing the &lt;a href=&#34;https://angularjs.org/&#34;&gt;Angular&lt;/a&gt; version was straight forward and we ended up with less than half of lines of code. Also the minifed version is a little smaller.&lt;/p&gt;
-
-&lt;p&gt;Sure, it&amp;rsquo;s easier to write good code if you do it the second time, but the &lt;em&gt;Angular Way&lt;/em&gt; seems to be a better fit for this kind of application.
-&lt;a href=&#34;http://backbonejs.org/&#34;&gt;Backbone&lt;/a&gt; is still a good tool for other usecases.
-Both have their strengths.&lt;/p&gt;
-
-&lt;h3 id=&#34;toc_1&#34;&gt;Design Your API Carefully&lt;/h3&gt;
-
-&lt;p&gt;Building a proper REST API makes the required client-side code for syncing the data quiet simple and HTTP status codes map nicely to appropriate messages for the user.
-A good API Design can make a big difference.&lt;/p&gt;
-
-&lt;h3 id=&#34;toc_2&#34;&gt;Build Pluggable Components&lt;/h3&gt;
-
-&lt;p&gt;If you happen to build your own node.js framework around &lt;a href=&#34;http://expressjs.com/&#34;&gt;express.js&lt;/a&gt; make use of the pluggable nature of express. You can build independent components and just plug them in at whatever url you want.&lt;/p&gt;
-
-&lt;p&gt;&lt;img
-    src=&#34;http://jorin.me/img/zudu-middlewares.png&#34;
-    alt=&#34;Our&#34;
-/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;toc_3&#34;&gt;Skip Unnecessary Abstractions&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.mongodb.org/&#34;&gt;MongoDB&lt;/a&gt; is a powerful and flexible database and it served use well. However, looking back I would skip the &lt;a href=&#34;http://mongoosejs.com/&#34;&gt;mongoose&lt;/a&gt; abstraction. The main thing mongoose gives you is validation via schemas. This makes it more familiar if you mainly worked with relational databases before. But it&amp;rsquo;s not really needed for MongoDB. Having schemas you tend to think relational again.&lt;/p&gt;
-
-&lt;p&gt;You are better off just using the native driver for MongoDB and keep the hands from abstractions you don&amp;rsquo;t need.&lt;/p&gt;
-
-&lt;h3 id=&#34;toc_4&#34;&gt;Write Many Small Functions&lt;/h3&gt;
-
-&lt;p&gt;For most server components the API is the entrypoint. The method handlers get easily big and bloaded with asynchronous code. Make sure to separate different concerns in their own functions to avoid too many nested callbacks.&lt;/p&gt;
-
-&lt;p&gt;Also separate buisness logic from the API completely where possible.&lt;/p&gt;
-
-&lt;h3 id=&#34;toc_5&#34;&gt;Wrapping Up&lt;/h3&gt;
-
-&lt;p&gt;These might look like basic software design principles, but working with new technologies we end up running in the same pitfalls over and over again.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s not an easy task to find the right way to use general principles in an idomatic way for a certain software stack.&lt;/p&gt;
+      <description>&lt;p&gt;[&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Chart Animation with SVG and jQuery</title>
       <link>http://jorin.me/lab/chart-animation/</link>
-      <pubDate>Tue, 20 May 2014 23:06:41 &#43;0700</pubDate>
+      <pubDate>Tue, 20 May 2014 23:06:41 ICT</pubDate>
       
       <guid>http://jorin.me/lab/chart-animation/</guid>
       <description>&lt;p&gt;SVG is an underrated tool. It seems people are more exited about Canvas because it&amp;rsquo;s simple.
@@ -94,6 +41,16 @@ Don&amp;rsquo;t be afraid of SVG. Canvas is not always the easier option for gra
 &lt;p&gt;Choose the right tool for the job.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
 &lt;script
     data-slug-hash=&#34;LxGni&#34;
     data-user=&#34;jorin&#34;
@@ -104,13 +61,14 @@ Don&amp;rsquo;t be afraid of SVG. Canvas is not always the easier option for gra
     async
     src=&#34;//codepen.io/assets/embed/ei.js&#34;
 &gt;&lt;/script&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Ruby Makes Writing Scripts Fun</title>
       <link>http://jorin.me/lab/ruby-video-converter/</link>
-      <pubDate>Sat, 03 May 2014 22:14:41 &#43;0700</pubDate>
+      <pubDate>Sat, 03 May 2014 22:14:41 ICT</pubDate>
       
       <guid>http://jorin.me/lab/ruby-video-converter/</guid>
       <description>&lt;p&gt;Writing short automation scripts is a common task.
@@ -135,39 +93,16 @@ APIs that ofen because they work exactly the way you would expect them to.&lt;/p
     <item>
       <title>Sir Sierpinski - PIXI.js Demo</title>
       <link>http://jorin.me/lab/sir-sierpinski/</link>
-      <pubDate>Fri, 04 Apr 2014 19:07:13 &#43;0700</pubDate>
+      <pubDate>Fri, 04 Apr 2014 19:07:13 ICT</pubDate>
       
       <guid>http://jorin.me/lab/sir-sierpinski/</guid>
-      <description>&lt;p&gt;&lt;img
-    src=&#34;http://jorin.me/img/sir-sierpinski.png&#34;
-    alt=&#34;Preview&#34;
-/&gt;&lt;/p&gt;
-
-&lt;p&gt;The only really reason you create something with &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; is performance (think games).
-For almost all other 2D graphics you better use SVG.
-If you want speed WebGL ist even better.
-Luckily &lt;a href=&#34;http://www.pixijs.com/&#34;&gt;PIXI.js&lt;/a&gt; uses WebGL with Canvas fallback so you don&amp;rsquo;t have to worry about bad browser support and difficult APIs.
-And it works pretty well.
-Checkout out this demo. It re-calculates and re-draws this whole graphic every frame and still appears smooth.
-And as you can see the API is pretty straight forward.&lt;/p&gt;
-
-&lt;script
-    data-slug-hash=&#34;Gflmy&#34;
-    data-user=&#34;jorin&#34;
-    data-height=&#34;500&#34;
-    data-default-tab=&#34;js&#34;
-    data-theme-id=&#34;8862&#34;
-    class=&#39;codepen&#39;
-    async
-    src=&#34;//codepen.io/assets/embed/ei.js&#34;
-&gt;&lt;/script&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
       <title>Image Filtering Using a Canvas Element</title>
       <link>http://jorin.me/lab/canvas-filter/</link>
-      <pubDate>Fri, 10 Jan 2014 19:07:13 &#43;0700</pubDate>
+      <pubDate>Fri, 10 Jan 2014 19:07:13 ICT</pubDate>
       
       <guid>http://jorin.me/lab/canvas-filter/</guid>
       <description>&lt;p&gt;Normally we don&amp;rsquo;t need to implement our own filters.
@@ -180,6 +115,16 @@ and filters are part of the web now with the latest SVG and CSS updates.&lt;/p&g
 
 &lt;p&gt;So here are some basic filters implemented manually with just Javascript and the &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; element:&lt;/p&gt;
 
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
 &lt;script
     data-slug-hash=&#34;eFlkh&#34;
     data-user=&#34;jorin&#34;
@@ -190,6 +135,7 @@ and filters are part of the web now with the latest SVG and CSS updates.&lt;/p&g
     async
     src=&#34;//codepen.io/assets/embed/ei.js&#34;
 &gt;&lt;/script&gt;
+&lt;/p&gt;
 
 &lt;p&gt;You can test the different filters and look at the code.
 It might surprise you how little code is neccessary.

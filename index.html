@@ -9,9 +9,9 @@
   <title> Jorin&#39;s Page </title>
 
   
-  <link rel="stylesheet" href="http://jorin.me/css/poole.css">
-  <link rel="stylesheet" href="http://jorin.me/css/syntax.css">
-  <link rel="stylesheet" href="http://jorin.me/css/hyde.css">
+  <link rel="stylesheet" href="http://jorin.me//css/poole.css">
+  <link rel="stylesheet" href="http://jorin.me//css/syntax.css">
+  <link rel="stylesheet" href="http://jorin.me//css/hyde.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   
@@ -27,7 +27,7 @@
 <div class="sidebar">
     <div class="container sidebar-sticky">
         <div class="sidebar-about">
-            <a href="http://jorin.me">
+            <a href="http://jorin.me/">
                 <h1>Jorin&#39;s Page</h1>
             </a>
             <p class="lead">
@@ -39,8 +39,8 @@
         </div>
 
         <ul class="sidebar-nav">
-            <li><a href="http://jorin.me">/ lab</a></li>
-            <li><a href="http://jorin.me/wishlist">/ wishlist</a></li>
+            <li><a href="http://jorin.me/">/ lab</a></li>
+            <li><a href="http://jorin.me//wishlist">/ wishlist</a></li>
         </ul>
 
         <p>
@@ -69,60 +69,7 @@
         <span class="post-date">Thu, Jun 12, 2014</span>
     
 
-    
-
-<p><a href="http://www.zudu.cc/">
-<img
-    src="http://jorin.me/img/zudu-logo.png"
-    alt="Zudu"
-/>
- </a></p>
-
-<p>At <a href="http://sope.io/">sope.io</a> we built a product discovery app, <a href="http://www.zudu.cc/">Zudu</a>.</p>
-
-<p>I want to sum up some things I learned along the way here:</p>
-
-<h3 id="toc_0">Choose the Right Framework</h3>
-
-<p>The first version of Zudu was built using <a href="http://marionettejs.com/">Backbone Marionette</a>. We decided to rewrite it because Marionette turned out as unnecessary abstraction and we often had to work around it.</p>
-
-<p>Writing the <a href="https://angularjs.org/">Angular</a> version was straight forward and we ended up with less than half of lines of code. Also the minifed version is a little smaller.</p>
-
-<p>Sure, it&rsquo;s easier to write good code if you do it the second time, but the <em>Angular Way</em> seems to be a better fit for this kind of application.
-<a href="http://backbonejs.org/">Backbone</a> is still a good tool for other usecases.
-Both have their strengths.</p>
-
-<h3 id="toc_1">Design Your API Carefully</h3>
-
-<p>Building a proper REST API makes the required client-side code for syncing the data quiet simple and HTTP status codes map nicely to appropriate messages for the user.
-A good API Design can make a big difference.</p>
-
-<h3 id="toc_2">Build Pluggable Components</h3>
-
-<p>If you happen to build your own node.js framework around <a href="http://expressjs.com/">express.js</a> make use of the pluggable nature of express. You can build independent components and just plug them in at whatever url you want.</p>
-
-<p><img
-    src="http://jorin.me/img/zudu-middlewares.png"
-    alt="Our"
-/></p>
-
-<h3 id="toc_3">Skip Unnecessary Abstractions</h3>
-
-<p><a href="http://www.mongodb.org/">MongoDB</a> is a powerful and flexible database and it served use well. However, looking back I would skip the <a href="http://mongoosejs.com/">mongoose</a> abstraction. The main thing mongoose gives you is validation via schemas. This makes it more familiar if you mainly worked with relational databases before. But it&rsquo;s not really needed for MongoDB. Having schemas you tend to think relational again.</p>
-
-<p>You are better off just using the native driver for MongoDB and keep the hands from abstractions you don&rsquo;t need.</p>
-
-<h3 id="toc_4">Write Many Small Functions</h3>
-
-<p>For most server components the API is the entrypoint. The method handlers get easily big and bloaded with asynchronous code. Make sure to separate different concerns in their own functions to avoid too many nested callbacks.</p>
-
-<p>Also separate buisness logic from the API completely where possible.</p>
-
-<h3 id="toc_5">Wrapping Up</h3>
-
-<p>These might look like basic software design principles, but working with new technologies we end up running in the same pitfalls over and over again.</p>
-
-<p>It&rsquo;s not an easy task to find the right way to use general principles in an idomatic way for a certain software stack.</p>
+    <p>[</p>
 
 </div>
 
@@ -152,6 +99,16 @@ Don&rsquo;t be afraid of SVG. Canvas is not always the easier option for grafics
 <p>Choose the right tool for the job.</p>
 </blockquote>
 
+<p>
+
+
+
+
+
+
+
+
+
 <script
     data-slug-hash="LxGni"
     data-user="jorin"
@@ -162,6 +119,7 @@ Don&rsquo;t be afraid of SVG. Canvas is not always the easier option for grafics
     async
     src="//codepen.io/assets/embed/ei.js"
 ></script>
+</p>
 
 </div>
 
@@ -204,30 +162,7 @@ APIs that ofen because they work exactly the way you would expect them to.</p>
         <span class="post-date">Fri, Apr 4, 2014</span>
     
 
-    <p><img
-    src="http://jorin.me/img/sir-sierpinski.png"
-    alt="Preview"
-/></p>
-
-<p>The only really reason you create something with <code>&lt;canvas&gt;</code> is performance (think games).
-For almost all other 2D graphics you better use SVG.
-If you want speed WebGL ist even better.
-Luckily <a href="http://www.pixijs.com/">PIXI.js</a> uses WebGL with Canvas fallback so you don&rsquo;t have to worry about bad browser support and difficult APIs.
-And it works pretty well.
-Checkout out this demo. It re-calculates and re-draws this whole graphic every frame and still appears smooth.
-And as you can see the API is pretty straight forward.</p>
-
-<script
-    data-slug-hash="Gflmy"
-    data-user="jorin"
-    data-height="500"
-    data-default-tab="js"
-    data-theme-id="8862"
-    class='codepen'
-    async
-    src="//codepen.io/assets/embed/ei.js"
-></script>
-
+    
 </div>
 
     
@@ -250,6 +185,16 @@ and filters are part of the web now with the latest SVG and CSS updates.</p>
 
 <p>So here are some basic filters implemented manually with just Javascript and the <code>&lt;canvas&gt;</code> element:</p>
 
+<p>
+
+
+
+
+
+
+
+
+
 <script
     data-slug-hash="eFlkh"
     data-user="jorin"
@@ -260,6 +205,7 @@ and filters are part of the web now with the latest SVG and CSS updates.</p>
     async
     src="//codepen.io/assets/embed/ei.js"
 ></script>
+</p>
 
 <p>You can test the different filters and look at the code.
 It might surprise you how little code is neccessary.
