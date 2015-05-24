@@ -4,6 +4,18 @@ author:      Jorin Vogel
 description: "Weird ideas and unimportant observations should be kept somewhere!"
 url:         http://jorin.me
 
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      layout: post
+      categories: lab
+
+
+layout:     post
+categories: lab
+
 # Optional features
 animated:           false
 show_related_posts: true

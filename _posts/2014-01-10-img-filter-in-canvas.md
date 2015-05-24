@@ -1,9 +1,6 @@
 ---
-layout:     post
 title:      Image Filtering Using a Canvas Element
-date:       2014-01-10 19:07:13
-summary:    Image Filtering Using a Canvas Element
-categories: lab
+summary:    I implemented a few image filters in a canvas element.
 ---
 
 Normally we don't need to implement our own filters.
