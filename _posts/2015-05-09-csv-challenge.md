@@ -1,5 +1,8 @@
 ---
 title: CSV Challenge
+summary: >
+  I created this little experiment to find out
+  about the tools and workflow other developers use to be productive.
 ---
 
 I created this little experiment to find out about the tools and workflow other developers use to be productive.
