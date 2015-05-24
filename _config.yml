@@ -1,0 +1,49 @@
+# Site settings
+title:       Collecting Thoughts For No Reason
+author:      Jorin Vogel
+description: "Weird ideas and unimportant observations should be kept somewhere!"
+url:         http://jorin.me
+
+# Optional features
+animated:           false
+show_related_posts: true
+show_post_footers:  true
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+show_social_icons: true
+github_username: jorin-vogel
+stackoverflow_id:
+twitter_username: jorinv
+google_plus_id:
+linkedin_username:
+angellist_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: true
+share_text: 'Tell your friends :)'
+# Change to 'true' to enable individual icons
+share_facebook: true
+share_twitter: true
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: true
+
+# Build settings
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    /:title
+paginate:     10
+sass:
+  compressed: true
