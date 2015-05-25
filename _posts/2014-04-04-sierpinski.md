@@ -1,15 +1,18 @@
 ---
-title: Sir Sierpinski - PIXI.js Demo
-summary: This is an implemenation of Sierpinski Triangles using Pixi.js.
+title: Animated Sir Sierpinski Triangle
+summary: >
+  This is an implemenation of the Sierpinski Triangle using Pixi.js.
+  I added some animations on top of it to demonstrate
+  the performance Pixi gives you out of the box.
 ---
+
+This is an implemenation of the [Sierpinski Triangle](http://en.wikipedia.org/wiki/Sierpinski_triangle) using [PIXI.js](http://www.pixijs.com/).
+I added some animations on top of it to demonstrate
+the performance Pixi gives you out of the box.
 
 
 <script data-slug-hash="Gflmy" data-user="jorin" data-height="400" data-default-tab="result" data-theme-id="8862" class='codepen' async src="//codepen.io/assets/embed/ei.js" ></script>
 
-The only really reason you create something with `<canvas>` is performance (think games).
-For almost all other 2D graphics you better use SVG.
-If you want speed WebGL ist even better.
-Luckily [PIXI.js](http://www.pixijs.com/) uses WebGL with Canvas fallback so you don't have to worry about bad browser support and difficult APIs.
-And it works pretty well.
-Checkout out this demo. It re-calculates and re-draws this whole graphic every frame and still appears smooth.
-And as you can see the API is pretty straight forward.
+If you want to create some fancy 3D graphic content on the web, give Pixi a try!
+
+It's performance is pretty good and it supports rendering using WebGL or `<canvas>`.
