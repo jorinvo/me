@@ -48,8 +48,7 @@ layout: default
   {% for post in site.related_posts %}
     <div class="post ml2">
       <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-        <h4 class="post-title">{{ post.title }}</h4>
-        <p class="post-summary">{{ post.summary }}</p>
+        <p>{{ post.title }}</p>
       </a>
     </div>
   {% endfor %}
