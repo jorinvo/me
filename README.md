@@ -18,5 +18,5 @@ Just run:
 
     bundle exec jekyll serve --watch
 
-This ensure the same jekyll as on Github Pages ins used locally.
+This ensures the same Jekyll as on Github Pages is used locally.
 Now you can navigate to [`localhost:4000`](http://localhost:4000) in your browser to see the site.
