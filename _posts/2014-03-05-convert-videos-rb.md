@@ -1,15 +1,21 @@
 ---
-title: Ruby Makes Writing Scripts Fun
+title: Convert Videos With Ruby
 summary: >
-  This is an example for a script that might be too complex
-  to enjoy writing it as shell script
-  and how Ruby can help you to keep it simple.
+  Ruby can be a good choice as scripting language
+  and here is an example doing some video conversion.
+  This might be less trivial to implement as shell script.
 ---
 
 Writing short automation scripts is a common task.
-But figuring out the right shell script syntax can be a daunting task.
+The first language choice is normally a shell script.
+But figuring out the right syntax can be a daunting task.
 
-Fortunately Ruby has really well designed System APIs
+If the task has a certain complexity
+it might be easier to switch to another language.
+
+Ruby is a high level language perfectly suited for this kind of task.
+
+It has really well designed System APIs
 and comes with all the tools you need.
 
 Even better is that the focus on usability also
@@ -17,7 +23,7 @@ extends to third-party modules and you have a big community
 providing you everything you need.
 
 Another nice thing about Ruby is that you don't need to look up
-APIs that ofen because they work exactly the way you would expect them to.
+APIs that often because they work exactly the way you would expect them to.
 
 
 Here is a short script to take some screenshots of a video collection:

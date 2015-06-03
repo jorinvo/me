@@ -1,6 +1,6 @@
 # jorin / home
 
-This site is built on [Jekyll](jekyllrb.com/), [Pixyll](http://www.pixyll.com) and [Github Pages](https://pages.github.com/).
+This site is built with [Jekyll](http://jekyllrb.com/), [Pixyll](http://www.pixyll.com) and [Github Pages](https://pages.github.com/).
 Thank you open source!
 
 
@@ -18,5 +18,5 @@ Just run:
 
     bundle exec jekyll serve --watch
 
-This ensures the same Jekyll as on Github Pages is used locally.
+This ensures the same setup as on Github Pages is used locally.
 Now you can navigate to [`localhost:4000`](http://localhost:4000) in your browser to see the site.
