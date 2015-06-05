@@ -21,12 +21,14 @@ Also, don't be scared that `bfg` is written in Scala - You just run the .jar fil
 Here is my workflow for reference:
 
 1. Clone your raw repository
+
 ```
 git clone --mirror https://github.com/your/project.git
 ```
 
 2. Use `bfg` for each file you want to delete from the history.
 (Make sure you use the right path to the `bfg.jar` file.)
+
 ```
 java -jar bfg.jar -D file1.js project.git
 java -jar bfg.jar -D file2.txt project.git
@@ -34,19 +36,21 @@ java -jar bfg.jar -D file3.rb project.git
 ```
 
 3. Clean the reference logs and optimize the project again
+
 ```
 cd project.git/
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
 ```
 
 4. Push your changes back Github
+
 ```
 git push
 ```
 
 Depending on your project size, you get a lot of feedback while pushing.
 
-Updates like the following mean a successful overwrite of a branche:
+Updates like the following mean a successful overwrite of a branch:
 
     + 1432fa3...acc2dc1 master -> master (forced update)
 
