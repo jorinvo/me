@@ -1,5 +1,5 @@
 ---
-title: Remove Files From Github History
+title: Cleanup Github History
 summary: >
   If you want to open source a project you don't want it to contain any sensitive data.
   I would like to share my workflow for this.
