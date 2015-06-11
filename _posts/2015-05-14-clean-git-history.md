@@ -22,31 +22,23 @@ Here is my workflow for reference:
 
 1. Clone your raw repository
 
-```
-git clone --mirror https://github.com/your/project.git
-```
+        git clone --mirror https://github.com/your/project.git
 
 2. Use `bfg` for each file you want to delete from the history.
 (Make sure you use the right path to the `bfg.jar` file.)
 
-```
-java -jar bfg.jar -D file1.js project.git
-java -jar bfg.jar -D file2.txt project.git
-java -jar bfg.jar -D file3.rb project.git
-```
+        java -jar bfg.jar -D file1.js project.git
+        java -jar bfg.jar -D file2.txt project.git
+        java -jar bfg.jar -D file3.rb project.git
 
 3. Clean the reference logs and optimize the project again
 
-```
-cd project.git/
-git reflog expire --expire=now --all && git gc --prune=now --aggressive
-```
+        cd project.git/
+        git reflog expire --expire=now --all && git gc --prune=now --aggressive
 
 4. Push your changes back Github
 
-```
-git push
-```
+        git push
 
 Depending on your project size, you get a lot of feedback while pushing.
 
@@ -64,5 +56,5 @@ The only way you can really remove them is by deleting the repository.
 Be careful because everyone who cloned or forked your project still has access to the data.
 And keep in mind that you also loose all stars, issues and so on when deleting a project.
 
-However, at least you have a clean repository. 
+However, at least you have a clean repository.
 And if you push this to a new Github project you can savely open source it!
