@@ -2,7 +2,14 @@
   <div class="p2 wrap">
     <div class="measure mt1 center">
       <small>
-        Use Github to <a href="https://github.com/jorin-vogel/home/tree/gh-pages/{{ page.path }}">view article source</a> or <a href="https://github.com/jorin-vogel/home/issues">give me feedback</a>.
+        Use Github to
+        {% if page.id %}
+          <a href="https://github.com/jorin-vogel/home/tree/gh-pages/{{ page.path }}">
+            view article source
+          </a>
+          or
+        {% endif %}
+        <a href="https://github.com/jorin-vogel/home/issues">give me feedback</a>.
       </small>
     </div>
   </div>
