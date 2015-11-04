@@ -12,4 +12,4 @@ and asked other developers to solve the problem their own way.
 
 The engagement was way higher than I expected and together we created a really nice overview about all sorts of tools and programming languages.
 
-[Checkout all the solutions here](https://gist.github.com/jorin-vogel/2e43ffa981a97bc17259).
+[Checkout all the solutions here](https://gist.github.com/jorinvo/2e43ffa981a97bc17259).

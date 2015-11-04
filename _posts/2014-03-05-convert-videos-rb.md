@@ -28,4 +28,4 @@ APIs that often because they work exactly the way you would expect them to.
 
 Here is a short script to take some screenshots of a video collection:
 
-<script src="https://gist.github.com/jorin-vogel/96f3ae4f4b76b0430abf.js"></script>
+<script src="https://gist.github.com/jorinvo/96f3ae4f4b76b0430abf.js"></script>
