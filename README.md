@@ -1,6 +1,6 @@
 # jorin / home
 
-This site is built with [Jekyll](https://jekyllrb.com/), [Pixyll](https://www.pixyll.com) and [Github Pages](https://pages.github.com/).
+This site is built with [Jekyll](https://jekyllrb.com/), [Pixyll](https://www.pixyll.com).
 Thank you open source!
 
 
