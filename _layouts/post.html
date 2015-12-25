@@ -20,15 +20,9 @@ layout: default
   {{ content }}
 </article>
 
-{% if site.show_sharing_icons %}
-  {% include share_buttons.html %}
-{% endif %}
+{% include post_footer.html %}
 
-{% if site.show_post_footers %}
-  {% include post_footer.html %}
-{% endif %}
-
-{% if site.disqus_shortname and page.comments and jekyll.environment == 'production' %}
+{% page.comments and jekyll.environment == 'production' %}
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_shortname  = '{{ site.disqus_shortname }}';
@@ -44,13 +38,12 @@ layout: default
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
 
-{% if site.show_related_posts %}
-  <h3 class="related-post-title">Read More</h3>
-  {% for post in site.related_posts limit:3 %}
-    <div class="post ml2">
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-        <p>{{ post.title }}</p>
-      </a>
-    </div>
-  {% endfor %}
-{% endif %}
+
+<h3 class="related-post-title">Read More</h3>
+{% for post in site.related_posts limit:3 %}
+  <div class="post ml2">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+      <p>{{ post.title }}</p>
+    </a>
+  </div>
+{% endfor %}
