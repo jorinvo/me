@@ -24,8 +24,11 @@ layout: post
 markdown: redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink: /:title
+permalink: /:title/
 paginate: 10
 sass:
-  compressed: true
-exclude: ['vendor', 'Gemfile', 'Gemfile.lock']
+  style: :compressed
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
