@@ -14,12 +14,12 @@ This are some things I learned along the way:
 
 
 ### Choose the Right Framework
-The first version of Zudu was built using [Backbone Marionette](http://marionettejs.com/). We decided to rewrite it because Marionette turned out as unnecessary abstraction and we often had to work around it.
+The first version of Zudu was built using [Backbone Marionette](https://marionettejs.com/). We decided to rewrite it because Marionette turned out as unnecessary abstraction and we often had to work around it.
 
 Writing the [Angular](https://angularjs.org/) version was straight forward and we ended up with less than half of lines of code. Also the minified version is a little smaller.
 
 Sure, it's easier to write good code if you do it the second time, but the _Angular Way_ seems to be a better fit for this kind of application.
-[Backbone](http://backbonejs.org/) is still a good tool for other use-cases.
+[Backbone](https://backbonejs.org/) is still a good tool for other use-cases.
 Both have their strengths.
 
 
@@ -29,7 +29,7 @@ A good API Design can make a big difference.
 
 
 ### Build Pluggable Components
-If you happen to build your own node.js framework around [express.js](http://expressjs.com/) make use of the pluggable nature of express. You can build independent components and just plug them in at whatever url you want.
+If you happen to build your own node.js framework around [express.js](https://expressjs.com/) make use of the pluggable nature of express. You can build independent components and just plug them in at whatever url you want.
 
 ```js
 var hannibal = new Hannibal(config)
@@ -48,7 +48,7 @@ var hannibal = new Hannibal(config)
 
 
 ### Skip Unnecessary Abstractions
-[MongoDB](http://www.mongodb.org/) is a powerful and flexible database and it served use well. However, looking back I would skip the [mongoose](http://mongoosejs.com/) abstraction. The main thing mongoose gives you is validation via schemas. This makes it more familiar if you mainly worked with relational databases before. But it's not really needed for MongoDB. Having schemas you tend to think relational again.
+[MongoDB](https://www.mongodb.org/) is a powerful and flexible database and it served use well. However, looking back I would skip the [mongoose](https://mongoosejs.com/) abstraction. The main thing mongoose gives you is validation via schemas. This makes it more familiar if you mainly worked with relational databases before. But it's not really needed for MongoDB. Having schemas you tend to think relational again.
 
 You are better off just using the native driver for MongoDB and keep the hands from abstractions you don't need.
 

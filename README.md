@@ -1,13 +1,13 @@
 # jorin / home
 
-This site is built with [Jekyll](http://jekyllrb.com/), [Pixyll](http://www.pixyll.com) and [Github Pages](https://pages.github.com/).
+This site is built with [Jekyll](https://jekyllrb.com/), [Pixyll](https://www.pixyll.com) and [Github Pages](https://pages.github.com/).
 Thank you open source!
 
 
 
 ## Licensing
 
-- The code can is [MIT](https://github.com/johnotander/pixyll/blob/master/LICENSE.txt) as [Pixyll](http://www.pixyll.com).
+- The code can is [MIT](https://github.com/johnotander/pixyll/blob/master/LICENSE.txt) as [Pixyll](https://www.pixyll.com).
 - My articles inside [`_posts/`](https://github.com/jorinvo/home/tree/gh-pages/_posts) are [CC](https://github.com/jorinvo/home/blob/gh-pages/LICENSE.txt).
 
 

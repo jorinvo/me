@@ -6,7 +6,7 @@ summary: >
   the performance Pixi gives you out of the box.
 ---
 
-This is an implemenation of the [Sierpinski Triangle](http://en.wikipedia.org/wiki/Sierpinski_triangle) using [PIXI.js](http://www.pixijs.com/).
+This is an implemenation of the [Sierpinski Triangle](https://en.wikipedia.org/wiki/Sierpinski_triangle) using [PIXI.js](https://www.pixijs.com/).
 I added some animations on top of it to demonstrate
 the performance Pixi gives you out of the box.
 
