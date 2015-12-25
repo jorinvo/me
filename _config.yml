@@ -4,6 +4,11 @@ author:      Jorin
 description: "Weird ideas and unimportant observations should be kept somewhere!"
 url:         https://jorin.me
 
+disqus_shortname: jorinvo
+github_username: jorinvo
+twitter_username: jorinvo
+
+
 defaults:
   -
     scope:
@@ -14,10 +19,6 @@ defaults:
 
 
 layout: post
-
-disqus_shortname: jorinvo
-github_username: jorinvo
-twitter_username: jorinvo
 
 # Build settings
 markdown: redcarpet
