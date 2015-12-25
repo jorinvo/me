@@ -59,4 +59,4 @@ permalink:    /:title
 paginate:     10
 sass:
   compressed: true
-exclude: ['vendor']
+exclude: ['vendor', 'Gemfile', 'Gemfile.lock']
