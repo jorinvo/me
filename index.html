@@ -10,11 +10,7 @@ layout: default
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h2 post-title">{{ post.title }}</h3></a>
         <p class="post-summary">
-          {% if post.summary %}
-            {{ post.summary }}
-          {% else %}
-            {{ post.excerpt }}
-          {% endif %}
+          {{ post.summary }}
         </p>
       </div>
     {% endfor %}
@@ -28,15 +24,11 @@ layout: default
         {% else %}
           <a class="pagination-item" href="{{ site.baseurl }}/page{{paginator.previous_page}}/">Newer</a>
         {% endif %}
-      {% else %}
-        <span class="pagination-item disabled">Newer</span>
       {% endif %}
     </div>
     <div class="right">
       {% if paginator.next_page %}
         <a class="pagination-item" href="{{ site.baseurl }}/page{{paginator.next_page}}/">Older</a>
-      {% else %}
-        <span class="pagination-item disabled">Older</span>
       {% endif %}
     </div>
   </div>
