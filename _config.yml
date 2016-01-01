@@ -1,7 +1,7 @@
 # Site settings
-title:       Jorin's Tech Logbook - Collecting Thoughts For No Reason
+title:       Jorin's Logbook - The Web, Automation and Ethics
 author:      Jorin
-description: "Weird ideas and unimportant observations should be kept somewhere!"
+description: "Collecting thoughts about the web, automation, ethics and other things I care about."
 url:         https://jorin.me
 
 disqus_shortname: jorinvo
