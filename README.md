@@ -5,10 +5,10 @@ Thank you open source!
 
 
 
-## Licensing
+## License
 
 - The code can is [MIT](https://github.com/johnotander/pixyll/blob/master/LICENSE.txt) as [Pixyll](https://www.pixyll.com).
-- My articles inside [`_posts/`](https://github.com/jorinvo/home/tree/gh-pages/_posts) are [CC](https://github.com/jorinvo/home/blob/gh-pages/LICENSE.txt).
+- My articles [`_posts/`](https://github.com/jorinvo/home/tree/master/_posts) are [CC](https://github.com/jorinvo/home/blob/master/LICENSE.txt).
 
 
 
