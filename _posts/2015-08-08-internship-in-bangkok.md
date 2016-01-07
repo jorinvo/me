@@ -1,7 +1,7 @@
 ---
 title: Internship in Bangkok
 summary: >
-  A summary of what it's like to do an Internship in Bangkok, Thailand.
+  A summary of what it's like to do an internship in Bangkok, Thailand.
 ---
 
 A part of my studies in university is to do an internship abroad for one semester.
@@ -10,7 +10,7 @@ For some personal reasons I chose Bangkok, Thailand as my destination.
 
 It was not that difficult to find an international tech company over there where I was welcome.
 Even though the  startup scene is not as big as in other cities,
-Bangkok is still big enough to have quiet a few startups with an international team where where English is the common language.
+Bangkok is still big enough to have a few startups with an international team where where English is the common language.
 
 I applied with the usual procedure including a form on their website, a CV, a [Github][gh] link, a link to my [blog][blog] and multiple Skype interviews.
 
@@ -21,17 +21,17 @@ Arriving in Thailand, I still had a couple of days to get settled.
 Luckily it was not my first time there and I even had a place to stay.
 
 However, for a European person it's not that difficult to find a flat there.
-And living is quiet affordable compared to European cities.
-For 200-300 euro you can get your own apartment already (including a swimming pool).
+And living is affordable compared to European cities.
+For 200-300 euros you can get your own apartment already (including a swimming pool).
 
 The general cost of living is also lower than in Europe.
 You can have a meal in the street for less than one euro.
 A little bit more pricey restaurants are also affordable.
 Because of this, you won't find yourself cooking much anymore.
 Only if you plan to go out (and drink) a lot you have to expect to spend at least as much as in Germany.
-Also, since there are many nice places close by, you might spend quiet a bit for traveling.
+Also, since there are many nice places close by, you might spend a bit for traveling.
 
-Just keep in mind that the compensation for your work might also be quiet low as an intern,
+Just keep in mind that the compensation for your work might also be quite low as an intern,
 if you get anything.
 But that's understandable in a country where a big part of the population earns less than 8 euros for a 10 hours day of working.
 A junior software developer here is lucky if she gets a thousand euros in a month which is already considered a lot compared to other fields (which also require a university degree).
