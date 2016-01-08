@@ -1,9 +1,10 @@
 ---
 date: 2014-04-04T00:00:00Z
 summary: |
-  This is an implemenation of the Sierpinski Triangle using Pixi.js. I added some animations on top of it to demonstrate the performance Pixi gives you out of the box.
+  This is an implemenation of the Sierpinski Triangle using Pixi.js.
+  I added some animations on top of it to demonstrate
+  the performance Pixi gives you out of the box.
 title: Animated Sir Sierpinski Triangle
-slug: sierpinski
 ---
 
 This is an implemenation of the [Sierpinski Triangle](https://en.wikipedia.org/wiki/Sierpinski_triangle) using [PIXI.js](https://www.pixijs.com/).

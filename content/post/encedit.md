@@ -1,7 +1,8 @@
 ---
 date: 2016-01-04T00:00:00Z
 summary: |
-  I wrote a little script to make it easier to edit encrypted files. Would be happy about any help to improve this script.
+  I wrote a little script to make it easier to edit encrypted files.
+  Would be happy about any help to improve this script.
 title: encedit
 ---
 

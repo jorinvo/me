@@ -1,9 +1,10 @@
 ---
 date: 2015-05-14T00:00:00Z
 summary: |
-  If you want to open source a project you don't want it to contain any sensitive data. I would like to share my workflow for this.
+  If you want to open source a project
+  you don't want it to contain any sensitive data.
+  I would like to share my workflow for this.
 title: Cleanup Github History
-slug: clean-git-history
 ---
 
 At work, we decided to open source one of our projects.

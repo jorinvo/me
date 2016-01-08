@@ -7,7 +7,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   name = "Jorin Vogel"
 
 [permalinks]
-  post = "/:slug/"
+  post = "/:filename/"
 
 [params]
   description = "Collecting thoughts about the web, automation, ethics and other things I care about."

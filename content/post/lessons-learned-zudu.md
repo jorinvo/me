@@ -1,9 +1,10 @@
 ---
 date: 2014-12-06T00:00:00Z
 summary: |
-  When working with new technologies there are always some surprises and it might be a good idea to take a moment after the work is done to think about what was good and what could be done differently.
+  When working with new technologies there are always some surprises
+  and it might be a good idea to take a moment after the work is done
+  to think about what was good and what could be done differently.
 title: Lessons Learned Building an Angular App with Node.js API
-slug: lessons-learned-zudu
 ---
 
 At [sope.io](http://sope.io/) we built a product discovery app, [Zudu](http://www.zudu.cc/).

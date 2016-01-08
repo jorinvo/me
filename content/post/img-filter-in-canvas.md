@@ -2,7 +2,6 @@
 date: 2014-01-10T00:00:00Z
 summary: I implemented a few image filters using a canvas element.
 title: Filter Images In Canvas
-slug: img-filter-in-canvas
 ---
 
 Normally we don't need to implement our own image filters.
