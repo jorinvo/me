@@ -3,7 +3,20 @@
 {{ partial "head.html" . }}
 <body>
   <div class="site-wrap">
-    {{ partial "header.html" . }}
+    <header class="site-header px2 px-responsive">
+      <div class="mt2 wrap">
+        <div class="measure">
+          <a href="{{ .Site.BaseURL }}" class="site-title">{{ .Site.Title }}</a>
+          <div class="clearfix"></div>
+          <div class="social-icons">
+            <a class="fa fa-github" href="https://github.com/{{ .Site.Params.github }}"></a>
+            <a class="fa fa-rss" href="{{ .RSSlink }}"></a>
+            <a class="fa fa-twitter" href="https://twitter.com/{{ .Site.Params.twitter }}"></a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </header>
 
     <div class="post p2 p-responsive wrap" role="main">
       <div class="measure">
