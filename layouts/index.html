@@ -3,7 +3,7 @@
 <div class="home">
 
   <div class="posts">
-    {{ range .Data.Pages }}
+    {{ range .Paginator.Pages }}
     <div class="post">
       <p class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</p>
       <a href="{{ .Permalink }}" class="post-link"><h3 class="h2 post-title">{{ .Title }}</h3></a>
