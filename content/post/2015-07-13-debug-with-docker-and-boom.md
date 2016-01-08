@@ -33,7 +33,7 @@ But it was not enough to send some requests manually. To get something like 500 
 Instead I decided to spin up our [maintenance container](https://github.com/pocket-playlab/amumu/blob/master/Dockerfile) on 5 different servers and send requests from there.
 With a docker infrastructure this is as simple as running this command on a server:
 
-```sh
+```bash
 docker run -t -i pocketplaylab/amumu
 ```
 
@@ -41,19 +41,19 @@ Since the servers are all within Amazons data centers the latency is pretty low.
 
 To report on the status of the application I watched it from another terminal:
 
-```sh
+```bash
 watch -n10 curl -sL -w "%{http_code}" "https://app.server.com" -o /dev/null
 ```
 
 From inside a maintenance container I can watch the size of the Redis buffer grow:
 
-```sh
+```bash
 watch -n1 redis-cli -h redis.server.com -n 8 strlen my-buffer
 ```
 
 Now, I just needed to send a lot of requests. My first approach was a simple shell script:
 
-```sh
+```bash
 for i in {1..50000}; do
   curl -X POST \
   -H "Content-Type: application/json" \
@@ -68,11 +68,11 @@ This was alright but it was still quiet slow since it needs to spawn a new proce
 
 So I gave [boom][boom] a try. I added it to the docker container and run it with 100 concurrent requests using two CPUs at a time:
 
-```sh
+```bash
 boom -n 1000 -c 100 -m POST -cpus 2 -allow-insecure \
--h content-type:application/json \
--d '{ the JSON data goes here ... }' \
-https://app.server.com \
+  -h content-type:application/json \
+  -d '{ the JSON data goes here ... }' \
+  https://app.server.com \
 ```
 With this I finally managed to fill up the buffer in a few seconds and was able to try different things to track down the bug.
 
