@@ -6,9 +6,8 @@
       <div class="measure mt1 center">
         <small>
           Use Github to
-          {{ . }}
           {{ if .IsPage }}
-          <a href="https://github.com/{{ .Site.Params.github }}/home/tree/master/{{ .URL }}">
+          <a href="https://github.com/{{ .Site.Params.github }}/home/tree/master/{{ .File.Path }}">
             edit the article source
           </a>
           or
