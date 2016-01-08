@@ -1,35 +1,33 @@
 # jorin / home
 
-This site is built with [Hugo](https://gohugo.io/), [Pixyll](https://www.pixyll.com).
+This site is built with [Hugo](https://gohugo.io/), [Pixyll](https://www.pixyll.com) and [Prism.js](http://prismjs.com/).
 Thank you open source!
 
 
 
 ## License
 
-- The code can is [MIT](https://github.com/johnotander/pixyll/blob/master/LICENSE.txt) as [Pixyll](https://www.pixyll.com).
-- My articles [`_posts/`](https://github.com/jorinvo/home/tree/master/_posts) are [CC](https://github.com/jorinvo/home/blob/master/LICENSE.txt).
+[![Creative Commons Attribution-ShareAlike 3.0 Unported License](https://i.creativecommons.org/l/by-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-sa/3.0/)
+This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
+
+For third-party code see the projects mentioned above.
 
 
 
 ## Development
 
-### Installing Jekyll
+### Installing
 
-By using the Github Pages gem I can be sure it looks the same as in production.
-Just run:
-
-    bundle
+Install hugo from https://gohugo.io/.
 
 
 ### Server
 
     hugo server
 
-This ensures the same setup as on Github Pages is used locally.
 Now you can navigate to [`localhost:1313`](http://localhost:1313) in your browser to see the site.
 
 
 ## Build
 
-    bundle exec jekyll build --destination some_folder
+    hugo --destination some_folder
