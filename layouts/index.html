@@ -1,0 +1,36 @@
+{{ partial "top.html" . }}
+
+<div class="home">
+
+  <div class="posts">
+    {{ range .Data.Pages }}
+    <div class="post">
+      <p class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</p>
+      <a href="{{ .Permalink }}" class="post-link"><h3 class="h2 post-title">{{ .Title }}</h3></a>
+      <p class="post-summary">
+      {{ .Params.summary }}
+      </p>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="pagination clearfix mb1 mt4">
+    <div class="left">
+      {{ if .Paginator.HasPrev }}
+        {{ if eq .Paginator.PageNumber 2 }}
+          <a class="pagination-item" href="{{ .Site.BaseURL }}">Newer</a>
+        {{ else }}
+        <a class="pagination-item" href="{{ .Paginator.Prev.URL }}">Newer</a>
+        {{ end }}
+      {{ end }}
+    </div>
+    <div class="right">
+      {{ if .Paginator.HasNext }}
+      <a class="pagination-item" href="{{ .Paginator.Next.URL }}">Older</a>
+      {{ end }}
+    </div>
+  </div>
+
+</div>
+
+{{ partial "bottom.html" . }}

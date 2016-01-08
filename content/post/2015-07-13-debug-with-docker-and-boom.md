@@ -1,7 +1,8 @@
 ---
-title: Testing with Docker and Boom
-summary: >
+date: 2015-07-13T00:00:00Z
+summary: |
   Docker and Boom helped me to emulate production conditions and track down a tricky bug.
+title: Debug with Docker and Boom
 ---
 
 I implemented a new feature for an application we use for analytics data collection.

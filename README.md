@@ -1,6 +1,6 @@
 # jorin / home
 
-This site is built with [Jekyll](https://jekyllrb.com/), [Pixyll](https://www.pixyll.com).
+This site is built with [Hugo](https://gohugo.io/), [Pixyll](https://www.pixyll.com).
 Thank you open source!
 
 
@@ -22,12 +22,12 @@ Just run:
     bundle
 
 
-### Jekyll Serve
+### Server
 
-    bundle exec jekyll serve --watch
+    hugo server
 
 This ensures the same setup as on Github Pages is used locally.
-Now you can navigate to [`localhost:4000`](http://localhost:4000) in your browser to see the site.
+Now you can navigate to [`localhost:1313`](http://localhost:1313) in your browser to see the site.
 
 
 ## Build
