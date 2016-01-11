@@ -1,7 +1,7 @@
 ---
 date: 2016-01-11T00:00:00Z
 summary: |
-  
+  How about focusing on doing something good with our work instead of focusing on money for a change?
 title: Using Computers For Good
 ---
 
