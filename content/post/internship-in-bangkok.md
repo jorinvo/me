@@ -53,7 +53,7 @@ which either takes a whole month or you pay 80 euros for express mail (which sti
 - Unfortunately the first time I went there some papers were missing and I had to do this twice.
 However, it finally worked.
 
-Apart from that everything worked well and I think it's was a good experience.
+Apart from that everything worked well and I think it was a good experience.
 
 
 

@@ -55,14 +55,15 @@ watch -n1 redis-cli -h redis.server.com -n 8 strlen my-buffer
 Now, I just needed to send a lot of requests. My first approach was a simple shell script:
 
 ```bash
-for i in {1..50000}; do
+for i in {1..50000}
+do
   curl -X POST \
   -H "Content-Type: application/json" \
   -H "Cache-Control: no-cache" \
   -d '{ the JSON data goes here ... }' \
   https://app.server.com \
-  &> /dev/null \
-;done
+  &> /dev/null
+done
 ```
 
 This was alright but it was still quiet slow since it needs to spawn a new process each time and doesn't run in parallel.
@@ -73,8 +74,9 @@ So I gave [boom][boom] a try. I added it to the docker container and run it with
 boom -n 1000 -c 100 -m POST -cpus 2 -allow-insecure \
   -h content-type:application/json \
   -d '{ the JSON data goes here ... }' \
-  https://app.server.com \
+  https://app.server.com
 ```
+
 With this I finally managed to fill up the buffer in a few seconds and was able to try different things to track down the bug.
 
 The actual issue was that we mesured the buffer size in bits and I used the Redis command `bitcount` to count them.
