@@ -1,5 +1,5 @@
 ---
-date: 2016-01-16T21:20:44+07:00
+date: 2016-01-19T21:22:20+07:00
 summary: Quick-tip to open files in your editor after you found them using grep
 title: Search with grep and edit files
 ---
