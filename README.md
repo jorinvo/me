@@ -16,6 +16,13 @@ Install hugo from https://gohugo.io/.
 
 Now you can navigate to [`localhost:1313`](http://localhost:1313) in your browser to see the site.
 
+### Creating Content
+
+To create a new post use
+
+    hugo new -fyaml post/some-name.md
+
+
 ## Build
 
     hugo --destination some_folder
