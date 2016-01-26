@@ -4,7 +4,7 @@ summary: I explain how I automated the deployment of an open source project with
 title: Deploy with Travis CI and Git
 ---
 
-I automated the deployment of one  open source projects I'm involved in ([Litewrite][litewrite]) and would like to share how it works.
+I automated the deployment of an open source project I'm involved in ([Litewrite][litewrite]) and would like to share how it works.
 
 
 We can't use a [webhook][webhooks] directly because our tests should run first.
