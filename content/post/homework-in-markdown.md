@@ -3,7 +3,7 @@ date: 2016-01-26T20:44:54+07:00
 summary: |
   Here I show my workflow to create longer documents using Markdown
   and how to generate a PDF file from it.
-title: How to Write A Homework in Markdown
+title: How to Write Your Homework in Markdown
 ---
 
 I have to write a 20 pages report for my university.
@@ -31,13 +31,17 @@ set -e
 # Make sure markdown-pdf is installed
 which markdown-pdf &> /dev/null || npm i -g markdown-pdf
 
+# Read all chapters. They are ordered correctly.
+# Use a CSS file for styling.
+# Generate header and footer for each page.
+# Allow custom HTML in Markdown.
 markdown-pdf \
-  chapters/* \ # Read all chapters, they are ordered correctly
+  chapters/* \
   --paper-format 'A4' \
-  --css-path design/style.css \ # Here we style the content
-  --runnings-path design/header-and-footer.js \ # Generate header and footer
+  --css-path design/style.css \
+  --runnings-path design/header-and-footer.js \
   --out report.pdf \
-  --remarkable-options '{ "html": true }' # Allow custom Html in Markdown
+  --remarkable-options '{ "html": true }'
 ```
 
 And I created another utility `./watch` to automatically update the PDF file whenever I change any Markdown file.
