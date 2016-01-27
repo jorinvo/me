@@ -6,7 +6,7 @@
   <meta name="description" content="{{ .Site.Params.description }}">
   <meta name="author" content="{{ .Site.Author.name }}">
 
-  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ "index.xml" | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
   <!-- Custom CSS -->
   <link href="{{ "css/pixyll.css" | relURL }}" rel="stylesheet">
