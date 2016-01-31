@@ -79,7 +79,7 @@ boom -n 1000 -c 100 -m POST -cpus 2 -allow-insecure \
 
 With this I finally managed to fill up the buffer in a few seconds and was able to try different things to track down the bug.
 
-The actual issue was that we mesured the buffer size in bits and I used the Redis command `bitcount` to count them.
+The actual issue was that we measured the buffer size in bits and I used the Redis command `bitcount` to count them.
 
 Unfortunately the command becomes slower the bigger the string in Redis is.
 This was were the server was stuck.
