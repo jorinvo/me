@@ -44,7 +44,7 @@ markdown-pdf \
   --remarkable-options '{ "html": true }'
 ```
 
-And I created another utility `./watch` to automatically update the PDF file whenever I change any Markdown file.
+I also created another utility `./watch` to automatically update the PDF file whenever I change any Markdown file.
 
 ```bash
 #!/bin/sh

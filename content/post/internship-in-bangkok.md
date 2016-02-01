@@ -11,12 +11,12 @@ For some personal reasons I chose Bangkok, Thailand as my destination.
 
 It was not that difficult to find an international tech company over there where I was welcome.
 Even though the  startup scene is not as big as in other cities,
-Bangkok is still big enough to have a few startups with an international team where where English is the common language.
+Bangkok is still big enough to have a few startups with an international team where English is the common language.
 
 I applied with the usual procedure including a form on their website, a CV, a [Github][gh] link, a link to my [blog][blog] and multiple Skype interviews.
 
 Next step was to get all the paperwork figured out to apply for a visa.
-I received a temporary contract via E-mail and applied for a three months visa.
+I received a temporary contract via E-mail and applied for a three-month visa.
 
 Arriving in Thailand, I still had a couple of days to get settled.
 Luckily it was not my first time there and I even had a place to stay.
@@ -30,16 +30,17 @@ You can have a meal in the street for less than one euro.
 A little bit more pricey restaurants are also affordable.
 Because of this, you won't find yourself cooking much anymore.
 Only if you plan to go out (and drink) a lot you have to expect to spend at least as much as in Germany.
-Also, since there are many nice places close by, you might spend a bit for traveling.
+
+Also, since there are many nice places close to Bangkok, you might spend a bit for traveling.
 
 Just keep in mind that the compensation for your work might also be quite low as an intern,
 if you get anything.
-But that's understandable in a country where a big part of the population earns less than 8 euros for a 10 hours day of working.
+But that's understandable in a country where a big part of the population earns less than 8 euros for a 10-hour day of working.
 A junior software developer here is lucky if she gets a thousand euros in a month which is already considered a lot compared to other fields (which also require a university degree).
 
 I still had some savings left and I didn't need more than 600 euros in a month to live a comfortable life.
 
-The biggest obstacle for my internship was the extension of my initial three months visa.
+The biggest obstacle for my internship was the extension of my initial three-month visa.
 
 Luckily I had help from my company. But dealing with Thai bureaucracy was not really a pleasant experience.
 

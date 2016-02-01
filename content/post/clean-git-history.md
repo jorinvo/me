@@ -38,24 +38,24 @@ Here is my workflow for reference:
         cd project.git/
         git reflog expire --expire=now --all && git gc --prune=now --aggressive
 
-4. Push your changes back Github
+4. Push your changes to Github
 
         git push
 
-Depending on your project size, you get a lot of feedback while pushing.
+Depending on your project size, you get a lot of output while pushing.
 
 Updates like the following mean a successful overwrite of a branch:
 
     + 1432fa3...acc2dc1 master -> master (forced update)
 
-Unfortunately you might also see something like this:
+Unfortunately, you might also see something like this:
 
     ! [remote rejected] refs/pull/100/head -> refs/pull/100/head (deny updating a hidden ref)
 
 The problem is that Github also saves branches after you merged, closed and deleted them.
 You have no way to modify those branches.
 The only way you can really remove them is by deleting the repository.
-Be careful because everyone who cloned or forked your project still has access to the data.
+Be careful because everyone who cloned or forked your project still has access to the original data.
 And keep in mind that you also loose all stars, issues and so on when deleting a project.
 
 However, at least you have a clean repository.
