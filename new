@@ -1,0 +1,15 @@
+#!/bin/sh
+
+name=$1
+
+if [ -z $(which hugo) ]; then
+    echo "Hugo is not installed. Get it at https://gohugo.io/"
+    exit 1
+fi
+
+if [ -z $name ]; then
+    echo "Name missing. Try: ./new some-name"
+    exit 1
+fi
+
+hugo new -fyaml post/$(echo $name).md

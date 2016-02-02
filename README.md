@@ -18,9 +18,9 @@ Now you can navigate to [`localhost:1313`](http://localhost:1313) in your browse
 
 ### Creating Content
 
-To create a new post use
+To create a new post use:
 
-    hugo new -fyaml post/some-name.md
+    ./new some-name
 
 
 ## Build
