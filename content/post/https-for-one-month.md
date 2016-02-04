@@ -39,7 +39,7 @@ I would like to share the results.
 
 _Note:_ __My intention is not to blame any company.__
 
-Instead, I would love find out the reasons companies have to not support HTTPS.
+Instead, I would love to find out the reasons companies have to not support HTTPS.
 
 <br>
 
