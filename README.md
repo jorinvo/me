@@ -1,4 +1,4 @@
-# jorin / home
+# Jorin's Logbook
 
 This site is built with [Hugo](https://gohugo.io/), [Pixyll](https://www.pixyll.com) and [Prism.js](http://prismjs.com/).
 Thank you open source!
