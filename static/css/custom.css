@@ -1,0 +1,58 @@
+body {
+	font-family: monospace;
+	max-width: 600px;
+	margin: auto;
+	padding: 2% 5%;
+	line-height: 150%;
+	font-size: 120%;
+}
+
+h1 {
+	color: black;
+}
+
+h2 {
+	margin: 1% 0;
+}
+
+p {
+	margin: 1% 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+small {
+	font-size: 80%;
+}
+
+header {
+	margin-bottom: 10%;
+}
+
+footer {
+	margin-top: 10%;
+	text-align: center;
+	font-size: 80%;
+}
+
+.post-link {
+	color: black;
+}
+
+.post {
+	margin: 5% 0;
+}
+
+.post-footer {
+	margin-top: 10%;
+	text-align: center;
+	font-style: italic;
+	font-size: 80%;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 64px;
+}

@@ -1,15 +1,15 @@
 {{ partial "top.html" . }}
 
-<div class="post-header mb2">
-  <h1>{{ .Title }}</h1>
-  <span class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+<div class="post-header">
+  <h2>{{ .Title }}</h2>
+  <small class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</small>
 </div>
 
 <article class="post-content">
   {{ .Content }}
 </article>
 
-<div class="py2 post-footer">
+<div class="post-footer">
   <img src="{{ "images/vo.png" | relURL }}" alt="Jorin Vogel" class="avatar" style="padding-left: 4px; padding-bottom: 4px; background: black;" />
   <p>
     Hi, I'm Jorin. I build stuff for the web.

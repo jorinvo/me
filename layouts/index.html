@@ -1,36 +1,36 @@
 {{ partial "top.html" . }}
 
-<div class="home">
-
-  <div class="posts">
-    {{ range .Paginator.Pages }}
+<div class="posts">
+  {{ range .Paginator.Pages }}
+  <a href="{{ .Permalink }}" class="post-link">
     <div class="post">
-      <p class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</p>
-      <a href="{{ .Permalink }}" class="post-link"><h3 class="h2 post-title">{{ .Title }}</h3></a>
+      <small class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</small>
+      <h2 class="post-title">{{ .Title }}</h2>
       <p class="post-summary">
       {{ .Params.summary }}
       </p>
     </div>
+  </a>
+  {{ end }}
+</div>
+
+<div class="pagination">
+  <div class="left">
+    {{ if .Paginator.HasPrev }}
+    {{ if eq .Paginator.PageNumber 2 }}
+    <a class="pagination-item" href="{{ .Site.BaseURL }}">Newer &gt;</a>
+    {{ else }}
+    <a class="pagination-item" href="{{ .Paginator.Prev.URL }}">Newer &gt;</a>
+    {{ end }}
     {{ end }}
   </div>
-
-  <div class="pagination clearfix mb1 mt4">
-    <div class="left">
-      {{ if .Paginator.HasPrev }}
-        {{ if eq .Paginator.PageNumber 2 }}
-          <a class="pagination-item" href="{{ .Site.BaseURL }}">Newer</a>
-        {{ else }}
-        <a class="pagination-item" href="{{ .Paginator.Prev.URL }}">Newer</a>
-        {{ end }}
-      {{ end }}
-    </div>
-    <div class="right">
-      {{ if .Paginator.HasNext }}
-      <a class="pagination-item" href="{{ .Paginator.Next.URL }}">Older</a>
-      {{ end }}
-    </div>
+  <div class="right">
+    {{ if .Paginator.HasNext }}
+    <a class="pagination-item" href="{{ .Paginator.Next.URL }}">&lt; Older</a>
+    {{ end }}
   </div>
-
 </div>
+
+
 
 {{ partial "bottom.html" . }}
