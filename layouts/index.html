@@ -1,7 +1,7 @@
 {{ partial "top.html" . }}
 
 <div class="posts">
-  {{ range .Paginator.Pages }}
+  {{ range .Site.Pages }}
   <a href="{{ .Permalink }}" class="post-link">
     <div class="post">
       <small class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</small>
@@ -13,24 +13,5 @@
   </a>
   {{ end }}
 </div>
-
-<div class="pagination">
-  <div class="left">
-    {{ if .Paginator.HasPrev }}
-    {{ if eq .Paginator.PageNumber 2 }}
-    <a class="pagination-item" href="{{ .Site.BaseURL }}">Newer &gt;</a>
-    {{ else }}
-    <a class="pagination-item" href="{{ .Paginator.Prev.URL }}">Newer &gt;</a>
-    {{ end }}
-    {{ end }}
-  </div>
-  <div class="right">
-    {{ if .Paginator.HasNext }}
-    <a class="pagination-item" href="{{ .Paginator.Next.URL }}">&lt; Older</a>
-    {{ end }}
-  </div>
-</div>
-
-
 
 {{ partial "bottom.html" . }}
