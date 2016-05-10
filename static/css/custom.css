@@ -11,6 +11,10 @@ h1 {
 	color: black;
 }
 
+header h1 {
+  display: inline-block;
+}
+
 h2 {
 	margin: 1% 0;
 	line-height: 130%;
@@ -22,6 +26,15 @@ p {
 
 a {
 	text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+  background: #bfbfbf;
+}
+
+a:focus > * {
+  background: #bfbfbf;
 }
 
 small {
@@ -56,4 +69,8 @@ footer {
 .avatar {
 	border-radius: 50%;
 	width: 64px;
+}
+
+.social a {
+  margin-right: 2%;
 }
