@@ -9,9 +9,14 @@ if [ -z $(which hugo) ]; then
   exit 1
 fi
 
-if [ -z $name ]; then
+if [ -z ${name} ]; then
   echo "Name missing. Try: ./new some-name"
   exit 1
 fi
 
-hugo new -fyaml post/$(echo $name).md
+path=post/${name}.md
+
+hugo new -fyaml ${path}
+
+# Drop draft line. Add summary instead.
+sed -i '3s/.*/summary: |\n  .../' content/${path}
