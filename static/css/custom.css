@@ -75,6 +75,14 @@ footer {
   margin-right: 2%;
 }
 
+.highlight {
+  border-width: 1px;
+  border-color: #E7E7E7;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 /*
  * Github-inspired code highlighting

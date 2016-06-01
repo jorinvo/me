@@ -24,33 +24,45 @@ Here is my workflow for reference:
 
 1. Clone your raw repository
 
-        git clone --mirror https://github.com/your/project.git
+``` sh
+git clone --mirror https://github.com/your/project.git
+```
 
 2. Use `bfg` for each file you want to delete from the history.
 (Make sure you use the right path to the `bfg.jar` file.)
 
-        java -jar bfg.jar -D file1.js project.git
-        java -jar bfg.jar -D file2.txt project.git
-        java -jar bfg.jar -D file3.rb project.git
+``` sh
+java -jar bfg.jar -D file1.js project.git
+java -jar bfg.jar -D file2.txt project.git
+java -jar bfg.jar -D file3.rb project.git
+```
 
 3. Clean the reference logs and optimize the project again
 
-        cd project.git/
-        git reflog expire --expire=now --all && git gc --prune=now --aggressive
+``` sh
+cd project.git/
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+```
 
 4. Push your changes to Github
 
-        git push
+``` sh
+git push
+```
 
 Depending on your project size, you get a lot of output while pushing.
 
 Updates like the following mean a successful overwrite of a branch:
 
-    + 1432fa3...acc2dc1 master -> master (forced update)
+``` sh
++ 1432fa3...acc2dc1 master -> master (forced update)
+```
 
 Unfortunately, you might also see something like this:
 
-    ! [remote rejected] refs/pull/100/head -> refs/pull/100/head (deny updating a hidden ref)
+``` sh
+! [remote rejected] refs/pull/100/head -> refs/pull/100/head (deny updating a hidden ref)
+```
 
 The problem is that Github also saves branches after you merged, closed and deleted them.
 You have no way to modify those branches.
