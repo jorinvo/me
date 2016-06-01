@@ -82,6 +82,7 @@ footer {
   border-bottom-style: solid;
   margin-top: 5%;
   margin-bottom: 5%;
+  overflow-x: auto;
 }
 
 /*
