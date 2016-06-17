@@ -1,6 +1,6 @@
 # Jorin's Logbook
 
-This site is built with [Hugo](https://gohugo.io/), [Pixyll](https://www.pixyll.com) and [Prism.js](http://prismjs.com/).
+This site is built with [Hugo](https://gohugo.io/),
 Thank you open source!
 
 
@@ -32,7 +32,6 @@ To create a new post use:
 
 [![Creative Commons Attribution-ShareAlike 3.0 Unported License](https://licensebuttons.net/l/by-sa/3.0/80x15.png)](https://creativecommons.org/licenses/by-sa/3.0/)
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
-
-For third-party code see the projects mentioned above.
+The content  is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
+The code is licensed under the [MIT license](https://opensource.org/licenses/MIT). 
 
