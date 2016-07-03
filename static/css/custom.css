@@ -59,6 +59,10 @@ footer {
 	margin: 5% 0;
 }
 
+.post-header {
+  margin-bottom: 5%;
+}
+
 .post-footer {
 	margin-top: 10%;
 	text-align: center;
