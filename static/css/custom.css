@@ -82,10 +82,10 @@ footer {
 .highlight {
   border-width: 1px;
   border-color: #E7E7E7;
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-style: solid;
   margin-top: 5%;
   margin-bottom: 5%;
+  padding: 0 3%;
   overflow-x: auto;
 }
 
