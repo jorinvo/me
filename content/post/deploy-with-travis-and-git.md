@@ -30,9 +30,9 @@ node_js: node # Uses the latest version (via nvm)
 sudo: false # Allows Travis to run this project in container
 deploy:
   provider: script
-    script: scripts/deploy.sh
-      on:
-          branch: master
+  script: scripts/deploy.sh
+  on:
+    branch: master
 ```
 
 To deploy we need an SSH key that's added to 5apps, but the key shouldn't be public.
