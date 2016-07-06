@@ -8,7 +8,11 @@ title: Find most-used shell commands
 If you are curious to see which shell commands you are using the most,
 I have a one-liner for you to find out.
 
+<br>
+
 *I tested it on Linux only, but it should work similar on other Unix systems since I only use standard commands.*
+
+*Works fine in Bash and Zsh. If you use Fish, you need to handle the different bahavior of the history command.*
 
 <br>
 
@@ -78,7 +82,7 @@ Looks like this top 20 commands make up 74% of all commands I use.
 <br>
 <br>
 
-If you think this was helpful, I would be happy to know your most-used commands and also your most valuable shortcuts.
+If you think this was helpful, I would be happy to know your most-used commands and most valuable shortcuts.
 
 I am also happy to hear about improvements and variations you came up with!
 
