@@ -15,7 +15,7 @@ I got an error that the files doesn't seem to be a proper archive file.
 Luckily there was a quick way to fix the broken archive:
 
 ```sh
-zip -FF file.zip fixed.zip && unzip fixed.zip
+zip -FF file.zip --out fixed.zip && unzip fixed.zip
 ```
 
 It didn't restore all of the files but most of them are working.

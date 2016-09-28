@@ -10,7 +10,7 @@ permalinks:
   post: /:filename/
 
 params:
-  description: Collecting thoughts about the web, automation, ethics and other things I care about.
+  description: Writings on automation, tooling and other stuff
   email: hi@jorin.me
   github: jorinvo
   twitter: jorinvo
