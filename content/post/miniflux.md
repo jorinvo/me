@@ -1,7 +1,6 @@
 ---
 date: 2015-07-04T00:00:00Z
 summary: An introduction to interesting ideas in React world
-comments: true
 title: Miniflux
 ---
 

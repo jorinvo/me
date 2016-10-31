@@ -4,7 +4,6 @@ summary: |
   The other day I was on my way home, sitting on the subway.
   At the next stop a guy got in and sat down next to me.
   Right after sitting down he took his laptop out of his backpack...
-comments: true
 title: A subway ride home
 ---
 
