@@ -3,7 +3,7 @@ RewriteCond %{HTTPS} !=on
 RewriteCond %{ENV:HTTPS} !=on
 RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
 
-Redirect "/dirtymoney"  "https://gist.github.com/jorinvo"
+Redirect "/dirtymoney"  "https://gist.github.com/jorinvo/3d7f6a60fcede1863fa9f0788b8cc1b4"
 
 ErrorDocument 404 /404.html
 
