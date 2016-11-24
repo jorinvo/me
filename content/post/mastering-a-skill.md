@@ -9,7 +9,7 @@ What am I good at?
 
 I definitely know how to brush my teeth!  Or do I?  How long does it take to master brushing your teeth?
 
-Let's assume 4 Minutes of brushing a day:
+Let's assume 4 Minutes of brushing a day (which is already quite long!):
 
 ```
          10.000 hours to master a skill
