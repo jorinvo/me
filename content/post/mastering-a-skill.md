@@ -20,4 +20,4 @@ Let's assume 4 Minutes of brushing a day:
 
 Way to go to become a real master!
 
-([How long does it take to maser a skill?](https://www.google.com/search?q=how+long+does+it+take+to+master+a+skill))
+([How long does it take to master a skill?](https://www.google.com/search?q=how+long+does+it+take+to+master+a+skill))
