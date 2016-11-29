@@ -8,7 +8,8 @@ title: How to find short, available handles on Github and Twitter
 If you need to create a new identity for a project and you don't care about the name, you might as well pick a short name.
 
 For a tech project you probably need a Github organization and a Twitter account.
-Luckily Unix is awesome and we can write a quick script so search for names:
+
+Luckily Unix is awesome and we can write a quick script to search for names:
 
 
 <script src="https://gist.github.com/jorinvo/58d4387925d6dee1ba4fcb231301d86c.js"></script>
