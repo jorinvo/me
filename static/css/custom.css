@@ -89,6 +89,10 @@ footer {
   overflow-x: auto;
 }
 
+code {
+  color: grey;
+}
+
 /*
  * Github-inspired code highlighting
  * Thanks to
