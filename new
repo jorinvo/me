@@ -2,21 +2,23 @@
 set -e
 
 
-name=$1
+name="$1"
 
-if [ -z $(which hugo) ]; then
+if [ "$(which hugo)" = "" ]
+then
   echo "Hugo is not installed. Get it at https://gohugo.io/"
   exit 1
 fi
 
-if [ -z ${name} ]; then
+if [ "${name}" = "" ]
+then
   echo "Name missing. Try: ./new some-name"
   exit 1
 fi
 
-path=post/${name}.md
+path="post/${name}.md"
 
 hugo new -fyaml ${path}
 
 # Drop draft line. Add summary instead.
-sed -i '3s/.*/summary: |\n  .../' content/${path}
+sed $'3c\\\nsummary: |\n;3i\\\n\ \ ...\n' "content/${path}"
