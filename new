@@ -16,9 +16,12 @@ then
   exit 1
 fi
 
-path="post/${name}.md"
+rel="post/${name}.md"
+path="content/${rel}"
 
-hugo new -fyaml ${path}
+hugo new -fyaml ${rel}
 
 # Drop draft line. Add summary instead.
-sed $'3c\\\nsummary: |\n;3i\\\n\ \ ...\n' "content/${path}"
+sed -e $'3c\\\nsummary: |\n;3i\\\n\ \ ...\n' -i '' ${path}
+
+$EDITOR ${path}
