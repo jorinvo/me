@@ -49,8 +49,8 @@ sudo -s
 - `sytemd` is already running on most Linux systems. Install `ghbackup` and `sleepto`. In this example we keep executables in the directory `/opt`:
 
 ```sh
-curl -sL https://github.com/qvl/sleepto/releases/download/v1.0/sleepto_Linux_x86_64.tar.gz | tar -xzf - -C /opt sleepto
-curl -sL https://github.com/qvl/ghbackup/releases/download/v1.4/ghbackup_Linux_x86_64.tar.gz | tar -xzf - -C /opt ghbackup
+curl -sL https://github.com/qvl/sleepto/releases/download/v1.1/sleepto_Linux_x86_64.tar.gz | tar -xzf - -C /opt sleepto
+curl -sL https://github.com/qvl/ghbackup/releases/download/v1.5/ghbackup_Linux_x86_64.tar.gz | tar -xzf - -C /opt ghbackup
 ```
 
 - Create a wrapper script to run the backup. Update the variables below with your own values:
