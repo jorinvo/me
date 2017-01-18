@@ -93,6 +93,10 @@ code {
   color: grey;
 }
 
+code:focus {
+  outline: none;
+}
+
 /*
  * Github-inspired code highlighting
  * Thanks to
