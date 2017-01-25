@@ -64,7 +64,7 @@ backup_dir="/srv/github-backup"
 
 /opt/ghbackup -secret $github_token $backup_dir \
   && curl -X POST --data-urlencode \
-  "payload={\"username\": \"ghbackup\", \"text\": \"Successful GitHub backup.\", \"icon_emoji\": \":floppy_disk:\"}" \
+  "payload={\"text\": \"Successful GitHub backup.\"}" \
   $slack_hook
 '
 ```
