@@ -64,8 +64,8 @@ footer {
 }
 
 .post-footer {
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin: 10% auto;
+  max-width: 440px;
 	text-align: center;
 	font-style: italic;
 	font-size: 80%;
