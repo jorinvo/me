@@ -7,9 +7,9 @@ title: "Code Challenge: Follow the dirty money"
 
 After the [CSV Challenge](/csv-challenge) in 2015 I created a new challenge.
 
-This time it was a little bit more tricky but we still go a couple of nice solutions using different techniques.
+This time it was a little bit more tricky but we still got a couple of nice solutions using different techniques.
 
 <br>
 
-[Checkout the Gist](/dirty-money) and find out more!
+[Checkout the Gist](/dirtymoney) and find out more!
 
