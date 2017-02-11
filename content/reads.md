@@ -3,22 +3,22 @@ type: linklist
 title: Reads
 links:
 
-  - title: "The amazing power of word vectors"
+  - title: "DATA: The amazing power of word vectors"
     url: https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/
 
-  - title: "Horizontal History"
+  - title: "Horizontal History by Wait But Why"
     url: http://waitbutwhy.com/2016/01/horizontal-history.html
 
-  - title: "What Does an Idle CPU Do?"
+  - title: "TECH: What Does an Idle CPU Do?"
     url: http://duartes.org/gustavo/blog/post/what-does-an-idle-cpu-do
 
   - title: "When Bitcoin Grows Up"
     url: https://www.lrb.co.uk/v38/n08/john-lanchester/when-bitcoin-grows-up
 
-  - title: "Practical advice for analysis of large, complex data sets"
+  - title: "DATA: Practical advice for analysis of large, complex data sets by a Google data scientist"
     url: http://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html
 
-  - title: "How Technology Hijacks People’s Minds — from a Magician and Google’s Design&nbsp;Ethicist"
+  - title: "How Technology Hijacks People’s Minds — from a Magician and Google’s Design Ethicist"
     url: https://medium.com/swlh/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3
 
   - title: "15 Fundamental Laws of Software Development"
@@ -39,9 +39,6 @@ links:
   - title: "The Twelve-Factor App"
     url: https://12factor.net/
 
-  - title: "German Cities Are Solving The Age-Old Public Toilet Problem"
-    url: https://www.fastcoexist.com/3065278/german-cities-are-solving-the-age-old-public-toilet-problem
-
   - title: "Machine Learning for Emoji Trends"
     url: https://medium.com/@InstagramEng/machine-learning-for-emoji-trends-e676ac35e1d7#.eexil1eqp
 
@@ -57,29 +54,14 @@ links:
   - title: "Analyzing the Graph of Thrones · William Lyon"
     url: http://www.lyonwj.com/2016/06/26/graph-of-thrones-neo4j-social-network-analysis/?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_86
 
-  - title: "The Dutch Reach: Clever Workaround to Keep Cyclists from Getting “Doored”"
-    url: http://99percentinvisible.org/article/dutch-reach-clever-workaround-keep-cyclists-getting-doored/
-
   - title: "It's Time To Recognize That Machines Are Learning All The Wrong Things"
     url: https://www.fastcoexist.com/3064558/its-time-to-recognize-that-machines-are-learning-all-the-wrong-things
 
   - title: "Applying the Linus Torvalds “Good Taste” Coding Requirement"
     url: https://medium.com/@bartobri/applying-the-linus-tarvolds-good-taste-coding-requirement-99749f37684a
 
-  - title: "For those who work inside Google, it's well worth it to look at Jeff &amp;#38; Sanja... : Hacker News"
-    url: https://news.ycombinator.com/item?id=5496914
-
-  - title: "What is interesting is that people don't even know they have a complex about mon... : Hacker News"
-    url: https://news.ycombinator.com/item?id=7528556
-
-  - title: "HN: the good parts"
-    url: http://danluu.com/hn-comments/
-
-  - title: "Music TheoryAn Interactive Guide from First Principles"
+  - title: "Music Theory - An Interactive Guide from First Principles"
     url: https://www.lightnote.co/
-
-  - title: "This Algorithmically Designed Worm Bin Lets You Compost On Your Countertop"
-    url: https://www.fastcoexist.com/3063416/this-algorithmically-designed-worm-bin-lets-you-compost-on-your-countertop
 
   - title: "Testable Examples in Go"
     url: https://blog.golang.org/examples
@@ -99,14 +81,8 @@ links:
   - title: "Go best practices, six years in"
     url: https://peter.bourgon.org/go-best-practices-2016/
 
-  - title: "Sweden Wants To Fight Our Disposable Culture With Tax Breaks For Repairing Old Stuff"
-    url: https://www.fastcoexist.com/3063935/sweden-wants-to-fight-our-disposable-culture-with-tax-breaks-for-repairing-old-stuff
-
   - title: "Mini post: Oceans and Clay"
     url: http://waitbutwhy.com/2016/09/oceans-and-clay.html
-
-  - title: "I’m Joining Stripe to Work on Atlas"
-    url: http://www.kalzumeus.com/2016/09/09/im-joining-stripe-to-work-on-atlas/
 
   - title: "Practical Persistence in Go: Organising Database Access"
     url: http://www.alexedwards.net/blog/organising-database-access
@@ -126,29 +102,8 @@ links:
   - title: "Tennis with Plato"
     url: https://aeon.co/essays/it-is-play-and-not-work-that-gives-life-meaning
 
-  - title: "Men Who Eat Fruits And Veggies Apparently Smell More Attractive To Women"
-    url: https://www.fastcoexist.com/3063345/men-who-eat-fruits-and-veggies-apparently-smell-more-attractive-to-women
-
-  - title: "Teh Guardian FTW!!!1!"
-    url: http://writing.makeshift.io/pieces/tehguardian
-
-  - title: "Create something every&nbsp;day"
-    url: https://medium.com/@stef/create-something-every-day-723d7e73b9bd
-
   - title: "The Marriage Decision: Everything Forever or Nothing Ever Again"
     url: http://waitbutwhy.com/2016/09/marriage-decision.html
-
-  - title: "How to steal any developer's local database"
-    url: http://bouk.co/blog/hacking-developers/
-
-  - title: "types.markdown"
-    url: https://gist.github.com/garybernhardt/122909856b570c5c457a6cd674795a9c?&utm_source=hackernewsletter&
-
-  - title: "position development"
-    url: http://positiondev.com/work.html
-
-  - title: "Monitor the web for interesting new content"
-    url: http://www.google.com/alerts
 
   - title: "Segmenting and refining images with SharpMask"
     url: https://code.facebook.com/posts/561187904071636
@@ -1788,9 +1743,6 @@ links:
   - title: "Ask HN : 16-hour work week jobs? : Hacker News"
     url: http://news.ycombinator.com/item?id=7994673&utm_source=hackernewsletter&utm_medium=email&utm_term=ask_hn
 
-  - title: "sdegutis/hydra · GitHub"
-    url: https://github.com/sdegutis/hydra
-
   - title: "Philip Roberts: Help, I'm stuck in an event-loop."
     url: http://vimeo.com/96425312
 
@@ -1824,29 +1776,8 @@ links:
   - title: "You might not need jQuery"
     url: http://youmightnotneedjquery.com/
 
-  - title: "This Is The Scariest Trail In The World. But You’ll NEVER Guess Where It Leads. Amazing."
-    url: http://www.educateinspirechange.org/2014/01/scariest-trail-world-youll-never-guess-leads-amazing.html
-
-  - title: "MOVE"
-    url: http://vimeo.com/27246366
-
-  - title: "Astro Vault"
-    url: http://astrovault.clay.io/
-
-  - title: "Lazors"
-    url: http://www8.games.mobi/games/html5/lazors/lazors.html#
-
-  - title: "Goblin Flying Machine Kaiser"
-    url: http://cdn.kaisergames.de/public/files/games/html5/en/bmd-goblinflyingmachine_13110501/
-
   - title: "The Static Web Returns"
     url: http://robmuh.com/the-static-web-returns
-
-  - title: "omz:software Forums — A Simple HTTP Server"
-    url: http://omz-forums.appspot.com/pythonista/post/5778981575983104
-
-  - title: "After Taking These Shots, The Photographer Quit His Day Job. One Look And You’ll See Why… Wow."
-    url: http://www.educateinspirechange.org/2014/01/taking-shots-photographer-quit-day-job-one-look-youll-see-wow.html
 
   - title: "Automating iOS: How Pythonista Changed My Workflow"
     url: https://www.macstories.net/stories/automating-ios-how-pythonista-changed-my-workflow/
@@ -1869,9 +1800,6 @@ links:
   - title: "The Future of JavaScript MVC Frameworks"
     url: http://swannodette.github.io/2013/12/17/the-future-of-javascript-mvcs/
 
-  - title: "Time Travel"
-    url: http://swannodette.github.io/2013/12/31/time-travel/
-
   - title: "Keeping jQuery in Check"
     url: http://programming.oreilly.com/2014/01/keeping-jquery-in-check.html
 
@@ -1887,14 +1815,8 @@ links:
   - title: "Bitcloud: can hackers use bitcoin to replace Facebook and YouTube?"
     url: http://www.theguardian.com/technology/2014/jan/22/bitcloud-hackers-bitcoin-facebook-youtube-spotify
 
-  - title: "Hacking of MIT website marks first anniversary of Aaron Swartz's death"
-    url: http://www.theguardian.com/technology/2014/jan/11/aaron-swartz-death-first-anniversary
-
   - title: "5 Ways that CSS and JavaScript Interact That You May Not Know About"
     url: https://davidwalsh.name/ways-css-javascript-interact
-
-  - title: "Die drei besten Kunstfälscher der Welt leben in Berlin"
-    url: http://www.vice.com/de/read/sibirische-falscherbruder-0000625-v9n12/
 
   - title: "Python and Flask Are Ridiculously Powerful"
     url: https://jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/
@@ -1917,10 +1839,7 @@ links:
   - title: "Math For Programmers"
     url: http://steve-yegge.blogspot.com/2006/03/math-for-programmers.html
 
-  - title: "Book Review"
-    url: http://www.thegatesnotes.com/Books/Personal/The-Box
-
-  - title: "alyssa frazee"
+  - title: "introducing R to a non-programmer in one hour"
     url: http://alyssafrazee.com/introducing-R.html
 
   - title: "Frameworkless JavaScript"
@@ -1935,26 +1854,8 @@ links:
   - title: "I Got Myself Arrested So I Could Look Inside the Justice System"
     url: http://www.theatlantic.com/national/archive/2013/12/i-got-myself-arrested-so-i-could-look-inside-the-justice-system/282360/
 
-  - title: "Vom Glück, ohne Angst in Freiheit leben zu können"
-    url: http://www.morgenpost.de/berlin-aktuell/article123154218/Vom-Glueck-ohne-Angst-in-Freiheit-leben-zu-koennen.html
-
   - title: "Tetris And The Power Of CSS"
     url: http://www.heydonworks.com/article/tetris-the-power-of-css
-
-  - title: "Die neue Simpsons-Folge über Piraterie ist die Beste seit Langem"
-    url: http://motherboard.vice.com/de/blog/die-neue-simpson-episode-ber-piraterie-ist-die-beste-seit-langem-
-
-  - title: "„America knows everything“"
-    url: http://m.vice.com/de/read/america-knows-everything/
-
-  - title: "We need to talk about TED"
-    url: http://www.theguardian.com/commentisfree/2013/dec/30/we-need-to-talk-about-ted
-
-  - title: "Kriminelle, Radikale und Exzentriker haben Chicago zu dem gemacht, was es heute ist"
-    url: http://m.vice.com/de/read/chicago-ist-ein-paradies/
-
-  - title: "NSA-Hacker verwanzen online bestellte Computer"
-    url: http://www.zeit.de/digital/datenschutz/2013-12/nsa-hackereinheit-tao/komplettansicht
 
   - title: "News is bad for you – and giving up reading it will make you happier"
     url: http://www.theguardian.com/media/2013/apr/12/news-is-bad-rolf-dobelli
@@ -1965,10 +1866,5 @@ links:
   - title: "Eating alone: there's no shame in a table for one"
     url: http://www.theguardian.com/lifeandstyle/wordofmouth/2013/dec/18/eating-alone-no-shame-lone-diner-table-takeaway
 
-  - title: "Interview mit einem Teenager Pornostar"
-    url: http://www.vice.com/de/read/interview-mit-einem-teenager-pornstar
-
-  - title: "Introducing Event-Focused JS and CSS (EFJAC) — Medium"
-    url: https://medium.com/objects-in-space/9b8a9dd7bfe3
-
 ---
+
