@@ -3,6 +3,66 @@ type: linklist
 title: Reads
 links:
 
+  - title: "Tokyo Storefronts Captured In Watercolor"
+    url: http://www.boredpanda.com/tokyo-storefront-illustrations-mateusz-urbanowicz/
+
+  - title: "I learned Mandarin in two days (well, almost)"
+    url: https://www.theguardian.com/education/2011/may/18/speak-mandarin-in-two-days
+
+  - title: "Automatically test your database backups"
+    url: https://marco.org/2017/02/01/db-backup-testing
+
+  - title: "The secret to living a meaningful life"
+    url: http://www.bbc.com/future/story/20170131-the-secret-to-living-a-meaningful-life
+
+  - title: "The story of a designer conquering mathematics."
+    url: https://blog.framer.com/a-story-of-a-designer-conquering-mathematics-d0fd4585f0ba
+
+  - title: "How I Got My Attention Back"
+    url: https://backchannel.com/how-i-got-my-attention-back-c7fc9297d347
+
+  - title: "A case for microservices"
+    url: https://peter.bourgon.org/a-case-for-microservices/
+
+  - title: "A few drawings about Linux"
+    url: https://jvns.ca/blog/2016/11/10/a-few-drawings-about-linux/
+
+  - title: "Working remotely, coworking spaces, and mental health"
+    url: https://bitquabit.com/post/working-remotely-coworking-and-mental-health/
+
+  - title: "The Reality of Developer Burnout"
+    url: https://www.kennethreitz.org/essays/the-reality-of-developer-burnout
+
+  - title: "DeepMind and Blizzard to release StarCraft II as an AI research environment"
+    url: https://deepmind.com/blog/deepmind-and-blizzard-release-starcraft-ii-ai-research-environment/
+
+  - title: "What I love about Go"
+    url: https://npf.io/2013/01/what-i-love-about-go/
+
+  - title: "Go Tips for Newbie Gophers"
+    url: https://npf.io/2014/03/go-tips-for-newbie-gophers/
+
+  - title: "How the Circle Line rogue train (in Singapore) was caught with data"
+    url: https://blog.data.gov.sg/how-we-caught-the-circle-line-rogue-train-with-data-79405c86ab6a#.rh75p125v
+
+  - title: "Package Versions in Go"
+    url: https://xph.us/2016/06/24/package-versions-in-go.html
+
+  - title: "Cheap MapReduce in Go"
+    url: http://marcio.io/2015/07/cheap-mapreduce-in-go/
+
+  - title: "Writing Go Applications with Reusable Logic"
+    url: https://npf.io/2016/10/reusable-commands/
+
+  - title: "So you want to expose Go on the Internet"
+    url: https://blog.gopheracademy.com/advent-2016/exposing-go-on-the-internet/
+
+  - title: "Building Jarvis - Mark Zuckerberg"
+    url: https://facebook.com/notes/mark-zuckerberg/building-jarvis/10154361492931634/
+
+  - title: "Let's Colonize Titan"
+    url: https://blogs.scientificamerican.com/guest-blog/lets-colonize-titan/
+
   - title: "DATA: The amazing power of word vectors"
     url: https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/
 
