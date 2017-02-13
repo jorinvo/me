@@ -3,6 +3,7 @@ date: 2015-06-14T00:00:00Z
 summary: |
   This is a summary of my impressions of experimenting with Ruby and Go.
 title: Experiments with Ruby and Go
+comments: true
 ---
 
 A while ago I was in the mood for some experiments with new programming languages.
