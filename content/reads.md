@@ -3,6 +3,12 @@ type: linklist
 title: Reads
 links:
 
+  - title: The Surprisingly Simple Logic Behind Japanese Sentence Structure
+    url: https://8020japanese.com/japanese-sentence-structure/
+
+  - title: Extracting Value as an Employee
+    url: https://zachholman.com/posts/extracting-value
+
   - title: "Tokyo Storefronts Captured In Watercolor"
     url: http://www.boredpanda.com/tokyo-storefront-illustrations-mateusz-urbanowicz/
 
