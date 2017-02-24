@@ -3,8 +3,8 @@ type: linklist
 title: Reads
 links:
 
-  - title: The Surprisingly Simple Logic Behind Japanese Sentence Structure
-    url: https://8020japanese.com/japanese-sentence-structure/
+  - title: Is PostgreSQL good enough?
+    url: http://renesd.blogspot.de/2017/02/is-postgresql-good-enough.html
 
   - title: Extracting Value as an Employee
     url: https://zachholman.com/posts/extracting-value

@@ -11,5 +11,4 @@ This time it was a little bit more tricky but we still got a couple of nice solu
 
 <br>
 
-[Checkout the Gist](/dirtymoney) and find out more!
-
+**[Checkout the Gist](/dirtymoney)** and find out more!
