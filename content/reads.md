@@ -3,6 +3,9 @@ type: linklist
 title: Reads
 links:
 
+  - title: BBC - How insects like bumblebees do so much with tiny brains
+    url: http://www.bbc.com/earth/story/20170123-how-insects-like-bumblebees-do-so-much-with-tiny-brains
+
   - title: Is PostgreSQL good enough?
     url: http://renesd.blogspot.de/2017/02/is-postgresql-good-enough.html
 
