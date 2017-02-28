@@ -41,6 +41,10 @@ small {
 	font-size: 80%;
 }
 
+li {
+  padding: 1% 0;
+}
+
 header {
 	margin-bottom: 10%;
 }
