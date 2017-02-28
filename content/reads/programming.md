@@ -201,6 +201,141 @@ links:
   - title: "www.subtext-lang.org/OOPSLA04.pdf"
     url: http://www.subtext-lang.org/OOPSLA04.pdf
 
+  - title: "Unidirectional User Interface Architectures"
+    url: http://staltz.com/unidirectional-user-interface-architectures.html
+
+  - title: "'Inside the Wolfram Language' by Stephen Wolfram"
+    url: https://www.youtube.com/watch?v=EjCWdsrVcBM
+
+  - title: "'The Mess We're In' by Joe Armstrong"
+    url: https://www.youtube.com/watch?v=lKXe3HUG2l4
+
+  - title: "Alan Kay, 2015: Power of Simplicity"
+    url: https://www.youtube.com/watch?v=NdSD07U5uBs
+
+  - title: "Five Things Old Programmers Should Remember"
+    url: https://medium.com/@garywiz/five-things-old-programmers-need-to-remember-e78caf0b0973
+
+  - title: "A tr Primer"
+    url: https://danielmiessler.com/study/tr/
+
+  - title: "liminality.xyz"
+    url: http://liminality.xyz/the-hostile-email-landscape/
+
+  - title: "Graphical thinking : optimisation through functional programming – The If Works"
+    url: https://blog.jcoglan.com/2014/06/16/graphical-thinking-optimisation-through-functional-programming/
+
+  - title: "The best icon is a text label"
+    url: http://thomasbyttebier.be/blog/the-best-icon-is-a-text-label
+
+  - title: "Run for simple solutions"
+    url: http://thomasbyttebier.be/blog/run-for-solutions
+
+  - title: "Bash One-Liners Explained, Part III: All about redirections"
+    url: http://www.catonmat.net/blog/bash-one-liners-explained-part-three/
+
+  - title: "Keynote: The Value of Values"
+    url: https://www.infoq.com/presentations/Value-Values
+
+  - title: "What is your most productive shortcut with Vim?"
+    url: http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
+
+  - title: "The Story Behind How Pocket Hit 20M Users with 20 People"
+    url: http://firstround.com/review/the-story-behind-how-pocket-hit-20m-users-with-20-people/
+
+  - title: "Fighting spam with Haskell"
+    url: https://code.facebook.com/posts/745068642270222/fighting-spam-with-haskell/
+
+  - title: "Matt's ramblings"
+    url: http://matthewearl.github.io/2015/07/28/switching-eds-with-python/
+
+  - title: "The Verge's web sucks"
+    url: http://blog.lmorchard.com/2015/07/22/the-verge-web-sucks/
+
+  - title: "Web Design : The First 100 Years"
+    url: http://idlewords.com/talks/web_design_first_100_years.htm
+
+  - title: "Dropdowns Should be the UI of Last Resort"
+    url: http://www.lukew.com/ff/entry.asp?1950
+
+  - title: "Pure UI"
+    url: http://rauchg.com/2015/pure-ui/
+
+  - title: "Building SVG Icons with React"
+    url: http://jxnblk.com/react-icons/
+
+  - title: "You’re Missing the Point of React"
+    url: https://medium.com/@dan_abramov/youre-missing-the-point-of-react-a20e34a51e1a
+
+  - title: "You Might Need Flux…"
+    url: https://medium.com/@dan_abramov/the-case-for-flux-379b7d1982c6
+
+  - title: "Not Just Code Monkeys • Martin Fowler"
+    url: https://www.youtube.com/watch?v=4E3xfR6IBII
+
+  - title: "Rob Pike's 5 Rules of Programming"
+    url: http://users.ece.utexas.edu/~adnan/pike.html
+
+  - title: "9 Anti-Patterns Every Programmer Should Be Aware Of"
+    url: http://sahandsaba.com/nine-anti-patterns-every-programmer-should-be-aware-of-with-examples.html
+
+  - title: "Running A Software Business On 5 Hours A Week"
+    url: http://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/
+
+  - title: "'People Who Like This Also Like ... '"
+    url: http://www.benfrederickson.com/distance-metrics/
+
+  - title: "FizzBuzz In Too Much Detail — Tom Dalling"
+    url: http://www.tomdalling.com/blog/software-design/fizzbuzz-in-too-much-detail/
+
+  - title: "The sad state of sysadmin in the age of containers"
+    url: http://www.vitavonni.de/blog/201503/2015031201-the-sad-state-of-sysadmin-in-the-age-of-containers.html
+
+  - title: "The Beauty of Code"
+    url: https://www.theparisreview.org/blog/2014/09/05/the-beauty-of-code/
+
+  - title: "Process substitution"
+    url: http://en.wikipedia.org/wiki/Process_substitution
+
+  - title: "Reverse Engineering Regular Expressions"
+    url: http://tom-lord.weebly.com/blog/reverse-engineering-regular-expressions
+
+  - title: "What I’ve learned so far about software development"
+    url: https://medium.com/@landongn/12-years-later-what-i-ve-learned-about-being-a-software-engineer-d6e334d6e8a3
+
+  - title: "Using Named Pipes and Process Substitution"
+    url: http://vincebuffalo.com/2013/08/08/the-mighty-named-pipe.html
+
+  - title: "Project managers, ducks, and dogs marking territory"
+    url: https://rachelbythebay.com/w/2013/06/05/duck/
+
+  - title: "What I Wish I Knew When Starting Out as a Software Developer: Slow the Fuck Down"
+    url: http://blog.salsitasoft.com/what-i-wish-i-knew-when-starting-out-as-a-software-developer-slow-the-fuck-down/
+
+  - title: "On Being A Senior Engineer"
+    url: http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/
+
+  - title: "Is it really 'Complex'? Or did we just make it 'Complicated'?"
+    url: https://www.youtube.com/watch?v=ubaX1Smg6pY
+
+  - title: "move fast & break nothing"
+    url: http://zachholman.com/talk/move-fast-break-nothing/
+
+  - title: "Learning SVG"
+    url: http://flippinawesome.org/2014/02/03/learning-svg/
+
+  - title: "Pipes and Filters"
+    url: http://blog.petersobot.com/pipes-and-filters
+
+  - title: "How I got a medal from the Army for writing code"
+    url: http://vivin.net/2014/06/26/how-i-got-a-medal-for-writing-code/
+
+  - title: "Python and Flask Are Ridiculously Powerful"
+    url: https://jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/
+
+  - title: "Math For Programmers"
+    url: http://steve-yegge.blogspot.com/2006/03/math-for-programmers.html
+
 ---
 
 Insightful articles and examples to help you become a better software developer

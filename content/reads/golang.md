@@ -36,6 +36,9 @@ links:
   - title: "Lexical Scanning in Go - Rob Pike"
     url: http://www.youtube.com/watch?v=HxaD_trXwRE&feature=youtu.be
 
+  - title: "Codewalk: First-Class Functions in Go"
+    url: http://golang.org/doc/codewalk/functions/
+
 ---
 
 Helpful resources for working with the Go programming language

@@ -90,6 +90,48 @@ links:
   - title: "Why I teach people how to hack | Ýmir Vigfússon | TEDxReykjavík"
     url: https://www.youtube.com/watch?v=KwJyKmCbOws
 
+  - title: "From Radio to Porn, British Spies Track Web Users’ Online Identities"
+    url: https://theintercept.com/2015/09/25/gchq-radio-porn-spies-track-web-users-online-identities/
+
+  - title: "Dear Tech Industry"
+    url: https://the-pastry-box-project.net/jenn-downs/2015-september-24
+
+  - title: "“Wait, You Write In A Spreadsheet?”"
+    url: https://medium.com/@jkalven/wait-you-write-in-a-spreadsheet-814272c02ff8
+
+  - title: "Coding is not the new literacy"
+    url: http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/
+
+  - title: "News Is Different"
+    url: https://medium.com/@davepell/news-is-different-10015579ebe4
+
+  - title: "What Happens Next Will Amaze You"
+    url: http://idlewords.com/talks/what_happens_next_will_amaze_you.htm
+
+  - title: "Don’t Worry, Smart Machines Will Take Us With Them"
+    url: http://nautil.us/issue/28/2050/dont-worry-smart-machines-will-take-us-with-them
+
+  - title: "The Web We Have to Save"
+    url: https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426
+
+  - title: "If you've got nothing to hide... · Jacques Mattheij"
+    url: http://jacquesmattheij.com/if-you-have-nothing-to-hide
+
+  - title: "We Should All Have Something To Hide"
+    url: http://www.thoughtcrime.org/blog/we-should-all-have-something-to-hide/
+
+  - title: "How I do my computing"
+    url: https://stallman.org/stallman-computing.html
+
+  - title: "How technology is shaping our future: billions of self-employed makers and a few mega corporations"
+    url: https://levels.io/a-future-of-two-extremes/
+
+  - title: "Reasons not to use (i.e., be used by) Facebook"
+    url: https://stallman.org/facebook.html
+
+  - title: "Why Bitcoin Matters"
+    url: http://mobile.nytimes.com/blogs/dealbook/2014/01/21/why-bitcoin-matters/
+
 ---
 
 Innovative ideas and thoughts about technology

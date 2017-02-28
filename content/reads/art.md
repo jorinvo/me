@@ -63,6 +63,36 @@ links:
   - title: "Light kinetics : www.espadaysantacruz.com"
     url: http://espadaysantacruz.com/Light-kinetics
 
+  - title: "Cosimo Galluzzi"
+    url: http://poolsofchrome.tumblr.com/
+
+  - title: "World Airports Voronoi"
+    url: https://www.jasondavies.com/maps/voronoi/airports/
+
+  - title: "342,000 Swings Later, Derek Jeter Calls It a Career"
+    url: http://www.nytimes.com/interactive/2014/09/14/sports/baseball/jeter-swings.html
+
+  - title: "TryMore Inc | We Are Very Lucky Company!!!"
+    url: http://www.trymore-inc.jp/
+
+  - title: "I'm Google"
+    url: http://dinakelberman.tumblr.com/
+
+  - title: "Inner Mongolia"
+    url: http://jack.ventures/2014/inner-mongolia/
+
+  - title: "Jake Albaugh is a Front End Developer and UX Architect in Chicago."
+    url: http://jakealbaugh.com/
+
+  - title: "The Bus Stops In The USSR Were Insane Masterpieces In The Middle Of Nowhere"
+    url: http://www.fastcoexist.com/3051288/the-bus-stops-in-the-ussr-were-insane-masterpieces-in-the-middle-of-nowhere
+
+  - title: "Tumblr GIFs of Japanese Life"
+    url: http://designmadeinjapan.com/magazine/illustration-icon/tumblr-gifs-of-japanese-life/
+
+  - title: "Beautifully Creepy Photos Show What Happens When You Abandon An Amusement Park"
+    url: http://www.fastcoexist.com/3047477/beautifully-creepy-photos-show-what-happens-when-you-abandon-an-amusement-park
+
 ---
 
 A collection of creative projects and beautiful things

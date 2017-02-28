@@ -159,6 +159,129 @@ links:
   - title: "This Apartment Is Designed To Pop Up In Parking Lots Or Abandoned Buildings"
     url: https://www.fastcoexist.com/3052638/this-apartment-is-designed-to-pop-up-in-parking-lots-or-abandoned-buildings
 
+  - title: "Losing sight"
+    url: http://tink.uk/losing-sight/
+
+  - title: "This Desktop Edible Insect Hive Grows Your Daily Protein At Home"
+    url: https://www.fastcoexist.com/3052692/fund-this/this-desktop-edible-insect-hive-grows-your-daily-protein-at-home
+
+  - title: "Protecting the Last Homes of the Giants"
+    url: http://thewaterbrothers.ca/dive-deeper/301-protecting-the-last-home-of-the-giants/
+
+  - title: "Meet The (Other) Musk Brother, Who Wants To Change The World Of Food"
+    url: http://www.fastcoexist.com/3052938/meet-the-other-musk-brother-who-wants-to-change-the-world-of-food
+
+  - title: "Jeong Kwan, the Philosopher Chef"
+    url: http://mobile.nytimes.com/2015/10/16/t-magazine/jeong-kwan-the-philosopher-chef.html
+
+  - title: "It’s Not Climate Change — It’s Everything Change — Matter — Medium"
+    url: https://medium.com/p/8fd9aa671804
+
+  - title: "The Reign of Recycling"
+    url: http://www.nytimes.com/2015/10/04/opinion/sunday/the-reign-of-recycling.html
+
+  - title: "What Are Traffic Waves and Why Do They Happen So Much?"
+    url: https://ww2.kqed.org/lowdown/2013/11/12/traffic-waves/
+
+  - title: "These Beautiful Photos Are Fighting Old Stereotypes About Africa"
+    url: http://www.fastcoexist.com/3050114/these-beautiful-photos-are-fighting-old-stereotypes-about-africa
+
+  - title: "The Philosopher Who Says We Should Play God"
+    url: http://nautil.us/issue/28/2050/the-philosopher-who-says-we-should-play-god
+
+  - title: "A Game of Shark and Minnow"
+    url: http://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/
+
+  - title: "Off the Grid, But Still Online"
+    url: http://motherboard.vice.com/read/off-the-grid-but-still-online
+
+  - title: "This Robot-Run Indoor Farm Can Grow 10 Million Heads Of Lettuce A Year"
+    url: http://www.fastcoexist.com/3050750/this-robot-run-indoor-farm-can-grow-10-million-heads-of-lettuce-a-year
+
+  - title: "Google Is Planning For A Zero-Waste, Circular Economy"
+    url: https://www.fastcoexist.com/3051869/google-is-planning-for-a-zero-waste-circular-economy
+
+  - title: "Why Is Art Expensive?"
+    url: http://priceonomics.com/why-is-art-expensive/
+
+  - title: "Schopenhauer on the art of not reading"
+    url: http://tumblr.austinkleon.com/post/129979274771
+
+  - title: "The Fermi Paradox — Where Are All The Aliens? (1/2)"
+    url: https://www.youtube.com/watch?v=sNhhvQGsMEc
+
+  - title: "What Is Life? Is Death Real?"
+    url: https://www.youtube.com/watch?v=QOCaacO8wus
+
+  - title: "Why Greenpeace Is Building Its Own Team Of Investigative Journalists"
+    url: https://www.fastcoexist.com/3051371/why-greenpeace-is-building-its-own-team-of-investigative-journalists
+
+  - title: "This London Underground Farm Grows Salad In A WWII Bomb Shelter"
+    url: http://www.fastcoexist.com/3051209/this-london-underground-farm-grows-salad-in-a-wwii-bomb-shelter
+
+  - title: "Elon Musk: The World’s Raddest Man"
+    url: http://waitbutwhy.com/2015/05/elon-musk-the-worlds-raddest-man.html
+
+  - title: "The Socratic Method"
+    url: http://www.garlikov.com/Soc_Meth.html
+
+  - title: "The 10 Most Important Lines From Pope Francis' Historic Speech to Congress"
+    url: http://www.motherjones.com/politics/2015/09/pope-francis-congress-best-lines-climate-abortion
+
+  - title: "When the End of Human Civilization Is Your Day Job"
+    url: http://www.esquire.com/news-politics/a36228/ballad-of-the-sad-climatologists-0815/
+
+  - title: "Meditation: Why Bother?"
+    url: https://www.farnamstreetblog.com/2015/09/meditation-why-bother/
+
+  - title: "How Giving Up Refined Sugar Changed My Brain"
+    url: https://www.fastcompany.com/3050319/lessons-learned/how-giving-up-refined-sugar-changed-my-brain
+
+  - title: "This Startup Is Reimagining Shower Design, So People Actually Want To Save Water"
+    url: https://www.fastcoexist.com/3049829/world-changing-ideas/this-startup-is-reimagining-shower-design-so-people-actually-want-to-sa
+
+  - title: "The AI Revolution: The Road to Superintelligence"
+    url: http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html
+
+  - title: "This Woman Makes So Little Trash That She Can Store It All In One Tiny Jar For Years"
+    url: http://www.fastcoexist.com/3049543/this-woman-makes-so-little-trash-that-she-can-store-it-all-in-one-tiny-jar-for-years
+
+  - title: "Ryan Estrada — Learn to Read Korean in 15 Minutes"
+    url: http://ryanestradadotcom.tumblr.com/post/20461267965/learn-to-read-korean-in-15-minutes
+
+  - title: "On MSG and Chinese Restaurant Syndrome"
+    url: http://luckypeach.com/on-msg-and-chinese-restaurant-syndrome/
+
+  - title: "The Two Pillars of JavaScript — Pt 2: Functional Programming"
+    url: https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4
+
+  - title: "Why can’t we readanymore?"
+    url: https://medium.com/@hughmcguire/why-can-t-we-read-anymore-503c38c131fe
+
+  - title: "An introduction to economics under capitalism"
+    url: http://words.steveklabnik.com/an-introduction-to-economics-under-capitalism
+
+  - title: "Burma's bizarre capital: a super-sized slice of post-apocalypse suburbia"
+    url: http://www.theguardian.com/cities/2015/mar/19/burmas-capital-naypyidaw-post-apocalypse-suburbia-highways-wifi
+
+  - title: "What is Meditation and How It Affects Our Brains"
+    url: https://blog.bufferapp.com/how-meditation-affects-your-brain
+
+  - title: "New Trailer: How to walk through walls using the 4th Dimension « Marc ten Bosch [Miegakure] Blog"
+    url: http://marctenbosch.com/news/2014/08/new-trailer-how-to-walk-through-walls-using-the-fourth-dimension/
+
+  - title: "The truth behind China’s Underground Wholesale Markets."
+    url: http://www.youngmoneychina.com/2014/08/the-truth-behind-chinas-underground-wholesale-markets/
+
+  - title: "The Day I Stopped Saying 'Hurry Up'"
+    url: http://www.huffingtonpost.com/rachel-macy-stafford/the-day-i-stopped-saying-hurry-up_b_3624798.html
+
+  - title: "Lessons from working 6 months on a math problem (and failing)"
+    url: http://alexandros.resin.io/lessons-from-working-6-months-on-a-math-problem-and-failing/
+
+  - title: "News is bad for you – and giving up reading it will make you happier"
+    url: http://www.theguardian.com/media/2013/apr/12/news-is-bad-rolf-dobelli
+
 ---
 
 Interesting reads about a variety of topics

@@ -135,6 +135,123 @@ links:
   - title: "Resist and&nbsp;Thrive"
     url: https://medium.com/@ystrickler/resist-and-thrive-1d36819853ca
 
+  - title: "Motivating the monkey"
+    url: http://scattered-thoughts.net/blog/2015/09/22/motivating-the-monkey/
+
+  - title: "The Problem With Problems"
+    url: http://000fff.org/the-problem-with-problems/
+
+  - title: "Hunter S. Thompson on Living versus Existing"
+    url: https://www.farnamstreetblog.com/2015/10/hunter-s-thompson-living-versus-existing/
+
+  - title: "Too much time on his hands"
+    url: http://boingboing.net/2002/02/03/too-much-time-on-his.html
+
+  - title: "Make Things, Share Things"
+    url: https://the-pastry-box-project.net/christopher-murphy/2015-october-6
+
+  - title: "Ten Steps Towards Happiness"
+    url: http://hintjens.com/blog:99
+
+  - title: "12 Little Known Laws Of Mindfulness (That Will Change Your Life)"
+    url: http://www.the-open-mind.com/12-little-known-laws-of-mindfulness-that-will-change-your-life/
+
+  - title: "Happiness Isn’t the Absence of Negative Feelings"
+    url: https://hbr.org/2015/08/happiness-isnt-the-absence-of-negative-feelings
+
+  - title: "The Focusing Illusion"
+    url: https://www.farnamstreetblog.com/2015/09/focusing-illusions/
+
+  - title: "Avoiding Stupidity is Easier than Seeking Brilliance"
+    url: https://www.farnamstreetblog.com/2014/06/avoiding-stupidity/
+
+  - title: "The Productivity Cycle"
+    url: https://alexsexton.com/blog/2014/1/the-productivity-cycle
+
+  - title: "Dealing with virtual offices and not getting lost"
+    url: https://tobiastom.name/articles/dealing-with-virtual-offices
+
+  - title: "“Find What You Love and Let It Kill You”"
+    url: http://www.stevenpressfield.com/2015/08/find-what-you-love-and-let-it-kill-you-2/
+
+  - title: "I Asked Atheists How They Find Meaning In A Purposeless Universe"
+    url: http://www.buzzfeed.com/tomchivers/when-i-was-a-child-i-spake-as-a-child
+
+  - title: "Breakout Career Guide"
+    url: https://breakoutcareers.com/
+
+  - title: "How I optimised my life to make my job redundant"
+    url: http://www.troyhunt.com/2015/07/how-i-optimised-my-life-to-make-my-job.html
+
+  - title: "10 Life Lessons I Learned from Surviving My 20s"
+    url: https://markmanson.net/surviving-my-20s
+
+  - title: "5 Life Lessons From 5 Years of Traveling the World"
+    url: https://markmanson.net/5-life-lessons-5-years-traveling-world
+
+  - title: "Being Special Isn’t So Special"
+    url: https://markmanson.net/being-special
+
+  - title: "Why Generation Y Yuppies Are Unhappy"
+    url: http://waitbutwhy.com/2013/09/why-generation-y-yuppies-are-unhappy.html
+
+  - title: "The days are long but the decades are short"
+    url: http://blog.samaltman.com/the-days-are-long-but-the-decades-are-short
+
+  - title: "Enjoy Your Life"
+    url: http://www.rdegges.com/enjoy-your-life/
+
+  - title: "Mind Management (Not Time Management)"
+    url: http://kadavy.net/blog/posts/mind-management-intro/
+
+  - title: "Consulting – Manish Sinha – Engineer"
+    url: http://dopeboy.github.io/consulting/
+
+  - title: "Screw motivation, what you need is discipline."
+    url: http://www.wisdomination.com/screw-motivation-what-you-need-is-discipline/
+
+  - title: "Why is everyone so busy?"
+    url: http://www.economist.com/news/christmas-specials/21636612-time-poverty-problem-partly-perception-and-partly-distribution-why
+
+  - title: "10 Things I Learned from Paul Graham at Y Combinator"
+    url: http://betabeat.com/2014/06/10-things-i-learned-from-paul-graham-at-y-combinator/
+
+  - title: "Why Procrastination Doesn’t Need a Cure: A Guide to Structured Distraction"
+    url: https://blog.bufferapp.com/dont-stop-procrastinating-procrastination-doesnt-need-a-cure-structured-distraction
+
+  - title: "The Best Entrepreneur I Know"
+    url: http://donpottinger.net/blog/2015/01/19/the-best-entrepreneur-i-know.html
+
+  - title: "What Doesn't Seem Like Work?"
+    url: http://paulgraham.com/work.html
+
+  - title: "Why I Am Not a Maker"
+    url: http://www.theatlantic.com/technology/archive/2015/01/why-i-am-not-a-maker/384767/
+
+  - title: "Engineers Suck at Finding the Right Jobs"
+    url: http://matt.aimonetti.net/posts/2012/11/14/engineers-suck-at-finding-right-jobs/
+
+  - title: "How to Be an Expert in a Changing World"
+    url: http://paulgraham.com/ecw.html
+
+  - title: "The Programmer’s Price"
+    url: http://www.newyorker.com/magazine/2014/11/24/programmers-price
+
+  - title: "How Automation Left Us Feeling Empty"
+    url: https://levels.io/automation-void/
+
+  - title: "HOWTO: Be more productive"
+    url: http://www.aaronsw.com/weblog/productivity
+
+  - title: "Lucky to Be a Programmer"
+    url: http://duartes.org/gustavo/blog/post/lucky-to-be-a-programmer
+
+  - title: "I assume I’m below average"
+    url: https://sivers.org/below-average
+
+  - title: "Value is created by doing"
+    url: http://blog.samaltman.com/value-is-created-by-doing
+
 ---
 
 Advice and thoughts about coping with work and living a good live
