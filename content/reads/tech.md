@@ -54,6 +54,42 @@ links:
   - title: "A Computer Could Have Written All The Speeches You're Going To Hear Before The Election"
     url: http://www.fastcoexist.com/3055939/a-computer-could-have-written-all-the-speeches-youre-going-to-hear-before-the-election
 
+  - title: "The resolution of the Bitcoin experiment"
+    url: https://medium.com/@octskyward/the-resolution-of-the-bitcoin-experiment-dabb30201f7
+
+  - title: "Four Impossible Things Before Key Escrow — Medium"
+    url: https://medium.com/@maradydd/four-impossible-things-before-key-escrow-85478d949502
+
+  - title: "When Nerds Collide"
+    url: https://medium.com/@maradydd/when-nerds-collide-31895b01e68c
+
+  - title: "The Facebook experiment has failed. Let’s go back."
+    url: https://medium.com/a-programmers-tale/the-facebook-experiment-has-failed-lets-go-back-f7b8c66109ea
+
+  - title: "I spent a weekend at Google talking with nerds about charity. I came away … worried."
+    url: http://www.vox.com/2015/8/10/9124145/effective-altruism-global-ai
+
+  - title: "Maybe Better If You Don’t Read This Story on Public WiFi"
+    url: https://medium.com/matter/heres-why-public-wifi-is-a-public-health-hazard-dd5b8dcb55e6
+
+  - title: "Pirate Bay Founder: ‘I Have Given Up’"
+    url: http://motherboard.vice.com/read/pirate-bay-founder-peter-sunde-i-have-given-up
+
+  - title: "The First Person to Hack the iPhone Built a Self-Driving Car. In His Garage"
+    url: http://www.bloomberg.com/features/2015-george-hotz-self-driving-car/
+
+  - title: "Macbook charger teardown: The surprising complexity inside Apple's power adapter"
+    url: http://www.righto.com/2015/11/macbook-charger-teardown-surprising.html
+
+  - title: "What can a technologist do about climate change?"
+    url: http://worrydream.com/ClimateChange/
+
+  - title: "Top hacker shows us how it's done | Pablos Holman | TEDxMidwest"
+    url: https://www.youtube.com/watch?v=hqKafI7Amd8
+
+  - title: "Why I teach people how to hack | Ýmir Vigfússon | TEDxReykjavík"
+    url: https://www.youtube.com/watch?v=KwJyKmCbOws
+
 ---
 
 Innovative ideas and thoughts about technology

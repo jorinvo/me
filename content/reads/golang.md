@@ -33,6 +33,9 @@ links:
   - title: "GopherCon 2016:  Dave Cheney - Dont Just Check Errors Handle Them Gracefully"
     url: https://www.youtube.com/watch?v=lsBF58Q-DnY
 
+  - title: "Lexical Scanning in Go - Rob Pike"
+    url: http://www.youtube.com/watch?v=HxaD_trXwRE&feature=youtu.be
+
 ---
 
 Helpful resources for working with the Go programming language

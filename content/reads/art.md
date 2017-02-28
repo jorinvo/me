@@ -45,6 +45,24 @@ links:
   - title: "Norse Attack Map"
     url: http://map.norsecorp.com
 
+  - title: "The Life of Norman (and the Rise of Boring)"
+    url: https://upvoted.com/2016/01/08/the-life-of-norman-and-the-rise-of-boring/
+
+  - title: "Wu-Tang Care Bears in New York"
+    url: http://twistedsifter.com/2016/01/wu-tang-care-bears-in-new-york/
+
+  - title: "Tokyo 2015"
+    url: http://rachelisaweso.me/ok/tokyo-2015/
+
+  - title: "These Photos Show New York's Disappearing Mom-And-Pop Stores"
+    url: http://m.fastcompany.com/3055119/these-photos-show-new-yorks-disappearing-mom-and-pop-stores
+
+  - title: "beeple is mike winkelmann."
+    url: http://beeple-crap.com
+
+  - title: "Light kinetics : www.espadaysantacruz.com"
+    url: http://espadaysantacruz.com/Light-kinetics
+
 ---
 
 A collection of creative projects and beautiful things

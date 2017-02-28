@@ -111,6 +111,30 @@ links:
   - title: "Imagining your future projects is holding you back."
     url: http://jessicaabel.com/2016/01/27/idea-debt/
 
+  - title: "What makes a good life? Lessons from the longest study on happiness"
+    url: http://www.ted.com/talks/robert_waldinger_what_makes_a_good_life_lessons_from_the_longest_study_on_happiness
+
+  - title: "The Power of Patience"
+    url: http://harvardmagazine.com/2013/11/the-power-of-patience
+
+  - title: "My Responsibility."
+    url: https://helloanselm.com/responsibility/
+
+  - title: "How to be Polite… for Geeks"
+    url: https://medium.com/message/how-to-be-polite-for-geeks-86cb784983b1
+
+  - title: "Super successful companies"
+    url: http://blog.samaltman.com/super-successful-companies
+
+  - title: "What Doesn't Seem Like Work?"
+    url: http://paulgraham.com/work.html
+
+  - title: "RECONSIDER"
+    url: https://signalvnoise.com/posts/3972-reconsider
+
+  - title: "Resist and&nbsp;Thrive"
+    url: https://medium.com/@ystrickler/resist-and-thrive-1d36819853ca
+
 ---
 
 Advice and thoughts about coping with work and living a good live

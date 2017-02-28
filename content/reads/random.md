@@ -111,6 +111,54 @@ links:
   - title: "Leonardo DiCaprio Is Giving Away $15 Million To Environmental Causes"
     url: http://www.fastcoexist.com/3055660/leonardo-dicaprio-is-giving-away-15-million-to-environmental-causes
 
+  - title: "Picture of the Day: A Desert Oasis in Peru"
+    url: http://twistedsifter.com/2016/01/desert-oasis-in-peru-huacachina/
+
+  - title: "“Never Drink Airplane Coffee” and Other Secrets From Airline Employees"
+    url: https://upvoted.com/2016/01/11/never-drink-airplane-coffee-and-other-secrets-from-airline-employees/
+
+  - title: "When Philosophy Lost Its Way"
+    url: http://mobile.nytimes.com/blogs/opinionator/2016/01/11/when-philosophy-lost-its-way/
+
+  - title: "Engineering A Vegan Steak Even A Carnivore Would Love"
+    url: http://m.fastcompany.com/3054886/engineering-a-vegan-steak-even-a-carnivore-would-love
+
+  - title: "The Deal With the Hyperloop"
+    url: http://waitbutwhy.com/2015/06/hyperloop.html
+
+  - title: "The Deal With Solar"
+    url: http://waitbutwhy.com/2015/06/the-deal-with-solar.html
+
+  - title: "How (and Why) SpaceX Will Colonize Mars"
+    url: http://waitbutwhy.com/2015/08/how-and-why-spacex-will-colonize-mars.html
+
+  - title: "Woman Who Is Allergic to Touch Shares Pictures of “Skin Writing”"
+    url: https://upvoted.com/2015/12/30/woman-who-is-allergic-to-touch-shares-pictures-of-skin-writing/
+
+  - title: "How Tesla Will Change The World"
+    url: http://waitbutwhy.com/2015/06/how-tesla-will-change-your-life.html
+
+  - title: "Humans should learn maths"
+    url: http://scattered-thoughts.net/blog/2014/11/15/humans-should-learn-maths/
+
+  - title: "How to Beat Procrastination"
+    url: http://waitbutwhy.com/2013/11/how-to-beat-procrastination.html
+
+  - title: "Why Procrastinators Procrastinate"
+    url: http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html
+
+  - title: "Tech in North Korea: Getting online in the world’s most isolated country"
+    url: https://www.techinasia.com/tech-north-korea-online-worlds-isolated-country/
+
+  - title: "What You Can Do About Climate Change"
+    url: https://www.nytimes.com/interactive/2015/12/03/upshot/what-you-can-do-about-climate-change.html
+
+  - title: "The Lowline, New York's First Underground Park, Is Taking Shape (Slowly)"
+    url: http://www.fastcoexist.com/3054274/the-lowline-new-yorks-first-underground-park-is-taking-shape-slowly
+
+  - title: "This Apartment Is Designed To Pop Up In Parking Lots Or Abandoned Buildings"
+    url: https://www.fastcoexist.com/3052638/this-apartment-is-designed-to-pop-up-in-parking-lots-or-abandoned-buildings
+
 ---
 
 Interesting reads about a variety of topics

@@ -159,6 +159,48 @@ links:
   - title: "Things I’ve Stopped Saying"
     url: https://medium.com/@beaugunderson/things-i-ve-stopped-saying-fa7dea0bf317
 
+  - title: "You can't parse HTML with RegEx"
+    url: http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454
+
+  - title: "Why you should understand (a little) about TCP"
+    url: https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/
+
+  - title: "Effluents influence affluence : Butterick’s Practical Typography"
+    url: http://practicaltypography.com/effluents-influence-affluence.html
+
+  - title: "Why You Should Choose Your Own HTTPS."
+    url: https://helloanselm.com/2016/choose-your-own-https/
+
+  - title: "Docker Containers on the Desktop"
+    url: https://blog.jessfraz.com/post/docker-containers-on-the-desktop/
+
+  - title: "Everything Is Broken"
+    url: https://medium.com/message/everything-is-broken-81e5f33a24e1
+
+  - title: "Interview with Jesper Louis Andersen about Erlang, Haskell, OCaml, Go, Idris, the JVM, software and… — This is not a Monad tutorial — Medium"
+    url: https://medium.com/this-is-not-a-monad-tutorial/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd
+
+  - title: "The Humble Programmer (EWD 340)"
+    url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html
+
+  - title: "'Instagram's Million Dollar Bug': Case study for defense"
+    url: https://summitroute.com/blog/2015/12/24/instagram_bounty_case_study_for_defense/
+
+  - title: "The web accessibility basics"
+    url: https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/
+
+  - title: "Thursday Keynote Maciej Ceglowski - The Website Obesity Crisis"
+    url: https://vimeo.com/147806338
+
+  - title: "Haunted by Data - Maciej Ceglowski"
+    url: https://www.youtube.com/watch?v=GAXLHM-1Psk
+
+  - title: "The Making Of 'In Pieces'"
+    url: http://www.smashingmagazine.com/2015/06/02/the-making-of-in-pieces/
+
+  - title: "www.subtext-lang.org/OOPSLA04.pdf"
+    url: http://www.subtext-lang.org/OOPSLA04.pdf
+
 ---
 
 Insightful articles and examples to help you become a better software developer
