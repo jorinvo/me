@@ -3,6 +3,9 @@ type: linklist
 title: Reads
 links:
 
+  - title: What "viable search engine competition" really looks like.
+    url: http://blog.nullspace.io/building-search-engines.html
+
   - title: BBC - How insects like bumblebees do so much with tiny brains
     url: http://www.bbc.com/earth/story/20170123-how-insects-like-bumblebees-do-so-much-with-tiny-brains
 
