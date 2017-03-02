@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: Normalization of deviance in software: how broken practices become standard
+    url: https://danluu.com/wat/
+
   - title: Is PostgreSQL good enough?
     url: http://renesd.blogspot.de/2017/02/is-postgresql-good-enough.html
 
