@@ -3,7 +3,10 @@ type: linklist
 title: Programming
 links:
 
-  - title: Normalization of deviance in software: how broken practices become standard
+  - title: The mythical 10x programmer
+    url: http://antirez.com/news/112
+
+  - title: "Normalization of deviance in software: how broken practices become standard"
     url: https://danluu.com/wat/
 
   - title: Is PostgreSQL good enough?

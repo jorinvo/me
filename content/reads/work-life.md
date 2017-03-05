@@ -3,6 +3,9 @@ type: linklist
 title: Work-life Balance
 links:
 
+  - title: A Protocol for Dying
+    url: http://hintjens.com/blog:115
+
   - title: Extracting Value as an Employee
     url: https://zachholman.com/posts/extracting-value
 
