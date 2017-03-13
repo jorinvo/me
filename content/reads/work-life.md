@@ -3,6 +3,9 @@ type: linklist
 title: Work-life Balance
 links:
 
+  - title: Resist and Thrive
+    url: https://medium.com/@ystrickler/resist-and-thrive-1d36819853ca
+
   - title: A Protocol for Dying
     url: http://hintjens.com/blog:115
 

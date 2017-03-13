@@ -3,6 +3,9 @@ type: linklist
 title: Art
 links:
 
+  - title: "Two Buildings Were Having an All-Out Post-It War Until This Happened"
+    url: http://twistedsifter.com/2016/05/two-buildings-were-having-an-epic-post-it-war-until-this-happened/
+
   - title: "Tokyo Storefronts Captured In Watercolor"
     url: http://www.boredpanda.com/tokyo-storefront-illustrations-mateusz-urbanowicz/
 

@@ -3,6 +3,18 @@ type: linklist
 title: Programming
 links:
 
+  - title: "How many floating-point numbers are in the interval [0,1]?"
+    url: http://lemire.me/blog/2017/02/28/how-many-floating-point-numbers-are-in-the-interval-01/
+
+  - title: "A Programmer’s Introduction to Unicode"
+    url: http://reedbeta.com/blog/programmers-intro-to-unicode/
+
+  - title: Design Better Data Tables
+    url: https://medium.com/mission-log/design-better-data-tables-430a30a00d8c
+
+  - title: "/usr/bin/time: not the command you think you know"
+    url: https://hackernoon.com/usr-bin-time-not-the-command-you-think-you-know-34ac03e55cc3
+
   - title: The mythical 10x programmer
     url: http://antirez.com/news/112
 
