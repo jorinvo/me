@@ -3,6 +3,9 @@ type: linklist
 title: Work-life Balance
 links:
 
+  - title: Are we working or playing?
+    url: https://neilonsoftware.com/2017/03/17/are-we-working-or-playing/
+
   - title: Resist and Thrive
     url: https://medium.com/@ystrickler/resist-and-thrive-1d36819853ca
 

@@ -3,6 +3,18 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Three Attitudes that Lead to Maintainable Code"
+    url: https://spin.atomicobject.com/2017/03/07/attitudes-maintainable-code/
+
+  - title: "Why Use Make"
+    url: https://bost.ocks.org/mike/make/
+
+  - title: "Oh shit, git!"
+    url: http://ohshitgit.com/
+
+  - title: "File crash consistency and filesystems are hard"
+    url: https://danluu.com/file-consistency/
+
   - title: "How many floating-point numbers are in the interval [0,1]?"
     url: http://lemire.me/blog/2017/02/28/how-many-floating-point-numbers-are-in-the-interval-01/
 
