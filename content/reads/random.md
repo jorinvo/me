@@ -3,6 +3,15 @@ type: linklist
 title: Random
 links:
 
+  - title: "Why Japan’s Rail Workers Can’t Stop Pointing at Things"
+    url: http://www.atlasobscura.com/articles/pointing-and-calling-japan-trains
+
+  - title: Software Engineer Starts Unlikely Business: A Weekly Newspaper
+    url: https://nytimes.com/2017/03/27/nyregion/new-newspaper-prompts-war-of-weeklies-in-new-jersey-suburb.html
+
+  - title: They Used To Last 50 Years
+    url: http://recraigslist.com/2015/10/they-used-to-last-50-years/
+
   - title: How insects like bumblebees do so much with tiny brains
     url: http://www.bbc.com/earth/story/20170123-how-insects-like-bumblebees-do-so-much-with-tiny-brains
 

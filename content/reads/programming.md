@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Git in six hundred words"
+    url: https://maryrosecook.com/blog/post/git-in-six-hundred-words
+
   - title: "Three Attitudes that Lead to Maintainable Code"
     url: https://spin.atomicobject.com/2017/03/07/attitudes-maintainable-code/
 

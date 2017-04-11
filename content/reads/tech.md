@@ -3,7 +3,10 @@ type: linklist
 title: Technology
 links:
 
-  - title: What "viable search engine competition" really looks like.
+  - title: How to Hack an Election
+    url: https://www.bloomberg.com/features/2016-how-to-hack-an-election/
+
+  - title: "What 'viable search engine competition' really looks like"
     url: http://blog.nullspace.io/building-search-engines.html
 
   - title: "DeepMind and Blizzard to release StarCraft II as an AI research environment"
