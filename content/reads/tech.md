@@ -3,6 +3,12 @@ type: linklist
 title: Technology
 links:
 
+  - title: "Haunted By Data"
+    url: http://idlewords.com/talks/haunted_by_data.htm
+
+  - title: "Google.org Thinks It Can Engineer a Solution to the World’s Woes"
+    url: https://www.wired.com/2016/03/giving-google-way/
+
   - title: How to Hack an Election
     url: https://www.bloomberg.com/features/2016-how-to-hack-an-election/
 

@@ -3,10 +3,16 @@ type: linklist
 title: Random
 links:
 
+  - title: "Argentina On Two Steaks A Day"
+    url: http://www.idlewords.com/2006/04/argentina_on_two_steaks_a_day.htm
+
+  - title: "The Jelly Bean Problem"
+    url: http://waitbutwhy.com/2016/03/the-jellybean-problem.html
+
   - title: "Why Japan’s Rail Workers Can’t Stop Pointing at Things"
     url: http://www.atlasobscura.com/articles/pointing-and-calling-japan-trains
 
-  - title: Software Engineer Starts Unlikely Business: A Weekly Newspaper
+  - title: "Software Engineer Starts Unlikely Business: A Weekly Newspaper"
     url: https://nytimes.com/2017/03/27/nyregion/new-newspaper-prompts-war-of-weeklies-in-new-jersey-suburb.html
 
   - title: They Used To Last 50 Years
