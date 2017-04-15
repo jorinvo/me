@@ -105,20 +105,13 @@ code:focus {
 /*
  * Print style
  */
+
 @media print {
   body {
     font-size: 100%;
   }
 
-  header {
-    display: none;
-  }
-
-  .post-footer {
-    display: none;
-  }
-
-  footer {
+  header, footer, .post-footer {
     display: none;
   }
 
@@ -126,6 +119,7 @@ code:focus {
     page-break-inside: avoid;
   }
 }
+
 
 /*
  * Github-inspired code highlighting
