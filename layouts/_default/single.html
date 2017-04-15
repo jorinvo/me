@@ -2,7 +2,7 @@
 
 <div class="post-header">
   <h2>{{ .Title }}</h2>
-  <small class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</small>
+  <small class="post-meta"><span class="author">{{ .Site.Author.name }} - </span>{{ .Date.Format "Jan 2, 2006" }}</small>
 </div>
 
 <article class="post-content">

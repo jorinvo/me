@@ -75,6 +75,10 @@ footer {
 	font-size: 80%;
 }
 
+.author {
+  display: none;
+}
+
 .avatar {
 	border-radius: 50%;
 }
@@ -108,11 +112,28 @@ code:focus {
 
 @media print {
   body {
-    font-size: 100%;
+    font-size: 80%;
+    line-height: 110%;
+    max-width: none;
+    padding: 0 2%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+
+  small, footer, .post-footer {
+    font-size: 60%;
   }
 
   header, footer, .post-footer {
     display: none;
+  }
+
+  article a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .author {
+    display: initial;
   }
 
   p, .highlight {

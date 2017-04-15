@@ -141,7 +141,7 @@ links:
   - title: "RECONSIDER"
     url: https://signalvnoise.com/posts/3972-reconsider
 
-  - title: "Resist and&nbsp;Thrive"
+  - title: "Resist and Thrive"
     url: https://medium.com/@ystrickler/resist-and-thrive-1d36819853ca
 
   - title: "Motivating the monkey"
@@ -230,9 +230,6 @@ links:
 
   - title: "The Best Entrepreneur I Know"
     url: http://donpottinger.net/blog/2015/01/19/the-best-entrepreneur-i-know.html
-
-  - title: "What Doesn't Seem Like Work?"
-    url: http://paulgraham.com/work.html
 
   - title: "Why I Am Not a Maker"
     url: http://www.theatlantic.com/technology/archive/2015/01/why-i-am-not-a-maker/384767/
