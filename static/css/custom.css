@@ -101,6 +101,32 @@ code:focus {
   outline: none;
 }
 
+
+/*
+ * Print style
+ */
+@media print {
+  body {
+    font-size: 100%;
+  }
+
+  header {
+    display: none;
+  }
+
+  .post-footer {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  p, .highlight {
+    page-break-inside: avoid;
+  }
+}
+
 /*
  * Github-inspired code highlighting
  * Thanks to
