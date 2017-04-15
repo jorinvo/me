@@ -4,7 +4,7 @@ summary: |
   I'm excited about the future of HTTPS.
   And I did an experiment where I only used HTTPS for one month.
   In this post I share the results of this experiment.
-title: Only HTTPS for one month
+title: Only HTTPS For One Month
 ---
 
 I was really excited when [Let's Encrypt][letsencrypt] became available to the public.

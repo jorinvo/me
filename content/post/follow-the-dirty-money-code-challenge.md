@@ -2,7 +2,7 @@
 date: 2017-02-07T15:16:56+01:00
 summary: |
   Link to a new code challenge
-title: "Code Challenge: Follow the dirty money"
+title: "Code Challenge: Follow the Dirty Money"
 ---
 
 After the [CSV Challenge](/csv-challenge) in 2015 I created a new challenge.

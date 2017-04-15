@@ -4,7 +4,7 @@ summary: |
   If you want to open source a project
   you don't want it to contain any sensitive data.
   I would like to share my workflow for this.
-title: Cleanup Github History
+title: Cleaning Up Your Github History
 ---
 
 At work, we decided to open source one of our projects.

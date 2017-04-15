@@ -2,7 +2,7 @@
 date: 2016-07-02T16:14:30+02:00
 summary: |
   This is a quick explanation of a way to repeat text in Unix using `seq` and `xargs`.
-title: Duplicating text with Unix tools
+title: Duplicating Text With Unix Tools
 ---
 
 For a recent task I needed to create a long text document for testing purposes.

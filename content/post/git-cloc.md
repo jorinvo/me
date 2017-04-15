@@ -1,7 +1,7 @@
 ---
 date: 2016-01-15T21:20:44+07:00
 summary: Quick-tip to see how many lines a Git project contains
-title: Git cloc
+title: Git Cloc
 ---
 
 Even if lines of code is not an accurate representation of the complexity of a project, it can still be an interesting number to get a feeling for the size of a software project.

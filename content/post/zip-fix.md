@@ -1,7 +1,7 @@
 ---
 date: 2016-01-16T21:20:44+07:00
 summary: Quick-tip to fix a broken zip file
-title: Fix broken zip file
+title: Fix Broken Zip Files
 ---
 
 I backed up some files on a USB drive a while ago.

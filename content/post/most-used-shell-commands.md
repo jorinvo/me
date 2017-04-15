@@ -2,7 +2,7 @@
 date: 2016-07-04T21:12:57+02:00
 summary: |
   I used the Unix shell to get some insight into my most-used shell commands.
-title: What are your most used shell commands?
+title: What Are Your Most Used Shell Commands?
 ---
 
 If you are curious to see which shell commands you are using the most,

@@ -2,7 +2,7 @@
 date: 2016-11-29T14:32:55+01:00
 summary: |
   Use the power of Unix to check names for availability.
-title: How to find short, available handles on Github and Twitter
+title: How to Find Short, Available Handles on Github and Twitter
 ---
 
 If you need to create a new identity for a project and you don't care about the name, you might as well pick a short name.
