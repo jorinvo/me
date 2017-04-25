@@ -3,6 +3,9 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Pragmatic and Effective Testing in Go"
+    url: http://bepsays.com/en/2016/10/12/pragmatic-and-effective-testing-in-go/
+
   - title: "A Story of a Fat Go Binary"
     url: https://hackernoon.com/a-story-of-a-fat-go-binary-20edc6549b97
 
