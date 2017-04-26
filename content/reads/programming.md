@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Promoting reliability in web software companies"
+    url: https://codewords.recurse.com/issues/six/promoting-reliability-in-web-software-companies
+
   - title: "Git in six hundred words"
     url: https://maryrosecook.com/blog/post/git-in-six-hundred-words
 
