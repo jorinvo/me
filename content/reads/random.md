@@ -3,6 +3,12 @@ type: linklist
 title: Random
 links:
 
+  - title: "Why Facts Don’t Change Our Minds"
+    url: http://www.newyorker.com/magazine/2017/02/27/why-facts-dont-change-our-minds
+
+  - title: "Caterpillar found to eat shopping bags, suggesting biodegradable solution to plastic pollution"
+    url: https://phys.org/news/2017-04-caterpillar-bags-biodegradable-solution-plastic.html
+
   - title: "Why the Industrial Revolution didn’t happen in China"
     url: https://www.washingtonpost.com/news/wonk/wp/2016/10/28/why-the-industrial-revolution-didnt-happen-in-china/
 

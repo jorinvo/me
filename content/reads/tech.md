@@ -3,6 +3,9 @@ type: linklist
 title: Technology
 links:
 
+  - title: "Which Countries Destroy the Environment the Most (and Least)?"
+    url: https://priceonomics.com/which-countries-destroy-the-environment-the-most/
+
   - title: "Haunted By Data"
     url: http://idlewords.com/talks/haunted_by_data.htm
 

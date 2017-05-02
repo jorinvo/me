@@ -3,6 +3,9 @@ type: linklist
 title: Work-life Balance
 links:
 
+  - title: ThreePillars
+    url: https://martinfowler.com/bliki/ThreePillars.html
+
   - title: Are we working or playing?
     url: https://neilonsoftware.com/2017/03/17/are-we-working-or-playing/
 

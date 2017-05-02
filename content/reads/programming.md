@@ -3,6 +3,18 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Readability Matters More Than Correctness"
+    url: https://xph.us/2017/04/23/readability.html
+
+  - title: "No feigning surprise"
+    url: https://jvns.ca/blog/2017/04/27/no-feigning-surprise/
+
+  - title: "The Silver Bullet Syndrome by Hadi Hariri"
+    url: https://www.youtube.com/watch?v=3wyd6J3yjcs
+
+  - title: "Latency Numbers Every Programmer Should Know"
+    url: https://gist.github.com/jboner/2841832
+
   - title: "Promoting reliability in web software companies"
     url: https://codewords.recurse.com/issues/six/promoting-reliability-in-web-software-companies
 
