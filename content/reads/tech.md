@@ -3,6 +3,9 @@ type: linklist
 title: Technology
 links:
 
+  - title: "Social media is polarizing users faster than ever"
+    url: https://qz.com/969886/the-shocking-speed-with-which-we-become-polarized-online/
+
   - title: "Which Countries Destroy the Environment the Most (and Least)?"
     url: https://priceonomics.com/which-countries-destroy-the-environment-the-most/
 
