@@ -2,7 +2,7 @@
 date: 2015-05-09T00:00:00Z
 summary: |
   I created this little experiment to find out about the tools
-  and the workflow of other developers.
+  and workflows of other developers.
 title: CSV Challenge
 ---
 

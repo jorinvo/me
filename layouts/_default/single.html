@@ -6,6 +6,9 @@
 </div>
 
 <article class="post-content">
+  {{ if .Params.summary }}
+  <b><i>{{ .Params.summary }}</i></b>
+  {{ end }}
   {{ .Content }}
 </article>
 

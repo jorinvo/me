@@ -3,7 +3,7 @@ date: 2015-05-14T00:00:00Z
 summary: |
   If you want to open source a project
   you don't want it to contain any sensitive data.
-  I would like to share my workflow for this.
+  I would like to share my workflow to achieve this.
 title: Cleaning Up Your Github History
 ---
 

@@ -1,8 +1,6 @@
 ---
 date: 2017-02-17T17:03:54+01:00
 title: How I got started studying Japanese
-summary: |
-  ...
 ---
 
 1.	Learn Hiragana and Katakana
