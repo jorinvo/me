@@ -32,7 +32,7 @@ and if a project owner would decide to remove me from a project I would still ha
 
 <br>
 
-**Note:** *Directly edit code snippets below before copy&pasting them.*
+**Note:** *Inline edit code snippets below before copy&pasting them.*
 
 <br>
 
