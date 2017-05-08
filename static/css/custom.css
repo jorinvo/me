@@ -67,6 +67,10 @@ footer {
   margin-bottom: 5%;
 }
 
+.post-content {
+  text-align: justify;
+}
+
 .post-footer {
 	margin: 10% auto;
   max-width: 440px;
@@ -116,7 +120,6 @@ code:focus {
     line-height: 110%;
     max-width: none;
     padding: 0 2%;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }
 
   small, footer, .post-footer {
