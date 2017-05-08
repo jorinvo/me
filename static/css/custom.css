@@ -117,9 +117,8 @@ code:focus {
 @media print {
   body {
     font-size: 80%;
-    line-height: 110%;
-    max-width: none;
-    padding: 0 2%;
+    line-height: 120%;
+    padding: 0 20%;
   }
 
   small, footer, .post-footer {
@@ -140,6 +139,10 @@ code:focus {
   }
 
   p, .highlight {
+    page-break-inside: avoid;
+  }
+
+  .post {
     page-break-inside: avoid;
   }
 }
