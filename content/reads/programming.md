@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Everyday Git: Search the git log from the command line"
+    url: https://everydayrails.com/2017/01/02/git-command-line-log-search.html
+
+  - title: "A Note About Git Commit Messages"
+    url: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+
   - title: "Readability Matters More Than Correctness"
     url: https://xph.us/2017/04/23/readability.html
 
