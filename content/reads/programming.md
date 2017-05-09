@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Understand Go pointers in less than 800 words or your money back"
+    url: https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back
+
   - title: "Everyday Git: Search the git log from the command line"
     url: https://everydayrails.com/2017/01/02/git-command-line-log-search.html
 

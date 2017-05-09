@@ -40,7 +40,7 @@ Follow these steps to create a similar setup or adopt it to your own needs:
 
 We'll be using [ghbackup][g], [sleepto][s] and [systemd](https://freedesktop.org/wiki/Software/systemd/).
 
-- First, you need a [GitHub token](https://github.com/settings/tokens) with at least the **repo** scope and you need a [Slack Webhook URL](slack.com/apps/new/A0F7XDUAZ-incoming-webhooks).
+- First, you need a [GitHub token](https://github.com/settings/tokens) with at least the **repo** scope and you need a [Slack Webhook URL](https://slack.com/apps/new/A0F7XDUAZ-incoming-webhooks).
 
 - All following steps happen on system level. To not prefix every command with `sudo `, let's login as *root:*
 
@@ -48,7 +48,7 @@ We'll be using [ghbackup][g], [sleepto][s] and [systemd](https://freedesktop.org
 sudo -s
 ```
 
-- `sytemd` is already running on most Linux systems. Install [ghbackup][g] and [sleepto][s]. In this example we keep executables in the directory `/opt`:
+- `systemd` is already running on most Linux systems. Install [ghbackup][g] and [sleepto][s]. In this example we keep executables in the directory `/opt`:
 
 ```sh
 curl -sL https://github.com/qvl/sleepto/releases/download/v1.6/sleepto_1.6_linux_64bit.tar.gz | tar -xzf - -C /opt sleepto
