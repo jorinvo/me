@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Good comments explain WHY, not WHAT, and 3 more rules on writing good comments"
+    url: https://dev.to/andreasklinger/comments-explain-why-not-what-and-2-more-rules-on-writing-good-comments
+
+  - title: "Redis in My Postgres"
+    url: http://www.craigkerstiens.com/2012/10/18/connecting_to_redis_from_postgres/
+
   - title: "Understand Go pointers in less than 800 words or your money back"
     url: https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back
 

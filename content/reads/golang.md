@@ -3,6 +3,9 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Simple but Handy Postgres Features"
+    url: http://www.craigkerstiens.com/2017/01/08/simple-but-handy-postgresql-features/
+
   - title: "Pragmatic and Effective Testing in Go"
     url: http://bepsays.com/en/2016/10/12/pragmatic-and-effective-testing-in-go/
 
