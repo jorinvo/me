@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Reducing test cases for JavaScript tooling"
+    url: https://rreverser.com/reducing-test-cases-for-javascript-tooling/
+
   - title: "Good comments explain WHY, not WHAT, and 3 more rules on writing good comments"
     url: https://dev.to/andreasklinger/comments-explain-why-not-what-and-2-more-rules-on-writing-good-comments
 

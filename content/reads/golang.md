@@ -3,6 +3,9 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Rewriting our web analytics tracking infrastructure in Go"
+    url: https://engineering.skroutz.gr/blog/rewriting-web-analytics-tracking-in-go/
+
   - title: "Simple but Handy Postgres Features"
     url: http://www.craigkerstiens.com/2017/01/08/simple-but-handy-postgresql-features/
 
