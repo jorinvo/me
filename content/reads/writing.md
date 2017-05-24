@@ -3,6 +3,9 @@ type: linklist
 title: Writing
 links:
 
+  - title: "Vanishing Point"
+    url: http://www.newyorker.com/books/page-turner/vanishing-point
+
   - title: "On writing"
     url: http://lucapette.me/on-writing
 

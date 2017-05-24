@@ -5,7 +5,7 @@ summary: |
 title: "Code Challenge: Follow the Dirty Money"
 ---
 
-After the [CSV Challenge](/csv-challenge) in 2015 I created a new challenge.
+After the [CSV Challenge](/csv-challenge) in 2015, I created a new challenge.
 
 This time it was a little bit more tricky but we still got a couple of nice solutions using different techniques.
 
