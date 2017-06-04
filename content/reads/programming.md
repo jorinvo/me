@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Linux utils that you might not know"
+    url: http://shiroyasha.io/coreutils-that-you-might-not-know.html
+
+  - title: "Surviving In Open-Source"
+    url: https://dev.to/bitario/surviving-in-open-source
+
   - title: "Reducing test cases for JavaScript tooling"
     url: https://rreverser.com/reducing-test-cases-for-javascript-tooling/
 

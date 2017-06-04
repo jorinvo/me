@@ -3,6 +3,12 @@ type: linklist
 title: Technology
 links:
 
+  - title: "Browse Against the Machine"
+    url: https://medium.com/the-official-unofficial-firefox-blog/browse-against-the-machine-e793c0fee917
+
+  - title: "Get your loved ones off Facebook."
+    url: http://www.salimvirani.com/facebook/
+
   - title: "Social media is polarizing users faster than ever"
     url: https://qz.com/969886/the-shocking-speed-with-which-we-become-polarized-online/
 

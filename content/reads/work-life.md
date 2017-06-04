@@ -3,6 +3,12 @@ type: linklist
 title: Work-life Balance
 links:
 
+  - title: "How to do what you love and make good money"
+    url: https://sivers.org/balance
+
+  - title: "Strong Opinions, Weakly Held"
+    url: bobsutton.typepad.com/my_weblog/2006/07/strong_opinions.html
+
   - title: ThreePillars
     url: https://martinfowler.com/bliki/ThreePillars.html
 

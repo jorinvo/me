@@ -3,6 +3,9 @@ type: linklist
 title: Writing
 links:
 
+  - title: "Writers Write"
+    url: https://dev.to/schneems/writers-write
+
   - title: "Vanishing Point"
     url: http://www.newyorker.com/books/page-turner/vanishing-point
 
@@ -14,4 +17,4 @@ links:
 
 ---
 
-Resource for anyone interested in writing
+Resources for anyone interested in writing

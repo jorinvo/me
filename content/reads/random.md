@@ -2,6 +2,8 @@
 type: linklist
 title: Random
 links:
+  - title: "Why We Are Self Publishing the Aviary Cookbook - Lessons From the Alinea Book."
+    url: https://medium.com/@nickkokonas/why-we-are-self-publishing-the-aviary-cookbook-lessons-from-the-alinea-book-e89236ab6ca1
 
   - title: "Why Facts Don’t Change Our Minds"
     url: http://www.newyorker.com/magazine/2017/02/27/why-facts-dont-change-our-minds
