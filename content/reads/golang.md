@@ -3,6 +3,12 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Our Go is fine but our SQL is great"
+    url: https://medium.com/bumpers/our-go-is-fine-but-our-sql-is-great-b4857950a243
+
+  - title: "Go Walkthrough - A series of walkthroughs to help you understand the Go standard library better."
+    url: https://medium.com/go-walkthrough
+
   - title: "Rewriting our web analytics tracking infrastructure in Go"
     url: https://engineering.skroutz.gr/blog/rewriting-web-analytics-tracking-in-go/
 

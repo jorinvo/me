@@ -1,7 +1,13 @@
 ---
 type: linklist
-title: Work-life Balance
+title: Life
 links:
+
+  - title: "Mental Models I Find Repeatedly Useful"
+    url: https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d
+
+  - title: "Art is useless, and so am I"
+    url: https://sivers.org/useless
 
   - title: "How to do what you love and make good money"
     url: https://sivers.org/balance
@@ -269,4 +275,4 @@ links:
 
 ---
 
-Advice and thoughts about coping with work and living a good live
+Thoughts about life

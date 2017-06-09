@@ -3,6 +3,15 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Learn the ways of Linux-fu, for free."
+    url: https://linuxjourney.com/
+
+  - title: "500 Lines or Less - Experienced Programmers Solve Interesting Problems"
+    url: https://github.com/aosabook/500lines
+
+  - title: "In Pursuit of Production Minimalism"
+    url: https://brandur.org/minimalism
+
   - title: "Linux utils that you might not know"
     url: http://shiroyasha.io/coreutils-that-you-might-not-know.html
 
