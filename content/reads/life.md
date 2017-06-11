@@ -9,9 +9,6 @@ links:
   - title: "Art is useless, and so am I"
     url: https://sivers.org/useless
 
-  - title: "How to do what you love and make good money"
-    url: https://sivers.org/balance
-
   - title: "Strong Opinions, Weakly Held"
     url: bobsutton.typepad.com/my_weblog/2006/07/strong_opinions.html
 
@@ -27,17 +24,11 @@ links:
   - title: A Protocol for Dying
     url: http://hintjens.com/blog:115
 
-  - title: Extracting Value as an Employee
-    url: https://zachholman.com/posts/extracting-value
-
   - title: "The secret to living a meaningful life"
     url: http://www.bbc.com/future/story/20170131-the-secret-to-living-a-meaningful-life
 
   - title: "How I Got My Attention Back"
     url: https://backchannel.com/how-i-got-my-attention-back-c7fc9297d347
-
-  - title: "Working remotely, coworking spaces, and mental health"
-    url: https://bitquabit.com/post/working-remotely-coworking-and-mental-health/
 
   - title: "The Reality of Developer Burnout"
     url: https://www.kennethreitz.org/essays/the-reality-of-developer-burnout
@@ -59,9 +50,6 @@ links:
 
   - title: "I Used to Be a Human Being"
     url: http://nymag.com/selectall/2016/09/andrew-sullivan-technology-almost-killed-me.html
-
-  - title: "Be Productive Anywhere: 8 Proven Strategies for Better Remote Work"
-    url: https://zapier.com/blog/productive-remote-work/
 
   - title: "Why are Adults so busy?"
     url: http://debarghyadas.com/writes/why-are-adults-so-busy/
@@ -87,9 +75,6 @@ links:
   - title: "Creativity is a great motivator"
     url: http://tomrothe.de/posts/sketchbook.html
 
-  - title: "Why Retirement Is a Flawed Concept"
-    url: https://hbr.org/2016/04/why-retirement-is-a-flawed-concept
-
   - title: "Here's Why You Should Support A Universal Basic Income"
     url: https://www.fastcoexist.com/3058710/heres-why-you-should-support-a-universal-basic-income
 
@@ -102,9 +87,6 @@ links:
   - title: "The Structure of Gratitude"
     url: https://www.nytimes.com/2015/07/28/opinion/david-brooks-the-structure-of-gratitude.html
 
-  - title: "The first rule of pricing is: you do not talk about pricing"
-    url: https://medium.com/fluxx-studio-notes/the-first-rule-of-pricing-is-you-do-not-talk-about-pricing-1875caa39b89
-
   - title: "Being A Developer After 40"
     url: https://medium.com/@akosma/being-a-developer-after-40-3c5dd112210c#.u04gkjm5l
 
@@ -113,9 +95,6 @@ links:
 
   - title: "Congratulations! You’ve Been Fired"
     url: http://mobile.nytimes.com/2016/04/10/opinion/sunday/congratulations-youve-been-fired.html
-
-  - title: "Why I Don't Do Unpaid Overtime and Neither Should You"
-    url: http://thecodist.com/article/why_i_don_39_t_do_unpaid_overtime_and_neither_should_you
 
   - title: "What I Am About"
     url: http://michaelrbernste.in/2015/09/13/what-i-am-about.html
@@ -146,9 +125,6 @@ links:
 
   - title: "How to be Polite… for Geeks"
     url: https://medium.com/message/how-to-be-polite-for-geeks-86cb784983b1
-
-  - title: "Super successful companies"
-    url: http://blog.samaltman.com/super-successful-companies
 
   - title: "What Doesn't Seem Like Work?"
     url: http://paulgraham.com/work.html
@@ -201,12 +177,6 @@ links:
   - title: "I Asked Atheists How They Find Meaning In A Purposeless Universe"
     url: http://www.buzzfeed.com/tomchivers/when-i-was-a-child-i-spake-as-a-child
 
-  - title: "Breakout Career Guide"
-    url: https://breakoutcareers.com/
-
-  - title: "How I optimised my life to make my job redundant"
-    url: http://www.troyhunt.com/2015/07/how-i-optimised-my-life-to-make-my-job.html
-
   - title: "10 Life Lessons I Learned from Surviving My 20s"
     url: https://markmanson.net/surviving-my-20s
 
@@ -243,20 +213,11 @@ links:
   - title: "Why Procrastination Doesn’t Need a Cure: A Guide to Structured Distraction"
     url: https://blog.bufferapp.com/dont-stop-procrastinating-procrastination-doesnt-need-a-cure-structured-distraction
 
-  - title: "The Best Entrepreneur I Know"
-    url: http://donpottinger.net/blog/2015/01/19/the-best-entrepreneur-i-know.html
-
   - title: "Why I Am Not a Maker"
     url: http://www.theatlantic.com/technology/archive/2015/01/why-i-am-not-a-maker/384767/
 
-  - title: "Engineers Suck at Finding the Right Jobs"
-    url: http://matt.aimonetti.net/posts/2012/11/14/engineers-suck-at-finding-right-jobs/
-
   - title: "How to Be an Expert in a Changing World"
     url: http://paulgraham.com/ecw.html
-
-  - title: "The Programmer’s Price"
-    url: http://www.newyorker.com/magazine/2014/11/24/programmers-price
 
   - title: "How Automation Left Us Feeling Empty"
     url: https://levels.io/automation-void/
@@ -269,9 +230,6 @@ links:
 
   - title: "I assume I’m below average"
     url: https://sivers.org/below-average
-
-  - title: "Value is created by doing"
-    url: http://blog.samaltman.com/value-is-created-by-doing
 
 ---
 

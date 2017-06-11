@@ -3,6 +3,9 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Implementing a bignum calculator - Rob Pike - golang-syd November 2014"
+    url: https://www.youtube.com/watch?v=PXoG0WX0r_E
+
   - title: "Our Go is fine but our SQL is great"
     url: https://medium.com/bumpers/our-go-is-fine-but-our-sql-is-great-b4857950a243
 

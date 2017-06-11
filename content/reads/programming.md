@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Lessons From A Lifetime Of Being A Programmer"
+    url: http://thecodist.com/article/lessons_from_a_lifetime_of_being_a_programmer
+
+  - title: "Joe Armstrong interviews Alan Kay"
+    url: https://www.youtube.com/watch?v=fhOHn9TClXY
+
   - title: "Learn the ways of Linux-fu, for free."
     url: https://linuxjourney.com/
 
