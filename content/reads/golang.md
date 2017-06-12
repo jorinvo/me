@@ -3,6 +3,15 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Functional options for friendly APIs"
+    url: https://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis
+
+  - title: "Constant errors"
+    url: https://dave.cheney.net/2016/04/07/constant-errors
+
+  - title: "A theory of modern Go"
+    url: http://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html
+
   - title: "Implementing a bignum calculator - Rob Pike - golang-syd November 2014"
     url: https://www.youtube.com/watch?v=PXoG0WX0r_E
 

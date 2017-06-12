@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: " ElixirConf 2015 - Keynote: Elixir Should Take Over the World by Jessica Kerr"
+    url: https://www.youtube.com/watch?v=X25xOhntr6s
+
   - title: "Lessons From A Lifetime Of Being A Programmer"
     url: http://thecodist.com/article/lessons_from_a_lifetime_of_being_a_programmer
 
