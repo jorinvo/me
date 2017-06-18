@@ -123,7 +123,7 @@ links:
     url: http://www.fastcoexist.com/3054864/how-these-young-rwandan-architects-are-redesigning-their-country
 
   - title: "Basic Income"
-    url: https://blog.ycombinator.com/basic-income/
+    url: http://blog.ycombinator.com/basic-income/
 
   - title: "'Codex Seraphinianus' Is A Creepy Book Of Nonsense"
     url: http://www.creepybasement.com/codex-seraphinianus/

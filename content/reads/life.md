@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "Ten Steps Towards Happiness"
+    url: http://hintjens.com/blog:99
+
   - title: "Mental Models I Find Repeatedly Useful"
     url: https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d
 
@@ -10,7 +13,7 @@ links:
     url: https://sivers.org/useless
 
   - title: "Strong Opinions, Weakly Held"
-    url: bobsutton.typepad.com/my_weblog/2006/07/strong_opinions.html
+    url: http://bobsutton.typepad.com/my_weblog/2006/07/strong_opinions.html
 
   - title: ThreePillars
     url: https://martinfowler.com/bliki/ThreePillars.html

@@ -119,13 +119,13 @@ It might take a little bit more time if you just want to get something working, 
 ### What's next?
 
 It would be nice to have all of the advantages of both languages in one programming environment.
-Maybe my next target should be [Haskell](https://learnyouahaskell.com/)?
+Maybe my next target should be [Haskell](http://learnyouahaskell.com/)?
 
 Most of the advantages listed here are actually not platform dependent.
 
 I love to see the web as a programming platform improve in areas
 like [tooling](https://github.com/marijnh/tern) and [coding style](https://github.com/feross/standard).
-In my opinion, Javascript can already compete with the [expressiveness](https://ramdajs.com/) of Ruby.
+In my opinion, Javascript can already compete with the [expressiveness](http://ramdajs.com/) of Ruby.
 The latest efforts enable us to reason about problems in [simple and declarative ways](https://github.com/staltz/todomvc-cycle).
 
 Now I would love to see a way to bring the safety and robustness of Go to the web.

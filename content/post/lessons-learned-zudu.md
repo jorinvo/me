@@ -20,7 +20,7 @@ The first version of Zudu was built using [Backbone Marionette](https://marionet
 Writing the [Angular](https://angularjs.org/) version was straight forward and we ended up with less than half of lines of code. Also the minified version is a little smaller.
 
 Sure, it's easier to write good code if you do it the second time, but the _Angular Way_ seems to be a better fit for this kind of application.
-[Backbone](https://backbonejs.org/) is still a good tool for other use-cases.
+[Backbone](http://backbonejs.org/) is still a good tool for other use-cases.
 Both have their strengths.
 
 
@@ -49,7 +49,7 @@ var hannibal = new Hannibal(config)
 
 
 ### Skip Unnecessary Abstractions
-[MongoDB](https://www.mongodb.org/) is a powerful and flexible database and it served use well. However, looking back I would skip the [mongoose](https://mongoosejs.com/) abstraction. The main thing mongoose gives you is validation via schemas. This makes it more familiar if you mainly worked with relational databases before. But it's not really needed for MongoDB. Having schemas you tend to think relational again.
+[MongoDB](https://www.mongodb.org/) is a powerful and flexible database and it served use well. However, looking back I would skip the [mongoose](http://mongoosejs.com/) abstraction. The main thing mongoose gives you is validation via schemas. This makes it more familiar if you mainly worked with relational databases before. But it's not really needed for MongoDB. Having schemas you tend to think relational again.
 
 You are better off just using the native driver for MongoDB and keep the hands from abstractions you don't need.
 

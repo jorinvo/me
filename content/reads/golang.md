@@ -3,6 +3,15 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Closures are the Generics for Go"
+    url: https://medium.com/capital-one-developers/closures-are-the-generics-for-go-cb32021fb5b5
+
+  - title: "Don’t defer Close() on writable files"
+    url: https://joeshaw.org/dont-defer-close-on-writable-files/
+
+  - title: "Do not fear first class functions"
+    url: https://dave.cheney.net/2016/11/13/do-not-fear-first-class-functions
+
   - title: "Functional options for friendly APIs"
     url: https://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis
 

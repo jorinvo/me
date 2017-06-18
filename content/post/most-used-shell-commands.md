@@ -56,7 +56,7 @@ $ history | cut -c8- | cut -d' ' -f1 | sort | uniq -c | sort -nr | head -n20
 5. **head -n20** returns only the first 20 lines.
 
 
-Interestingly **9** of the first **20** commands are [custom shortcuts](https://github.com/jorinvo/dotfiles/blob/master/aliases) I created.
+Interestingly **9** of the first **20** commands are [custom shortcuts](https://github.com/jorinvo/dotfiles/blob/master/bashrc) I created.
 
 <br>
 

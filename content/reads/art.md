@@ -3,6 +3,9 @@ type: linklist
 title: Art
 links:
 
+  - title: "#c0ffee is the color"
+    url: http://c0ffee.surge.sh/
+
   - title: "Two Buildings Were Having an All-Out Post-It War Until This Happened"
     url: http://twistedsifter.com/2016/05/two-buildings-were-having-an-epic-post-it-war-until-this-happened/
 

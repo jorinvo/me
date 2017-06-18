@@ -3,7 +3,22 @@ type: linklist
 title: Programming
 links:
 
-  - title: " ElixirConf 2015 - Keynote: Elixir Should Take Over the World by Jessica Kerr"
+  - title: "Looking inside machine learning black boxes"
+    url: http://jvns.ca/blog/2016/04/10/why-i-dont-like-black-boxes/
+
+  - title: "Ten Rules for Open Source Success"
+    url: http://hintjens.com/blog:95
+
+  - title: "Network protocols - For everyone who knows a programming language"
+    url: https://www.destroyallsoftware.com/compendium/network-protocols?share_key=97d3ba4c24d21147
+
+  - title: "Every Server Is A Kind Of Honeypot"
+    url: http://thecodist.com/article/every-server-is-a-kind-of-honeypot
+
+  - title: "Docs, Docs, Docs!"
+    url: https://medium.com/@mikeal/docs-docs-docs-1e06d17fa06f
+
+  - title: "ElixirConf 2015 - Keynote: Elixir Should Take Over the World by Jessica Kerr"
     url: https://www.youtube.com/watch?v=X25xOhntr6s
 
   - title: "Lessons From A Lifetime Of Being A Programmer"
