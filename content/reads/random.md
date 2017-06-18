@@ -275,9 +275,6 @@ links:
   - title: "Ryan Estrada — Learn to Read Korean in 15 Minutes"
     url: http://ryanestradadotcom.tumblr.com/post/20461267965/learn-to-read-korean-in-15-minutes
 
-  - title: "On MSG and Chinese Restaurant Syndrome"
-    url: http://luckypeach.com/on-msg-and-chinese-restaurant-syndrome/
-
   - title: "The Two Pillars of JavaScript — Pt 2: Functional Programming"
     url: https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4
 
