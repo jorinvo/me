@@ -1,0 +1,16 @@
+#!/bin/bash
+set -e
+
+
+# Check for dead links
+#
+# Fail when website links to any broken urls.
+# Gather all internal pages first,
+# then check their linked ressources.
+
+
+domain="https://jorin.me"
+common="--spider -r --no-verbose --no-directories -w0.1 -T60 --tries 3"
+check="--level 1 --span-hosts --execute robots=off"
+
+wget $common $domain 2>&1 | grep -o "$domain[^ ]*" | xargs wget $common $check

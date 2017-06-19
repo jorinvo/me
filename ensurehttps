@@ -5,7 +5,7 @@
 
 for file in $(git ls-files); do
   # Find all URLs
-  for match in $(grep -Ino 'http://[^") ]*' $file); do
+  for match in $(grep -Ino 'http://[^") \]]*' $file); do
     url="$(echo "$match" | cut -d: -f2)"
     # Check if URL works with https
     if curl -sI https:$url > /dev/null; then
