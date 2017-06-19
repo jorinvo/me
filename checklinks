@@ -11,6 +11,7 @@ set -e
 
 domain="https://jorin.me"
 common="--spider -r --no-verbose --no-directories -w0.1 -T60 --tries 3"
-check="--level 1 --span-hosts --execute robots=off"
+firefox="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0"
+check="--level 1 --span-hosts --execute robots=off -U \"$firefox\""
 
 wget $common $domain 2>&1 | grep -o "$domain[^ ]*" | xargs wget $common $check
