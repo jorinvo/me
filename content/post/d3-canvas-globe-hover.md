@@ -23,5 +23,5 @@ if the current cursor position is inside the polygons of a country.
 
 <br>
 
-<p data-height="540" data-theme-id="light" data-slug-hash="YNajXZ" data-default-tab="result" data-user="jorin" data-embed-version="2" data-pen-title="D3 canvas globe with country hover" class="codepen">See the Pen <a href="http://codepen.io/jorin/pen/YNajXZ/">D3 canvas globe with country hover</a> by jorin (<a href="http://codepen.io/jorin">@jorin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="540" data-theme-id="light" data-slug-hash="YNajXZ" data-default-tab="result" data-user="jorin" data-embed-version="2" data-pen-title="D3 canvas globe with country hover" class="codepen">See the Pen <a href="https://codepen.io/jorin/pen/YNajXZ/">D3 canvas globe with country hover</a> by jorin (<a href="https://codepen.io/jorin">@jorin</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

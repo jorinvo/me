@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Replace all http URLs with https if available
+
+
+for file in $(git ls-files); do
+  # Find all URLs
+  for match in $(grep -Ino 'http://[^") ]*' $file); do
+    url="$(echo "$match" | cut -d: -f2)"
+    # Check if URL works with https
+    if curl -sI https:$url > /dev/null; then
+      # Switch URL to https
+      echo "$file: https:$url"
+      sed -i '' "s,http:$url,https:$url,g" $file
+    fi
+  done
+done
