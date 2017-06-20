@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -eux
 
 
 # Check for dead links
@@ -9,9 +9,22 @@ set -e
 # then check their linked ressources.
 
 
-domain="https://jorin.me"
-common="--spider -r --no-verbose --no-directories -w0.1 -T60 --tries 3"
-agent="dead link checker"
-check="--level 1 --span-hosts --execute robots=off -U \"$agent\""
+domain="jorin.me"
+common="
+  --spider
+  --recursive
+  --no-verbose
+  --no-directories
+  --wait 0.1
+  --timeout 60
+  --tries 3
+  --user-agent linkchecker
+"
+extern="
+  --level 1
+  --span-hosts
+  --execute robots=off
+  --exclude-domains $domain
+"
 
-wget $common $domain 2>&1 | grep -o "$domain[^ ]*" | xargs wget $common $check
+wget $common $domain 2>&1 | grep -o "$domain[^ ]*" | xargs wget $common $extern
