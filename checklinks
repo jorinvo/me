@@ -7,6 +7,8 @@ set -eu
 # Fail when website links to any broken urls.
 # Gather all internal pages first,
 # then check their linked ressources.
+# Failed links need to be checked again with a GET request,
+# since some of them just don't support HEAD.
 
 
 domain="jorin.me"
@@ -14,18 +16,16 @@ common="
   --no-verbose
   --no-directories
   --wait 0.1
-  --timeout 60
+  --timeout 30
   --tries 3
   --user-agent linkchecker
   --execute robots=off
 "
-intern="
+spider="
   --spider
   --recursive
 "
 extern="
-  --spider
-  --recursive
   --level 1
   --span-hosts
   --exclude-domains $domain
@@ -34,19 +34,13 @@ nohead="
   --output-document /dev/null
 "
 
-broken="$(
-  wget $common $intern $domain 2>&1 \
-    | grep -o "https:\/\/$domain[^ ]*" \
-    | xargs -n1 wget $common $extern 2>&1 \
-    | grep "^http" \
-    | xargs -n1 wget $common $nohead 2>&1 \
-    | grep "^http"
-)"
+printf "Finding all internal pages\n"
+pages="$(mktemp)"
+wget $common $spider $domain 2>&1 | tee >(grep -o "https:\/\/$domain[^ ]*" > "$pages")
 
-if test "$broken" = ""; then
-  echo "No broken links"
-else
-  echo "$(echo "$broken" | wc -l) broken links:"
-  echo "$broken"
-  exit 1
-fi
+printf "\n\nChecking all external links\n"
+brokenlinks="$(mktemp)"
+wget $common $spider $extern -i "$pages" 2>&1 | tee >(grep "^http" | cut -d: -f1-2 > "$brokenlinks") || echo
+wget $common $nohead -i "$brokenlinks" 2>&1
+
+rm "$brokenlinks" "$pages"
