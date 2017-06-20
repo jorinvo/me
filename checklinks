@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eux
+set -eu
 
 
 # Check for dead links
@@ -27,4 +27,4 @@ extern="
   --exclude-domains $domain
 "
 
-wget $common $domain 2>&1 | grep -o "$domain[^ ]*" | xargs wget $common $extern
+wget $common $domain 2>&1 | grep -o "https:\/\/$domain[^ ]*" | xargs wget $common $extern
