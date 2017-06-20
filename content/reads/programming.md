@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets"
+    url: https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+
   - title: "Looking inside machine learning black boxes"
     url: http://jvns.ca/blog/2016/04/10/why-i-dont-like-black-boxes/
 

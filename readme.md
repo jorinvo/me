@@ -4,9 +4,6 @@ Jorin's Logbook
 This site is built with [Hugo](https://gohugo.io/), thank you open source!
 
 
-[![Build Status](https://travis-ci.org/jorinvo/me.svg?branch=master)](https://travis-ci.org/jorinvo/me)
-
-
 Development
 -----------
 

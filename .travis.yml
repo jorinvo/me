@@ -1,3 +1,0 @@
-script:
-  - ./ensurehttps && test -z "$(git diff --shortstat)"
-  - ./checklinks

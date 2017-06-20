@@ -3,6 +3,9 @@ type: linklist
 title: Golang
 links:
 
+  - title: "How does the golang scheduler work?"
+    url: https://www.quora.com/How-does-the-golang-scheduler-work/answer/Ian-Lance-Taylor
+
   - title: "Closures are the Generics for Go"
     url: https://medium.com/capital-one-developers/closures-are-the-generics-for-go-cb32021fb5b5
 
