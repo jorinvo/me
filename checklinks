@@ -11,20 +11,42 @@ set -eu
 
 domain="jorin.me"
 common="
-  --spider
-  --recursive
   --no-verbose
   --no-directories
   --wait 0.1
   --timeout 60
   --tries 3
   --user-agent linkchecker
+  --execute robots=off
+"
+intern="
+  --spider
+  --recursive
 "
 extern="
+  --spider
+  --recursive
   --level 1
   --span-hosts
-  --execute robots=off
   --exclude-domains $domain
 "
+nohead="
+  --output-document /dev/null
+"
 
-wget $common $domain 2>&1 | grep -o "https:\/\/$domain[^ ]*" | xargs wget $common $extern
+broken="$(
+  wget $common $intern $domain 2>&1 \
+    | grep -o "https:\/\/$domain[^ ]*" \
+    | xargs -n1 wget $common $extern 2>&1 \
+    | grep "^http" \
+    | xargs -n1 wget $common $nohead 2>&1 \
+    | grep "^http"
+)"
+
+if test "$broken" = ""; then
+  echo "No broken links"
+else
+  echo "$(echo "$broken" | wc -l) broken links:"
+  echo "$broken"
+  exit 1
+fi
