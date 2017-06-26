@@ -73,7 +73,7 @@ links:
     url: https://jvns.ca/blog/2014/04/26/i-dont-feel-guilty-about-not-contributing-to-open-source/
 
   - title: "Drowning in a Sea of Information"
-    url: https://digitalculturist.com/drowning-in-a-sea-of-information-563a3160efbb
+    url: https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fdigitalculturist.com%2Fdrowning-in-a-sea-of-information-563a3160efbb
 
   - title: "Creativity is a great motivator"
     url: http://tomrothe.de/posts/sketchbook.html

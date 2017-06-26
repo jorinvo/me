@@ -3,6 +3,15 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Stripping Go ELF binaries is safe"
+    url: https://dominik.honnef.co/posts/2016/10/go-and-strip/
+
+  - title: "Correct Error Handling is Hard"
+    url: https://medium.com/@peter.gtz/correct-error-handling-is-hard-307ea72759c7
+
+  - title: "Better understand pointers"
+    url: http://www.seanhelvey.com/go-is-not-python/
+
   - title: "How does the golang scheduler work?"
     url: https://www.quora.com/How-does-the-golang-scheduler-work/answer/Ian-Lance-Taylor
 
