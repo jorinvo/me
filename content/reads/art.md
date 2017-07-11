@@ -3,6 +3,9 @@ type: linklist
 title: Art
 links:
 
+  - title: "color-wander - generates mesmerizing art based on a seeded random"
+    url: https://color-wander.glitch.me/
+
   - title: "#c0ffee is the color"
     url: http://c0ffee.surge.sh/
 

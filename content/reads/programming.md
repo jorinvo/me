@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Is it unethical for me to not tell my employer I’ve automated my job?"
+    url: https://workplace.stackexchange.com/questions/93696/is-it-unethical-for-me-to-not-tell-my-employer-i-ve-automated-my-job
+
+  - title: "Hyperproductive development"
+    url: http://blog.jessitron.com/2017/06/the-most-productive-circumstances-for.html
+
   - title: "What can developers learn from being on call?"
     url: https://jvns.ca/blog/2017/06/18/operate-your-software/
 

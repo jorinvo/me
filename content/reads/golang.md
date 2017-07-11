@@ -3,6 +3,12 @@ type: linklist
 title: Golang
 links:
 
+  - title: "How to not use an http-router in Go"
+    url: http://blog.merovius.de/2017/06/18/how-not-to-use-an-http-router.html
+
+  - title: "Kevin Gillette - Effective Go Error Handling"
+    url: https://www.youtube.com/watch?v=hDC7IF3OQLM
+
   - title: "Stripping Go ELF binaries is safe"
     url: https://dominik.honnef.co/posts/2016/10/go-and-strip/
 
