@@ -3,6 +3,12 @@ type: linklist
 title: Technology
 links:
 
+  - title: "Generative Technology"
+    url: http://progrium.com/blog/2016/04/25/generativity/
+
+  - title: "Ever wonder how Bitcoin (and other cryptocurrencies) actually work?"
+    url: https://youtu.be/bBC-nXj3Ng4
+
   - title: "Browse Against the Machine"
     url: https://medium.com/the-official-unofficial-firefox-blog/browse-against-the-machine-e793c0fee917
 

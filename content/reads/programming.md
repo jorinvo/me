@@ -3,6 +3,15 @@ type: linklist
 title: Programming
 links:
 
+  - title: "OK Log"
+    url: https://peter.bourgon.org/ok-log/
+
+  - title: "Starbucks should really make their APIs public."
+    url: https://blog.tendigi.com/starbucks-should-really-make-their-apis-public-6b64a1c2e923
+
+  - title: "Tyler McMullen - Load Balancing is Impossible"
+    url: https://www.youtube.com/watch?v=gas2v1emubU
+
   - title: "Is it unethical for me to not tell my employer I’ve automated my job?"
     url: https://workplace.stackexchange.com/questions/93696/is-it-unethical-for-me-to-not-tell-my-employer-i-ve-automated-my-job
 

@@ -3,6 +3,9 @@ type: linklist
 title: Art
 links:
 
+  - title: "SlimJim Studios -Tokyo Gifathon"
+    url: https://www.slimjimstudios.com/#/tokyo-gifathon/
+
   - title: "color-wander - generates mesmerizing art based on a seeded random"
     url: https://color-wander.glitch.me/
 

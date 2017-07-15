@@ -3,6 +3,9 @@ type: linklist
 title: Business
 links:
 
+  - title: "Enough"
+    url: https://m.signalvnoise.com/enough-1d48019c7335
+
   - title: "Building a $1 Million Business Solo with Mike Perham of Sidekiq"
     url: https://www.indiehackers.com/podcast/016-mike-perham-of-sidekiq
 
