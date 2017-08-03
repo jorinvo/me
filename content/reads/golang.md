@@ -3,6 +3,24 @@ type: linklist
 title: Golang
 links:
 
+  - title: "GopherCon 2017: Kavya Joshi - Understanding Channels"
+    url: https://www.youtube.com/watch?v=KBZlN0izeiY
+
+  - title: "Going down the rabbit hole with go-fuzz"
+    url: https://mijailovic.net/2017/07/29/go-fuzz/
+
+  - title: "GopherCon 2017: Fatih Arslan - Writing a Go Tool to Parse and Modify Struct Tags"
+    url: https://www.youtube.com/watch?v=T4AIQ4RHp-c
+
+  - title: "Map of Golang interfaces"
+    url: https://superstas.github.io/io_interfaces.html
+
+  - title: "Strace in 60 lines of Go"
+    url: https://hackernoon.com/strace-in-60-lines-of-go-b4b76e3ecd64
+
+  - title: "GopherCon 2015: Dmitry Vyukov - Go Dynamic Tools"
+    url: https://www.youtube.com/watch?v=a9xrxRsIbSU
+
   - title: "How to not use an http-router in Go"
     url: http://blog.merovius.de/2017/06/18/how-not-to-use-an-http-router.html
 

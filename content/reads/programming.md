@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "The limitations of deep learning"
+    url: https://blog.keras.io/the-limitations-of-deep-learning.html
+
   - title: "OK Log"
     url: https://peter.bourgon.org/ok-log/
 

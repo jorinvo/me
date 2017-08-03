@@ -3,6 +3,12 @@ type: linklist
 title: Art
 links:
 
+  - title: "The Tōkyōiter"
+    url: http://www.thetokyoiter.com/
+
+  - title: "Daido Moriyama – In Pictures"
+    url: https://www.youtube.com/watch?v=foWAs3V_lkg
+
   - title: "SlimJim Studios -Tokyo Gifathon"
     url: https://www.slimjimstudios.com/#/tokyo-gifathon/
 
