@@ -3,6 +3,12 @@ type: linklist
 title: Golang
 links:
 
+  - title: '"go test -race" Under the Hood" by Kavya Joshi'
+    url: https://www.youtube.com/watch?v=5erqWdlhQLA
+
+  - title: "GopherCon 2017: Mitchell Hashimoto - Advanced Testing with Go"
+    url: https://youtu.be/8hQG7QlcLBk
+
   - title: "GopherCon 2017: Kavya Joshi - Understanding Channels"
     url: https://www.youtube.com/watch?v=KBZlN0izeiY
 

@@ -3,6 +3,9 @@ type: linklist
 title: Technology
 links:
 
+  - title: "I Can Text You A Pile of Poo, But I Can’t Write My Name"
+    url: https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name
+
   - title: "Generative Technology"
     url: http://progrium.com/blog/2016/04/25/generativity/
 
