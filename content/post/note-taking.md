@@ -57,3 +57,4 @@ To summarize, after I developed my own note taking application, I stopped using 
 
 What is your approach to organize your thoughts?
 What experience do you have with using a traditional notebook made of paper?
+Let me know [on Twitter](https://twitter.com/jorinvo/status/894608689528803328)!
