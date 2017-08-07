@@ -4,7 +4,6 @@ date: 2017-08-07T15:50:00+02:00
 summary: |
   I created a note taking application, but stopped using it.
   Let me explain how I take notes nowadays.
-comments: true
 ---
 
 While I think a lot about productivity and organizing things,
