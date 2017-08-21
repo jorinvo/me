@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Greg Young - The art of destroying software"
+    url: https://vimeo.com/108441214
+
   - title: "The limitations of deep learning"
     url: https://blog.keras.io/the-limitations-of-deep-learning.html
 

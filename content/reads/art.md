@@ -3,6 +3,9 @@ type: linklist
 title: Art
 links:
 
+  - title: "手指断了 (niehuizheng) - cyperpunk concept art"
+    url: https://m.weibo.cn/p/1005052906185283
+
   - title: "The Tōkyōiter"
     url: http://www.thetokyoiter.com/
 

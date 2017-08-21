@@ -2,6 +2,10 @@
 type: linklist
 title: Random
 links:
+
+  - title: "How language can affect the way we think"
+    url: http://ideas.ted.com/5-examples-of-how-the-languages-we-speak-can-affect-the-way-we-think/
+
   - title: "Why We Are Self Publishing the Aviary Cookbook - Lessons From the Alinea Book."
     url: https://medium.com/@nickkokonas/why-we-are-self-publishing-the-aviary-cookbook-lessons-from-the-alinea-book-e89236ab6ca1
 

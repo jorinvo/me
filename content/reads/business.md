@@ -3,6 +3,9 @@ type: linklist
 title: Business
 links:
 
+  - title: "A Note on Programmer Salaries"
+    url: http://stephaniehurlburt.com/blog/2016/12/7/a-note-on-programmer-salaries
+
   - title: "Enough"
     url: https://m.signalvnoise.com/enough-1d48019c7335
 

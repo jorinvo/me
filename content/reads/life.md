@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "10,000 Hours With Claude Shannon: How A Genius Thinks, Works, and Lives"
+    url: https://medium.com/the-mission/10-000-hours-with-claude-shannon-12-lessons-on-life-and-learning-from-a-genius-e8b9297bee8f
+
   - title: "Ten Steps Towards Happiness"
     url: http://hintjens.com/blog:99
 

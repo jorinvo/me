@@ -3,6 +3,9 @@ type: linklist
 title: Technology
 links:
 
+  - title: "New Tech Start-Up Bubble"
+    url: https://www.youtube.com/watch?v=G7vrCpWbmDw
+
   - title: "I Can Text You A Pile of Poo, But I Can’t Write My Name"
     url: https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name
 
