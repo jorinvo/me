@@ -1,8 +1,10 @@
 ---
 date: 2016-01-25T11:57:23+07:00
-description: I explain how I automated the deployment of an open source project with Travis CI.
 title: Deploy With Travis CI and Git
 ---
+
+I explain how I automated the deployment of an open source project with Travis CI.<!--more-->
+
 
 I automated the deployment of an open source project I'm involved in ([Litewrite][litewrite]) and would like to share how it works.
 

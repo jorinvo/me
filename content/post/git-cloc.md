@@ -1,8 +1,10 @@
 ---
 date: 2016-01-15T21:20:44+07:00
-description: Here is a quick-tip to see how many lines a Git project contains.
 title: Git Cloc
 ---
+
+Here is a quick-tip to see how many lines a Git project contains.<!--more-->
+
 
 Even if lines of code is not an accurate representation of the complexity of a project, it can still be an interesting number to get a feeling for the size of a software project.
 To ignore files not tracked by Git (like node\_modules) you can use the following command to see how many lines a git project has:

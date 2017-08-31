@@ -1,10 +1,11 @@
 ---
 title: "Note Taking"
 date: 2017-08-07T15:50:00+02:00
-description: |
-  I created a note taking application, but stopped using it.
-  Let me explain how I take notes nowadays.
 ---
+
+I created a note taking application, but stopped using it.
+Let me explain how I take notes nowadays.<!--more-->
+
 
 While I think a lot about productivity and organizing things,
 one thing that especially fascinates me is note taking.

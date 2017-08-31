@@ -1,10 +1,11 @@
 ---
 date: 2015-09-03T20:44:54+07:00
-description: |
-  Here I show my workflow to create longer documents using Markdown
-  and how to generate a PDF file from it.
 title: How to Write Your Homework in Markdown
 ---
+
+Here I show my workflow to create longer documents using Markdown
+and how to generate a PDF file from it.<!--more-->
+
 
 I have to write a 20 pages report for my university.
 

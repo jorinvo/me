@@ -1,8 +1,10 @@
 ---
 date: 2014-01-10T00:00:00Z
-description: I implemented a few image filters using a canvas element.
 title: Filter Images In Canvas
 ---
+
+I implemented a few image filters using a canvas element.<!--more-->
+
 
 Normally we don't need to implement our own image filters.
 Photoshop does a way better job than we could.

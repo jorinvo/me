@@ -1,10 +1,11 @@
 ---
 date: 2016-05-25T18:47:44+02:00
-description: |
-  I wrote an small search engine in Python
-  to demonstrate basic concepts of searching.
 title: Writing a Search Engine in Python
 ---
+
+I wrote an small search engine in Python
+to demonstrate basic concepts of searching.<!--more-->
+
 
 I wrote a little search engine in Python.
 The source is over [here](https://github.com/jorinvo/r/blob/master/search.py).

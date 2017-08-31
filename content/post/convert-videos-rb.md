@@ -1,11 +1,11 @@
 ---
 date: 2014-03-05T00:00:00Z
-description: |
-  Ruby can be a good choice as scripting language
-  and here is an example doing some video conversion.
-  This might be less trivial to implement as shell script.
 title: Convert Videos With Ruby
 ---
+
+Ruby can be a good choice as scripting language and here is an example doing some video conversion.
+This might be less trivial to implement as shell script.<!--more-->
+
 
 Writing short automation scripts is a common task.
 The first language choice is normally a shell script.

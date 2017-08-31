@@ -1,9 +1,10 @@
 ---
 date: 2015-08-08T00:00:00Z
-description: |
-  A summary of what it's like to do an internship in Bangkok, Thailand.
 title: Internship in Bangkok
 ---
+
+A summary of what it's like to do an internship in Bangkok, Thailand.<!--more-->
+
 
 A part of my studies in university is to do an internship abroad for one semester.
 

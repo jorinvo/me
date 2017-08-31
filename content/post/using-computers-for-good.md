@@ -1,9 +1,10 @@
 ---
 date: 2016-01-11T00:00:00Z
-description: |
-  How about focusing on doing something good with our work instead of focusing on money for a change?
 title: Using Computers For Good
 ---
+
+How about focusing on doing something good with our work instead of focusing on money for a change?<!--more-->
+
 
 Most companies in the tech industry are heavily money 💰 driven.
 This companies make 💰 money by tricking their users to use their product for longer. Or they make money 💰 by collecting as much data as possible about their users.

@@ -71,6 +71,11 @@ footer {
   text-align: justify;
 }
 
+.post-content > p:first-child {
+  font-style: italic;
+  font-weight: bold;
+}
+
 .post-footer {
 	margin: 10% auto;
   max-width: 440px;

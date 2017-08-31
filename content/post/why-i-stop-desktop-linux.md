@@ -1,9 +1,10 @@
 ---
 date: 2016-12-16T10:35:36+01:00
-description: |
-  I have been using Linux for a while now. It's almost there. But not yet.
 title: Why I Stopped Using Linux On My Desktop
 ---
+
+I have been using Linux for a while now. It's almost there. But not yet.<!--more-->
+
 
 I have been running Linux on my Macbook exclusively for a year now.
 

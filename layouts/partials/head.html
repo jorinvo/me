@@ -4,7 +4,7 @@
   <title>{{ if not .IsHome }}{{ .Title }} &#8211; {{ end }}{{ .Site.Title }}</title>
 
   {{ if .IsPage }}
-  <meta name="description" content="{{ .Params.description }}">
+  <meta name="description" content="{{ .Summary }}">
   {{ else }}
   <meta name="description" content="{{ .Site.Params.description }}">
   {{ end }}

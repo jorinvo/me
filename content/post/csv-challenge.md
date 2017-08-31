@@ -1,10 +1,11 @@
 ---
 date: 2015-05-09T00:00:00Z
-description: |
-  I created this little experiment to find out about the tools
-  and workflows of other developers.
 title: CSV Challenge
 ---
+
+I created this little experiment to find out about the tools
+and workflows of other developers.<!--more-->
+
 
 I created this little experiment to find out about the tools and the workflow of other developers.
 

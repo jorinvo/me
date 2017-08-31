@@ -1,11 +1,12 @@
 ---
 date: 2014-05-20T00:00:00Z
-description: |
-  I built a simple SVG chart including animations
-  without any SVG Javascript library
-  and it's not as difficult as you might think.
 title: Create Animated SVG Charts
 ---
+
+I built a simple SVG chart including animations
+without any SVG Javascript library
+and it's not as difficult as you might think.<!--more-->
+
 
 SVG is an underrated tool. It seems people are more exited about Canvas because it's simple.
 But SVG lets you do a lot of things with way less effort.

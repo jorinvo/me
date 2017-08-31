@@ -1,8 +1,10 @@
 ---
 date: 2016-01-19T21:22:20+07:00
-description: I will explain a quick-tip to open files in your editor after you found them using grep.
 title: Search with Grep and Edit Files
 ---
+
+I will explain a quick-tip to open files in your editor after you found them using grep.<!--more-->
+
 
 Sometimes `grep` can be the fastest tool to find something.
 

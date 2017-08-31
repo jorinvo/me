@@ -1,10 +1,11 @@
 ---
 date: 2016-01-04T00:00:00Z
-description: |
-  I wrote a little script to make it easier to edit encrypted files.
-  Would be happy about any help to improve this script.
 title: Edit Encrypted Files Quickly
 ---
+
+I wrote a little script to make it easier to edit encrypted files.
+Would be happy about any help to improve this script.<!--more-->
+
 
 I like to store my secrets in encrypted files instead of using some third party service.
 

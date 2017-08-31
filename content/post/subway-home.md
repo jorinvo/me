@@ -1,10 +1,11 @@
 ---
 date: 2016-10-30T20:34:43+01:00
-description: |
-  The other day I was on my way home, sitting on the subway.
-  At the next stop a guy got in and sat down next to me.
 title: A Subway Ride Home
 ---
+
+The other day I was on my way home, sitting on the subway.
+At the next stop a guy got in and sat down next to me.<!--more-->
+
 
 He seemed a bit stressed or even paranoid judging from the way he was looking around the train.
 Right after sitting down he took his laptop out of his backpack.

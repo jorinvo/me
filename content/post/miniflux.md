@@ -1,9 +1,11 @@
 ---
 date: 2015-07-04T00:00:00Z
-description: An introduction to interesting ideas in React world
 title: Miniflux
 comments: true
 ---
+
+An introduction to interesting ideas in React world<!--more-->
+
 
 [React][react] is the latest thing to talk about in Javascript land.
 
