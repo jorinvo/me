@@ -1,6 +1,6 @@
 ---
 date: 2014-12-06T00:00:00Z
-summary: |
+description: |
   When working with new technologies there are always some surprises
   and it might be a good idea to take a moment after the work is done
   to think about what was good and what could be done differently.

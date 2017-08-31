@@ -1,6 +1,6 @@
 ---
 date: 2015-05-09T00:00:00Z
-summary: |
+description: |
   I created this little experiment to find out about the tools
   and workflows of other developers.
 title: CSV Challenge

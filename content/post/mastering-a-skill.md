@@ -1,6 +1,6 @@
 ---
 date: 2016-11-05T13:10:21+01:00
-summary: |
+description: |
   I definitely know how to brush my teeth!  Or do I?  How long does it take to master brushing your teeth?
 title: On Mastering a Skill
 ---

@@ -21,7 +21,7 @@ path="content/${rel}"
 
 hugo new ${rel}
 
-# Drop draft line. Add summary instead.
-sed -e $'4c\\\nsummary: |\n;4i\\\n\ \ ...\n' -i '' ${path}
+# Drop draft line. Add description instead.
+sed -e $'4c\\\ndescription: |\n;4i\\\n\ \ ...\n' -i '' ${path}
 
 $EDITOR ${path}

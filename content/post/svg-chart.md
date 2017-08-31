@@ -1,6 +1,6 @@
 ---
 date: 2014-05-20T00:00:00Z
-summary: |
+description: |
   I built a simple SVG chart including animations
   without any SVG Javascript library
   and it's not as difficult as you might think.

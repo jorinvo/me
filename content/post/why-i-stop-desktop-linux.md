@@ -1,6 +1,6 @@
 ---
 date: 2016-12-16T10:35:36+01:00
-summary: |
+description: |
   I have been using Linux for a while now. It's almost there. But not yet.
 title: Why I Stopped Using Linux On My Desktop
 ---

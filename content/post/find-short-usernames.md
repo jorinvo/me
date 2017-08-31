@@ -1,6 +1,6 @@
 ---
 date: 2016-11-29T14:32:55+01:00
-summary: |
+description: |
   Use the power of Unix to check names for availability.
 title: How to Find Short, Available Handles on Github and Twitter
 ---

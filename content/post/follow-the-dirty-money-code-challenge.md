@@ -1,6 +1,6 @@
 ---
 date: 2017-02-07T15:16:56+01:00
-summary: |
+description: |
   This is a link to the latest code challenge.
 title: "Code Challenge: Follow the Dirty Money"
 ---

@@ -1,6 +1,6 @@
 ---
 date: 2015-07-13T00:00:00Z
-summary: |
+description: |
   Docker and Boom helped me to emulate production conditions
   and track down a tricky bug.
 title: Debug With Docker and Boom

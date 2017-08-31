@@ -1,6 +1,6 @@
 ---
 date: 2017-01-14T20:14:09+01:00
-summary: |
+description: |
   I explain my setup to keep backups of my repositories on my own server.
 title: Automating the Backup of GitHub Repositories Using ghbackup
 ---

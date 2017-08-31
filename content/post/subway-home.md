@@ -1,6 +1,6 @@
 ---
 date: 2016-10-30T20:34:43+01:00
-summary: |
+description: |
   The other day I was on my way home, sitting on the subway.
   At the next stop a guy got in and sat down next to me.
 title: A Subway Ride Home

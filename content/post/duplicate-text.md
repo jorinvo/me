@@ -1,6 +1,6 @@
 ---
 date: 2016-07-02T16:14:30+02:00
-summary: |
+description: |
   This is a quick explanation of a way to repeat text in Unix using `seq` and `xargs`.
 title: Duplicating Text With Unix Tools
 ---

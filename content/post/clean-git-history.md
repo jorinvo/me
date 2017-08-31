@@ -1,6 +1,6 @@
 ---
 date: 2015-05-14T00:00:00Z
-summary: |
+description: |
   If you want to open source a project
   you don't want it to contain any sensitive data.
   I would like to share my workflow to achieve this.

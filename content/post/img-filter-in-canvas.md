@@ -1,6 +1,6 @@
 ---
 date: 2014-01-10T00:00:00Z
-summary: I implemented a few image filters using a canvas element.
+description: I implemented a few image filters using a canvas element.
 title: Filter Images In Canvas
 ---
 

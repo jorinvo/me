@@ -6,8 +6,8 @@
 </div>
 
 <article class="post-content">
-  {{ if .Params.summary }}
-  <b><i>{{ .Params.summary }}</i></b>
+  {{ with .Params.description }}
+  <b><i>{{ . }}</i></b>
   {{ end }}
   {{ .Content }}
 </article>

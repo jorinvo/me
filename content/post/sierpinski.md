@@ -1,6 +1,6 @@
 ---
 date: 2014-04-04T00:00:00Z
-summary: |
+description: |
   This is an implemenation of the Sierpinski Triangle using Pixi.js.
   I added some animations on top of it to demonstrate
   the performance Pixi gives you out of the box.

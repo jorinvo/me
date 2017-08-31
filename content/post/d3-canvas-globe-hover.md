@@ -1,12 +1,12 @@
 ---
 date: 2017-02-02T17:20:45+01:00
-summary: |
+description: |
   D3 is an excellent tool to visalize geo data.
   See how to implement a simple example.
 title: Create a 3D globe with D3.js
 ---
 
-If you every need to visualize some geo data, [D3.js](https://d3js.org) is an excellent tool for this.
+If you ever need to visualize some geo data, [D3.js](https://d3js.org) is an excellent tool for this.
 
 There are libraries and examples out there to do all (or at least most) things you can imagine.
 

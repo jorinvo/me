@@ -1,6 +1,6 @@
 ---
 date: 2016-01-15T21:20:44+07:00
-summary: Here is a quick-tip to see how many lines a Git project contains.
+description: Here is a quick-tip to see how many lines a Git project contains.
 title: Git Cloc
 ---
 

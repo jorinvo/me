@@ -1,6 +1,6 @@
 ---
 date: 2015-06-14T00:00:00Z
-summary: |
+description: |
   This is a summary of my impressions of experimenting with Ruby and Go.
 title: Experiments with Ruby and Go
 comments: true

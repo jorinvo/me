@@ -1,17 +1,25 @@
 <head lang="{{ if hasPrefix .URL "/de" }}de{{ else }}en{{ end }}">
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
   <title>{{ if not .IsHome }}{{ .Title }} &#8211; {{ end }}{{ .Site.Title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   {{ if .IsPage }}
-  <meta name="description" content="{{ .Params.summary }}">
+  <meta name="description" content="{{ .Params.description }}">
   {{ else }}
   <meta name="description" content="{{ .Site.Params.description }}">
   {{ end }}
   <meta name="author" content="{{ .Site.Author.name }}">
 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link href="{{ "index.xml" | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
-  <!-- Custom CSS -->
+  <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  {{ template "_internal/google_news.html" . }}
+  {{ template "_internal/schema.html" . }}
+
   <link href="{{ "css/custom.css" | relURL }}" rel="stylesheet">
 </head>

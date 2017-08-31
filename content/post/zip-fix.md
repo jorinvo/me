@@ -1,6 +1,6 @@
 ---
 date: 2016-01-16T21:20:44+07:00
-summary: Here's a quick-tip to fix a broken zip file.
+description: Here's a quick-tip to fix a broken zip file.
 title: Fix Broken Zip Files
 ---
 
