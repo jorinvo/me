@@ -94,8 +94,7 @@ WantedBy=multi-user.target
 
 ```sh
 systemctl daemon-reload
-systemctl start ghbackup
-systemctl enable ghbackup
+systemctl enable --now ghbackup
 ```
 
 - The service should be running now:

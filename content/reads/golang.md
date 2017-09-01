@@ -3,6 +3,9 @@ type: linklist
 title: Golang
 links:
 
+  - title: "How I built an audio library using the composite pattern and higher-order functions"
+    url: https://faiface.github.io/post/how-i-built-audio-lib-composite-pattern/
+
   - title: '"go test -race" Under the Hood" by Kavya Joshi'
     url: https://www.youtube.com/watch?v=5erqWdlhQLA
 
