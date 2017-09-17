@@ -3,6 +3,9 @@ type: linklist
 title: Golang
 links:
 
+  - title: "The thing about slices"
+    url: https://scene-si.org/2017/08/06/the-thing-about-slices/
+
   - title: "How I built an audio library using the composite pattern and higher-order functions"
     url: https://faiface.github.io/post/how-i-built-audio-lib-composite-pattern/
 

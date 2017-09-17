@@ -3,6 +3,9 @@ type: linklist
 title: Technology
 links:
 
+  - title: "Kill animals and destroy property before hurting humans, Germany tells future self-driving cars"
+    url: https://www.theregister.co.uk/2017/08/24/driverless_cars_ethics_laws_germany/
+
   - title: "New Tech Start-Up Bubble"
     url: https://www.youtube.com/watch?v=G7vrCpWbmDw
 

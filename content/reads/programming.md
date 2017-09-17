@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Dark corners of Unicode"
+    url: https://eev.ee/blog/2015/09/12/dark-corners-of-unicode/
+
+  - title: "Testing in production: Yes, you can (and should)"
+    url: https://opensource.com/article/17/8/testing-production
+
   - title: "Greg Young - The art of destroying software"
     url: https://vimeo.com/108441214
 
