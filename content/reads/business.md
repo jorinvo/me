@@ -3,6 +3,9 @@ type: linklist
 title: Business
 links:
 
+  - title: "Running costs for Candy Japan"
+    url: https://www.candyjapan.com/behind-the-scenes/running-costs-for-candy-japan
+
   - title: "A Note on Programmer Salaries"
     url: http://stephaniehurlburt.com/blog/2016/12/7/a-note-on-programmer-salaries
 

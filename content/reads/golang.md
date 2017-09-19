@@ -3,6 +3,9 @@ type: linklist
 title: Golang
 links:
 
+  - title: "justforfunc #19: mastering io.Pipes"
+    url: https://www.youtube.com/watch?v=LHZ2CAZE6Gs
+
   - title: "The thing about slices"
     url: https://scene-si.org/2017/08/06/the-thing-about-slices/
 
