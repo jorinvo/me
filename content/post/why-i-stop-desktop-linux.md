@@ -1,6 +1,7 @@
 ---
 date: 2016-12-16T10:35:36+01:00
 title: Why I Stopped Using Linux On My Desktop
+unlist: true
 ---
 
 I have been using Linux for a while now. It's almost there. But not yet.<!--more-->
