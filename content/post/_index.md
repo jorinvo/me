@@ -1,4 +1,5 @@
 ---
+title: Posts
 aliases:
   - /posts/
 ---
