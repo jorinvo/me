@@ -3,6 +3,9 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Allocation Efficiency in High-Performance Go Services"
+    url: https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/
+
   - title: "justforfunc #19: mastering io.Pipes"
     url: https://www.youtube.com/watch?v=LHZ2CAZE6Gs
 

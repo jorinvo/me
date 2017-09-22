@@ -3,6 +3,18 @@ type: linklist
 title: Programming
 links:
 
+  - title: "isaacs/Makefile - make tutorial"
+    url: https://gist.github.com/isaacs/62a2d1825d04437c6f08
+
+  - title: "Why Microservices Work For Us"
+    url: https://segment.com/blog/why-microservices/
+
+  - title: "Rebuilding Our Infrastructure with Docker, ECS, and Terraform"
+    url: https://segment.com/blog/rebuilding-our-infrastructure/
+
+  - title: 'Where Is Our “Package Manager for the Cloud?”'
+    url: https://segment.com/blog/where-is-our-package-manager-for-the-cloud/
+
   - title: "Dark corners of Unicode"
     url: https://eev.ee/blog/2015/09/12/dark-corners-of-unicode/
 
