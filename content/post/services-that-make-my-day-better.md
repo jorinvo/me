@@ -3,7 +3,7 @@ title: "Services That Make My Day Better"
 date: 2017-09-25T00:17:41+02:00
 ---
 
-While as a developer I wish I could control all software myself, I like to share a few services that greatly simplify my life and on which I gladly rely on.
+While I wish I could write all software myself, I like to share a few services that greatly simplify my life and on which I gladly rely on.
 
 <!--more-->
 
@@ -16,6 +16,8 @@ you can focus and spend your time working on what you care about the most.
 In this post I like to share my favorite services, which I use on a daily basis for, both, work and personal tasks.
 I'm happy to hear about services that are invaluable to you and about your thoughts on relying on others for software services.
 Just talk to me on [Twitter](https://twitter.com/jorinvo).
+
+<small>(three of the links are referral links)</small>
 
 
 ### [Netlify](https://www.netlify.com/)
