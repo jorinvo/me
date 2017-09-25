@@ -20,6 +20,11 @@ h2 {
 	line-height: 130%;
 }
 
+h3 {
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
 p {
 	margin: 1% 0;
 }

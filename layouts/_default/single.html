@@ -2,13 +2,14 @@
 
 <div class="post-header">
   <h2>{{ .Title }}</h2>
-  <small class="post-meta"><span class="author">{{ .Site.Author.name }} - </span>{{ .Date.Format "Jan 2, 2006" }}</small>
+  <small class="post-meta"><span class="author">{{ .Site.Author.name }}{{ if .Section }} - {{ end }}</span>{{ if .Section }}{{ .Date.Format "Jan 2, 2006" }}{{ end }}</small>
 </div>
 
 <article class="post-content">
   {{ .Content }}
 </article>
 
+{{ if .Section }}
 <div class="post-footer">
   <img src="{{ "images/vo.png" | relURL }}" alt="Jorin Vogel" class="avatar" width="64px" height="64px" style="padding-left: 4px; padding-bottom: 4px; background: black;" />
 
@@ -24,6 +25,7 @@
     Or <a href="https://twitter.com/intent/user?screen_name=jorinvo">follow</a> me on Twitter.
   </p>
 </div>
+{{ end }}
 
 {{ if .Params.comments }}
 <div id="disqus_thread"></div>
