@@ -3,6 +3,9 @@ type: linklist
 title: Writing
 links:
 
+  - title: "Write."
+    url: https://calv.info/write
+
   - title: "Writers Write"
     url: https://dev.to/schneems/writers-write
 

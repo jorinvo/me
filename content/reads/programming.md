@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Apache Kafka, Samza, and the Unix Philosophy of Distributed Data"
+    url: https://www.confluent.io/blog/apache-kafka-samza-and-the-unix-philosophy-of-distributed-data/
+
+  - title: "The Million Dollar Engineering Problem"
+    url: https://segment.com/blog/the-million-dollar-eng-problem/
+
   - title: "isaacs/Makefile - make tutorial"
     url: https://gist.github.com/isaacs/62a2d1825d04437c6f08
 
