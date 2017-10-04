@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "HTTPS on Stack Overflow: The End of a Long Road"
+    url: https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/
+
   - title: "Apache Kafka, Samza, and the Unix Philosophy of Distributed Data"
     url: https://www.confluent.io/blog/apache-kafka-samza-and-the-unix-philosophy-of-distributed-data/
 

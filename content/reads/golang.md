@@ -3,6 +3,9 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Golang UK Conf. 2016 - Jennie Lees - Managing and Scaling Real Time Data Pipelines using Go"
+    url: https://www.youtube.com/watch?v=2s5l9ErNL3s
+
   - title: "Allocation Efficiency in High-Performance Go Services"
     url: https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/
 
