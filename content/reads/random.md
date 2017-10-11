@@ -3,6 +3,9 @@ type: linklist
 title: Random
 links:
 
+  - title: "Tokyo Is Preparing for Floods ‘Beyond Anything We’ve Seen’"
+    url: https://www.nytimes.com/2017/10/06/climate/tokyo-floods.html
+
   - title: "How language can affect the way we think"
     url: http://ideas.ted.com/5-examples-of-how-the-languages-we-speak-can-affect-the-way-we-think/
 

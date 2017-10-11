@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Growing up with Dogma"
+    url: https://mrmrs.github.io/writing/2016/04/26/dogma/
+
   - title: "HTTPS on Stack Overflow: The End of a Long Road"
     url: https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/
 

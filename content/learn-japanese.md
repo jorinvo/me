@@ -9,6 +9,7 @@ title: How I got started studying Japanese
 	-	[Write it! Japanese](https://play.google.com/store/apps/details?id=com.jernung.writeit.jpn) (Android)
 2.	Get started with some basic vocabulary and grammar
 	-	[Memrise](https://www.memrise.com/)
+	-	[Duolingo](https://www.duolingo.com/)
 3.	Learn more about grammar
 	-	[The Surprisingly Simple Logic Behind Japanese Sentence Structure](https://8020japanese.com/japanese-sentence-structure/)
 4.	Learn about these tricky parts
