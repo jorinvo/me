@@ -76,4 +76,4 @@ Typography][typography] as really nice resource to learn how to make text docume
 [md]: http://commonmark.org/
 [markdown-pdf]: https://www.npmjs.com/package/markdown-pdf
 [inotify]: https://github.com/rvoicilas/inotify-tools
-[typography]: http://practicaltypography.com/
+[typography]: https://practicaltypography.com/

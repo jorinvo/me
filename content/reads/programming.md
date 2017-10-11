@@ -61,7 +61,7 @@ links:
     url: https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
 
   - title: "Looking inside machine learning black boxes"
-    url: http://jvns.ca/blog/2016/04/10/why-i-dont-like-black-boxes/
+    url: https://jvns.ca/blog/2016/04/10/why-i-dont-like-black-boxes/
 
   - title: "Ten Rules for Open Source Success"
     url: http://hintjens.com/blog:95
@@ -148,7 +148,7 @@ links:
     url: https://danluu.com/file-consistency/
 
   - title: "How many floating-point numbers are in the interval [0,1]?"
-    url: http://lemire.me/blog/2017/02/28/how-many-floating-point-numbers-are-in-the-interval-01/
+    url: https://lemire.me/blog/2017/02/28/how-many-floating-point-numbers-are-in-the-interval-01/
 
   - title: "A Programmer’s Introduction to Unicode"
     url: http://reedbeta.com/blog/programmers-intro-to-unicode/
@@ -166,7 +166,7 @@ links:
     url: https://danluu.com/wat/
 
   - title: Is PostgreSQL good enough?
-    url: http://renesd.blogspot.de/2017/02/is-postgresql-good-enough.html
+    url: https://renesd.blogspot.de/2017/02/is-postgresql-good-enough.html
 
   - title: "Automatically test your database backups"
     url: https://marco.org/2017/02/01/db-backup-testing
@@ -187,7 +187,7 @@ links:
     url: http://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html
 
   - title: "15 Fundamental Laws of Software Development"
-    url: http://www.exceptionnotfound.net/fundamental-laws-of-software-development/
+    url: https://www.exceptionnotfound.net/fundamental-laws-of-software-development/
 
   - title: "How to trick a neural network into thinking a panda is a vulture"
     url: https://codewords.recurse.com/issues/five/why-do-neural-networks-think-a-panda-is-a-vulture
@@ -211,7 +211,7 @@ links:
     url: https://medium.com/@bartobri/applying-the-linus-tarvolds-good-taste-coding-requirement-99749f37684a
 
   - title: "Logging v. instrumentation"
-    url: http://peter.bourgon.org/blog/2016/02/07/logging-v-instrumentation.html
+    url: https://peter.bourgon.org/blog/2016/02/07/logging-v-instrumentation.html
 
   - title: "Segmenting and refining images with SharpMask"
     url: https://code.facebook.com/posts/561187904071636
@@ -220,13 +220,13 @@ links:
     url: https://en.wikipedia.org/wiki/Unix_philosophy
 
   - title: "Hints for writing Unix tools"
-    url: http://monkey.org/~marius/unix-tools-hints.html
+    url: https://monkey.org/~marius/unix-tools-hints.html
 
   - title: "How To Become A Hacker"
     url: http://catb.org/~esr/faqs/hacker-howto.html
 
   - title: "Writing Less Damn Code"
-    url: http://www.heydonworks.com/article/on-writing-less-damn-code
+    url: https://www.heydonworks.com/article/on-writing-less-damn-code
 
   - title: "It's The Future"
     url: https://circleci.com/blog/its-the-future
@@ -247,10 +247,10 @@ links:
     url: https://jvns.ca/blog/2016/06/13/should-you-be-scared-of-signals/
 
   - title: "Recovering files using /proc (and spying, too!)"
-    url: http://jvns.ca/blog/2014/03/23/recovering-files-using-slash-proc-and-other-useful-facts/
+    url: https://jvns.ca/blog/2014/03/23/recovering-files-using-slash-proc-and-other-useful-facts/
 
   - title: "Debug your programs like they're closed source!"
-    url: http://jvns.ca/blog/2014/04/21/debug-your-programs-like-theyre-closed-source/
+    url: https://jvns.ca/blog/2014/04/21/debug-your-programs-like-theyre-closed-source/
 
   - title: "Data-hacking for The Best Pokémon of All Time"
     url: https://medium.com/@iwishcognitivedissonance/the-best-pok%C3%A9mon-of-all-time-eb222d69bf9#.jxqu0gcs9
@@ -259,7 +259,7 @@ links:
     url: https://medium.com/@mbostock/what-makes-software-good-943557f8a488
 
   - title: "Teaching Robots to Feel: Emoji & Deep Learning ? ? ?"
-    url: http://getdango.com/emoji-and-deep-learning.html
+    url: https://getdango.com/emoji-and-deep-learning.html
 
   - title: "Finding Similar Sounding Names – Some Basics"
     url: http://daynebatten.com/2016/05/finding-similar-sounding-names-basics/
@@ -271,7 +271,7 @@ links:
     url: https://teleport.org/2016/02/visualizing-city-similarity/
 
   - title: "Jake Vanderplas - Statistics for Hackers - PyCon 2016"
-    url: http://www.youtube.com/watch?v=-7I7MWTX0gA
+    url: https://www.youtube.com/watch?v=-7I7MWTX0gA
 
   - title: "How to Fold a Julia Fractal"
     url: https://acko.net/blog/how-to-fold-a-julia-fractal/
@@ -280,10 +280,10 @@ links:
     url: https://www.youtube.com/watch?v=ThS4juptJjQ
 
   - title: "Reverse Engineering A Mysterious UDP Stream in My Hotel"
-    url: http://wiki.gkbrk.com/Hotel_Music.html
+    url: https://wiki.gkbrk.com/Hotel_Music.html
 
   - title: "Have Software Developers Given Up?"
-    url: http://blog.dantup.com/2016/04/have-software-developers-given-up/
+    url: https://blog.dantup.com/2016/04/have-software-developers-given-up/
 
   - title: "I/O matters."
     url: https://jvns.ca/blog/2016/03/23/io-matters/
@@ -298,22 +298,22 @@ links:
     url: http://thecodist.com/article/programming_is_a_dead_end_job
 
   - title: "How the Sunk Cost Fallacy Makes You Act Stupid"
-    url: http://www.lifehack.org/articles/communication/how-the-sunk-cost-fallacy-makes-you-act-stupid.html
+    url: https://www.lifehack.org/articles/communication/how-the-sunk-cost-fallacy-makes-you-act-stupid.html
 
   - title: "My Biggest Regret As A Programmer"
     url: http://thecodist.com/article/my-biggest-regret-as-a-programmer
 
   - title: "I stayed in a hotel with Android lightswitches and it was just as bad as you'd imagine"
-    url: http://mjg59.dreamwidth.org/40505.html
+    url: https://mjg59.dreamwidth.org/40505.html
 
   - title: "Man Combines Random People’s Photos Using Neural Networks And The Results Are Amazing"
-    url: http://www.boredpanda.com/inceptionism-neural-network-deep-dream-art/
+    url: https://www.boredpanda.com/inceptionism-neural-network-deep-dream-art/
 
   - title: "Dsxyliea"
-    url: http://geon.github.io/programming/2016/03/03/dsxyliea
+    url: https://geon.github.io/programming/2016/03/03/dsxyliea
 
   - title: "Everything is broken"
-    url: http://danluu.com/everything-is-broken/
+    url: https://danluu.com/everything-is-broken/
 
   - title: The worst part about programming
     url: https://medium.com/@felixge/the-worst-part-about-programming-cf45854a7814
@@ -322,13 +322,13 @@ links:
     url: https://medium.com/@beaugunderson/things-i-ve-stopped-saying-fa7dea0bf317
 
   - title: "You can't parse HTML with RegEx"
-    url: http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454
+    url: https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454
 
   - title: "Why you should understand (a little) about TCP"
     url: https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/
 
   - title: "Effluents influence affluence : Butterick’s Practical Typography"
-    url: http://practicaltypography.com/effluents-influence-affluence.html
+    url: https://practicaltypography.com/effluents-influence-affluence.html
 
   - title: "Why You Should Choose Your Own HTTPS."
     url: https://helloanselm.com/2016/choose-your-own-https/
@@ -358,13 +358,13 @@ links:
     url: https://www.youtube.com/watch?v=GAXLHM-1Psk
 
   - title: "The Making Of 'In Pieces'"
-    url: http://www.smashingmagazine.com/2015/06/02/the-making-of-in-pieces/
+    url: https://www.smashingmagazine.com/2015/06/02/the-making-of-in-pieces/
 
   - title: "www.subtext-lang.org/OOPSLA04.pdf"
     url: http://www.subtext-lang.org/OOPSLA04.pdf
 
   - title: "Unidirectional User Interface Architectures"
-    url: http://staltz.com/unidirectional-user-interface-architectures.html
+    url: https://staltz.com/unidirectional-user-interface-architectures.html
 
   - title: "'Inside the Wolfram Language' by Stephen Wolfram"
     url: https://www.youtube.com/watch?v=EjCWdsrVcBM
@@ -388,10 +388,10 @@ links:
     url: https://blog.jcoglan.com/2014/06/16/graphical-thinking-optimisation-through-functional-programming/
 
   - title: "The best icon is a text label"
-    url: http://thomasbyttebier.be/blog/the-best-icon-is-a-text-label
+    url: https://thomasbyttebier.be/blog/the-best-icon-is-a-text-label
 
   - title: "Run for simple solutions"
-    url: http://thomasbyttebier.be/blog/run-for-solutions
+    url: https://thomasbyttebier.be/blog/run-for-solutions
 
   - title: "Bash One-Liners Explained, Part III: All about redirections"
     url: http://www.catonmat.net/blog/bash-one-liners-explained-part-three/
@@ -400,7 +400,7 @@ links:
     url: https://www.infoq.com/presentations/Value-Values
 
   - title: "What is your most productive shortcut with Vim?"
-    url: http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
+    url: https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
 
   - title: "The Story Behind How Pocket Hit 20M Users with 20 People"
     url: http://firstround.com/review/the-story-behind-how-pocket-hit-20m-users-with-20-people/
@@ -409,19 +409,19 @@ links:
     url: https://code.facebook.com/posts/745068642270222/fighting-spam-with-haskell/
 
   - title: "Matt's ramblings"
-    url: http://matthewearl.github.io/2015/07/28/switching-eds-with-python/
+    url: https://matthewearl.github.io/2015/07/28/switching-eds-with-python/
 
   - title: "The Verge's web sucks"
-    url: http://blog.lmorchard.com/2015/07/22/the-verge-web-sucks/
+    url: https://blog.lmorchard.com/2015/07/22/the-verge-web-sucks/
 
   - title: "Web Design : The First 100 Years"
     url: http://idlewords.com/talks/web_design_first_100_years.htm
 
   - title: "Dropdowns Should be the UI of Last Resort"
-    url: http://www.lukew.com/ff/entry.asp?1950
+    url: https://www.lukew.com/ff/entry.asp?1950
 
   - title: "Pure UI"
-    url: http://rauchg.com/2015/pure-ui/
+    url: https://rauchg.com/2015/pure-ui/
 
   - title: "Building SVG Icons with React"
     url: http://jxnblk.com/react-icons/
@@ -436,31 +436,31 @@ links:
     url: https://www.youtube.com/watch?v=4E3xfR6IBII
 
   - title: "Rob Pike's 5 Rules of Programming"
-    url: http://users.ece.utexas.edu/~adnan/pike.html
+    url: https://users.ece.utexas.edu/~adnan/pike.html
 
   - title: "9 Anti-Patterns Every Programmer Should Be Aware Of"
     url: http://sahandsaba.com/nine-anti-patterns-every-programmer-should-be-aware-of-with-examples.html
 
   - title: "Running A Software Business On 5 Hours A Week"
-    url: http://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/
+    url: https://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/
 
   - title: "'People Who Like This Also Like ... '"
     url: http://www.benfrederickson.com/distance-metrics/
 
   - title: "FizzBuzz In Too Much Detail — Tom Dalling"
-    url: http://www.tomdalling.com/blog/software-design/fizzbuzz-in-too-much-detail/
+    url: https://www.tomdalling.com/blog/software-design/fizzbuzz-in-too-much-detail/
 
   - title: "The sad state of sysadmin in the age of containers"
-    url: http://www.vitavonni.de/blog/201503/2015031201-the-sad-state-of-sysadmin-in-the-age-of-containers.html
+    url: https://www.vitavonni.de/blog/201503/2015031201-the-sad-state-of-sysadmin-in-the-age-of-containers.html
 
   - title: "The Beauty of Code"
     url: https://www.theparisreview.org/blog/2014/09/05/the-beauty-of-code/
 
   - title: "Process substitution"
-    url: http://en.wikipedia.org/wiki/Process_substitution
+    url: https://en.wikipedia.org/wiki/Process_substitution
 
   - title: "Reverse Engineering Regular Expressions"
-    url: http://tom-lord.weebly.com/blog/reverse-engineering-regular-expressions
+    url: https://tom-lord.weebly.com/blog/reverse-engineering-regular-expressions
 
   - title: "What I’ve learned so far about software development"
     url: https://medium.com/@landongn/12-years-later-what-i-ve-learned-about-being-a-software-engineer-d6e334d6e8a3
@@ -472,31 +472,31 @@ links:
     url: https://rachelbythebay.com/w/2013/06/05/duck/
 
   - title: "What I Wish I Knew When Starting Out as a Software Developer: Slow the Fuck Down"
-    url: http://blog.salsitasoft.com/what-i-wish-i-knew-when-starting-out-as-a-software-developer-slow-the-fuck-down/
+    url: https://blog.salsitasoft.com/what-i-wish-i-knew-when-starting-out-as-a-software-developer-slow-the-fuck-down/
 
   - title: "On Being A Senior Engineer"
-    url: http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/
+    url: https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/
 
   - title: "Is it really 'Complex'? Or did we just make it 'Complicated'?"
     url: https://www.youtube.com/watch?v=ubaX1Smg6pY
 
   - title: "move fast & break nothing"
-    url: http://zachholman.com/talk/move-fast-break-nothing/
+    url: https://zachholman.com/talk/move-fast-break-nothing/
 
   - title: "Learning SVG"
-    url: http://flippinawesome.org/2014/02/03/learning-svg/
+    url: https://flippinawesome.org/2014/02/03/learning-svg/
 
   - title: "Pipes and Filters"
     url: http://blog.petersobot.com/pipes-and-filters
 
   - title: "How I got a medal from the Army for writing code"
-    url: http://vivin.net/2014/06/26/how-i-got-a-medal-for-writing-code/
+    url: https://vivin.net/2014/06/26/how-i-got-a-medal-for-writing-code/
 
   - title: "Python and Flask Are Ridiculously Powerful"
     url: https://jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/
 
   - title: "Math For Programmers"
-    url: http://steve-yegge.blogspot.com/2006/03/math-for-programmers.html
+    url: https://steve-yegge.blogspot.com/2006/03/math-for-programmers.html
 
 ---
 

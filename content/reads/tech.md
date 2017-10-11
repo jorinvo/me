@@ -13,7 +13,7 @@ links:
     url: https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name
 
   - title: "Generative Technology"
-    url: http://progrium.com/blog/2016/04/25/generativity/
+    url: https://progrium.com/blog/2016/04/25/generativity/
 
   - title: "Ever wonder how Bitcoin (and other cryptocurrencies) actually work?"
     url: https://youtu.be/bBC-nXj3Ng4
@@ -58,13 +58,13 @@ links:
     url: https://www.fastcoexist.com/3064558/its-time-to-recognize-that-machines-are-learning-all-the-wrong-things
 
   - title: "SpaceX’s Big Fucking Rocket – The Full Story"
-    url: http://waitbutwhy.com/2016/09/spacexs-big-fking-rocket-the-full-story.html
+    url: https://waitbutwhy.com/2016/09/spacexs-big-fking-rocket-the-full-story.html
 
   - title: "What's for lunch? Private browsing."
     url: http://blog.revolutionanalytics.com/2010/08/whats-for-lunch-private-browsing.html
 
   - title: "Consequences of an Insightful Algorithm"
-    url: http://www.slideshare.net/cczona/consequences-of-an-insightful-algorithm
+    url: https://www.slideshare.net/cczona/consequences-of-an-insightful-algorithm
 
   - title: "Why you shouldn’t share links on Facebook"
     url: https://medium.com/@intideceukelaire/why-you-shouldnt-share-links-on-facebook-f317ba4aa58b
@@ -82,13 +82,13 @@ links:
     url: https://www.fastcoexist.com/3056481/how-the-technology-behind-bitcoin-is-going-to-change-the-lives-of-the-bottom-billion
 
   - title: "Is Brooklyn's Microgrid-On-The-Blockchain The Future Of The Electric System?"
-    url: http://www.fastcoexist.com/3058323/is-brooklyns-microgrid-on-the-blockchain-the-future-of-the-electric-system
+    url: https://www.fastcoexist.com/3058323/is-brooklyns-microgrid-on-the-blockchain-the-future-of-the-electric-system
 
   - title: "Futures of text"
-    url: http://whoo.ps/2015/02/23/futures-of-text
+    url: https://whoo.ps/2015/02/23/futures-of-text
 
   - title: "A Computer Could Have Written All The Speeches You're Going To Hear Before The Election"
-    url: http://www.fastcoexist.com/3055939/a-computer-could-have-written-all-the-speeches-youre-going-to-hear-before-the-election
+    url: https://www.fastcoexist.com/3055939/a-computer-could-have-written-all-the-speeches-youre-going-to-hear-before-the-election
 
   - title: "The resolution of the Bitcoin experiment"
     url: https://medium.com/@octskyward/the-resolution-of-the-bitcoin-experiment-dabb30201f7
@@ -103,19 +103,19 @@ links:
     url: https://medium.com/a-programmers-tale/the-facebook-experiment-has-failed-lets-go-back-f7b8c66109ea
 
   - title: "I spent a weekend at Google talking with nerds about charity. I came away … worried."
-    url: http://www.vox.com/2015/8/10/9124145/effective-altruism-global-ai
+    url: https://www.vox.com/2015/8/10/9124145/effective-altruism-global-ai
 
   - title: "Maybe Better If You Don’t Read This Story on Public WiFi"
     url: https://medium.com/matter/heres-why-public-wifi-is-a-public-health-hazard-dd5b8dcb55e6
 
   - title: "Pirate Bay Founder: ‘I Have Given Up’"
-    url: http://motherboard.vice.com/read/pirate-bay-founder-peter-sunde-i-have-given-up
+    url: https://motherboard.vice.com/read/pirate-bay-founder-peter-sunde-i-have-given-up
 
   - title: "The First Person to Hack the iPhone Built a Self-Driving Car. In His Garage"
-    url: http://www.bloomberg.com/features/2015-george-hotz-self-driving-car/
+    url: https://www.bloomberg.com/features/2015-george-hotz-self-driving-car/
 
   - title: "Macbook charger teardown: The surprising complexity inside Apple's power adapter"
-    url: http://www.righto.com/2015/11/macbook-charger-teardown-surprising.html
+    url: https://www.righto.com/2015/11/macbook-charger-teardown-surprising.html
 
   - title: "What can a technologist do about climate change?"
     url: http://worrydream.com/ClimateChange/
@@ -145,16 +145,16 @@ links:
     url: http://idlewords.com/talks/what_happens_next_will_amaze_you.htm
 
   - title: "Don’t Worry, Smart Machines Will Take Us With Them"
-    url: http://nautil.us/issue/28/2050/dont-worry-smart-machines-will-take-us-with-them
+    url: https://nautil.us/issue/28/2050/dont-worry-smart-machines-will-take-us-with-them
 
   - title: "The Web We Have to Save"
     url: https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426
 
   - title: "If you've got nothing to hide... · Jacques Mattheij"
-    url: http://jacquesmattheij.com/if-you-have-nothing-to-hide
+    url: https://jacquesmattheij.com/if-you-have-nothing-to-hide
 
   - title: "We Should All Have Something To Hide"
-    url: http://www.thoughtcrime.org/blog/we-should-all-have-something-to-hide/
+    url: https://www.thoughtcrime.org/blog/we-should-all-have-something-to-hide/
 
   - title: "How I do my computing"
     url: https://stallman.org/stallman-computing.html
@@ -166,7 +166,7 @@ links:
     url: https://stallman.org/facebook.html
 
   - title: "Why Bitcoin Matters"
-    url: http://mobile.nytimes.com/blogs/dealbook/2014/01/21/why-bitcoin-matters/
+    url: https://mobile.nytimes.com/blogs/dealbook/2014/01/21/why-bitcoin-matters/
 
 ---
 

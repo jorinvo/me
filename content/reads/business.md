@@ -7,7 +7,7 @@ links:
     url: https://www.candyjapan.com/behind-the-scenes/running-costs-for-candy-japan
 
   - title: "A Note on Programmer Salaries"
-    url: http://stephaniehurlburt.com/blog/2016/12/7/a-note-on-programmer-salaries
+    url: https://stephaniehurlburt.com/blog/2016/12/7/a-note-on-programmer-salaries
 
   - title: "Enough"
     url: https://m.signalvnoise.com/enough-1d48019c7335
@@ -43,19 +43,19 @@ links:
     url: https://breakoutcareers.com/
 
   - title: "How I optimised my life to make my job redundant"
-    url: http://www.troyhunt.com/2015/07/how-i-optimised-my-life-to-make-my-job.html
+    url: https://www.troyhunt.com/2015/07/how-i-optimised-my-life-to-make-my-job.html
 
   - title: "The Best Entrepreneur I Know"
     url: http://donpottinger.net/blog/2015/01/19/the-best-entrepreneur-i-know.html
 
   - title: "Engineers Suck at Finding the Right Jobs"
-    url: http://matt.aimonetti.net/posts/2012/11/14/engineers-suck-at-finding-right-jobs/
+    url: https://matt.aimonetti.net/posts/2012/11/14/engineers-suck-at-finding-right-jobs/
 
   - title: "The Programmer’s Price"
-    url: http://www.newyorker.com/magazine/2014/11/24/programmers-price
+    url: https://www.newyorker.com/magazine/2014/11/24/programmers-price
 
   - title: "Value is created by doing"
-    url: http://blog.samaltman.com/value-is-created-by-doing
+    url: https://blog.samaltman.com/value-is-created-by-doing
 
 ---
 

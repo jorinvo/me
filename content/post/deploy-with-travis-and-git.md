@@ -42,7 +42,7 @@ To deploy we need an SSH key that's added to 5apps, but the key shouldn't be pub
 We can hide the key by putting it in an [environment variable][envvars] on Travis CI.
 You just need to make sure to preserve the new lines while adding the key.
 
-Now, in our [deploy script][deploy] we can retrieve the key and use it to push via Git:
+Now, in our deploy script we can retrieve the key and use it to push via Git:
 
 ```bash
 eval "$(ssh-agent -s)" # Start the ssh agent
@@ -55,7 +55,7 @@ git push deploy master
 
 With this set up, we don't need to deploy manually ever again.
 
-All we need to do, is to publish our latest changes on the [`master`][master] branch.
+All we need to do, is to publish our latest changes on the `master` branch.
 
 
 
@@ -65,6 +65,3 @@ All we need to do, is to publish our latest changes on the [`master`][master] br
 [5apps]: https://5apps.com/deploy/home
 [travisyml]: https://github.com/litewrite/litewrite/blob/gh-pages/.travis.yml
 [envvars]: https://docs.travis-ci.com/user/environment-variables/#Defining-Variables-in-Repository-Settings
-[deploy]: https://github.com/litewrite/litewrite/blob/gh-pages/scripts/deploy.sh
-[master]: https://github.com/litewrite/litewrite/tree/master
-

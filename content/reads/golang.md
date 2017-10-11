@@ -33,9 +33,6 @@ links:
   - title: "GopherCon 2017: Fatih Arslan - Writing a Go Tool to Parse and Modify Struct Tags"
     url: https://www.youtube.com/watch?v=T4AIQ4RHp-c
 
-  - title: "Map of Golang interfaces"
-    url: https://superstas.github.io/io_interfaces.html
-
   - title: "Strace in 60 lines of Go"
     url: https://hackernoon.com/strace-in-60-lines-of-go-b4b76e3ecd64
 
@@ -43,7 +40,7 @@ links:
     url: https://www.youtube.com/watch?v=a9xrxRsIbSU
 
   - title: "How to not use an http-router in Go"
-    url: http://blog.merovius.de/2017/06/18/how-not-to-use-an-http-router.html
+    url: https://blog.merovius.de/2017/06/18/how-not-to-use-an-http-router.html
 
   - title: "Kevin Gillette - Effective Go Error Handling"
     url: https://www.youtube.com/watch?v=hDC7IF3OQLM
@@ -76,7 +73,7 @@ links:
     url: https://dave.cheney.net/2016/04/07/constant-errors
 
   - title: "A theory of modern Go"
-    url: http://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html
+    url: https://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html
 
   - title: "Implementing a bignum calculator - Rob Pike - golang-syd November 2014"
     url: https://www.youtube.com/watch?v=PXoG0WX0r_E
@@ -130,10 +127,10 @@ links:
     url: https://www.youtube.com/watch?v=lsBF58Q-DnY
 
   - title: "Lexical Scanning in Go - Rob Pike"
-    url: http://www.youtube.com/watch?v=HxaD_trXwRE&feature=youtu.be
+    url: https://www.youtube.com/watch?v=HxaD_trXwRE&feature=youtu.be
 
   - title: "Codewalk: First-Class Functions in Go"
-    url: http://golang.org/doc/codewalk/functions/
+    url: https://golang.org/doc/codewalk/functions/
 
 ---
 
