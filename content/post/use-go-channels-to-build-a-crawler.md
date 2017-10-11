@@ -21,14 +21,20 @@ The crawler is a settings `struct` with a single function.
 ```go
 type Crawler struct {
 	Sites    []string  // At least one URL.
-	Out      io.Writer // Required. Writes one detected site per line.
+	Out      io.Writer // Writes one site per line.
 }
 
 func (c Crawler) Run {}
 ```
 
 *The above is similar to having a function that takes the settings as argument,
-but it allows users of the package to write `httpsyet.Crawler{}.Run()` instead of `httpsyet.Run(httpsyet.Crawler{})`.*
+but it allows users of the package to write
+<br>
+`httpsyet.Crawler{}.Run()`
+<br>
+instead of
+<br>
+`httpsyet.Run(httpsyet.Crawler{})`.*
 
 Now let's see how we can use channels to implement the architecture:
 
@@ -44,7 +50,7 @@ defer close(results)
 go func() {
   for r := range results {
     if _, err := fmt.Fprintln(c.Out, r); err != nil {
-      c.Log.Printf("failed to write output '%s': %v\n", r, err)
+      c.Log.Printf("failed to output '%s': %v\n", r, err)
     }
   }
 }()
@@ -130,7 +136,12 @@ With this setup, we start `10` workers and block until all of them exit.
 Each work looks like this (error handling and logging is removed here):
 
 ```go
-func (c Crawler) worker(sites <-chan site, queue chan<- site, results chan<- string, wait chan<- int) {
+func (c Crawler) worker(
+  sites <-chan site,
+  queue chan<- site,
+  results chan<- string,
+  wait chan<- int,
+) {
   for s := range sites {
     urls, shouldUpdate := crawlSite(s)
 
@@ -175,6 +186,6 @@ for _, u := range urls {
 ```
 
 Not all details of the implementation have been covered here and I encourage you to have a look at the source [on Github](https://github.com/qvl/httpsyet).
-This article focuses on the usage of channels to handle communication in a concurrent scenario, that requires a little more than a single channel (4 channels and 1 `WaitGroup`, to be exact).
-<br>
+This article focuses on the usage of channels to handle communication in a concurrent scenario, that requires a little more than a single channel, 4 channels and 1 `WaitGroup`, to be exact.
+
 Please let me know if you have any questions and I would be really interested to hear about other solutions for this scenario!
