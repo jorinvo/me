@@ -133,7 +133,7 @@ wg.Wait()
 
 With this setup, we start `10` workers and block until all of them exit.
 
-Each work looks like this (error handling and logging is removed here):
+Each worker looks like this (error handling and logging is removed here):
 
 ```go
 func (c Crawler) worker(
