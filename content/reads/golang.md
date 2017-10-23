@@ -3,13 +3,22 @@ type: linklist
 title: Golang
 links:
 
-  - title: "Golang UK Conf. 2016 - Jennie Lees - Managing and Scaling Real Time Data Pipelines using Go"
+  - title: "Profiling Go programs with pprof"
+    url: https://jvns.ca/blog/2017/09/24/profiling-go-with-pprof/
+
+  - title: "Ways To Do Things - Peter Bourgon"
+    url: https://www.youtube.com/watch?v=LHe1Cb_Ud_M
+
+  - title: "An in-Depth look at our Docker and ECS stack for Golang"
+    url: https://medium.com/smsjunk/an-in-depth-look-at-our-docker-and-ecs-stack-for-golang-b89dfe7cff5c
+
+  - title: "Jennie Lees - Managing and Scaling Real Time Data Pipelines using Go"
     url: https://www.youtube.com/watch?v=2s5l9ErNL3s
 
   - title: "Allocation Efficiency in High-Performance Go Services"
     url: https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/
 
-  - title: "justforfunc #19: mastering io.Pipes"
+  - title: "mastering io.Pipes"
     url: https://www.youtube.com/watch?v=LHZ2CAZE6Gs
 
   - title: "The thing about slices"

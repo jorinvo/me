@@ -3,6 +3,24 @@ type: linklist
 title: Programming
 links:
 
+  - title: 'Monitoring in the time of Cloud Native'
+    url: https://medium.com/@copyconstruct/the-death-of-ops-is-greatly-exaggerated-ff3bd4a67f24
+
+  - title: 'Everyone is not Ops'
+    url: https://medium.com/@copyconstruct/monitoring-in-the-time-of-cloud-native-c87c7a5bfa3e
+
+  - title: 'My Philosophy on Alerting'
+    url: https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q
+
+  - title: 'An Introduction to Raft by Diego Ongaro, creator of Raft'
+    url: https://www.youtube.com/watch?v=6bBggO6KN_k
+
+  - title: 'Effective Programs - 10 Years of Clojure - Rich Hickey'
+    url: https://www.youtube.com/watch?v=2V1FtfBDsLU
+
+  - title: '"Managing Containers at Scale with CoreOS and Kubernetes" by Kelsey Hightower'
+    url: https://www.youtube.com/watch?v=pozC9rBvAIs
+
   - title: "Growing up with Dogma"
     url: https://mrmrs.github.io/writing/2016/04/26/dogma/
 

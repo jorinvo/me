@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "the depression thing"
+    url: https://zachholman.com/posts/the-depression-thing
+
   - title: "10,000 Hours With Claude Shannon: How A Genius Thinks, Works, and Lives"
     url: https://medium.com/the-mission/10-000-hours-with-claude-shannon-12-lessons-on-life-and-learning-from-a-genius-e8b9297bee8f
 
