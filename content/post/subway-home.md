@@ -1,6 +1,7 @@
 ---
 date: 2016-10-30T20:34:43+01:00
 title: A Subway Ride Home
+unlist: true
 ---
 
 The other day I was on my way home, sitting on the subway.

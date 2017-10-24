@@ -1,6 +1,7 @@
 ---
 title: "Note Taking"
 date: 2017-08-07T15:50:00+02:00
+unlist: true
 ---
 
 I created a note taking application, but stopped using it.
