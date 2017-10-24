@@ -4,10 +4,10 @@ title: Programming
 links:
 
   - title: 'Monitoring in the time of Cloud Native'
-    url: https://medium.com/@copyconstruct/the-death-of-ops-is-greatly-exaggerated-ff3bd4a67f24
+    url: https://medium.com/@copyconstruct/monitoring-in-the-time-of-cloud-native-c87c7a5bfa3e
 
   - title: 'Everyone is not Ops'
-    url: https://medium.com/@copyconstruct/monitoring-in-the-time-of-cloud-native-c87c7a5bfa3e
+    url: https://medium.com/@copyconstruct/the-death-of-ops-is-greatly-exaggerated-ff3bd4a67f24
 
   - title: 'My Philosophy on Alerting'
     url: https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q
