@@ -3,7 +3,7 @@ title: "Automate Your Mac Setup and Keep It Up to Date"
 date: 2017-10-28T14:46:30+02:00
 ---
 
-Let me show you how I automate the setup of my development environment.
+Let me show you how I automate the setup of my development environment.<!--more-->
 
 It is rather common that companies have scripts to get their developer machines up and running. Many of us also create our own version to have our personal setup running on a new computer quickly.
 
