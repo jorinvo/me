@@ -3,6 +3,15 @@ type: linklist
 title: Programming
 links:
 
+  - title: "The QA mindset: designing for reliability"
+    url: https://www.fastly.com/blog/q-mindset-designing-reliability/
+
+  - title: "Scaling Unsplash with a small team"
+    url: https://medium.com/unsplash-unfiltered/scaling-unsplash-with-a-small-team-fbdd55571906
+
+  - title: "Metrics: not the observability droids you're looking for | Honeycomb"
+    url: https://honeycomb.io/blog/2017/10/metrics-not-the-observability-droids-youre-looking-for/
+
   - title: 'Monitoring in the time of Cloud Native'
     url: https://medium.com/@copyconstruct/monitoring-in-the-time-of-cloud-native-c87c7a5bfa3e
 

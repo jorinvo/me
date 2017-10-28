@@ -1,6 +1,7 @@
 ---
 date: 2014-04-04T00:00:00Z
 title: Animated Sir Sierpinski Triangle
+unlist: true
 ---
 
 This is an implemenation of the Sierpinski Triangle using Pixi.js.
