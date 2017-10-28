@@ -6,13 +6,13 @@ enableRobotsTXT: true
 
 author:
   name: Jorin Vogel
+  email: hi@jorin.me
 
 permalinks:
   post: /:filename/
 
 params:
   description: Writings about language, text interfaces, taming computers, testing and more things
-  email: hi@jorin.me
   github: jorinvo
   twitter: jorinvo
   disqus: jorinvo
