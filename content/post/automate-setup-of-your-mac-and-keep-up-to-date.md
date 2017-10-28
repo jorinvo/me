@@ -87,5 +87,5 @@ fi
 nvim +PlugInstall +PlugUpgrade +PlugUpdate +PlugClean! +UpdateRemotePlugins +qall
 ```
 
-Have a look at my [dotfiles](https://github.com/jorinvo/dotfiles) to find out more. Maybe you find some new trick to add to your Vim or bash setup.
-I would love to hear from you about some part of your setup that you automated, please  let me know [on Twitter](https://twitter.com/jorinvo).
+Have a look at my [dotfiles](https://github.com/jorinvo/dotfiles) to find out more. Maybe you find some new trick to add to your Vim or Bash setup.
+I would love to hear from you about some part of your setup that you automated!
