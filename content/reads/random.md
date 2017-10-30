@@ -3,6 +3,9 @@ type: linklist
 title: Random
 links:
 
+  - title: "HOW TO SIMULATE THE UNIVERSE IN 134 EASY STEPS"
+    url: http://ncase.me/OVC2016/
+
   - title: "Tokyo Is Preparing for Floods ‘Beyond Anything We’ve Seen’"
     url: https://www.nytimes.com/2017/10/06/climate/tokyo-floods.html
 

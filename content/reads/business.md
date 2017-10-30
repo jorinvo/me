@@ -3,6 +3,9 @@ type: linklist
 title: Business
 links:
 
+  - title: "How we Bootstrapped our SaaS Startup to Ramen Profitability"
+    url: https://blog.canny.io/saas-startup-ramen-profitability/
+
   - title: "Running costs for Candy Japan"
     url: https://www.candyjapan.com/behind-the-scenes/running-costs-for-candy-japan
 

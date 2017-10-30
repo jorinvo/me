@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "Randy Pausch Last Lecture: Achieving Your Childhood Dreams"
+    url: https://www.youtube.com/watch?v=ji5_MqicxSo
+
   - title: "the depression thing"
     url: https://zachholman.com/posts/the-depression-thing
 

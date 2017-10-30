@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Best practices for staging environments"
+    url: https://increment.com/development/center-stage-best-practices-for-staging-environments/
+
+  - title: "Clojure vs. The Static Typing World"
+    url: http://www.lispcast.com/clojure-and-types
+
   - title: "The QA mindset: designing for reliability"
     url: https://www.fastly.com/blog/q-mindset-designing-reliability/
 
