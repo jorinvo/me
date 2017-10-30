@@ -121,13 +121,5 @@ I hope this is helpful to others as well.
 Please let me know if you run into any problems!
 
 
-<script>
-  document.querySelectorAll('code').forEach(function(el) {
-    el.contentEditable = true
-  })
-</script>
-
-
-
 [g]: https://qvl.io/ghbackup
 [s]: https://qvl.io/sleepto

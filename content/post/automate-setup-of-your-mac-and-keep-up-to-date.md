@@ -33,7 +33,7 @@ link_to() {
 }
 ```
 
-[Homebrew](https://brew.sh/) should only install packages not already installed (If you are not using `brew` yet, do yourself a favor, stop right now and check it out; you don't want to install software without it). In my case I keep the packages in a separate [`brew.txt`](https://github.com/jorinvo/dotfiles/blob/master/brew.txt) file. To install only new packages I filter them like this:
+[Homebrew](https://brew.sh/) should only install packages not already installed. If you are not using Homebrew yet, do yourself a favor, stop right now and check it out. You don't want to install software without it. In my case I keep the packages in a separate [`brew.txt`](https://github.com/jorinvo/dotfiles/blob/master/brew.txt) file. To install only new packages I filter them like this:
 
 ```sh
 comm -23 \

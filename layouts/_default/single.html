@@ -1,8 +1,8 @@
 {{ partial "top.html" . }}
 
 <div class="post-header">
-  <h2>{{ .Title }}</h2>
   <small class="post-meta"><span class="author">{{ .Site.Author.name }}{{ if .Section }} - {{ end }}</span>{{ if .Section }}{{ .Date.Format "Jan 2, 2006" }}{{ end }}</small>
+  <h2>{{ .Title }}</h2>
 </div>
 
 <article class="post-content">
@@ -16,13 +16,9 @@
   <p>
     Hi, I'm Jorin.
     <br>
-    I write about automation, testing,
+    I write about automation, testing, data and everything else.
     <br>
-    data and everything else.
-    <br>
-    Feel free to send me a <a href="mailto:{{ .Site.Author.email }}">mail</a>.
-    <br>
-    Or <a href="https://twitter.com/intent/user?screen_name=jorinvo">follow</a> me on Twitter.
+    Feel free to send me a <a href="mailto:{{ .Site.Author.email }}">mail</a> or follow me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">Twitter</a>.
   </p>
 </div>
 {{ end }}

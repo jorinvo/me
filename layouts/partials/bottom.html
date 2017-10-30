@@ -1,12 +1,18 @@
   <footer>
-    Use Github to
+    use Github to
     {{ if .IsPage }}
     <a href="https://github.com/{{ .Site.Params.github }}/me/edit/master/content/{{ .File.Path }}">
       edit the article source
     </a>
     or
     {{ end }}
-    <a href="https://github.com/{{ .Site.Params.github }}/me/issues">give me feedback</a>.
+    <a href="https://github.com/{{ .Site.Params.github }}/me/issues">give me feedback</a>
   </footer>
+
+  <script>
+    document.querySelectorAll('code').forEach(function(el) {
+      el.contentEditable = true
+    })
+  </script>
 </body>
 </html>

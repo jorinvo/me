@@ -3,10 +3,12 @@ title: "Use Go Channels to Build a Crawler"
 date: 2017-10-11T13:38:24+02:00
 ---
 
+Learn how to use channels to model your data flow by building a web crawler in Go.<!--more-->
+
 The other day I built a crawler that checks links on your website to see if there are any links that you can update from HTTP to HTTPS.
 You can find it at [qvl.io/httpsyet](https://qvl.io/httpsyet).
 
-I came up with an implementation that abstracts the coordination using channels and I would like to share it in this article.<!--more-->
+I came up with an implementation that abstracts the coordination using channels and I would like to share it in this article.
 
 Let's start with the requirements:
 
@@ -27,16 +29,11 @@ type Crawler struct {
 func (c Crawler) Run {}
 ```
 
-*The above is similar to having a function that takes the settings as argument,
-but it allows users of the package to write
+The above is similar to having a function that takes the settings as argument, but it allows users of the package to write `httpsyet.Crawler{}.Run()`
 <br>
-`httpsyet.Crawler{}.Run()`
-<br>
-instead of
-<br>
-`httpsyet.Run(httpsyet.Crawler{})`.*
+instead of `httpsyet.Run(httpsyet.Crawler{})`.
 
-Now let's see how we can use channels to implement the architecture:
+Now let's see how we can use channels to implement the architecture.
 
 First, we want to output all URLs that can be updated.
 We don't simply return them synchronous from the `Run` function,
@@ -109,10 +106,10 @@ However using a `map` with empty `struct{}` as value type can be used instead.
 Internally `makeQueue` keeps a counter of how many more site will be queued.
 By sending values to `wait`, we can change that counter.
 For every site that we crawled we send `wait <- -1` and for all new sites we queue we send `wait <- len(sites)`.
-As soon as the counter reaches `0`, we know there will be no more sites to crawl.
+As soon as the counter reaches 0, we know there will be no more sites to crawl.
 - Since we have the `wait` channel, which tracks when we are done crawling, all channels can be closed internally once done.
 The caller of `makeQueue` never has to close any channel.
-The caller can simply *range* over `sites` until the `wait` counter reaches `0`.
+The caller can simply *range* over `sites` until the `wait` counter reaches 0.
 
 Next, we want to start a number of workers that crawl sites in parallel.
 This is such a common scenario that there is a tool for it in the Go standard library, [`WaitGroup`](https://golang.org/pkg/sync/#WaitGroup).
@@ -131,9 +128,9 @@ for i := 0; i < 10; i++ {
 wg.Wait()
 ```
 
-With this setup, we start `10` workers and block until all of them exit.
+With this setup, we start 10 workers and block until all of them exit.
 
-Each worker looks like this (error handling and logging is removed here):
+Each worker looks like the following. Error handling and logging is removed here.
 
 ```go
 func (c Crawler) worker(
@@ -158,16 +155,15 @@ func (c Crawler) worker(
 
 The workers internally *range* over the `sites` channel,
 which means that all workers run until `sites` is closed.
-As described before, `sites` is closed automatically in `makeQueue` as soon as the wait counter reaches `0`.
+As described before, `sites` is closed automatically in `makeQueue` as soon as the wait counter reaches 0.
 <br>
 The workers send links that can be updated to HTTPS to the `results` channel.
-<br>
 And each worker queues the links found on a site.
 The queuing itself happens in a separate Goroutine, which simply sends the links to `queue`.
 By updating the wait count before queuing, the queue knows that there are more sites to come.
 
-Note that `wait <- len(urls) - 1` combines counting down (`-1`) for the current site and counting up for all sites to be queued.
-If we would count down before counting up, the wait counter could reach `0` before we are actually done.
+Note that `wait <- len(urls) - 1` combines counting down -1 for the current site and counting up for all sites to be queued.
+If we would count down before counting up, the wait counter could reach 0 before we are actually done.
 
 We could also use a [buffered channel](https://gobyexample.com/channel-buffering) instead of queuing in the background,
 but this would force us to set a fixed buffer size.
@@ -186,6 +182,6 @@ for _, u := range urls {
 ```
 
 Not all details of the implementation have been covered here and I encourage you to have a look at the source [on Github](https://github.com/qvl/httpsyet).
-This article focuses on the usage of channels to handle communication in a concurrent scenario, that requires a little more than a single channel, 4 channels and 1 `WaitGroup`, to be exact.
+This article focuses on the usage of channels to handle communication in a concurrent scenario, that requires a little more than a single channel, four channels and one `WaitGroup` to be exact.
 
 Please let me know if you have any questions and I would be really interested to hear about other solutions for this scenario!

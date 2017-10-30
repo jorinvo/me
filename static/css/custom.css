@@ -1,22 +1,19 @@
 body {
-	font-family: monospace;
+  font-family: 'PT Serif', serif;
 	max-width: 600px;
 	margin: auto;
 	padding: 2% 5%;
-	line-height: 150%;
+	line-height: 140%;
 	font-size: 120%;
 }
 
 h1 {
 	color: black;
-}
-
-header h1 {
   display: inline-block;
 }
 
 h2 {
-	margin: 1% 0;
+	margin: 1% 0 0 0;
 	line-height: 130%;
 }
 
@@ -26,24 +23,29 @@ h3 {
 }
 
 p {
-	margin: 1% 0;
+	margin: 3% 0;
 }
 
 a {
 	text-decoration: none;
+  color: #2f2fd2;
 }
 
-a:focus {
+a:focus, a:hover {
   outline: none;
-  background: #bfbfbf;
+  text-decoration: underline;
 }
 
-a:focus > * {
-  background: #bfbfbf;
+a.alternate:focus,
+a.alternate:hover,
+a.alternate:focus > *,
+a.alternate:hover > * {
+	text-decoration: none;
+  background: #f3f3f3;
 }
 
 small {
-	font-size: 80%;
+	font-size: 64%;
 }
 
 li {
@@ -55,9 +57,9 @@ header {
 }
 
 footer {
-	margin-top: 10%;
+	margin-top: 24%;
 	text-align: center;
-	font-size: 80%;
+	font-size: 76%;
 }
 
 .post-link {
@@ -65,11 +67,11 @@ footer {
 }
 
 .post {
-	margin: 5% 0;
+	margin: 8% 0;
 }
 
 .post-header {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .post-content {
@@ -78,15 +80,13 @@ footer {
 
 .post-content > p:first-child {
   font-style: italic;
-  font-weight: bold;
 }
 
 .post-footer {
-	margin: 10% auto;
-  max-width: 440px;
+	margin: 24% auto;
 	text-align: center;
 	font-style: italic;
-	font-size: 80%;
+	font-size: 76%;
 }
 
 .author {
@@ -99,6 +99,7 @@ footer {
 
 .social a {
   margin-right: 2%;
+  font-style: italic;
 }
 
 .highlight {
@@ -111,8 +112,10 @@ footer {
   overflow-x: auto;
 }
 
-code {
-  color: grey;
+code, pre {
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 90%;
+  color: #686868;
 }
 
 code:focus {

@@ -2,13 +2,11 @@
 
 <div class="posts">
   {{ range where (where .Data.Pages "Section" "post") ".Params.unlist" "!=" "true"}}
-  <a href="{{ .Permalink }}" class="post-link">
+  <a href="{{ .Permalink }}" class="post-link alternate">
     <div class="post">
       <small class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</small>
       <h2 class="post-title">{{ .Title }}</h2>
-      <p class="post-summary">
-      {{ .Summary }}
-      </p>
+      <div class="post-summary">{{ .Summary }}</div>
     </div>
   </a>
   {{ end }}
