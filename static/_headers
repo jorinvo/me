@@ -4,5 +4,5 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: unsafe-url
-  Content-Security-Policy: default-src 'self' www.google.com/s2/favicons codepen.io *.codepen.io *.github.com disqus.com *.disqus.com *.disquscdn.com *.cloudfront.net fonts.googleapis.com 'unsafe-inline' 'unsafe-eval';
+  Content-Security-Policy: default-src 'self' www.google.com/s2/favicons codepen.io *.codepen.io *.github.com disqus.com *.disqus.com *.disquscdn.com *.cloudfront.net fonts.googleapis.com fonts.gstatic.com 'unsafe-inline' 'unsafe-eval';
 
