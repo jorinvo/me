@@ -45,7 +45,7 @@ a.alternate:hover > * {
 }
 
 small {
-	font-size: 64%;
+	font-size: 70%;
 }
 
 li {
@@ -59,7 +59,7 @@ header {
 footer {
 	margin-top: 24%;
 	text-align: center;
-	font-size: 76%;
+	font-size: 80%;
 }
 
 .post-link {
@@ -86,7 +86,7 @@ footer {
 	margin: 24% auto;
 	text-align: center;
 	font-style: italic;
-	font-size: 76%;
+	font-size: 80%;
 }
 
 .author {
