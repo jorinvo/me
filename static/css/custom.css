@@ -50,6 +50,7 @@ small {
 
 li {
   padding: 1% 0;
+  list-style: circle;
 }
 
 header {
