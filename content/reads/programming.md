@@ -9,13 +9,13 @@ links:
   - title: "Clojure vs. The Static Typing World"
     url: http://www.lispcast.com/clojure-and-types
 
-  - title: "The QA mindset: designing for reliability"
+  - title: "Designing for Reliability"
     url: https://www.fastly.com/blog/q-mindset-designing-reliability/
 
   - title: "Scaling Unsplash with a small team"
     url: https://medium.com/unsplash-unfiltered/scaling-unsplash-with-a-small-team-fbdd55571906
 
-  - title: "Metrics: not the observability droids you're looking for | Honeycomb"
+  - title: "Metrics: not the observability droids you're looking for"
     url: https://honeycomb.io/blog/2017/10/metrics-not-the-observability-droids-youre-looking-for/
 
   - title: 'Monitoring in the time of Cloud Native'
@@ -39,7 +39,7 @@ links:
   - title: "Growing up with Dogma"
     url: https://mrmrs.github.io/writing/2016/04/26/dogma/
 
-  - title: "HTTPS on Stack Overflow: The End of a Long Road"
+  - title: "HTTPS on Stack Overflow"
     url: https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/
 
   - title: "Apache Kafka, Samza, and the Unix Philosophy of Distributed Data"
@@ -48,7 +48,7 @@ links:
   - title: "The Million Dollar Engineering Problem"
     url: https://segment.com/blog/the-million-dollar-eng-problem/
 
-  - title: "isaacs/Makefile - make tutorial"
+  - title: "make tutorial"
     url: https://gist.github.com/isaacs/62a2d1825d04437c6f08
 
   - title: "Why Microservices Work For Us"
@@ -63,7 +63,7 @@ links:
   - title: "Dark corners of Unicode"
     url: https://eev.ee/blog/2015/09/12/dark-corners-of-unicode/
 
-  - title: "Testing in production: Yes, you can (and should)"
+  - title: "Testing in production"
     url: https://opensource.com/article/17/8/testing-production
 
   - title: "Greg Young - The art of destroying software"
@@ -71,6 +71,9 @@ links:
 
   - title: "The limitations of deep learning"
     url: https://blog.keras.io/the-limitations-of-deep-learning.html
+
+  - title: "Simple but Handy Postgres Features"
+    url: http://www.craigkerstiens.com/2017/01/08/simple-but-handy-postgresql-features/
 
   - title: "OK Log"
     url: https://peter.bourgon.org/ok-log/
@@ -108,7 +111,7 @@ links:
   - title: "Docs, Docs, Docs!"
     url: https://medium.com/@mikeal/docs-docs-docs-1e06d17fa06f
 
-  - title: "ElixirConf 2015 - Keynote: Elixir Should Take Over the World by Jessica Kerr"
+  - title: "Elixir Should Take Over the World by Jessica Kerr"
     url: https://www.youtube.com/watch?v=X25xOhntr6s
 
   - title: "Lessons From A Lifetime Of Being A Programmer"
@@ -116,12 +119,6 @@ links:
 
   - title: "Joe Armstrong interviews Alan Kay"
     url: https://www.youtube.com/watch?v=fhOHn9TClXY
-
-  - title: "Learn the ways of Linux-fu, for free."
-    url: https://linuxjourney.com/
-
-  - title: "500 Lines or Less - Experienced Programmers Solve Interesting Problems"
-    url: https://github.com/aosabook/500lines
 
   - title: "In Pursuit of Production Minimalism"
     url: https://brandur.org/minimalism
@@ -144,7 +141,7 @@ links:
   - title: "Understand Go pointers in less than 800 words or your money back"
     url: https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back
 
-  - title: "Everyday Git: Search the git log from the command line"
+  - title: "Search the git log from the command line"
     url: https://everydayrails.com/2017/01/02/git-command-line-log-search.html
 
   - title: "A Note About Git Commit Messages"
@@ -173,9 +170,6 @@ links:
 
   - title: "Why Use Make"
     url: https://bost.ocks.org/mike/make/
-
-  - title: "Oh shit, git!"
-    url: http://ohshitgit.com/
 
   - title: "File crash consistency and filesystems are hard"
     url: https://danluu.com/file-consistency/
@@ -210,7 +204,7 @@ links:
   - title: "A few drawings about Linux"
     url: https://jvns.ca/blog/2016/11/10/a-few-drawings-about-linux/
 
-  - title: "DATA: The amazing power of word vectors"
+  - title: "The amazing power of word vectors"
     url: https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/
 
   - title: "What Does an Idle CPU Do?"
@@ -225,7 +219,7 @@ links:
   - title: "How to trick a neural network into thinking a panda is a vulture"
     url: https://codewords.recurse.com/issues/five/why-do-neural-networks-think-a-panda-is-a-vulture
 
-  - title: "/dev/lawyer The MIT License, Line by Line"
+  - title: "The MIT License, Line by Line"
     url: https://writing.kemitchell.com/2016/09/21/MIT-License-Line-by-Line.html
 
   - title: "Diving into concurrency: trying out mutexes and atomics"
@@ -237,7 +231,7 @@ links:
   - title: "Machine Learning for Emoji Trends"
     url: https://medium.com/@InstagramEng/machine-learning-for-emoji-trends-e676ac35e1d7/
 
-  - title: "Analyzing the Graph of Thrones · William Lyon"
+  - title: "Analyzing the Graph of Thrones"
     url: http://www.lyonwj.com/2016/06/26/graph-of-thrones-neo4j-social-network-analysis/
 
   - title: "Applying the Linus Torvalds “Good Taste” Coding Requirement"
@@ -267,19 +261,16 @@ links:
   - title: "Web Design in 4 minutes"
     url: http://jgthms.com/web-design-in-4-minutes/
 
-  - title: "Taking The Robots To Design School, Part 1"
+  - title: "Taking The Robots To Design School"
     url: http://www.jon.gold/2016/05/robot-design-school/
 
   - title: "Joe Armstrong - Erlang and other stuff"
     url: http://joearms.github.io/2014/02/07/why-programming-is-difficult.html
 
-  - title: "Vim Koans"
-    url: https://sanctum.geek.nz/arabesque/vim-koans/
-
   - title: "Should you be scared of Unix signals?"
     url: https://jvns.ca/blog/2016/06/13/should-you-be-scared-of-signals/
 
-  - title: "Recovering files using /proc (and spying, too!)"
+  - title: "Recovering files using /proc"
     url: https://jvns.ca/blog/2014/03/23/recovering-files-using-slash-proc-and-other-useful-facts/
 
   - title: "Debug your programs like they're closed source!"
@@ -291,10 +282,10 @@ links:
   - title: "What Makes Software Good?"
     url: https://medium.com/@mbostock/what-makes-software-good-943557f8a488
 
-  - title: "Teaching Robots to Feel: Emoji & Deep Learning ? ? ?"
+  - title: "Teaching Robots to Feel: Emoji & Deep Learning"
     url: https://getdango.com/emoji-and-deep-learning.html
 
-  - title: "Finding Similar Sounding Names – Some Basics"
+  - title: "Finding Similar Sounding Names"
     url: http://daynebatten.com/2016/05/finding-similar-sounding-names-basics/
 
   - title: "The Truth About Deep Learning"
@@ -303,14 +294,11 @@ links:
   - title: "Visualizing city similarity"
     url: https://teleport.org/2016/02/visualizing-city-similarity/
 
-  - title: "Jake Vanderplas - Statistics for Hackers - PyCon 2016"
+  - title: "Statistics for Hackers"
     url: https://www.youtube.com/watch?v=-7I7MWTX0gA
 
   - title: "How to Fold a Julia Fractal"
     url: https://acko.net/blog/how-to-fold-a-julia-fractal/
-
-  - title: "Joel Grus: Learning Data Science Using Functional Python"
-    url: https://www.youtube.com/watch?v=ThS4juptJjQ
 
   - title: "Reverse Engineering A Mysterious UDP Stream in My Hotel"
     url: https://wiki.gkbrk.com/Hotel_Music.html
@@ -342,9 +330,6 @@ links:
   - title: "Man Combines Random People’s Photos Using Neural Networks And The Results Are Amazing"
     url: https://www.boredpanda.com/inceptionism-neural-network-deep-dream-art/
 
-  - title: "Dsxyliea"
-    url: https://geon.github.io/programming/2016/03/03/dsxyliea
-
   - title: "Everything is broken"
     url: https://danluu.com/everything-is-broken/
 
@@ -357,7 +342,7 @@ links:
   - title: "You can't parse HTML with RegEx"
     url: https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454
 
-  - title: "Why you should understand (a little) about TCP"
+  - title: "Why you should understand a little about TCP"
     url: https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/
 
   - title: "Effluents influence affluence : Butterick’s Practical Typography"
@@ -372,29 +357,23 @@ links:
   - title: "Everything Is Broken"
     url: https://medium.com/message/everything-is-broken-81e5f33a24e1
 
-  - title: "Interview with Jesper Louis Andersen about Erlang, Haskell, OCaml, Go, Idris, the JVM, software and… — This is not a Monad tutorial — Medium"
-    url: https://medium.com/this-is-not-a-monad-tutorial/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd
-
-  - title: "The Humble Programmer (EWD 340)"
+  - title: "The Humble Programmer"
     url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html
 
-  - title: "'Instagram's Million Dollar Bug': Case study for defense"
+  - title: "Instagram's Million Dollar Bug"
     url: https://summitroute.com/blog/2015/12/24/instagram_bounty_case_study_for_defense/
 
   - title: "The web accessibility basics"
     url: https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/
 
-  - title: "Thursday Keynote Maciej Ceglowski - The Website Obesity Crisis"
+  - title: "The Website Obesity Crisis"
     url: https://vimeo.com/147806338
 
-  - title: "Haunted by Data - Maciej Ceglowski"
+  - title: "Haunted by Data"
     url: https://www.youtube.com/watch?v=GAXLHM-1Psk
 
   - title: "The Making Of 'In Pieces'"
     url: https://www.smashingmagazine.com/2015/06/02/the-making-of-in-pieces/
-
-  - title: "www.subtext-lang.org/OOPSLA04.pdf"
-    url: http://www.subtext-lang.org/OOPSLA04.pdf
 
   - title: "Unidirectional User Interface Architectures"
     url: https://staltz.com/unidirectional-user-interface-architectures.html
@@ -405,7 +384,7 @@ links:
   - title: "'The Mess We're In' by Joe Armstrong"
     url: https://www.youtube.com/watch?v=lKXe3HUG2l4
 
-  - title: "Alan Kay, 2015: Power of Simplicity"
+  - title: "Alan Kay - Power of Simplicity"
     url: https://www.youtube.com/watch?v=NdSD07U5uBs
 
   - title: "Five Things Old Programmers Should Remember"
@@ -414,10 +393,7 @@ links:
   - title: "A tr Primer"
     url: https://danielmiessler.com/study/tr/
 
-  - title: "liminality.xyz"
-    url: http://liminality.xyz/the-hostile-email-landscape/
-
-  - title: "Graphical thinking : optimisation through functional programming – The If Works"
+  - title: "Graphical thinking - optimisation through functional programming"
     url: https://blog.jcoglan.com/2014/06/16/graphical-thinking-optimisation-through-functional-programming/
 
   - title: "The best icon is a text label"
@@ -426,10 +402,10 @@ links:
   - title: "Run for simple solutions"
     url: https://thomasbyttebier.be/blog/run-for-solutions
 
-  - title: "Bash One-Liners Explained, Part III: All about redirections"
+  - title: "Bash One-Liners Explained - Redirections"
     url: http://www.catonmat.net/blog/bash-one-liners-explained-part-three/
 
-  - title: "Keynote: The Value of Values"
+  - title: "The Value of Values"
     url: https://www.infoq.com/presentations/Value-Values
 
   - title: "What is your most productive shortcut with Vim?"
@@ -440,12 +416,6 @@ links:
 
   - title: "Fighting spam with Haskell"
     url: https://code.facebook.com/posts/745068642270222/fighting-spam-with-haskell/
-
-  - title: "Matt's ramblings"
-    url: https://matthewearl.github.io/2015/07/28/switching-eds-with-python/
-
-  - title: "The Verge's web sucks"
-    url: https://blog.lmorchard.com/2015/07/22/the-verge-web-sucks/
 
   - title: "Web Design : The First 100 Years"
     url: http://idlewords.com/talks/web_design_first_100_years.htm
@@ -462,10 +432,10 @@ links:
   - title: "You’re Missing the Point of React"
     url: https://medium.com/@dan_abramov/youre-missing-the-point-of-react-a20e34a51e1a
 
-  - title: "You Might Need Flux…"
+  - title: "You Might Need Flux"
     url: https://medium.com/@dan_abramov/the-case-for-flux-379b7d1982c6
 
-  - title: "Not Just Code Monkeys • Martin Fowler"
+  - title: "Not Just Code Monkeys - Martin Fowler"
     url: https://www.youtube.com/watch?v=4E3xfR6IBII
 
   - title: "Rob Pike's 5 Rules of Programming"
@@ -477,7 +447,7 @@ links:
   - title: "Running A Software Business On 5 Hours A Week"
     url: https://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/
 
-  - title: "'People Who Like This Also Like ... '"
+  - title: "People Who Like This Also Like ..."
     url: http://www.benfrederickson.com/distance-metrics/
 
   - title: "FizzBuzz In Too Much Detail — Tom Dalling"
@@ -498,13 +468,10 @@ links:
   - title: "What I’ve learned so far about software development"
     url: https://medium.com/@landongn/12-years-later-what-i-ve-learned-about-being-a-software-engineer-d6e334d6e8a3
 
-  - title: "Using Named Pipes and Process Substitution"
-    url: http://vincebuffalo.com/2013/08/08/the-mighty-named-pipe.html
-
   - title: "Project managers, ducks, and dogs marking territory"
     url: https://rachelbythebay.com/w/2013/06/05/duck/
 
-  - title: "What I Wish I Knew When Starting Out as a Software Developer: Slow the Fuck Down"
+  - title: "What I Wish I Knew When Starting Out as a Software Developer"
     url: https://blog.salsitasoft.com/what-i-wish-i-knew-when-starting-out-as-a-software-developer-slow-the-fuck-down/
 
   - title: "On Being A Senior Engineer"
@@ -513,7 +480,7 @@ links:
   - title: "Is it really 'Complex'? Or did we just make it 'Complicated'?"
     url: https://www.youtube.com/watch?v=ubaX1Smg6pY
 
-  - title: "move fast & break nothing"
+  - title: "Move fast & break nothing"
     url: https://zachholman.com/talk/move-fast-break-nothing/
 
   - title: "Learning SVG"

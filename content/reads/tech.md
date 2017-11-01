@@ -15,7 +15,7 @@ links:
   - title: "Generative Technology"
     url: https://progrium.com/blog/2016/04/25/generativity/
 
-  - title: "Ever wonder how Bitcoin (and other cryptocurrencies) actually work?"
+  - title: "Ever wonder how Bitcoin actually work?"
     url: https://youtu.be/bBC-nXj3Ng4
 
   - title: "Browse Against the Machine"
@@ -27,7 +27,7 @@ links:
   - title: "Social media is polarizing users faster than ever"
     url: https://qz.com/969886/the-shocking-speed-with-which-we-become-polarized-online/
 
-  - title: "Which Countries Destroy the Environment the Most (and Least)?"
+  - title: "Which Countries Destroy the Environment the Most?"
     url: https://priceonomics.com/which-countries-destroy-the-environment-the-most/
 
   - title: "Haunted By Data"
@@ -45,11 +45,8 @@ links:
   - title: "DeepMind and Blizzard to release StarCraft II as an AI research environment"
     url: https://deepmind.com/blog/deepmind-and-blizzard-release-starcraft-ii-ai-research-environment/
 
-  - title: "How the Circle Line rogue train (in Singapore) was caught with data"
+  - title: "How the Circle Line rogue train in Singapore was caught with data"
     url: https://blog.data.gov.sg/how-we-caught-the-circle-line-rogue-train-with-data-79405c86ab6a#.rh75p125v
-
-  - title: "Building Jarvis - Mark Zuckerberg"
-    url: https://facebook.com/notes/mark-zuckerberg/building-jarvis/10154361492931634/
 
   - title: "When Bitcoin Grows Up"
     url: https://www.lrb.co.uk/v38/n08/john-lanchester/when-bitcoin-grows-up
@@ -57,11 +54,8 @@ links:
   - title: "It's Time To Recognize That Machines Are Learning All The Wrong Things"
     url: https://www.fastcoexist.com/3064558/its-time-to-recognize-that-machines-are-learning-all-the-wrong-things
 
-  - title: "SpaceX’s Big Fucking Rocket – The Full Story"
+  - title: "SpaceX’s Big Fucking Rocket"
     url: https://waitbutwhy.com/2016/09/spacexs-big-fking-rocket-the-full-story.html
-
-  - title: "What's for lunch? Private browsing."
-    url: http://blog.revolutionanalytics.com/2010/08/whats-for-lunch-private-browsing.html
 
   - title: "Consequences of an Insightful Algorithm"
     url: https://www.slideshare.net/cczona/consequences-of-an-insightful-algorithm
@@ -93,7 +87,7 @@ links:
   - title: "The resolution of the Bitcoin experiment"
     url: https://medium.com/@octskyward/the-resolution-of-the-bitcoin-experiment-dabb30201f7
 
-  - title: "Four Impossible Things Before Key Escrow — Medium"
+  - title: "Four Impossible Things Before Key Escrow"
     url: https://medium.com/@maradydd/four-impossible-things-before-key-escrow-85478d949502
 
   - title: "When Nerds Collide"
@@ -111,7 +105,7 @@ links:
   - title: "Pirate Bay Founder: ‘I Have Given Up’"
     url: https://motherboard.vice.com/read/pirate-bay-founder-peter-sunde-i-have-given-up
 
-  - title: "The First Person to Hack the iPhone Built a Self-Driving Car. In His Garage"
+  - title: "The First Person to Hack the iPhone Built a Self-Driving Car"
     url: https://www.bloomberg.com/features/2015-george-hotz-self-driving-car/
 
   - title: "Macbook charger teardown: The surprising complexity inside Apple's power adapter"
@@ -120,10 +114,7 @@ links:
   - title: "What can a technologist do about climate change?"
     url: http://worrydream.com/ClimateChange/
 
-  - title: "Top hacker shows us how it's done | Pablos Holman | TEDxMidwest"
-    url: https://www.youtube.com/watch?v=hqKafI7Amd8
-
-  - title: "Why I teach people how to hack | Ýmir Vigfússon | TEDxReykjavík"
+  - title: "Why I teach people how to hack"
     url: https://www.youtube.com/watch?v=KwJyKmCbOws
 
   - title: "From Radio to Porn, British Spies Track Web Users’ Online Identities"
@@ -150,7 +141,7 @@ links:
   - title: "The Web We Have to Save"
     url: https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426
 
-  - title: "If you've got nothing to hide... · Jacques Mattheij"
+  - title: "If you've got nothing to hide"
     url: https://jacquesmattheij.com/if-you-have-nothing-to-hide
 
   - title: "We Should All Have Something To Hide"

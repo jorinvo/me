@@ -3,7 +3,7 @@ type: linklist
 title: Random
 links:
 
-  - title: "HOW TO SIMULATE THE UNIVERSE IN 134 EASY STEPS"
+  - title: "How to Simulate the Universe in 134 Easy Steps"
     url: http://ncase.me/OVC2016/
 
   - title: "Tokyo Is Preparing for Floods ‘Beyond Anything We’ve Seen’"
@@ -12,7 +12,7 @@ links:
   - title: "How language can affect the way we think"
     url: https://ideas.ted.com/5-examples-of-how-the-languages-we-speak-can-affect-the-way-we-think/
 
-  - title: "Why We Are Self Publishing the Aviary Cookbook - Lessons From the Alinea Book."
+  - title: "Why We Are Self Publishing the Aviary Cookbook"
     url: https://medium.com/@nickkokonas/why-we-are-self-publishing-the-aviary-cookbook-lessons-from-the-alinea-book-e89236ab6ca1
 
   - title: "Why Facts Don’t Change Our Minds"
@@ -36,14 +36,11 @@ links:
   - title: "Software Engineer Starts Unlikely Business: A Weekly Newspaper"
     url: https://nytimes.com/2017/03/27/nyregion/new-newspaper-prompts-war-of-weeklies-in-new-jersey-suburb.html
 
-  - title: They Used To Last 50 Years
+  - title: "They Used To Last 50 Years"
     url: https://recraigslist.com/2015/10/they-used-to-last-50-years/
 
   - title: How insects like bumblebees do so much with tiny brains
     url: https://www.bbc.com/earth/story/20170123-how-insects-like-bumblebees-do-so-much-with-tiny-brains
-
-  - title: Mandarin in two days
-    url: https://www.theguardian.com/education/2011/may/18/speak-mandarin-in-two-days
 
   - title: "The story of a designer conquering mathematics."
     url: https://blog.framer.com/a-story-of-a-designer-conquering-mathematics-d0fd4585f0ba
@@ -60,14 +57,11 @@ links:
   - title: "The Man Who Tried to Redeem the World with Logic"
     url: https://nautil.us/issue/21/information/the-man-who-tried-to-redeem-the-world-with-logic
 
-  - title: "Mini post: Oceans and Clay"
+  - title: "Oceans and Clay"
     url: https://waitbutwhy.com/2016/09/oceans-and-clay.html
 
   - title: "When A Stranger’s Heart Beats Inside You: A Heart Transplant Patient Gains Perspective After His Surgery"
     url: https://upvoted.com/2016/01/29/when-a-strangers-heart-beats-inside-you-a-heart-transplant-patient-gains-perspective-after-his-surgery/
-
-  - title: "The Incredibly True Story of Renting a Friend in Tokyo"
-    url: https://www.afar.com/magazine/the-incredibly-true-story-of-renting-a-friend-in-tokyo
 
   - title: "The Marriage Decision: Everything Forever or Nothing Ever Again"
     url: https://waitbutwhy.com/2016/09/marriage-decision.html
@@ -75,29 +69,11 @@ links:
   - title: "How frigatebirds cross entire oceans without ever needing to rest"
     url: https://www.washingtonpost.com/news/speaking-of-science/wp/2016/06/30/how-frigate-birds-cross-entire-oceans-without-ever-needing-to-rest/
 
-  - title: "This Coworking Company Turns Restaurants Into Temporary Offices During The Day"
-    url: https://www.fastcoexist.com/3061495/this-co-working-company-turns-restaurants-into-temporary-offices-during-the-day
-
-  - title: "This Scarf Hides Your Face if Flash Photography is Used"
-    url: https://twistedsifter.com/2016/07/scarf-hides-face-when-flash-photography-used/
-
   - title: "Religion for the Nonreligious"
     url: https://waitbutwhy.com/2014/10/religion-for-the-nonreligious.html
 
-  - title: "I Tried Living In This Tiny House On A Vacant Lot In Amsterdam"
-    url: https://www.fastcoexist.com/3061087/i-tried-living-in-this-tiny-house-on-a-vacant-lot-in-amsterdam
-
-  - title: "How Stockholm Is Creating A Second Silicon Valley In Scandinavia"
-    url: https://www.fastcoexist.com/3061052/how-stockholm-is-creating-a-second-silicon-valley-in-scandinavia
-
-  - title: "Highlights from Nat Geo’s 2016 Travel Photographer of the Year Contest"
-    url: https://twistedsifter.com/2016/04/nat-geo-2016-travel-photographer-of-the-year-contest/
-
   - title: "These Students Are Developing Bacteria That Eats Our Plastic Pollution"
     url: https://www.fastcoexist.com/3059629/these-students-are-developing-bacteria-that-eats-our-plastic-pollution
-
-  - title: "The 55 Most Useful Life Hacks Ever"
-    url: https://twistedsifter.com/2015/04/55-most-useful-life-hacks-ever/
 
   - title: "The New World Order Is Ruled By Global Corporations And Megacities—Not Countries"
     url: https://www.fastcoexist.com/3059005/the-new-world-order-is-ruled-by-global-corporations-and-megacities-not-countries
@@ -105,13 +81,7 @@ links:
   - title: "Why Cash Is Worth Fighting For"
     url: https://www.fastcoexist.com/3058136/why-cash-is-worth-fighting-for
 
-  - title: "Refugees Will Revitalize The Economy—If We Let Them"
-    url: https://www.fastcoexist.com/3056324/refugees-will-revitalize-the-economy-if-we-let-them
-
-  - title: "Puppy or Bagel? Chihuahua or Muffin? Shiba or Marshmallow? (8 photos)"
-    url: https://twistedsifter.com/2016/03/puppy-or-bagel-meme-gallery/
-
-  - title: "Zebra vs Horses (Americapox Part 2)"
+  - title: "Zebra vs Horses"
     url: https://www.youtube.com/watch?v=wOmjnioNulo&feature=youtu.be
 
   - title: "Today’s teens are better than you, and we can prove it"
@@ -120,10 +90,7 @@ links:
   - title: "From Muhammad to ISIS: Iraq’s Full Story"
     url: https://waitbutwhy.com/2014/09/muhammad-isis-iraqs-full-story.html
 
-  - title: "These Apartments Are Designed To Sit On Rooftops"
-    url: https://www.fastcoexist.com/3056062/these-apartments-are-designed-to-sit-on-rooftops
-
-  - title: "How to Raise a Creative Child. Step One: Back Off"
+  - title: "How to Raise a Creative Child"
     url: https://www.nytimes.com/2016/01/31/opinion/sunday/how-to-raise-a-creative-child-step-one-back-off.html
 
   - title: "How These Young Rwandan Architects Are Redesigning Their Country"
@@ -132,23 +99,8 @@ links:
   - title: "Basic Income"
     url: https://blog.ycombinator.com/basic-income/
 
-  - title: "'Codex Seraphinianus' Is A Creepy Book Of Nonsense"
-    url: http://www.creepybasement.com/codex-seraphinianus/
-
   - title: "This Design For A Dense City Lets You Walk From Roof To Roof"
     url: https://www.fastcoexist.com/3055723/this-design-for-a-dense-city-lets-you-walk-from-roof-to-roof
-
-  - title: "‘The EU Is on the Verge of Collapse’—An Interview"
-    url: https://www.nybooks.com/articles/2016/02/11/europe-verge-collapse-interview/
-
-  - title: "Leonardo DiCaprio Is Giving Away $15 Million To Environmental Causes"
-    url: https://www.fastcoexist.com/3055660/leonardo-dicaprio-is-giving-away-15-million-to-environmental-causes
-
-  - title: "Picture of the Day: A Desert Oasis in Peru"
-    url: https://twistedsifter.com/2016/01/desert-oasis-in-peru-huacachina/
-
-  - title: "“Never Drink Airplane Coffee” and Other Secrets From Airline Employees"
-    url: https://upvoted.com/2016/01/11/never-drink-airplane-coffee-and-other-secrets-from-airline-employees/
 
   - title: "When Philosophy Lost Its Way"
     url: https://mobile.nytimes.com/blogs/opinionator/2016/01/11/when-philosophy-lost-its-way/
@@ -164,9 +116,6 @@ links:
 
   - title: "How (and Why) SpaceX Will Colonize Mars"
     url: https://waitbutwhy.com/2015/08/how-and-why-spacex-will-colonize-mars.html
-
-  - title: "Woman Who Is Allergic to Touch Shares Pictures of “Skin Writing”"
-    url: https://upvoted.com/2015/12/30/woman-who-is-allergic-to-touch-shares-pictures-of-skin-writing/
 
   - title: "How Tesla Will Change The World"
     url: https://waitbutwhy.com/2015/06/how-tesla-will-change-your-life.html
@@ -195,9 +144,6 @@ links:
   - title: "Losing sight"
     url: https://tink.uk/losing-sight/
 
-  - title: "This Desktop Edible Insect Hive Grows Your Daily Protein At Home"
-    url: https://www.fastcoexist.com/3052692/fund-this/this-desktop-edible-insect-hive-grows-your-daily-protein-at-home
-
   - title: "Protecting the Last Homes of the Giants"
     url: http://thewaterbrothers.ca/dive-deeper/301-protecting-the-last-home-of-the-giants/
 
@@ -207,7 +153,7 @@ links:
   - title: "Jeong Kwan, the Philosopher Chef"
     url: https://mobile.nytimes.com/2015/10/16/t-magazine/jeong-kwan-the-philosopher-chef.html
 
-  - title: "It’s Not Climate Change — It’s Everything Change — Matter — Medium"
+  - title: "It’s Not Climate Change — It’s Everything Change"
     url: https://medium.com/p/8fd9aa671804
 
   - title: "The Reign of Recycling"
@@ -240,14 +186,11 @@ links:
   - title: "Schopenhauer on the art of not reading"
     url: http://tumblr.austinkleon.com/post/129979274771
 
-  - title: "The Fermi Paradox — Where Are All The Aliens? (1/2)"
+  - title: "The Fermi Paradox — Where Are All The Aliens?"
     url: https://www.youtube.com/watch?v=sNhhvQGsMEc
 
   - title: "What Is Life? Is Death Real?"
     url: https://www.youtube.com/watch?v=QOCaacO8wus
-
-  - title: "Why Greenpeace Is Building Its Own Team Of Investigative Journalists"
-    url: https://www.fastcoexist.com/3051371/why-greenpeace-is-building-its-own-team-of-investigative-journalists
 
   - title: "This London Underground Farm Grows Salad In A WWII Bomb Shelter"
     url: https://www.fastcoexist.com/3051209/this-london-underground-farm-grows-salad-in-a-wwii-bomb-shelter
@@ -258,9 +201,6 @@ links:
   - title: "The Socratic Method"
     url: http://www.garlikov.com/Soc_Meth.html
 
-  - title: "The 10 Most Important Lines From Pope Francis' Historic Speech to Congress"
-    url: https://www.motherjones.com/politics/2015/09/pope-francis-congress-best-lines-climate-abortion
-
   - title: "When the End of Human Civilization Is Your Day Job"
     url: https://www.esquire.com/news-politics/a36228/ballad-of-the-sad-climatologists-0815/
 
@@ -270,20 +210,14 @@ links:
   - title: "How Giving Up Refined Sugar Changed My Brain"
     url: https://www.fastcompany.com/3050319/lessons-learned/how-giving-up-refined-sugar-changed-my-brain
 
-  - title: "This Startup Is Reimagining Shower Design, So People Actually Want To Save Water"
+  - title: "This Startup Is Reimagining Shower Design"
     url: https://www.fastcoexist.com/3049829/world-changing-ideas/this-startup-is-reimagining-shower-design-so-people-actually-want-to-sa
 
   - title: "The AI Revolution: The Road to Superintelligence"
     url: https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html
 
-  - title: "This Woman Makes So Little Trash That She Can Store It All In One Tiny Jar For Years"
-    url: https://www.fastcoexist.com/3049543/this-woman-makes-so-little-trash-that-she-can-store-it-all-in-one-tiny-jar-for-years
-
   - title: "Ryan Estrada — Learn to Read Korean in 15 Minutes"
     url: https://ryanestradadotcom.tumblr.com/post/20461267965/learn-to-read-korean-in-15-minutes
-
-  - title: "The Two Pillars of JavaScript — Pt 2: Functional Programming"
-    url: https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4
 
   - title: "Why can’t we readanymore?"
     url: https://medium.com/@hughmcguire/why-can-t-we-read-anymore-503c38c131fe
@@ -297,7 +231,7 @@ links:
   - title: "What is Meditation and How It Affects Our Brains"
     url: https://blog.bufferapp.com/how-meditation-affects-your-brain
 
-  - title: "New Trailer: How to walk through walls using the 4th Dimension « Marc ten Bosch [Miegakure] Blog"
+  - title: "How to walk through walls using the 4th Dimension"
     url: http://marctenbosch.com/news/2014/08/new-trailer-how-to-walk-through-walls-using-the-fourth-dimension/
 
   - title: "The truth behind China’s Underground Wholesale Markets."

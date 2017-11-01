@@ -3,7 +3,7 @@ type: linklist
 title: Art
 links:
 
-  - title: "手指断了 (niehuizheng) - cyperpunk concept art"
+  - title: "手指断了 - cyperpunk concept art"
     url: https://m.weibo.cn/p/1005052906185283
 
   - title: "The Tōkyōiter"
@@ -12,17 +12,14 @@ links:
   - title: "Daido Moriyama – In Pictures"
     url: https://www.youtube.com/watch?v=foWAs3V_lkg
 
-  - title: "SlimJim Studios -Tokyo Gifathon"
+  - title: "Tokyo Gifathon"
     url: https://www.slimjimstudios.com/#/tokyo-gifathon/
 
-  - title: "color-wander - generates mesmerizing art based on a seeded random"
+  - title: "color-wander - mesmerizing art based on a seeded random"
     url: https://color-wander.glitch.me/
 
   - title: "#c0ffee is the color"
     url: https://c0ffee.surge.sh/
-
-  - title: "Two Buildings Were Having an All-Out Post-It War Until This Happened"
-    url: https://twistedsifter.com/2016/05/two-buildings-were-having-an-epic-post-it-war-until-this-happened/
 
   - title: "Tokyo Storefronts Captured In Watercolor"
     url: https://www.boredpanda.com/tokyo-storefront-illustrations-mateusz-urbanowicz/
@@ -30,70 +27,52 @@ links:
   - title: "3 days march"
     url: http://www.3daysmarch.net/original.php
 
-  - title: "Shipmap.org"
+  - title: "Visualisation of Global Cargo Ships"
     url: https://www.shipmap.org/
 
-  - title: "Photography"
+  - title: "Photography — The Calvert Journal"
     url: https://calvertjournal.com/photography
 
   - title: "Inside Paris's Forgotten Utopia"
     url: https://www.nationalgeographic.com/photography/proof/2016/06/laurent-kronental-paris-housing-projects/
 
-  - title: "it's a(door)able"
-    url: http://ncase.me/door/
-
-  - title: "HYPER-REALITY"
+  - title: "Hyper-Reality"
     url: https://vimeo.com/166807261
 
   - title: "A cat on a trip – illustrations by Toshinori Mori"
     url: http://japanesedesign.pl/2016/a-cat-on-a-trip-illustrations-by-toshinori-mori/
 
-  - title: "carlburton.tumblr.com"
+  - title: "Digital Art by Carl Burton"
     url: https://carlburton.tumblr.com/
-
-  - title: "There’s a Secret Speakeasy Underneath This Noodle Shop in Moscow (12 Photos)"
-    url: https://twistedsifter.com/2016/03/speakeasy-underneath-noodle-shop-in-moscow/
 
   - title: "A Taste of Vienna"
     url: https://vimeo.com/156161909
 
-  - title: "Texter"
-    url: http://tholman.com/texter/
-
-  - title: "Tatsuo Horiuchi | the 73-year old Excel spreadsheet artist"
+  - title: "Tatsuo Horiuchi - The 73-year old Excel spreadsheet artist"
     url: http://www.spoon-tamago.com/2013/05/28/tatsuo-horiuchi-excel-spreadsheet-artist/
 
-  - title: "Norse Attack Map"
+  - title: "Cyber Attack Map"
     url: http://map.norsecorp.com
 
-  - title: "The Life of Norman (and the Rise of Boring)"
+  - title: "The Life of Norman"
     url: https://upvoted.com/2016/01/08/the-life-of-norman-and-the-rise-of-boring/
 
-  - title: "Wu-Tang Care Bears in New York"
-    url: https://twistedsifter.com/2016/01/wu-tang-care-bears-in-new-york/
+  - title: "Highlights from Nat Geo’s 2016 Travel Photographer of the Year Contest"
+    url: https://twistedsifter.com/2016/04/nat-geo-2016-travel-photographer-of-the-year-contest/
 
-  - title: "Tokyo 2015"
+  - title: "Tokyo Photography"
     url: http://rachelisaweso.me/ok/tokyo-2015/
 
-  - title: "These Photos Show New York's Disappearing Mom-And-Pop Stores"
-    url: https://fastcompany.com/3055119/these-photos-show-new-yorks-disappearing-mom-and-pop-stores
-
-  - title: "beeple is mike winkelmann."
+  - title: "Digital Art by Beeple"
     url: http://beeple-crap.com
 
-  - title: "Light kinetics : www.espadaysantacruz.com"
-    url: http://espadaysantacruz.com/Light-kinetics
-
-  - title: "Cosimo Galluzzi"
+  - title: "Illustrations by Cosimo Galluzzi"
     url: https://poolsofchrome.tumblr.com/
 
   - title: "World Airports Voronoi"
     url: https://www.jasondavies.com/maps/voronoi/airports/
 
-  - title: "342,000 Swings Later, Derek Jeter Calls It a Career"
-    url: https://www.nytimes.com/interactive/2014/09/14/sports/baseball/jeter-swings.html
-
-  - title: "TryMore Inc | We Are Very Lucky Company!!!"
+  - title: "Website of TryMore Inc - We Are Very Lucky Company"
     url: http://www.trymore-inc.jp/
 
   - title: "I'm Google"
@@ -102,16 +81,16 @@ links:
   - title: "Inner Mongolia"
     url: http://jack.ventures/2014/inner-mongolia/
 
-  - title: "Jake Albaugh is a Front End Developer and UX Architect in Chicago."
+  - title: "Portfolio of Jake Albaugh"
     url: http://jakealbaugh.com/
 
   - title: "The Bus Stops In The USSR Were Insane Masterpieces In The Middle Of Nowhere"
     url: https://www.fastcoexist.com/3051288/the-bus-stops-in-the-ussr-were-insane-masterpieces-in-the-middle-of-nowhere
 
-  - title: "Tumblr GIFs of Japanese Life"
+  - title: "GIFs of Japanese Life"
     url: http://designmadeinjapan.com/magazine/illustration-icon/tumblr-gifs-of-japanese-life/
 
-  - title: "Beautifully Creepy Photos Show What Happens When You Abandon An Amusement Park"
+  - title: "What Happens When You Abandon An Amusement Park"
     url: https://www.fastcoexist.com/3047477/beautifully-creepy-photos-show-what-happens-when-you-abandon-an-amusement-park
 
 ---

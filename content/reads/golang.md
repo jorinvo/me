@@ -6,19 +6,19 @@ links:
   - title: "Profiling Go programs with pprof"
     url: https://jvns.ca/blog/2017/09/24/profiling-go-with-pprof/
 
-  - title: "Ways To Do Things - Peter Bourgon"
+  - title: "Ways To Do Things"
     url: https://www.youtube.com/watch?v=LHe1Cb_Ud_M
 
   - title: "An in-Depth look at our Docker and ECS stack for Golang"
     url: https://medium.com/smsjunk/an-in-depth-look-at-our-docker-and-ecs-stack-for-golang-b89dfe7cff5c
 
-  - title: "Jennie Lees - Managing and Scaling Real Time Data Pipelines using Go"
+  - title: "Managing and Scaling Real Time Data Pipelines using Go"
     url: https://www.youtube.com/watch?v=2s5l9ErNL3s
 
   - title: "Allocation Efficiency in High-Performance Go Services"
     url: https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/
 
-  - title: "mastering io.Pipes"
+  - title: "Mastering io.Pipes"
     url: https://www.youtube.com/watch?v=LHZ2CAZE6Gs
 
   - title: "The thing about slices"
@@ -30,28 +30,28 @@ links:
   - title: '"go test -race" Under the Hood" by Kavya Joshi'
     url: https://www.youtube.com/watch?v=5erqWdlhQLA
 
-  - title: "GopherCon 2017: Mitchell Hashimoto - Advanced Testing with Go"
+  - title: "Mitchell Hashimoto - Advanced Testing with Go"
     url: https://youtu.be/8hQG7QlcLBk
 
-  - title: "GopherCon 2017: Kavya Joshi - Understanding Channels"
+  - title: "Kavya Joshi - Understanding Channels"
     url: https://www.youtube.com/watch?v=KBZlN0izeiY
 
   - title: "Going down the rabbit hole with go-fuzz"
     url: https://mijailovic.net/2017/07/29/go-fuzz/
 
-  - title: "GopherCon 2017: Fatih Arslan - Writing a Go Tool to Parse and Modify Struct Tags"
+  - title: "Fatih Arslan - Writing a Go Tool to Parse and Modify Struct Tags"
     url: https://www.youtube.com/watch?v=T4AIQ4RHp-c
 
   - title: "Strace in 60 lines of Go"
     url: https://hackernoon.com/strace-in-60-lines-of-go-b4b76e3ecd64
 
-  - title: "GopherCon 2015: Dmitry Vyukov - Go Dynamic Tools"
+  - title: "Dmitry Vyukov - Go Dynamic Tools"
     url: https://www.youtube.com/watch?v=a9xrxRsIbSU
 
   - title: "How to not use an http-router in Go"
     url: https://blog.merovius.de/2017/06/18/how-not-to-use-an-http-router.html
 
-  - title: "Kevin Gillette - Effective Go Error Handling"
+  - title: "Effective Go Error Handling"
     url: https://www.youtube.com/watch?v=hDC7IF3OQLM
 
   - title: "Stripping Go ELF binaries is safe"
@@ -84,7 +84,7 @@ links:
   - title: "A theory of modern Go"
     url: https://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html
 
-  - title: "Implementing a bignum calculator - Rob Pike - golang-syd November 2014"
+  - title: "Implementing a bignum calculator - Rob Pike"
     url: https://www.youtube.com/watch?v=PXoG0WX0r_E
 
   - title: "Our Go is fine but our SQL is great"
@@ -95,9 +95,6 @@ links:
 
   - title: "Rewriting our web analytics tracking infrastructure in Go"
     url: https://engineering.skroutz.gr/blog/rewriting-web-analytics-tracking-in-go/
-
-  - title: "Simple but Handy Postgres Features"
-    url: http://www.craigkerstiens.com/2017/01/08/simple-but-handy-postgresql-features/
 
   - title: "Pragmatic and Effective Testing in Go"
     url: http://bepsays.com/en/2016/10/12/pragmatic-and-effective-testing-in-go/
@@ -129,16 +126,13 @@ links:
   - title: "Go best practices, six years in"
     url: https://peter.bourgon.org/go-best-practices-2016/
 
-  - title: "Practical Persistence in Go: Organising Database Access"
-    url: http://www.alexedwards.net/blog/organising-database-access
-
-  - title: "GopherCon 2016:  Dave Cheney - Dont Just Check Errors Handle Them Gracefully"
+  - title: "Dave Cheney - Dont Just Check Errors Handle Them Gracefully"
     url: https://www.youtube.com/watch?v=lsBF58Q-DnY
 
   - title: "Lexical Scanning in Go - Rob Pike"
     url: https://www.youtube.com/watch?v=HxaD_trXwRE&feature=youtu.be
 
-  - title: "Codewalk: First-Class Functions in Go"
+  - title: "First-Class Functions in Go"
     url: https://golang.org/doc/codewalk/functions/
 
 ---

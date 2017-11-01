@@ -6,10 +6,10 @@ links:
   - title: "Randy Pausch Last Lecture: Achieving Your Childhood Dreams"
     url: https://www.youtube.com/watch?v=ji5_MqicxSo
 
-  - title: "the depression thing"
+  - title: "The Depression Thing"
     url: https://zachholman.com/posts/the-depression-thing
 
-  - title: "10,000 Hours With Claude Shannon: How A Genius Thinks, Works, and Lives"
+  - title: "10,000 Hours With Claude Shannon"
     url: https://medium.com/the-mission/10-000-hours-with-claude-shannon-12-lessons-on-life-and-learning-from-a-genius-e8b9297bee8f
 
   - title: "Ten Steps Towards Happiness"
@@ -24,7 +24,7 @@ links:
   - title: "Strong Opinions, Weakly Held"
     url: https://bobsutton.typepad.com/my_weblog/2006/07/strong_opinions.html
 
-  - title: ThreePillars
+  - title: Sustainable Business, Software Excellence, Social Justice
     url: https://martinfowler.com/bliki/ThreePillars.html
 
   - title: Are we working or playing?
@@ -45,11 +45,8 @@ links:
   - title: "The Reality of Developer Burnout"
     url: https://www.kennethreitz.org/essays/the-reality-of-developer-burnout
 
-  - title: "How Technology Hijacks People’s Minds — from a Magician and Google’s Design Ethicist"
+  - title: "How Technology Hijacks People’s Minds"
     url: https://medium.com/swlh/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3
-
-  - title: "Google’s former happiness guru developed a three-second brain exercise for finding joy"
-    url: https://qz.com/818998/googles-former-happiness-guru-developed-a-three-second-brain-exercise-for-finding-joy/
 
   - title: "Be Kind"
     url: https://www.briangilham.com/be-kind
@@ -93,7 +90,7 @@ links:
   - title: "What Makes You You?"
     url: https://waitbutwhy.com/2014/12/what-makes-you-you.html
 
-  - title: 10 Life Lessons From a Navy SEAL
+  - title: "10 Life Lessons From a Navy SEAL"
     url: http://www.farnamstreetblog.stfi.re/2014/05/10-life-lessons-william-mcraven/
 
   - title: "The Structure of Gratitude"
@@ -141,7 +138,7 @@ links:
   - title: "What Doesn't Seem Like Work?"
     url: http://paulgraham.com/work.html
 
-  - title: "RECONSIDER"
+  - title: "Reconsider"
     url: https://signalvnoise.com/posts/3972-reconsider
 
   - title: "Resist and Thrive"
@@ -165,7 +162,7 @@ links:
   - title: "Ten Steps Towards Happiness"
     url: http://hintjens.com/blog:99
 
-  - title: "12 Little Known Laws Of Mindfulness (That Will Change Your Life)"
+  - title: "12 Little Known Laws Of Mindfulness"
     url: https://www.the-open-mind.com/12-little-known-laws-of-mindfulness-that-will-change-your-life/
 
   - title: "Happiness Isn’t the Absence of Negative Feelings"
@@ -207,10 +204,10 @@ links:
   - title: "Enjoy Your Life"
     url: https://www.rdegges.com/enjoy-your-life/
 
-  - title: "Mind Management (Not Time Management)"
+  - title: "Mind Management"
     url: http://kadavy.net/blog/posts/mind-management-intro/
 
-  - title: "Consulting – Manish Sinha – Engineer"
+  - title: "Consulting"
     url: https://dopeboy.github.io/consulting/
 
   - title: "Screw motivation, what you need is discipline."
@@ -219,10 +216,10 @@ links:
   - title: "Why is everyone so busy?"
     url: https://www.economist.com/news/christmas-specials/21636612-time-poverty-problem-partly-perception-and-partly-distribution-why
 
-  - title: "10 Things I Learned from Paul Graham at Y Combinator"
+  - title: "10 Things I Learned from Paul Graham"
     url: http://betabeat.com/2014/06/10-things-i-learned-from-paul-graham-at-y-combinator/
 
-  - title: "Why Procrastination Doesn’t Need a Cure: A Guide to Structured Distraction"
+  - title: "Why Procrastination Doesn’t Need a Cure"
     url: https://blog.bufferapp.com/dont-stop-procrastinating-procrastination-doesnt-need-a-cure-structured-distraction
 
   - title: "Why I Am Not a Maker"
@@ -234,7 +231,7 @@ links:
   - title: "How Automation Left Us Feeling Empty"
     url: https://levels.io/automation-void/
 
-  - title: "HOWTO: Be more productive"
+  - title: "Be more productive"
     url: http://www.aaronsw.com/weblog/productivity
 
   - title: "Lucky to Be a Programmer"
