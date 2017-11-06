@@ -1,18 +1,17 @@
 ---
-title: About
+title: Hello. My name is Jorin Vogel.
 ---
 
-Hello. My name is Jorin Vogel.
-
-<br>
 
 I am a software developer that enjoys building API services and data products.
 On this website you can find personal thoughts about automation, testing and other topics.
 <!--more-->
 
+You can send me a <a href="mailto:{{ .Site.Author.email }}">mail</a> or follow me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">Twitter</a>.
+
 <br>
 
-Some things I have done in the past:
+Some things I do:
 
 - I like to create tools in Go, such as [ghbackup](https://github.com/qvl/ghbackup), [sleepto](https://github.com/qvl/sleepto) and [promplot](https://github.com/qvl/promplot) and  I contribute to others such as [goreleaser](https://goreleaser.com/).
 - From April '13 until September '17 I worked part-time and remote as a web developer for [sope.io](http://sope.io/) where I built servers in Node.js and worked on web and mobile applications using technologies ranging from jQuery and Backbone.js to Angular and React.
