@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "Peaked?"
+    url: https://ninjasandrobots.com/peaked
+
   - title: "Randy Pausch Last Lecture: Achieving Your Childhood Dreams"
     url: https://www.youtube.com/watch?v=ji5_MqicxSo
 

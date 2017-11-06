@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Publishing with Apache Kafka at The New York Times"
+    url: https://www.confluent.io/blog/publishing-apache-kafka-new-york-times/
+
   - title: "Best practices for staging environments"
     url: https://increment.com/development/center-stage-best-practices-for-staging-environments/
 

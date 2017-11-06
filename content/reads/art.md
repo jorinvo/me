@@ -3,6 +3,9 @@ type: linklist
 title: Art
 links:
 
+  - title: "Photography by ヤマサキコージ"
+    url: http://www.yamasakiko-ji.com/
+
   - title: "手指断了 - cyperpunk concept art"
     url: https://m.weibo.cn/p/1005052906185283
 
