@@ -10,11 +10,13 @@ body {
 h1 {
 	color: black;
   display: inline-block;
+	font-size: 240%;
 }
 
 h2 {
 	margin: 1% 0 0 0;
-	line-height: 130%;
+	line-height: 120%;
+	font-size: 160%;
 }
 
 h3 {
