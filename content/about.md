@@ -7,6 +7,8 @@ I am a software developer that enjoys building API services and data products.
 On this website you can find personal thoughts about automation, testing and other topics.
 <!--more-->
 
+<br>
+
 You can send me a <a href="mailto:{{ .Site.Author.email }}">mail</a> or follow me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">Twitter</a>.
 
 <br>
