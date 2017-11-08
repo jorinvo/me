@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "How do you cut a monolith in half?"
+    url: https://programmingisterrible.com/post/162346490883/how-do-you-cut-a-monolith-in-half
+
   - title: "Publishing with Apache Kafka at The New York Times"
     url: https://www.confluent.io/blog/publishing-apache-kafka-new-york-times/
 
