@@ -3,6 +3,21 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Martin Fowler - Event Sourcing"
+    url: https://www.youtube.com/watch?v=aweV9FLTZkU
+
+  - title: "Using logs to build a solid data infrastructure"
+    url: https://www.confluent.io/blog/using-logs-to-build-a-solid-data-infrastructure-or-why-dual-writes-are-a-bad-idea/
+
+  - title: "Materialized View Strategies Using PostgreSQL"
+    url: https://hashrocket.com/blog/posts/materialized-view-strategies-using-postgresql
+
+  - title: "Matt Walters - How to CQRS in Node: Eventually Consistent, Unidirectional Systems with Microservices"
+    url: https://www.youtube.com/watch?v=4k7bLtqXb8c
+
+  - title: "Ashley Williams - A brief history and mishistory of modularity"
+    url: https://www.youtube.com/watch?v=LfOVyNQK5io
+
   - title: "How do you cut a monolith in half?"
     url: https://programmingisterrible.com/post/162346490883/how-do-you-cut-a-monolith-in-half
 
