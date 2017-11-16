@@ -12,9 +12,6 @@ links:
   - title: "Materialized View Strategies Using PostgreSQL"
     url: https://hashrocket.com/blog/posts/materialized-view-strategies-using-postgresql
 
-  - title: "Matt Walters - How to CQRS in Node: Eventually Consistent, Unidirectional Systems with Microservices"
-    url: https://www.youtube.com/watch?v=4k7bLtqXb8c
-
   - title: "Ashley Williams - A brief history and mishistory of modularity"
     url: https://www.youtube.com/watch?v=LfOVyNQK5io
 
