@@ -3,6 +3,9 @@ type: linklist
 title: Random
 links:
 
+  - title: "A Five Minutes Guide to Better Typography"
+    url: http://pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
+
   - title: "How to Simulate the Universe in 134 Easy Steps"
     url: http://ncase.me/OVC2016/
 

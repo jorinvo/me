@@ -3,6 +3,9 @@ type: linklist
 title: Business
 links:
 
+  - title: "Econimics in Open Source: Make your complements a commodity"
+    url: https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/
+
   - title: "How we Bootstrapped our SaaS Startup to Ramen Profitability"
     url: https://blog.canny.io/saas-startup-ramen-profitability/
 

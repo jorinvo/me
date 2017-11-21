@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "Run for simple solutions"
+    url: https://thomasbyttebier.be/blog/run-for-solutions
+
   - title: "Peaked?"
     url: https://ninjasandrobots.com/peaked
 

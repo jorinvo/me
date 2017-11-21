@@ -3,6 +3,9 @@ type: linklist
 title: JavaScript
 links:
 
+  - title: "Back pressure, or, how to not accept it if you can't handle it right now - Sam Roberts"
+    url: https://www.youtube.com/watch?v=c9F1P9N6UIs
+
   - title: "Matt Walters - How to CQRS in Node: Eventually Consistent, Unidirectional Systems with Microservices"
     url: https://www.youtube.com/watch?v=4k7bLtqXb8c
 

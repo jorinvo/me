@@ -3,6 +3,24 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Safety-Critical Systems - Professor Martyn Thomas"
+    url: https://www.youtube.com/watch?v=E0igfLcilSk
+
+  - title: "How Can Software Be So Hard? - Professor Martyn Thomas"
+    url: https://www.youtube.com/watch?v=VfRVz1iqgKU
+
+  - title: "Just Say No to More End-to-End Tests"
+    url: https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html
+
+  - title: "Software Is About Storytelling"
+    url: http://bravenewgeek.com/software-is-about-storytelling/
+
+  - title: "Smart Endpoints, Dumb Pipes"
+    url: http://bravenewgeek.com/smart-endpoints-dumb-pipes/
+
+  - title: "You Cannot Have Exactly-Once Delivery"
+    url: http://bravenewgeek.com/you-cannot-have-exactly-once-delivery/
+
   - title: "Martin Fowler - Event Sourcing"
     url: https://www.youtube.com/watch?v=aweV9FLTZkU
 
@@ -417,9 +435,6 @@ links:
   - title: "The best icon is a text label"
     url: https://thomasbyttebier.be/blog/the-best-icon-is-a-text-label
 
-  - title: "Run for simple solutions"
-    url: https://thomasbyttebier.be/blog/run-for-solutions
-
   - title: "Bash One-Liners Explained - Redirections"
     url: http://www.catonmat.net/blog/bash-one-liners-explained-part-three/
 
@@ -509,9 +524,6 @@ links:
 
   - title: "How I got a medal from the Army for writing code"
     url: https://vivin.net/2014/06/26/how-i-got-a-medal-for-writing-code/
-
-  - title: "Python and Flask Are Ridiculously Powerful"
-    url: https://jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/
 
   - title: "Math For Programmers"
     url: https://steve-yegge.blogspot.com/2006/03/math-for-programmers.html
