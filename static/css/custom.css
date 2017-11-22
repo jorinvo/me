@@ -16,13 +16,15 @@ h1 {
 
 h2 {
 	margin: 1% 0 0 0;
-	line-height: 120%;
 	font-size: 160%;
+	line-height: 120%;
 }
 
 h3 {
-  margin-top: 5%;
+  margin-top: 7%;
   margin-bottom: 1%;
+  font-size: 140%;
+	line-height: 120%;
 }
 
 p {
@@ -66,6 +68,19 @@ footer {
 	font-size: 80%;
 }
 
+hr {
+  margin: 10% auto;
+  height: 1px;
+  width: 80%;
+  border: none;
+  outline: none;
+  background: grey;
+}
+
+blockquote {
+  font-style: italic;
+}
+
 .post-link {
 	color: black;
 }
@@ -84,6 +99,10 @@ footer {
 
 .post-content > p:first-child {
   font-style: italic;
+}
+
+.post-content img {
+  max-width: 100%;
 }
 
 .post-footer {
@@ -106,7 +125,7 @@ footer {
   font-style: italic;
 }
 
-.highlight {
+pre {
   border-width: 1px;
   border-color: #E7E7E7;
   border-style: solid;
@@ -155,7 +174,7 @@ code:focus {
     display: initial;
   }
 
-  p, .highlight {
+  p, pre {
     page-break-inside: avoid;
   }
 
