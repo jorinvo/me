@@ -222,7 +222,7 @@ gm convert -monochrome captain-dog.jpg dog-bw.jpg
 We can also convert it to greyscale by setting the saturation to zero:
 
 ```sh
-gm convert -monochrome captain-dog.jpg dog-bw.jpg
+gm convert -modulate 100,0 captain-dog.jpg dog-grey.jpg
 ```
 
 ![Dog in greyscale](/images/gm/dog-grey.jpg)
