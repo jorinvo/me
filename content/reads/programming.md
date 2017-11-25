@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "How do groups work on Linux?"
+    url: https://jvns.ca/blog/2017/11/20/groups/
+
+  - title: "Clojure, Made Simple - Rich Hickey"
+    url: https://www.youtube.com/watch?v=VSdnJDO-xdg
+
   - title: "Safety-Critical Systems - Professor Martyn Thomas"
     url: https://www.youtube.com/watch?v=E0igfLcilSk
 
@@ -438,7 +444,7 @@ links:
   - title: "Bash One-Liners Explained - Redirections"
     url: http://www.catonmat.net/blog/bash-one-liners-explained-part-three/
 
-  - title: "The Value of Values"
+  - title: "The Value of Values - Rich Hickey"
     url: https://www.infoq.com/presentations/Value-Values
 
   - title: "What is your most productive shortcut with Vim?"

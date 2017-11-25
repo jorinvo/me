@@ -3,7 +3,10 @@ type: linklist
 title: Writing
 links:
 
-  - title: "Is language as we know it still relevant for the digital age? "
+  - title: "My Writing Process"
+    url: http://www.flyingmachinestudios.com/essays/process/
+
+  - title: "Is language as we know it still relevant for the digital age?"
     url: https://www.opendemocracy.net/digitaliberties/pavlo-shopin/meaning-of-language-why-do-arts-and-sciences-need-language
 
   - title: "Write."

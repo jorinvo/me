@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "How To Change Your Life In 30 Days"
+    url: https://medium.com/personal-growth/this-30-day-challenge-will-transform-your-identity-and-explode-your-success-813a76427652
+
   - title: "Run for simple solutions"
     url: https://thomasbyttebier.be/blog/run-for-solutions
 
