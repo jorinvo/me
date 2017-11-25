@@ -31,9 +31,11 @@ For all examples we will use [this](https://unsplash.com/photos/Cey5ljV8R6A) ima
 
 ### Resizing
 
-Before we start, `gm` provides different sub-commands and  those take flags and arguments for configuration.
+Before we start, `gm` provides different commands and those take flags and arguments for configuration.
 To do resizing we will use the `gm convert` command. Note that you can use `gm mogrify` with basically the same options, but `mogrify` overwrites
 the given file while `convert` saves the results into a new file, which is definitely saver for our experiments.
+
+GraphicsMagick also provides binaries to access its commands directly from the command line. So in the examples below we will simply use `convert` instead of `gm convert`, but they do the same thing.
 
 To follow along, you can find the images in [this](https://github.com/jorinvo/me/tree/master/static/images/gm) folder.
 
@@ -47,7 +49,7 @@ captain-dog.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 
 The simplest way to resize an image is to specify a new width. The height scales proportionally:
 
 ```sh
-gm convert -resize 100 captain-dog.jpg dog-100.jpg
+convert -resize 100 captain-dog.jpg dog-100.jpg
 ```
 
 ![Dog resized to 100px](/images/gm/dog-100.jpg)
@@ -56,13 +58,13 @@ gm convert -resize 100 captain-dog.jpg dog-100.jpg
 Alternatively you can specify a width and a height, then the program will resize the images to fit into the new dimensions without changing the proportions:
 
 ```sh
-gm convert -resize 200x100 captain-dog.jpg dog-200-100.jpg
+convert -resize 200x100 captain-dog.jpg dog-200-100.jpg
 ```
 
 ![Dog resized to 200x100](/images/gm/dog-200-100.jpg)
 
 ```sh
-gm convert -resize 100x200 captain-dog.jpg dog-100-200.jpg
+convert -resize 100x200 captain-dog.jpg dog-100-200.jpg
 ```
 
 ![Dog resized to 100x200](/images/gm/dog-100-200.jpg)
@@ -70,7 +72,7 @@ gm convert -resize 100x200 captain-dog.jpg dog-100-200.jpg
 You can also use percentage instead:
 
 ```sh
-gm convert -resize 50% captain-dog.jpg dog-half.jpg
+convert -resize 50% captain-dog.jpg dog-half.jpg
 ```
 
 ![Dog resized to 50%](/images/gm/dog-half.jpg)
@@ -78,7 +80,7 @@ gm convert -resize 50% captain-dog.jpg dog-half.jpg
 Instead of changing the original image, you can also extend it to fill out the given dimensions:
 
 ```sh
-gm convert -extent 100 -background red \
+convert -extent 100 -background red \
   dog-100-200.jpg dog-extend-100.jpg
 ```
 
@@ -89,7 +91,7 @@ Note that I also specified a background color. The [color format](http://www.gra
 If you need the image in the center you can do this by setting the gravity, but make sure to set it before setting `-extent` since GraphicsMagick applies the options in order:
 
 ```sh
-gm convert -gravity center -extent 100 \
+convert -gravity center -extent 100 \
   -background red dog-100-200.jpg dog-extend-center.jpg
 ```
 
@@ -105,7 +107,7 @@ Closely related to resizing, we often need to cut out a certain part of an image
 Let's crop the image to a square:
 
 ```sh
-gm convert -crop 400x400 captain-dog.jpg dog-square.jpg
+convert -crop 400x400 captain-dog.jpg dog-square.jpg
 ```
 
 ![Dog squared](/images/gm/dog-square.jpg)
@@ -113,7 +115,7 @@ gm convert -crop 400x400 captain-dog.jpg dog-square.jpg
 Now the dog is cut off on the right side. Let's place the square in the center. To do this we need to do the calculation on our own and specify the offset in the crop dimensions:
 
 ```sh
-gm convert -crop 400x400+150 \
+convert -crop 400x400+150 \
   captain-dog.jpg dog-square-center.jpg
 ```
 
@@ -123,7 +125,7 @@ gm convert -crop 400x400+150 \
 This looks about right. Note that the different options can be combined and even repeated. The order is important:
 
 ```sh
-gm convert -resize 200 -crop 400x400+150 \
+convert -resize 200 -crop 400x400+150 \
   captain-dog.jpg dog-square-center-error.jpg
 ```
 
@@ -132,7 +134,7 @@ gm convert -resize 200 -crop 400x400+150 \
 This didn't work, but if we switch the arguments order, it looks correct:
 
 ```sh
-gm convert -crop 400x400+150 -resize 200 \
+convert -crop 400x400+150 -resize 200 \
   captain-dog.jpg dog-square-center-small.jpg
 ```
 
@@ -141,7 +143,7 @@ gm convert -crop 400x400+150 -resize 200 \
 Alternatively you can leave the order and change the dimensions instead:
 
 ```sh
-gm convert -resize x200 -crop 200x200+75 \
+convert -resize x200 -crop 200x200+75 \
   captain-dog.jpg dog-square-center-small2.jpg
 ```
 
@@ -153,13 +155,13 @@ gm convert -resize x200 -crop 200x200+75 \
 You can mirror images on both axes:
 
 ```sh
-gm convert -flop captain-dog.jpg dog-flop.jpg
+convert -flop captain-dog.jpg dog-flop.jpg
 ```
 
 ![Dog flopped](/images/gm/dog-flop.jpg)
 
 ```sh
-gm convert -flip captain-dog.jpg dog-flip.jpg
+convert -flip captain-dog.jpg dog-flip.jpg
 ```
 
 ![Dog flipped](/images/gm/dog-flip.jpg)
@@ -167,10 +169,10 @@ gm convert -flip captain-dog.jpg dog-flip.jpg
 
 ### Create a Montage by Combining Multiple Images Into One
 
-Images can be combined by using the `gm montage` command. You need to specify the result dimensions:
+Images can be combined by using the `montage` command. You need to specify the result dimensions:
 
 ```sh
-gm montage -geometry 600x400 \
+montage -geometry 600x400 \
   captain-dog.jpg dog-flop.jpg dog-montage.jpg
 ```
 
@@ -179,7 +181,7 @@ gm montage -geometry 600x400 \
 You can also leave a margin around the images:
 
 ```sh
-gm montage -geometry 600x400+10+10 -background blue \
+montage -geometry 600x400+10+10 -background blue \
   captain-dog.jpg dog-flop.jpg dog-montage-margin.jpg
 ```
 
@@ -188,7 +190,7 @@ gm montage -geometry 600x400+10+10 -background blue \
 And you can modify the grid in which the images are places:
 
 ```sh
-gm montage -tile 1x -geometry 300x200 \
+montage -tile 1x -geometry 300x200 \
   captain-dog.jpg dog-flip.jpg dog-montage-vertical.jpg
 ```
 
@@ -200,7 +202,7 @@ gm montage -tile 1x -geometry 300x200 \
 GraphicsMagick gives you a really quick way to combine a few images into a PDF:
 
 ```sh
-gm convert captain-dog.jpg dog-flop.jpg dog-flip.jpg \
+convert captain-dog.jpg dog-flop.jpg dog-flip.jpg \
   dog.pdf
 ```
 
@@ -214,7 +216,7 @@ There is not just PDF but over 88 supported formats from which and to which you 
 As last example, let's convert the image to black & white:
 
 ```sh
-gm convert -monochrome captain-dog.jpg dog-bw.jpg
+convert -monochrome captain-dog.jpg dog-bw.jpg
 ```
 
 ![Dog in black & white](/images/gm/dog-bw.jpg)
@@ -222,7 +224,7 @@ gm convert -monochrome captain-dog.jpg dog-bw.jpg
 We can also convert it to greyscale by setting the saturation to zero:
 
 ```sh
-gm convert -modulate 100,0 captain-dog.jpg dog-grey.jpg
+convert -modulate 100,0 captain-dog.jpg dog-grey.jpg
 ```
 
 ![Dog in greyscale](/images/gm/dog-grey.jpg)
