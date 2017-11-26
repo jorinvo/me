@@ -55,6 +55,8 @@ small {
 
 li {
   padding: 1% 0;
+}
+ul > li {
   list-style: circle;
 }
 
