@@ -3,6 +3,21 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Toward a Functional Programming Analogy for Microservices"
+    url: https://www.confluent.io/blog/toward-functional-programming-analogy-microservices/
+
+  - title: "Growing Your Tech Stack: When to Say No"
+    url: https://blog.codeship.com/growing-tech-stack-say-no/
+
+  - title: "Idée Fixe - David Nolen"
+    url: https://www.youtube.com/watch?v=lzXHMy4ewtM
+
+  - title: "Joe Armstrong interviews Alan Kay"
+    url: https://www.youtube.com/watch?v=fhOHn9TClXY
+
+  - title: "The Language of the System - Rich Hickey"
+    url: https://www.youtube.com/watch?v=ROor6_NGIWU
+
   - title: "How do groups work on Linux?"
     url: https://jvns.ca/blog/2017/11/20/groups/
 
