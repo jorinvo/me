@@ -2,8 +2,7 @@
 title: Hello. My name is Jorin Vogel.
 ---
 
-
-I am a software developer that enjoys building API services and data products.
+I build information technology — turning raw data into insightful information.
 On this website you can find personal thoughts about automation, testing and other topics.
 <!--more-->
 
