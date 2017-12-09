@@ -14,6 +14,7 @@ You can send me a <a href="mailto:{{ .Site.Author.email }}">mail</a> or follow m
 
 Some things I do:
 
+- I work as a software developer building information technology for [heartbeat](https://heartbeat-med.de/en/).
 - I like to create tools, such as [ghbackup](https://github.com/qvl/ghbackup), [sleepto](https://github.com/qvl/sleepto) and [promplot](https://github.com/qvl/promplot).
 - From April '13 until September '17 I worked part-time and remote as a web developer for [sope.io](http://sope.io/) where I built servers in Node.js and worked on web and mobile applications using technologies ranging from jQuery and Backbone.js to Angular and React.
 - From October '13 until October '17 I studied [International Media and Computing](http://imi-bachelor.htw-berlin.de/) in Berlin.
