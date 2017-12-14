@@ -1,9 +1,9 @@
 ---
 title: "Why Go for Node.js Developers"
-date: 2017-11-26T15:20:37+01:00
+date: 2017-12-14T22:20:37+01:00
 ---
 
-This article is an attempt at explaining Go is an alternative to Node.js.
+This article is an attempt at explaining Go as an alternative to Node.js.
 <!--more-->
 
 The following is not an attempt to convince anyone that one technology is better than the other, instead I like to explore the strong points of each so we can better choose the appropriate tool for a given task.
