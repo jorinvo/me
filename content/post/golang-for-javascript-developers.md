@@ -3,8 +3,10 @@ title: "Why Go for Node.js Developers"
 date: 2017-11-26T15:20:37+01:00
 ---
 
-The following is not an attempt to convince anyone that one technology is better than the other, instead I like to explore the strong points of each so we can better choose the appropriate tool for a given task.
+This article is an attempt at explaining Go is an alternative to Node.js.
 <!--more-->
+
+The following is not an attempt to convince anyone that one technology is better than the other, instead I like to explore the strong points of each so we can better choose the appropriate tool for a given task.
 
 I have been working with [Node.js](https://nodejs.org/) for more than five years now and in the last year I have been using [Go](https://golang.org/) to build various things - bigger projects and also [various](https://github.com/qvl/) open source tools.
 
