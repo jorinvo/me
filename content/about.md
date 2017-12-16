@@ -2,7 +2,7 @@
 title: Hello. My name is Jorin Vogel.
 ---
 
-I build information technology — turning raw data into insightful information.
+I build information technology — turning raw data into opinionated data.
 On this website you can find personal thoughts about automation, testing and other topics.
 <!--more-->
 
