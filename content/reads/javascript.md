@@ -3,6 +3,9 @@ type: linklist
 title: JavaScript
 links:
 
+  - title: "Know Your Node REPL"
+    url: https://hackernoon.com/know-node-repl-better-dbd15bca0af6
+
   - title: "Back pressure, or, how to not accept it if you can't handle it right now - Sam Roberts"
     url: https://www.youtube.com/watch?v=c9F1P9N6UIs
 

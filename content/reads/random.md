@@ -3,6 +3,9 @@ type: linklist
 title: Random
 links:
 
+  - title: "Deep dive: What we are learning from the language of whales | James Nestor"
+    url: https://www.youtube.com/watch?v=JM77aTk1XyI
+
   - title: "A Five Minutes Guide to Better Typography"
     url: http://pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
 

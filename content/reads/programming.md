@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Ideology"
+    url: https://www.destroyallsoftware.com/talks/ideology
+
   - title: "Toward a Functional Programming Analogy for Microservices"
     url: https://www.confluent.io/blog/toward-functional-programming-analogy-microservices/
 

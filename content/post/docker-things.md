@@ -9,6 +9,7 @@ draft: true
   Don't forget the lock file.
 - docker system prune
 - docker system ds
+- docker stats
 - docker network inspect
 - Don't copy your local node_modules into container, add it to .dockerignore file.
   Mount src into container for development, Make sure to not mount node_modules.

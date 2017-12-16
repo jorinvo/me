@@ -4,6 +4,9 @@ title: Programming
 draft: true
 links:
 
+  - title: "Anthony Marcar - Clojure At Scale @WalmartLabs"
+    url: https://www.youtube.com/watch?v=av9Xi6CNqq4&app=desktop
+
   - title: "From Pedestal routes to beautiful documentation"
     url: https://frankiesardo.github.io/posts/2015-03-06-from-pedestal-routes-to-beautiful-documentation.html
 

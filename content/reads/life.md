@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "The philosophy of Stoicism - Massimo Pigliucci"
+    url: https://www.youtube.com/watch?v=R9OCA6UFE-0
+
   - title: "How To Change Your Life In 30 Days"
     url: https://medium.com/personal-growth/this-30-day-challenge-will-transform-your-identity-and-explode-your-success-813a76427652
 
