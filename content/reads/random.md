@@ -3,6 +3,9 @@ type: linklist
 title: Random
 links:
 
+  - title: "The Most Intolerant Wins: The Dictatorship of the Small Minority"
+    url: https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15
+
   - title: "Deep dive: What we are learning from the language of whales | James Nestor"
     url: https://www.youtube.com/watch?v=JM77aTk1XyI
 

@@ -3,6 +3,9 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Go tooling essentials"
+    url: https://rakyll.org/go-tool-flags/
+
   - title: "Profiling Go programs with pprof"
     url: https://jvns.ca/blog/2017/09/24/profiling-go-with-pprof/
 

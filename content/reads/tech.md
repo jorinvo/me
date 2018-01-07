@@ -3,6 +3,12 @@ type: linklist
 title: Technology
 links:
 
+  - title: "The Last Invention of Man"
+    url: http://nautil.us/issue/53/monsters/the-last-invention-of-man
+
+  - title: "An Interview with an Anonymous Data Scientist"
+    url: https://logicmag.io/01-interview-with-an-anonymous-data-scientist/
+
   - title: "Kill animals and destroy property before hurting humans, Germany tells future self-driving cars"
     url: https://www.theregister.co.uk/2017/08/24/driverless_cars_ethics_laws_germany/
 

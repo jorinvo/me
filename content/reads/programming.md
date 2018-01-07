@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Greg Young - Stop Over-Engenering"
+    url: https://www.youtube.com/watch?v=GRr4xeMn1uU
+
   - title: "Ideology"
     url: https://www.destroyallsoftware.com/talks/ideology
 
@@ -37,13 +40,13 @@ links:
     url: https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html
 
   - title: "Software Is About Storytelling"
-    url: http://bravenewgeek.com/software-is-about-storytelling/
+    url: https://bravenewgeek.com/software-is-about-storytelling/
 
   - title: "Smart Endpoints, Dumb Pipes"
-    url: http://bravenewgeek.com/smart-endpoints-dumb-pipes/
+    url: https://bravenewgeek.com/smart-endpoints-dumb-pipes/
 
   - title: "You Cannot Have Exactly-Once Delivery"
-    url: http://bravenewgeek.com/you-cannot-have-exactly-once-delivery/
+    url: https://bravenewgeek.com/you-cannot-have-exactly-once-delivery/
 
   - title: "Martin Fowler - Event Sourcing"
     url: https://www.youtube.com/watch?v=aweV9FLTZkU
@@ -319,7 +322,7 @@ links:
     url: https://circleci.com/blog/its-the-future
 
   - title: "Web Design in 4 minutes"
-    url: http://jgthms.com/web-design-in-4-minutes/
+    url: https://jgthms.com/web-design-in-4-minutes/
 
   - title: "Taking The Robots To Design School"
     url: http://www.jon.gold/2016/05/robot-design-school/
@@ -349,7 +352,7 @@ links:
     url: http://daynebatten.com/2016/05/finding-similar-sounding-names-basics/
 
   - title: "The Truth About Deep Learning"
-    url: http://blog.claymcleod.io/the-truth-about-deep-learning.html
+    url: http://blog.claymcleod.io/2016/06/01/The-truth-about-Deep-Learning/
 
   - title: "Visualizing city similarity"
     url: https://teleport.org/2016/02/visualizing-city-similarity/
@@ -427,7 +430,7 @@ links:
     url: https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/
 
   - title: "The Website Obesity Crisis"
-    url: https://vimeo.com/147806338
+    url: http://idlewords.com/talks/website_obesity.htm
 
   - title: "Haunted by Data"
     url: https://www.youtube.com/watch?v=GAXLHM-1Psk

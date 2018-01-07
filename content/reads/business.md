@@ -43,7 +43,7 @@ links:
     url: http://thecodist.com/article/why_i_don_39_t_do_unpaid_overtime_and_neither_should_you
 
   - title: "Super successful companies"
-    url: http://blog.samaltman.com/super-successful-companies
+    url: https://blog.samaltman.com/super-successful-companies
 
   - title: "Breakout Career Guide"
     url: https://breakoutcareers.com/

@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "Five Years, Five Wishes - Hintjens"
+    url: http://hintjens.com/blog:109
+
   - title: "The philosophy of Stoicism - Massimo Pigliucci"
     url: https://www.youtube.com/watch?v=R9OCA6UFE-0
 
@@ -70,7 +73,7 @@ links:
     url: http://paulgraham.com/gh.html
 
   - title: "I Used to Be a Human Being"
-    url: http://nymag.com/selectall/2016/09/andrew-sullivan-technology-almost-killed-me.html
+    url: https://nymag.com/selectall/2016/09/andrew-sullivan-technology-almost-killed-me.html
 
   - title: "Why are Adults so busy?"
     url: http://debarghyadas.com/writes/why-are-adults-so-busy/

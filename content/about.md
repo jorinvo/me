@@ -30,7 +30,7 @@ natural language processing,
 - In '15 I worked for four months as an intern at [Playlab](http://www.playlab.com/) where I built components for ETL pipelines in Ruby, solved Docker container issues, wrote integration tests in Node.js to track down Redis and Cassandra related bugs and created a dynamic admin interface with React.
 - Since '12 I build and maintain [Litewrite](https://litewrite.net), a distraction-free writing app built on top of [remotestorage](https://remotestorage.io/), an innovative storage protocol.
 - In late '12 I was part of a team participating in [Node.js KO](https://github.com/nko3) which let to my first job in tech later on.
-- In summer '12 I did a three months internship at [assistant](http://assistent.com/), building websites.
+- In summer '12 I did a three months internship at [assistant](https://assistent.com/), building websites.
 - In '10 I started to teach myself to program.
 I wrote my [first Python code](https://github.com/jorinvo/Beginner-Python-GTK),
 [played](https://github.com/jorinvo/Yourwall) with [JavaScript](https://github.com/jorinvo/Bruchrechner)

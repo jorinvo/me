@@ -4,8 +4,23 @@ title: Programming
 draft: true
 links:
 
+  - title: "James Turnbull - How I learned to stop being afraid and love the JVM"
+    url: https://www.youtube.com/watch?v=SKJjmx9ukS4
+
+  - title: "Stuart Sierra - Components Just Enough Structure"
+    url: https://www.youtube.com/watch?v=13cmHf_kt-Q
+
+  - title: "Zach Tellman - Predictably Fast Clojure"
+    url: https://www.youtube.com/watch?v=iQwQXVM6oiY
+
+  - title: "How ’bout that start-up time?"
+    url: https://stuartsierra.com/2017/07/18/how-bout-that-start-up-time
+
+  - title: "Faster Delivery with Pedestal and Vase - Paul deGrandis"
+    url: https://www.youtube.com/watch?v=_Cf-STRvFy8
+
   - title: "Anthony Marcar - Clojure At Scale @WalmartLabs"
-    url: https://www.youtube.com/watch?v=av9Xi6CNqq4&app=desktop
+    url: https://www.youtube.com/watch?v=av9Xi6CNqq4
 
   - title: "From Pedestal routes to beautiful documentation"
     url: https://frankiesardo.github.io/posts/2015-03-06-from-pedestal-routes-to-beautiful-documentation.html

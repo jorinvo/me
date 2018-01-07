@@ -11,6 +11,7 @@ draft: true
 - docker system ds
 - docker stats
 - docker network inspect
+- docker history
 - Don't copy your local node_modules into container, add it to .dockerignore file.
   Mount src into container for development, Make sure to not mount node_modules.
   Can prevent that using -v /home/node/node_modules.

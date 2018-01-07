@@ -23,7 +23,7 @@ You might not have heard of GraphicsMagick before, but maybe you heard of [Image
 
 Let's get started. First make sure you have GraphicsMagick installed. You can do so easily by running `brew install graphicsmagick` or `apt-get install graphicsmagick` or something similar for your operation system.
 
-Don't get scared by the project's archaic website. The [documentation](www.graphicsmagick.org/GraphicsMagick.html) in there is in fact pretty decent. Of course you can also avoid opening a web browser and use `man gm` in your terminal instead. The binary to use GraphicsMagick for the command line is named `gm`.
+Don't get scared by the project's archaic website. The [documentation](http://www.graphicsmagick.org/GraphicsMagick.html) in there is in fact pretty decent. Of course you can also avoid opening a web browser and use `man gm` in your terminal instead. The binary to use GraphicsMagick for the command line is named `gm`.
 
 For all examples we will use [this](https://unsplash.com/photos/Cey5ljV8R6A) image from Unsplash:
 
@@ -244,7 +244,7 @@ ql() {
 ---------
 
 
-This is just the beginning. You can do many more things with GraphicsMagick such as rotating images, [blending images](http://www.graphicsmagick.org/composite.html) with many options such as opacity, adjust the colors of images to your liking with options such as `-blur`, `-sharpen`, `-gamma` and `-modulate`, [batching](www.graphicsmagick.org/batch.html) commands to run many edit operations in one go or even create animated GIF images.
+This is just the beginning. You can do many more things with GraphicsMagick such as rotating images, [blending images](http://www.graphicsmagick.org/composite.html) with many options such as opacity, adjust the colors of images to your liking with options such as `-blur`, `-sharpen`, `-gamma` and `-modulate`, [batching](http://www.graphicsmagick.org/batch.html) commands to run many edit operations in one go or even create animated GIF images.
 
 Of course now you also have the power to automate all your editing needs. You can write reusable shell scripts to edit many images at once or you can even use GraphicsMagick for all your production image editing jobs. There are bindings for every popular programming language — for example in [Node.js](https://github.com/aheckmann/gm).
 
