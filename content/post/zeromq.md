@@ -41,3 +41,5 @@ how to add timeouts, retries, error handling?
 how to queue jobs?
 -> example
 
+Be care full ZeroMQ is fast. Really fast.
+You can get an answer from your service faster than your actual code executes two lines.

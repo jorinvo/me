@@ -3,6 +3,15 @@ type: linklist
 title: Programming
 links:
 
+  - title: "A Letter to a Junior Engineer"
+    url: https://builttoadapt.io/a-letter-to-a-junior-engineer-edec0e260b87
+
+  - title: "Pieter Hintjens - Our decentralized future"
+    url: https://www.youtube.com/watch?v=36bKE_JsHZs
+
+  - title: "Greg Young - Developers are strange creatures"
+    url: https://www.youtube.com/watch?v=N-lSE3DBerM
+
   - title: "Greg Young - Stop Over-Engenering"
     url: https://www.youtube.com/watch?v=GRr4xeMn1uU
 

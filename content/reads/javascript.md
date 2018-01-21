@@ -3,6 +3,9 @@ type: linklist
 title: JavaScript
 links:
 
+  - title: "You Might Not Need TypeScript (or Static Types)"
+    url: https://medium.com/javascript-scene/you-might-not-need-typescript-or-static-types-aa7cb670a77b
+
   - title: "Know Your Node REPL"
     url: https://hackernoon.com/know-node-repl-better-dbd15bca0af6
 

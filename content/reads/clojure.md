@@ -1,8 +1,13 @@
 ---
 type: linklist
 title: Programming
-draft: true
 links:
+
+  - title: "Inspiring a future Clojure editor with forgotten Lisp UX - Shaun Lebron"
+    url: https://www.youtube.com/watch?v=K0Tsa3smr1w
+
+  - title: "Specter by Nathan Marz"
+    url: https://www.youtube.com/watch?v=mXZxkpX5nt8
 
   - title: "James Turnbull - How I learned to stop being afraid and love the JVM"
     url: https://www.youtube.com/watch?v=SKJjmx9ukS4
