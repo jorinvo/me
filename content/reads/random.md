@@ -3,6 +3,9 @@ type: linklist
 title: Random
 links:
 
+  - title: "Reality has a surprising amount of detail"
+    url: http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail
+
   - title: "The Most Intolerant Wins: The Dictatorship of the Small Minority"
     url: https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15
 

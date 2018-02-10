@@ -27,3 +27,7 @@ draft: true
 - You cannot rename file from one partition to another.
   If you want to move a file to a volume you have to copy it instead.
 
+Lessons:
+- Don’t try to use the same setup for development as for production. You want different tools and insights.
+- When developing with Docker, do it with Docker only. Don’t try to have tests and so on run locally directly on your host. Do everything in Docker. Install nom modules only from within Docker and so on.
+- Use one Dockerfile or even the same container for all your dev services, mount whole repo folder.

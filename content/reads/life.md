@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "Confessions of a Necromancer - Hintjens"
+    url: http://hintjens.com/blog:125
+
   - title: "Five Years, Five Wishes - Hintjens"
     url: http://hintjens.com/blog:109
 

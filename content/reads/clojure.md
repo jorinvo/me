@@ -1,6 +1,6 @@
 ---
 type: linklist
-title: Programming
+title: Clojure
 links:
 
   - title: "Inspiring a future Clojure editor with forgotten Lisp UX - Shaun Lebron"

@@ -3,8 +3,8 @@ type: linklist
 title: Programming
 links:
 
-  - title: "A Letter to a Junior Engineer"
-    url: https://builttoadapt.io/a-letter-to-a-junior-engineer-edec0e260b87
+  - title: "What the Four Color Theorem can Teach Us About Writing Software"
+    url: http://alexkudlick.com/blog/what-the-four-color-theorem-can-teach-us-about-writing-software/
 
   - title: "Pieter Hintjens - Our decentralized future"
     url: https://www.youtube.com/watch?v=36bKE_JsHZs
