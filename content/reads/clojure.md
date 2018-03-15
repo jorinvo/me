@@ -3,6 +3,12 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Reversing the technical interview"
+    url: https://aphyr.com/posts/340-reversing-the-technical-interview
+
+  - title: "Fourteen Months with Clojure"
+    url: https://blog.skyliner.io/fourteen-months-with-clojure-beb8b3e4bf00
+
   - title: "Inspiring a future Clojure editor with forgotten Lisp UX - Shaun Lebron"
     url: https://www.youtube.com/watch?v=K0Tsa3smr1w
 

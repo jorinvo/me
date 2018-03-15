@@ -3,6 +3,9 @@ type: linklist
 title: Technology
 links:
 
+  - title: "Customer Satisfaction at the Push of a Button"
+    url: https://www.newyorker.com/magazine/2018/02/05/customer-satisfaction-at-the-push-of-a-button
+
   - title: "The Last Invention of Man"
     url: http://nautil.us/issue/53/monsters/the-last-invention-of-man
 

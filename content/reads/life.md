@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "How the Irish Teach Us to Die"
+    url: https://lithub.com/how-the-irish-teach-us-to-die/
+
   - title: "Confessions of a Necromancer - Hintjens"
     url: http://hintjens.com/blog:125
 

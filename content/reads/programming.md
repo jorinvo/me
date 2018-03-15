@@ -3,6 +3,39 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Let’s talk about usernames"
+    url: https://www.b-list.org/weblog/2018/feb/11/usernames/
+
+  - title: "What I learnt from building 3 high traffic web applications on an embedded key value store."
+    url: https://hackernoon.com/what-i-learnt-from-building-3-high-traffic-web-applications-on-an-embedded-key-value-store-68d47249774f
+
+  - title: "Introduction to Contract Programming"
+    url: https://www.hillelwayne.com/post/contracts/
+
+  - title: "Postgres Hidden Gems"
+    url: http://www.craigkerstiens.com/2018/01/31/postgres-hidden-gems/
+
+  - title: "ZeroMQ RFC 42/C4 - Collective Code Construction Contract"
+    url: https://rfc.zeromq.org/spec:42/C4/
+
+  - title: "Pieter Hintjens - How Conway's Law is eating your job?"
+    url: https://www.youtube.com/watch?v=7HECD3eLoVo
+
+  - title: "How is a Class like a Microservice?"
+    url: https://www.hillelwayne.com/post/box-diagrams/
+
+  - title: "The best software engineering paper you haven't read"
+    url: https://www.hillelwayne.com/post/the-best-se-paper/
+
+  - title: "Pieter Hintjens - ZMQ, tech, ideas, community, writing and life"
+    url: https://www.youtube.com/watch?v=ApqI9XLRk4k
+
+  - title: "Data Driven Products Now!"
+    url: http://datadriven.club/
+
+  - title: "Choose Boring Technology"
+    url: http://boringtechnology.club/
+
   - title: "What the Four Color Theorem can Teach Us About Writing Software"
     url: http://alexkudlick.com/blog/what-the-four-color-theorem-can-teach-us-about-writing-software/
 

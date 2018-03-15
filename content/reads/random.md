@@ -3,6 +3,12 @@ type: linklist
 title: Random
 links:
 
+  - title: "The Simple Algorithm That Ants Use to Build Bridges"
+    url: https://www.quantamagazine.org/the-simple-algorithm-that-ants-use-to-build-bridges-20180226/
+
+  - title: "The short history of global living conditions and why it matters that we know it"
+    url: https://ourworldindata.org/a-history-of-global-living-conditions-in-5-charts
+
   - title: "Reality has a surprising amount of detail"
     url: http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail
 

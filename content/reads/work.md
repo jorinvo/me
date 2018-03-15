@@ -1,7 +1,19 @@
 ---
 type: linklist
-title: Business
+title: Work
 links:
+
+  - title: "The business of SaaS"
+    url: https://stripe.com/atlas/guides/business-of-saas
+
+  - title: "7 ways to prepare for an effective one-on-one meeting with your manager"
+    url: https://blog.knowyourcompany.com/7-ways-to-prepare-to-have-an-effective-one-on-one-meeting-with-your-manager-3b7e083cb3bb
+
+  - title: "Money, power and credibility"
+    url: https://charity.wtf/2018/03/02/money-power-and-credibility/
+
+  - title: "Who I want to work for"
+    url: https://medium.com/@keavy/who-i-want-to-work-for-b04ce972c202
 
   - title: "Econimics in Open Source: Make your complements a commodity"
     url: https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/
@@ -65,4 +77,4 @@ links:
 
 ---
 
-Some advise for money things
+Advise for job and money things

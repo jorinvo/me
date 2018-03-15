@@ -3,6 +3,9 @@ type: linklist
 title: Writing
 links:
 
+  - title: "The Surprising Way to Be More Effective at Storytelling"
+    url: https://www.inc.com/alison-davis/the-surprising-way-to-be-more-effective-at-storytelling.html
+
   - title: "My Writing Process"
     url: http://www.flyingmachinestudios.com/essays/process/
 
