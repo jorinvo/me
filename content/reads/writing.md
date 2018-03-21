@@ -3,6 +3,9 @@ type: linklist
 title: Writing
 links:
 
+  - title: "Just start writing and the rest will follow"
+    url: https://rachelbythebay.com/w/2018/03/13/write/
+
   - title: "The Surprising Way to Be More Effective at Storytelling"
     url: https://www.inc.com/alison-davis/the-surprising-way-to-be-more-effective-at-storytelling.html
 

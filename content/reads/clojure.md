@@ -3,6 +3,24 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "The Story of Booting Mount"
+    url: https://www.dotkam.com/2015/12/22/the-story-of-booting-mount/
+
+  - title: "Clojure Libraries in The Matrix"
+    url: https://www.dotkam.com/2015/11/24/clojure-libraries-in-the-matrix/
+
+  - title: "Config You Know Plus Some Love"
+    url: https://www.dotkam.com/2016/03/03/config-you-know-plus-some-love/
+
+  - title: "Time Series Database in One Line of Clojure"
+    url: https://www.dotkam.com/2015/12/02/time-series-database-in-one-line-of-clojure/
+
+  - title: "Clojure Mindsets"
+    url: https://www.dotkam.com/2016/01/07/clojure-mindsets/
+
+  - title: "The Way Nature Creates Things"
+    url: https://www.dotkam.com/2016/04/20/the-way-nature-creates-things/
+
   - title: "Reversing the technical interview"
     url: https://aphyr.com/posts/340-reversing-the-technical-interview
 
