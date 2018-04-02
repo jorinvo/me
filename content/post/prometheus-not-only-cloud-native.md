@@ -11,6 +11,12 @@ Clients are easy and you can track everything, not only machine metrics, busines
 Single binary, automatically tracks uptime, storage is built-in, PromQL interactively in interface,
 alerts are easy, low overhead, ...
 
+federation is super easy to aggregate from instances
+
+use it for all the things you want to see from in your system,
+but: don't trust prom's accuracy - it can drop events
+it's focus is on alterting you not on being 100% accurate.
+always report current state and don't let Prometheus do the counting
 
 
 

@@ -3,6 +3,24 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Look for the duct tape"
+    url: https://rachelbythebay.com/w/2018/03/23/ducttape/
+
+  - title: "What makes a good REPL?"
+    url: https://vvvvalvalval.github.io/posts/what-makes-a-good-repl.html
+
+  - title: "Effective Engineer - Notes"
+    url: https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f
+
+  - title: "Antics, drift, and chaos by Lorin Hochstein"
+    url: https://www.youtube.com/watch?v=SM2uXpmyJmA
+
+  - title: "Calculating a Moving Average on Streaming Data"
+    url: https://dev.to/nestedsoftware/calculating-a-moving-average-on-streaming-data-5a7k
+
+  - title: "Organizational Skills Beat Algorithmic Wizardry"
+    url: http://prog21.dadgum.com/177.html
+
   - title: "Let’s talk about usernames"
     url: https://www.b-list.org/weblog/2018/feb/11/usernames/
 

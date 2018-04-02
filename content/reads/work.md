@@ -3,6 +3,9 @@ type: linklist
 title: Work
 links:
 
+  - title: "Do You Really Want to be Doing This When You're 50?"
+    url: http://prog21.dadgum.com/154.html
+
   - title: "The business of SaaS"
     url: https://stripe.com/atlas/guides/business-of-saas
 

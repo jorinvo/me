@@ -3,6 +3,24 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "So yeah, about Clojure's syntax..."
+    url: https://vvvvalvalval.github.io/posts/2018-01-06-so-yeah-about-clojures-syntax.html
+
+  - title: "Rich Already Answered That!"
+    url: https://gist.github.com/reborg/dc8b0c96c397a56668905e2767fd697f
+
+  - title: "Clojure from the ground up: modeling"
+    url: https://aphyr.com/posts/312-clojure-from-the-ground-up-modeling
+
+  - title: "Readable Clojure"
+    url: http://tonsky.me/blog/readable-clojure/
+
+  - title: "Values and Change: Clojure’s approach to Identity and State"
+    url: https://clojure.org/about/state
+
+  - title: "Hiccup, Macros, API design, and magic"
+    url: http://tonsky.me/blog/hiccup/
+
   - title: "The Story of Booting Mount"
     url: https://www.dotkam.com/2015/12/22/the-story-of-booting-mount/
 
