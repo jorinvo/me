@@ -3,6 +3,9 @@ type: linklist
 title: Random
 links:
 
+  - title: "Isaac Asimov Asks, How Do People Get New Ideas?"
+    url: https://www.technologyreview.com/s/531911/isaac-asimov-asks-how-do-people-get-new-ideas/
+
   - title: "The Simple Algorithm That Ants Use to Build Bridges"
     url: https://www.quantamagazine.org/the-simple-algorithm-that-ants-use-to-build-bridges-20180226/
 

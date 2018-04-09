@@ -3,6 +3,12 @@ type: linklist
 title: Life
 links:
 
+  - title: "Reduce Your Stress in Two Minutes a Day"
+    url: https://hbr.org/2013/11/reduce-your-stress-in-two-minutes-a-day
+
+  - title: "Stop Spending So Much Time In Your Head"
+    url: http://dariusforoux.com/stop-spending-time-in-your-head/
+
   - title: "How the Irish Teach Us to Die"
     url: https://lithub.com/how-the-irish-teach-us-to-die/
 

@@ -3,6 +3,15 @@ type: linklist
 title: Programming
 links:
 
+  - title: "From Kafka to ZeroMQ for real-time log aggregation"
+    url: https://tomasz.janczuk.org/2015/09/from-kafka-to-zeromq-for-log-aggregation.html
+
+  - title: "Type Systems - The Good, Bad and Ugly by Paul Snively and Amanda Laucher"
+    url: https://www.youtube.com/watch?v=SWTWkYbcWU0
+
+  - title: "Nathan Sorenson - Domain Specific Type Systems"
+    url: https://www.youtube.com/watch?v=gY0H0KVc_h0
+
   - title: "Look for the duct tape"
     url: https://rachelbythebay.com/w/2018/03/23/ducttape/
 
