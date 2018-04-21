@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Prometheus - A Whirlwind Tour by Cindy Sridharan"
+    url: https://speakerdeck.com/copyconstructor/prometheus-a-whirlwind-tour
+
+  - title: "The How and Why of Fitting Things Together - Joe Armstrong"
+    url: https://www.youtube.com/watch?v=ed7A7r6DBsM
+
   - title: "From Kafka to ZeroMQ for real-time log aggregation"
     url: https://tomasz.janczuk.org/2015/09/from-kafka-to-zeromq-for-log-aggregation.html
 

@@ -3,6 +3,36 @@ type: linklist
 title: Elixir
 links:
 
+  - title: "Reducing the maximum latency of a bound buffer"
+    url: http://theerlangelist.com/article/reducing_maximum_latency
+
+  - title: "Observing low latency in Phoenix with wrk"
+    url: http://theerlangelist.com/article/phoenix_latency
+
+  - title: "Elixir :applications vs :extra_applications - a guide"
+    url: https://www.amberbit.com/blog/2017/9/22/elixir-applications-vs-extra_applications-guide/
+
+  - title: "Peer Stritzinger, Kilian Holzinger - Realtime Functional Reactive Programming"
+    url: https://www.youtube.com/watch?v=yjmZoAtkkLY
+
+  - title: "How Elixir’s Ecto differs from Ruby’s ActiveRecord"
+    url: https://www.amberbit.com/blog/2016/2/24/how-elixirs-ecto-differs-from-rubys-activerecord/
+
+  - title: "Lonestar ElixirConf 2018 - Why Elixir Matters: A Genealogy of Functional Programming - Osa Gaius"
+    url: https://www.youtube.com/watch?v=WCDRuHrzmVA
+
+  - title: "How I Start Elixir with José Valim"
+    url: http://howistart.org/posts/elixir/1/
+
+  - title: "Processes"
+    url: https://elixir-lang.org/getting-started/processes.html
+
+  - title: "The Most Object-Oriented Language"
+    url: http://blog.noredink.com/post/142689001488/the-most-object-oriented-language
+
+  - title: "José Valim - Idioms for building distributed fault-tolerant applications with Elixir"
+    url: https://www.youtube.com/watch?v=MMfYXEH9KsY
+
   - title: "Why Elixir"
     url: http://theerlangelist.com/article/why_elixir
 

@@ -3,6 +3,9 @@ type: linklist
 title: Art
 links:
 
+  - title: "free gnu/linux high-quality pictures"
+    url: https://www.linux.pictures/
+
   - title: "Photography by ヤマサキコージ"
     url: http://www.yamasakiko-ji.com/
 
