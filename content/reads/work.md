@@ -3,6 +3,9 @@ type: linklist
 title: Work
 links:
 
+  - title: "What Hunter S. Thompson Could Teach You God Damn Animals About Being A Professional"
+    url: https://artplusmarketing.com/what-hunter-s-thompson-could-teach-you-god-damn-animals-about-being-a-professional-e9d6e12990d
+
   - title: "Do You Really Want to be Doing This When You're 50?"
     url: http://prog21.dadgum.com/154.html
 

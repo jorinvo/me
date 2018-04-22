@@ -3,6 +3,9 @@ type: linklist
 title: Elixir
 links:
 
+  - title: "Erlang: The Movie"
+    url: https://www.youtube.com/watch?v=xrIjfIjssLE
+
   - title: "Reducing the maximum latency of a bound buffer"
     url: http://theerlangelist.com/article/reducing_maximum_latency
 

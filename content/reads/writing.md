@@ -3,6 +3,9 @@ type: linklist
 title: Writing
 links:
 
+  - title: "On Becoming a Technical Writer"
+    url: https://dev.to/kolokodess/on-becoming-a-technical-writer-318e
+
   - title: "Just start writing and the rest will follow"
     url: https://rachelbythebay.com/w/2018/03/13/write/
 
