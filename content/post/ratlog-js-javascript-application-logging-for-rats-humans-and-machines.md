@@ -31,7 +31,7 @@ And even though those libraries have many features and include a lot of meta inf
 ---------------
 
 
-**So what I came up with is [Ratlog](https://github.com/ratlog/ratlog.github.io/).**
+**So what I came up with is [Ratlog](https://github.com/ratlog/ratlog-spec/).**
 
 Ratlog is a specification of a logging format that is focused on being readable, informative, simple and still machine-parsable.
 
@@ -118,9 +118,9 @@ critical('shutting down all servers')
 ```
 
 
-You can find out more about [Ratlog.js](https://github.com/ratlog/ratlog.js) and the [Ratlog Spec](https://github.com/ratlog/ratlog.github.io) on GitHub.
+You can find out more about [Ratlog.js](https://github.com/ratlog/ratlog.js) and the [Ratlog Spec](https://github.com/ratlog/ratlog-spec) on GitHub.
 
 I would be really glad about hearing your thoughts, critique and feedback!
 
 It is also simple to implement a Ratlog-compatible logger or parser in any other programming language.
-There is a [JSON test suite](https://ratlog.github.io/ratlog.testsuite.json) so you don't have to bother writing tests.
+There is a [JSON test suite](https://github.com/ratlog/ratlog-spec/blob/master/ratlog.testsuite.json) so you don't have to bother writing tests.
