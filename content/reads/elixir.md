@@ -3,6 +3,12 @@ type: linklist
 title: Elixir
 links:
 
+  - title: "Transforming Programming - Dave Thomas"
+    url: https://www.youtube.com/watch?v=A76hM3MpEKo
+
+  - title: "Measuring and visualizing GenStage/Flow with Gnuplot"
+    url: http://teamon.eu/2016/measuring-visualizing-genstage-flow-with-gnuplot/
+
   - title: "Erlang: The Movie"
     url: https://www.youtube.com/watch?v=xrIjfIjssLE
 

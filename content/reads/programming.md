@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Joe Armstrong - The Forgotten Ideas in Computer Science"
+    url: https://www.youtube.com/watch?v=-I_jE0l7sYQ
+
+  - title: "Baron Schwartz - Business Observability Matters Too"
+    url: https://www.youtube.com/watch?v=U__pZ2a2mT0
+
   - title: "Prometheus - A Whirlwind Tour by Cindy Sridharan"
     url: https://speakerdeck.com/copyconstructor/prometheus-a-whirlwind-tour
 
