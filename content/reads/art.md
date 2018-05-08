@@ -31,7 +31,7 @@ links:
     url: https://www.boredpanda.com/tokyo-storefront-illustrations-mateusz-urbanowicz/
 
   - title: "3 days march"
-    url: http://www.3daysmarch.net/original.php
+    url: https://www.3daysmarch.net/original.php
 
   - title: "Visualisation of Global Cargo Ships"
     url: https://www.shipmap.org/
@@ -55,7 +55,7 @@ links:
     url: https://vimeo.com/156161909
 
   - title: "Tatsuo Horiuchi - The 73-year old Excel spreadsheet artist"
-    url: http://www.spoon-tamago.com/2013/05/28/tatsuo-horiuchi-excel-spreadsheet-artist/
+    url: https://www.spoon-tamago.com/2013/05/28/tatsuo-horiuchi-excel-spreadsheet-artist/
 
   - title: "Cyber Attack Map"
     url: http://map.norsecorp.com
@@ -70,7 +70,7 @@ links:
     url: http://rachelisaweso.me/ok/tokyo-2015/
 
   - title: "Digital Art by Beeple"
-    url: http://beeple-crap.com
+    url: https://beeple-crap.com
 
   - title: "Illustrations by Cosimo Galluzzi"
     url: https://poolsofchrome.tumblr.com/
@@ -94,7 +94,7 @@ links:
     url: https://www.fastcoexist.com/3051288/the-bus-stops-in-the-ussr-were-insane-masterpieces-in-the-middle-of-nowhere
 
   - title: "GIFs of Japanese Life"
-    url: http://designmadeinjapan.com/magazine/illustration-icon/tumblr-gifs-of-japanese-life/
+    url: https://designmadeinjapan.com/magazine/illustration-icon/tumblr-gifs-of-japanese-life/
 
   - title: "What Happens When You Abandon An Amusement Park"
     url: https://www.fastcoexist.com/3047477/beautifully-creepy-photos-show-what-happens-when-you-abandon-an-amusement-park

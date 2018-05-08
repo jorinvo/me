@@ -3,6 +3,9 @@ type: linklist
 title: Elixir
 links:
 
+  - title: "Coupling Data and Behaviour - Guilherme de Maio"
+    url: https://www.youtube.com/watch?v=fnfcYKq373w
+
   - title: "Transforming Programming - Dave Thomas"
     url: https://www.youtube.com/watch?v=A76hM3MpEKo
 
@@ -31,13 +34,13 @@ links:
     url: https://www.youtube.com/watch?v=WCDRuHrzmVA
 
   - title: "How I Start Elixir with José Valim"
-    url: http://howistart.org/posts/elixir/1/
+    url: https://howistart.org/posts/elixir/1/
 
   - title: "Processes"
     url: https://elixir-lang.org/getting-started/processes.html
 
   - title: "The Most Object-Oriented Language"
-    url: http://blog.noredink.com/post/142689001488/the-most-object-oriented-language
+    url: https://blog.noredink.com/post/142689001488/the-most-object-oriented-language
 
   - title: "José Valim - Idioms for building distributed fault-tolerant applications with Elixir"
     url: https://www.youtube.com/watch?v=MMfYXEH9KsY

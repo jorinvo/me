@@ -7,7 +7,7 @@ links:
     url: https://hbr.org/2013/11/reduce-your-stress-in-two-minutes-a-day
 
   - title: "Stop Spending So Much Time In Your Head"
-    url: http://dariusforoux.com/stop-spending-time-in-your-head/
+    url: https://dariusforoux.com/stop-spending-time-in-your-head/
 
   - title: "How the Irish Teach Us to Die"
     url: https://lithub.com/how-the-irish-teach-us-to-die/
@@ -208,7 +208,7 @@ links:
     url: https://tobiastom.name/articles/dealing-with-virtual-offices
 
   - title: "“Find What You Love and Let It Kill You”"
-    url: http://www.stevenpressfield.com/2015/08/find-what-you-love-and-let-it-kill-you-2/
+    url: https://www.stevenpressfield.com/2015/08/find-what-you-love-and-let-it-kill-you-2/
 
   - title: "I Asked Atheists How They Find Meaning In A Purposeless Universe"
     url: https://www.buzzfeed.com/tomchivers/when-i-was-a-child-i-spake-as-a-child
@@ -232,7 +232,7 @@ links:
     url: https://www.rdegges.com/enjoy-your-life/
 
   - title: "Mind Management"
-    url: http://kadavy.net/blog/posts/mind-management-intro/
+    url: https://kadavy.net/blog/posts/mind-management-intro/
 
   - title: "Consulting"
     url: https://dopeboy.github.io/consulting/

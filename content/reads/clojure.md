@@ -73,7 +73,7 @@ links:
     url: https://frankiesardo.github.io/posts/2015-03-06-from-pedestal-routes-to-beautiful-documentation.html
 
   - title: "Datomic: The most innovative DB you've never heard of"
-    url: http://augustl.com/blog/2016/datomic_the_most_innovative_db_youve_never_heard_of/
+    url: https://augustl.com/blog/2016/datomic_the_most_innovative_db_youve_never_heard_of/
 
   - title: "Living the Lean Startup with clojure.spec"
     url: http://blog.cognitect.com/blog/2017/3/24/3xeif9bxaom78qyzwssgwz1leuorh4
@@ -82,10 +82,10 @@ links:
     url: http://augustl.com/blog/2013/zeromq_instead_of_http/
 
   - title: "From Callbacks to Sequences"
-    url: http://oobaloo.co.uk/clojure-from-callbacks-to-sequences
+    url: https://oobaloo.co.uk/clojure-from-callbacks-to-sequences
 
   - title: "Clojure, Abstraction and ZeroMQ"
-    url: http://oobaloo.co.uk/clojure-abstraction-and-zeromq
+    url: https://oobaloo.co.uk/clojure-abstraction-and-zeromq
 
   - title: "Transducers"
     url: https://clojure.org/reference/transducers

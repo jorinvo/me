@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "The Law of Leaky Abstractions"
+    url: https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
+
   - title: "Joe Armstrong - The Forgotten Ideas in Computer Science"
     url: https://www.youtube.com/watch?v=-I_jE0l7sYQ
 
@@ -289,7 +292,7 @@ links:
     url: https://everydayrails.com/2017/01/02/git-command-line-log-search.html
 
   - title: "A Note About Git Commit Messages"
-    url: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+    url: https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
   - title: "Readability Matters More Than Correctness"
     url: https://xph.us/2017/04/23/readability.html
@@ -376,7 +379,7 @@ links:
     url: https://medium.com/@InstagramEng/machine-learning-for-emoji-trends-e676ac35e1d7/
 
   - title: "Analyzing the Graph of Thrones"
-    url: http://www.lyonwj.com/2016/06/26/graph-of-thrones-neo4j-social-network-analysis/
+    url: https://www.lyonwj.com/2016/06/26/graph-of-thrones-neo4j-social-network-analysis/
 
   - title: "Applying the Linus Torvalds “Good Taste” Coding Requirement"
     url: https://medium.com/@bartobri/applying-the-linus-tarvolds-good-taste-coding-requirement-99749f37684a
@@ -406,7 +409,7 @@ links:
     url: https://jgthms.com/web-design-in-4-minutes/
 
   - title: "Taking The Robots To Design School"
-    url: http://www.jon.gold/2016/05/robot-design-school/
+    url: https://www.jon.gold/2016/05/robot-design-school/
 
   - title: "Joe Armstrong - Erlang and other stuff"
     url: http://joearms.github.io/2014/02/07/why-programming-is-difficult.html
@@ -583,13 +586,13 @@ links:
     url: https://users.ece.utexas.edu/~adnan/pike.html
 
   - title: "9 Anti-Patterns Every Programmer Should Be Aware Of"
-    url: http://sahandsaba.com/nine-anti-patterns-every-programmer-should-be-aware-of-with-examples.html
+    url: https://sahandsaba.com/nine-anti-patterns-every-programmer-should-be-aware-of-with-examples.html
 
   - title: "Running A Software Business On 5 Hours A Week"
     url: https://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/
 
   - title: "People Who Like This Also Like ..."
-    url: http://www.benfrederickson.com/distance-metrics/
+    url: https://www.benfrederickson.com/distance-metrics/
 
   - title: "FizzBuzz In Too Much Detail — Tom Dalling"
     url: https://www.tomdalling.com/blog/software-design/fizzbuzz-in-too-much-detail/

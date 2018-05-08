@@ -7,7 +7,7 @@ links:
     url: https://www.newyorker.com/magazine/2018/02/05/customer-satisfaction-at-the-push-of-a-button
 
   - title: "The Last Invention of Man"
-    url: http://nautil.us/issue/53/monsters/the-last-invention-of-man
+    url: https://nautil.us/issue/53/monsters/the-last-invention-of-man
 
   - title: "An Interview with an Anonymous Data Scientist"
     url: https://logicmag.io/01-interview-with-an-anonymous-data-scientist/
@@ -31,7 +31,7 @@ links:
     url: https://medium.com/the-official-unofficial-firefox-blog/browse-against-the-machine-e793c0fee917
 
   - title: "Get your loved ones off Facebook."
-    url: http://www.salimvirani.com/facebook/
+    url: https://www.salimvirani.com/facebook/
 
   - title: "Social media is polarizing users faster than ever"
     url: https://qz.com/969886/the-shocking-speed-with-which-we-become-polarized-online/
@@ -49,7 +49,7 @@ links:
     url: https://www.bloomberg.com/features/2016-how-to-hack-an-election/
 
   - title: "What 'viable search engine competition' really looks like"
-    url: http://blog.nullspace.io/building-search-engines.html
+    url: https://blog.nullspace.io/building-search-engines.html
 
   - title: "DeepMind and Blizzard to release StarCraft II as an AI research environment"
     url: https://deepmind.com/blog/deepmind-and-blizzard-release-starcraft-ii-ai-research-environment/
@@ -136,7 +136,7 @@ links:
     url: https://medium.com/@jkalven/wait-you-write-in-a-spreadsheet-814272c02ff8
 
   - title: "Coding is not the new literacy"
-    url: http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/
+    url: https://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/
 
   - title: "News Is Different"
     url: https://medium.com/@davepell/news-is-different-10015579ebe4

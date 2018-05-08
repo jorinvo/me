@@ -178,7 +178,7 @@ func main() {
 ```
 
 
-At this point if you feel like going deeper into a debate of static vs. dynamic languages, I recommend you [this](http://www.lispcast.com/clojure-and-types) interesting article.
+At this point if you feel like going deeper into a debate of static vs. dynamic languages, I recommend you [this](https://www.lispcast.com/clojure-and-types) interesting article.
 
 
 ----------
