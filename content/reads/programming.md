@@ -3,6 +3,30 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Ted Nelson -- Computers for Cynics"
+    url: https://www.youtube.com/watch?v=hZ3gmh-d9oI
+
+  - title: "Fun with SQL: Recursive CTEs in Postgres"
+    url: https://www.citusdata.com/blog/2018/05/15/fun-with-sql-recursive-ctes/
+
+  - title: "Agile is Dead • Pragmatic Dave Thomas"
+    url: https://www.youtube.com/watch?v=a-BOSpxYJ9M
+
+  - title: "Past , Present and Future of JSON API"
+    url: https://www.youtube.com/watch?v=Foi54om6oGQ
+
+  - title: "What keeps Apache Kafka from eating the world?"
+    url: https://medium.com/@colin.hicks/what-keeps-apache-kafka-from-eating-the-world-ea1caeef99e4
+
+  - title: "Hints for writing Unix tools"
+    url: https://monkey.org/~marius/unix-tools-hints.html
+
+  - title: "END-TO-END ARGUMENTS IN SYSTEM DESIGN"
+    url: http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
+
+  - title: "Two Perspectives on the End-to-End Principle"
+    url: https://blog.nelhage.com/post/end-to-end-principle/
+
   - title: "The Law of Leaky Abstractions"
     url: https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
 

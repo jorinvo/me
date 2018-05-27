@@ -3,6 +3,15 @@ type: linklist
 title: Elixir
 links:
 
+  - title: "When to use Elixir language?"
+    url: https://www.amberbit.com/blog/2018/5/15/when-to-use-elixir-language/
+
+  - title: "Phoenix and the World of Tomorrow - Ley Missailidis"
+    url: https://www.youtube.com/watch?v=qR5u6HiBn50
+
+  - title: "Put This in Your Pipe(line)"
+    url: https://pragdave.me/blog/2017/05/02/put-this-in-your-pipe.html
+
   - title: "Coupling Data and Behaviour - Guilherme de Maio"
     url: https://www.youtube.com/watch?v=fnfcYKq373w
 

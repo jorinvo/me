@@ -3,6 +3,9 @@ type: linklist
 title: Technology
 links:
 
+  - title: "How a handful of tech companies control billions of minds every day | Tristan Harris"
+    url: https://www.youtube.com/watch?v=C74amJRp730
+
   - title: "Customer Satisfaction at the Push of a Button"
     url: https://www.newyorker.com/magazine/2018/02/05/customer-satisfaction-at-the-push-of-a-button
 
