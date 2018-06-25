@@ -3,6 +3,33 @@ type: linklist
 title: Elixir
 links:
 
+  - title: "Forget CRUD, let’s focus on the meaning"
+    url: https://medium.com/appunite-edu-collection/forget-crud-lets-focus-on-the-meaning-e9691b982adb
+
+  - title: "Building Beautiful Systems - Andrew Hao"
+    url: https://www.youtube.com/watch?v=oJghZB9sSuU
+
+  - title: "The Language is the Least of It - Jessica Kerr"
+    url: https://www.youtube.com/watch?v=nvV-4040xXI
+
+  - title: "Splitting APIs, Servers, and Implementations in Elixir"
+    url: https://pragdave.me/blog/2017/07/13/decoupling-interface-and-implementation-in-elixir.html
+
+  - title: "Solid Ground - Saša Jurić"
+    url: https://www.youtube.com/watch?v=pO4_Wlq8JeI
+
+  - title: "Event-driven architectures in Elixir - Maciej Kaszubowski"
+    url: https://www.youtube.com/watch?v=8qDXG7tnl9w
+
+  - title: "Dave Thomas - EMPEX 2018 Keynote"
+    url: https://www.youtube.com/watch?v=6U7cLUygMeI
+
+  - title: "Brooklyn Zelenka - EMPEX 2018 Keynote"
+    url: https://www.youtube.com/watch?v=DZEs8_QiC8Q
+
+  - title: "The Erlangelist - Rethinking app env"
+    url: http://www.theerlangelist.com/article/rethinking_app_env
+
   - title: "When to use Elixir language?"
     url: https://www.amberbit.com/blog/2018/5/15/when-to-use-elixir-language/
 

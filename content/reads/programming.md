@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "UTC is Enough for Everyone, Right?"
+    url: https://zachholman.com/talk/utc-is-enough-for-everyone-right
+
+  - title: "André Staltz - Open source without maintainers"
+    url: https://staltz.com/open-source-without-maintainers.html
+
   - title: "Ted Nelson -- Computers for Cynics"
     url: https://www.youtube.com/watch?v=hZ3gmh-d9oI
 
