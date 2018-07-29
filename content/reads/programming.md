@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Observability: the hard parts"
+    url: http://peter.bourgon.org/observability-the-hard-parts/
+
+  - title: "How I use Wireshark"
+    url: https://jvns.ca/blog/2018/06/19/what-i-use-wireshark-for/
+
   - title: "UTC is Enough for Everyone, Right?"
     url: https://zachholman.com/talk/utc-is-enough-for-everyone-right
 

@@ -3,6 +3,15 @@ type: linklist
 title: Life
 links:
 
+  - title: "The Century of The Self"
+    url: http://thoughtmaybe.com/the-century-of-the-self/
+
+  - title: "HyperNormalisation"
+    url: https://thoughtmaybe.com/hypernormalisation/
+
+  - title: "Peter Senge: Systems Thinking for a Better World"
+    url: https://www.youtube.com/watch?v=0QtQqZ6Q5-o
+
   - title: "Reduce Your Stress in Two Minutes a Day"
     url: https://hbr.org/2013/11/reduce-your-stress-in-two-minutes-a-day
 

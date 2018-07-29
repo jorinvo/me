@@ -3,6 +3,12 @@ type: linklist
 title: Golang
 links:
 
+  - title: "Go for Industrial Programming"
+    url: http://peter.bourgon.org/go-for-industrial-programming/
+
+  - title: "From Java to Go, and Back Again"
+    url: https://opencredo.com/java-go-back/
+
   - title: "Go tooling essentials"
     url: https://rakyll.org/go-tool-flags/
 

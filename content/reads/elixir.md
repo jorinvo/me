@@ -3,6 +3,9 @@ type: linklist
 title: Elixir
 links:
 
+  - title: "Tomasz Kowal | Elixir and Money"
+    url: https://www.youtube.com/watch?v=TZPG8b-Novw
+
   - title: "Forget CRUD, let’s focus on the meaning"
     url: https://medium.com/appunite-edu-collection/forget-crud-lets-focus-on-the-meaning-e9691b982adb
 

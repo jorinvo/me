@@ -3,6 +3,15 @@ type: linklist
 title: Work
 links:
 
+  - title: "Standing Invitation | Kalzumeus Software"
+    url: https://www.kalzumeus.com/standing-invitation/
+
+  - title: "pillar management"
+    url: https://www.gapingvoid.com/blog/2004/07/31/pillar-management/
+
+  - title: "Stress & Depression – a Taboo in our Time • Gitte Klitgaard"
+    url: https://www.youtube.com/watch?v=jGG6Wip_PGg
+
   - title: "What Hunter S. Thompson Could Teach You God Damn Animals About Being A Professional"
     url: https://artplusmarketing.com/what-hunter-s-thompson-could-teach-you-god-damn-animals-about-being-a-professional-e9d6e12990d
 

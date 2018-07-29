@@ -3,6 +3,9 @@ type: linklist
 title: Random
 links:
 
+  - title: "Don’t Eat Before Reading This"
+    url: https://www.newyorker.com/magazine/1999/04/19/dont-eat-before-reading-this
+
   - title: "Why Men Love War"
     url: https://www.esquire.com/news-politics/news/a28718/why-men-love-war/
 

@@ -3,6 +3,9 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Paul deGrandis - Unlocking data-driven systems"
+    url: https://www.youtube.com/watch?v=BNkYYYyfF48
+
   - title: "So yeah, about Clojure's syntax..."
     url: https://vvvvalvalval.github.io/posts/2018-01-06-so-yeah-about-clojures-syntax.html
 
