@@ -3,6 +3,9 @@ type: linklist
 title: Writing
 links:
 
+  - title: "Write English the Way You Write Code"
+    url: http://russolsen.com/articles/2018/04/21/write-english.html
+
   - title: "On Becoming a Technical Writer"
     url: https://dev.to/kolokodess/on-becoming-a-technical-writer-318e
 

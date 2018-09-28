@@ -3,6 +3,18 @@ type: linklist
 title: Work
 links:
 
+  - title: "Be Kind"
+    url: https://www.briangilham.com/be-kind
+
+  - title: "Your Most Important Job"
+    url: http://russolsen.com/articles/2018/04/10/ex-010-most-important-job.html
+
+  - title: "Peter Senge: Systems Thinking for a Better World"
+    url: https://www.youtube.com/watch?v=0QtQqZ6Q5-o
+
+  - title: "How to Get Rich (without getting lucky)"
+    url: https://twitter.com/naval/status/1002103360646823936
+
   - title: "Standing Invitation | Kalzumeus Software"
     url: https://www.kalzumeus.com/standing-invitation/
 

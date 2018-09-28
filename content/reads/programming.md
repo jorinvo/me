@@ -3,6 +3,36 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Apathy of the Commons"
+    url: https://stuartsierra.com/2016/07/18/apathy-of-the-commons
+
+  - title: "Hammock Driven Development - Rich Hickey"
+    url: https://www.youtube.com/watch?v=f84n5oFoZBc
+
+  - title: "Building a team: Agile!"
+    url: http://russolsen.com/articles/2017/06/30/team-agile.html
+
+  - title: "Good, Cheap, and Fast - PC3"
+    url: http://hintjens.com/blog:23
+
+  - title: "We shouldn't let people get used to the idea that software fails"
+    url: https://rakhim.org/2018/07/software-shouldnt-fail/
+
+  - title: "Unconditional Code - Michael Feathers"
+    url: https://www.youtube.com/watch?v=AnZ0uTOerUI
+
+  - title: "Cutting through to what matters"
+    url: https://bradfieldcs.com/knives/
+
+  - title: "On Engineers and Influence"
+    url: https://charity.wtf/2018/08/17/on-engineers-and-influence/
+
+  - title: "The power of embedded developers"
+    url: http://blog.jessitron.com/2014/08/the-power-of-embedded-developers.html
+
+  - title: "Exploding Software-Engineering Myths"
+    url: https://www.microsoft.com/en-us/research/blog/exploding-software-engineering-myths/
+
   - title: "Observability: the hard parts"
     url: http://peter.bourgon.org/observability-the-hard-parts/
 

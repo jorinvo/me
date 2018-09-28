@@ -3,6 +3,36 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "One-box stream processing with CSP"
+    url: https://adambard.com/blog/stream-processing-core-async/
+
+  - title: "How to ns"
+    url: https://stuartsierra.com/2016/clojure-how-to-ns.html
+
+  - title: "Clojure Don’ts: The Heisenparameter"
+    url: https://stuartsierra.com/2015/06/10/clojure-donts-heisenparameter
+
+  - title: "Clojure Don’ts: Single-branch if"
+    url: https://stuartsierra.com/2015/06/16/clojure-donts-single-branch-if
+
+  - title: "How to Name Clojure Functions"
+    url: https://stuartsierra.com/2016/01/09/how-to-name-clojure-functions
+
+  - title: "When I don’t recommend Clojure"
+    url: https://blog.vemv.net/when-i-dont-recommend-clojure-2597039536ce
+
+  - title: "Live-Debugging Remote Clojure Apps with Drawbridge"
+    url: https://devcenter.heroku.com/articles/debugging-clojure
+
+  - title: "It's Just Data - Bob Calco"
+    url: https://www.youtube.com/watch?v=wR2kYn-7ijQ
+
+  - title: "Simplifying ETL with Clojure and Datomic - Stuart Halloway"
+    url: https://www.youtube.com/watch?v=oOON--g1PyU
+
+  - title: "DataScript as a Lingua Franca for domain modeling"
+    url: https://vvvvalvalval.github.io/posts/2018-07-23-datascript-as-a-lingua-franca-for-domain-modeling.html
+
   - title: "Paul deGrandis - Unlocking data-driven systems"
     url: https://www.youtube.com/watch?v=BNkYYYyfF48
 

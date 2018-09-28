@@ -3,6 +3,18 @@ type: linklist
 title: Random
 links:
 
+  - title: "How to green the world's deserts and reverse climate change | Allan Savory"
+    url: https://www.youtube.com/watch?v=vpTHi7O66pI
+
+  - title: "Evolving Floorplans"
+    url: http://www.joelsimon.net/evo_floorplans.html
+
+  - title: "How China Plans to Feed 1.4 Billion Growing Appetites"
+    url: https://www.nationalgeographic.com/magazine/2018/02/feeding-china-growing-appetite-food-industry-agriculture/
+
+  - title: "This Tiny Country Feeds the World"
+    url: https://www.nationalgeographic.com/magazine/2017/09/holland-agriculture-sustainable-farming/
+
   - title: "Don’t Eat Before Reading This"
     url: https://www.newyorker.com/magazine/1999/04/19/dont-eat-before-reading-this
 
