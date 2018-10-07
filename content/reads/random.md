@@ -3,6 +3,12 @@ type: linklist
 title: Random
 links:
 
+  - title: "How to speak so that people want to listen | Julian Treasure"
+    url: https://www.youtube.com/watch?v=eIho2S0ZahI
+
+  - title: "Learning from dirty jobs | Mike Rowe"
+    url: https://www.youtube.com/watch?v=IRVdiHu1VCc
+
   - title: "How to green the world's deserts and reverse climate change | Allan Savory"
     url: https://www.youtube.com/watch?v=vpTHi7O66pI
 

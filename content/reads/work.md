@@ -3,6 +3,9 @@ type: linklist
 title: Work
 links:
 
+  - title: "DHH on The Basecamp Way: Competition, Growth Targets, and How to Incentivize Employees"
+    url: https://www.atrium.co/blog/dhh-competition-startups/
+
   - title: "Be Kind"
     url: https://www.briangilham.com/be-kind
 

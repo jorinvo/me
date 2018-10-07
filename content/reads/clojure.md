@@ -3,6 +3,9 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Clojure: Owning the Language"
+    url: https://medium.com/@hlship/clojure-owning-the-language-ec0196871c40
+
   - title: "One-box stream processing with CSP"
     url: https://adambard.com/blog/stream-processing-core-async/
 
