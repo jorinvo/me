@@ -7,9 +7,10 @@ I build information technology — turning raw data into opinionated data.
 
 <br>
 
+<img style="width: 30%; float: right; padding-left: 20%" src="/images/what-i-look-like.jpg" alt="This is what I look like ...">
 You can send me a <a href="mailto:{{ .Site.Author.email }}">mail</a> or follow me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">Twitter</a>.
 
-<br>
+<br style ="clear: right">
 
 Some things I do:
 
