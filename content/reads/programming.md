@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Writing system software: code comments."
+    url: http://antirez.com/news/124
+
   - title: "Apathy of the Commons"
     url: https://stuartsierra.com/2016/07/18/apathy-of-the-commons
 

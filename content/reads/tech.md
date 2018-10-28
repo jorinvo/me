@@ -3,6 +3,12 @@ type: linklist
 title: Technology
 links:
 
+  - title: "How the Enlightenment Ends"
+    url: https://www.theatlantic.com/magazine/archive/2018/06/henry-kissinger-ai-could-mean-the-end-of-human-history/559124/
+
+  - title: "The coders programming themselves out of a job"
+    url: https://www.theatlantic.com/technology/archive/2018/10/agents-of-automation/568795/
+
   - title: "How a handful of tech companies control billions of minds every day | Tristan Harris"
     url: https://www.youtube.com/watch?v=C74amJRp730
 

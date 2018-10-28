@@ -3,6 +3,15 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Structural diffs for clojure source code"
+    url: https://github.com/ladderlife/autochrome
+
+  - title: "Everybody OOMs"
+    url: https://8thlight.com/blog/colin-jones/2017/03/17/everybody-ooms.html
+
+  - title: "Running With Scissors: Live Coding With Data by Stuart Halloway"
+    url: https://www.youtube.com/watch?v=Qx0-pViyIDU
+
   - title: "Clojure: Owning the Language"
     url: https://medium.com/@hlship/clojure-owning-the-language-ec0196871c40
 

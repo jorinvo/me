@@ -3,6 +3,12 @@ type: linklist
 title: Work
 links:
 
+  - title: "Olsen's Law of Continuing Education"
+    url: http://russolsen.com/articles/2012/03/27/olsen-s-law-of-continuing-education.html
+
+  - title: "Building a team: Wrong!"
+    url: http://russolsen.com/articles/2017/06/23/team-wrong.html
+
   - title: "DHH on The Basecamp Way: Competition, Growth Targets, and How to Incentivize Employees"
     url: https://www.atrium.co/blog/dhh-competition-startups/
 
