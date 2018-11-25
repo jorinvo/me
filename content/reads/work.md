@@ -3,6 +3,12 @@ type: linklist
 title: Work
 links:
 
+  - title: "Talking Tech: Preparation"
+    url: http://russolsen.com/articles/2012/06/01/acing-the-technical-talk-preparation.html
+
+  - title: "A Letter to Future CircleCI Employees"
+    url: https://circleci.com/blog/a-letter-to-future-circleci-employees/
+
   - title: "Olsen's Law of Continuing Education"
     url: http://russolsen.com/articles/2012/03/27/olsen-s-law-of-continuing-education.html
 

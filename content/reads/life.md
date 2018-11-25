@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "The paradox of choice"
+    url: https://www.youtube.com/watch?v=VO6XEQIsCoM
+
   - title: "The Century of The Self"
     url: http://thoughtmaybe.com/the-century-of-the-self/
 

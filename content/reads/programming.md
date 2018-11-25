@@ -3,6 +3,45 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Design for security"
+    url: https://increment.com/security/design-for-security/
+
+  - title: "Post-mortems to the rescue"
+    url: https://increment.com/documentation/post-mortems-to-the-rescue/
+
+  - title: "Lone Star RubyConf 2009 - Something Interesting by Dave Thomas"
+    url: https://www.youtube.com/watch?v=MwnVwqt0UwE
+
+  - title: "Indirection Is Not Abstraction"
+    url: https://www.silasreinagel.com/blog/2018/10/30/indirection-is-not-abstraction/
+
+  - title: "Against software development"
+    url: http://www.rntz.net/post/against-software-development.html
+
+  - title: "Lean Testing or Why Unit Tests are Worse than You Think"
+    url: https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009
+
+  - title: "Open Source Language Design in Rust and Node.js by Ashley Williams"
+    url: https://www.youtube.com/watch?v=aGJTXdXQN2o
+
+  - title: "Sam Aaron - Communicative Programming"
+    url: https://www.youtube.com/watch?v=CdL4tyicXT4
+
+  - title: "Systems at Scale 2018 – Rebuilding the Inbox: The Corporate and Cultural Adventures of Modernizing Yahoo Mail"
+    url: https://www.facebook.com/atscaleevents/videos/2131701657102927/
+
+  - title: "Documenting Architecture Decisions"
+    url: http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
+
+  - title: "The Power of Living Systems"
+    url: http://hintjens.com/blog:74
+
+  - title: "Mike Bostock - Design is a Search Problem"
+    url: https://www.youtube.com/watch?v=fThhbt23SGM
+
+  - title: "Only One Deliverable Matters"
+    url: https://bigmedium.com/ideas/only-one-deliverable-matters.html
+
   - title: "Writing system software: code comments."
     url: http://antirez.com/news/124
 

@@ -3,6 +3,12 @@ type: linklist
 title: Technology
 links:
 
+  - title: "Why don’t we follow password security best practices?"
+    url: https://increment.com/security/password-security-best-practices/
+
+  - title: "Why Doctors Hate Their Computers"
+    url: https://www.newyorker.com/magazine/2018/11/12/why-doctors-hate-their-computers
+
   - title: "How the Enlightenment Ends"
     url: https://www.theatlantic.com/magazine/archive/2018/06/henry-kissinger-ai-could-mean-the-end-of-human-history/559124/
 

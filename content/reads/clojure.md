@@ -3,6 +3,15 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "A Year in Clojure"
+    url: https://blog.taylorwood.io/2017/09/15/year-behind.html
+
+  - title: "Building native Clojure images with GraalVM"
+    url: https://blog.taylorwood.io/2018/05/02/graalvm-clojure.html
+
+  - title: "Clojure is a product design tool"
+    url: https://precursorapp.com/blog/clojure-is-a-product-design-tool
+
   - title: "Structural diffs for clojure source code"
     url: https://github.com/ladderlife/autochrome
 
