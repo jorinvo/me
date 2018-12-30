@@ -3,6 +3,9 @@ type: linklist
 title: Work
 links:
 
+  - title: "Animal House"
+    url: https://torontolife.com/tech/truth-tech-insider-got/
+
   - title: "Talking Tech: Preparation"
     url: http://russolsen.com/articles/2012/06/01/acing-the-technical-talk-preparation.html
 

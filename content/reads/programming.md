@@ -3,6 +3,27 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Designing an email-only Slack interface"
+    url: https://kevinlynagh.com/stop-slacking/
+
+  - title: "Education of a Programmer"
+    url: https://hackernoon.com/education-of-a-programmer-aaecf2d35312
+
+  - title: "The Yoda of Silicon Valley"
+    url: https://www.nytimes.com/2018/12/17/science/donald-knuth-computers-algorithms-programming.html
+
+  - title: "Keep Ruby Weird 2018 - Closing Keynote by Avdi Grimm"
+    url: https://www.youtube.com/watch?v=UJnsXUVsr7w
+
+  - title: "Maybe Not - Rich Hickey"
+    url: https://www.youtube.com/watch?v=YR5WdGrpoug
+
+  - title: "Stack Overflow: How We Do Monitoring - 2018 Edition"
+    url: https://nickcraver.com/blog/2018/11/29/stack-overflow-how-we-do-monitoring/
+
+  - title: "Distributed Systems and the End of the API"
+    url: https://writings.quilt.org/2014/05/12/distributed-systems-and-the-end-of-the-api/
+
   - title: "Design for security"
     url: https://increment.com/security/design-for-security/
 

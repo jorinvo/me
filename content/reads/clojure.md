@@ -3,6 +3,12 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Tables Considered Helpful - Daniel Gregoire"
+    url: https://www.youtube.com/watch?v=b5UK-VHbJlQ
+
+  - title: "REBL - Stuart Halloway"
+    url: https://www.youtube.com/watch?v=c52QhiXsmyI
+
   - title: "A Year in Clojure"
     url: https://blog.taylorwood.io/2017/09/15/year-behind.html
 
