@@ -1,0 +1,50 @@
+---
+title: "Not a Craftsmanship"
+date: 2019-01-17T19:51:19+01:00
+---
+
+Is the creation of software a craft or what is it then?<!--more-->
+
+There is absolutely nothing new in here. It is simply me slowly understanding the things people have been saying all along. Maybe sharing this does not even help others. But writing things down helps myself. After all we cannot really learn through theory alone. We need to experience for ourselves. There are many ideas mixed up in here. But they are all related. Feel free to get in touch to elaborate on some part.
+
+The longer I am in this profession the more I understand what all those old people are talking about.
+One thing I realise more and more, is how much we overvalue code as engineers.
+
+Code feels very valuable since it is our creation. At some point we need to write code to make something become real. It feels very powerful.
+
+But code is cheap in terms of the time and energy you have to put into writing code. If you compare actually writing code to planning what to do, understanding a business domain, understanding the technology options, understanding the process we have to go through while developing a product - writing code will take the least of your time.
+
+If you are working on a product that will be around for a while and not dead right away, chances are that the code you write today is more a liability than an asset to you in the future. Much of the code we write will not be around for too long. Rather soon we will have better understanding of the domain, have found a more suited solutions, requirements changed or what we were creating was not that useful to the world in the first place.
+
+When starting out programming I felt like it is about perfection. I was intrigued by creating this little perfect world where everything is logical. I felt like when I just search and experiment long enough I will distill the perfect solution. It was a beautiful world to live in.
+I guess that others had similar experiences. It is very easy to be tricked by the nature of our site projects, student assignments and so on. They are very different to working on a living, evolving product that interacts with the real world.
+
+The reality I experienced after is that all choices are compromises. Some part of your project will always be legacy code which you would like to rewrite and improve but you don't have the time to do so since priorities matter and this old, imperfect code still works for now and it is cheaper in terms of time spend to wait before changing it.
+How did this code end up in this imperfect state? Didn't you come up with the best solution you could back when you wrote it? I'm sure I tried my best. But requirements might have changed, I might have learned new things about the problem we were solving back then or maybe when writing the code we did a trade-off to invest not too much time here.
+There is something very fundamental to this process: As you solve a problem, you will learn from the solution. The first solution is very likely to not be the most suitable one. Sometimes - or rather, too many times, you also only realise after that you solved the wrong problem in the first place.
+
+The most important measurement of “good” software design is to make it easy to change in the future for yet unknown requirements. Rarely any software is something static we can perfect like creating a sculpture or building a guitar. Creating software is a process. I have the suspicion that by using craftsmanship as metaphor for thinking about software development we might do us more harm than good.
+A more fitting image would be politics or economics:
+We saw in the soviet union what happens if you try to plan a perfect system. Think about all the failed planned cities out there. Politics and software are too complex to plan ahead. The only way to build solid systems of this complexity is to grow them organically. So instead of focusing on perfecting the result (the code) we should focus on optimising the process.
+Another image I like is a botanists taking care of a garden:
+Take inspiration from organic systems out there. Think about how evolution allows nature to come up with such complex organic systems: Create new experiments, keep the good ones, ignore the bad ones.
+We must not care too much about each of these experiments. Don't get attached to the code.
+Build it in a loosely coupled manner so changing parts is simple. Make throwing away parts simple.
+
+We need to focus more on understanding and optimising the process of how we create software.
+Literal code, code comments and so on are not enough documentation if the very structure of the code is very temporarily.
+We need to learn documenting the process we are going through.
+Version control for our code is one step in the right direction. But it is only on the lowest level of granularity.
+We need to document what we are doing. If we look at it again in the future, we need to understand the context for why and how we did something. What where our assumptions back then? What where the constrains? How do they differ from where we are now?
+
+Nowadays programming education is very much focused on the code. And it's not just universities. Education is a life-long process. The education we have in the industry in form of articles, books, conferences - it's all very focused on code. We need more tools for organising processes. Teach programmers how to write down their reasonings, teach us how to draw diagrams, teach us how to experiment and throw away code, teach us how to call the right trade-offs for decisions. I realise that these things are very difficult to teach in an academy environment. Maybe that's why traditional education is so utterly useless for a job as a programmer in the industry. These trades are best learned in a realistic surrounding where we can gather experience and learn from each other. Share your stories with each other. Don't just show me what you build. Way more interesting is the how. Why did you end up with this solution? What was the process you went through to get there? What else did you consider in the process? These are my favourite kinds of exchange of thoughts.
+
+Make it easier for us to observe what our systems are doing. Be aware that systems exist over time. Make our systems observable through monitoring, logging, metrics. Collect data to understand changes over time. See how your system evolves. Catch up with the trends. Remove or update outdated parts. What is great today might be utterly useless tomorrow. Focus on what is important at the moment: If you realise an API endpoint is not in use anymore, you know that next time you would have to touch it, you might simply delete it instead of bothering to update it. If you realise a feature is under heavy use, invest in it. Optimise performance when necessary, improve the feature when people are struggling with it.
+
+Be aware that your processes and your product emerge from your organisational structure. If you have a hierarchical organisation where decisions are made top-down, you will be planning systems instead of letting them evolve naturally. Individual actors need to have freedom to make their own decisions independent from each other.  However they still need to communicate with each other and understand each other. Build organisations with flat hierarchies and loosely coupled teams. Build mechanisms for communicating with each other.
+
+Do this on an organisational level by sharing stories about your work with each other. You can do this privately in your company: Internal blogs and talks are great.
+
+On a technical level, to enable two parties to build software in a loosely coupled way that works together, the parties need to come together and define a contract for the communication of their software. As long as they stick to that contract, they are free. Have good tools for defining and enforcing contracts.
+
+All these things are where the complexity in software comes from. Stop caring so much about the code you write.
