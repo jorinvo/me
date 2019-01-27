@@ -3,6 +3,9 @@ type: linklist
 title: Random
 links:
 
+  - title: "Joshua Foer: Step Outside Your Comfort Zone and Study Yourself Failing"
+    url: https://vimeo.com/27067169
+
   - title: "How to speak so that people want to listen | Julian Treasure"
     url: https://www.youtube.com/watch?v=eIho2S0ZahI
 

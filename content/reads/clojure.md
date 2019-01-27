@@ -3,6 +3,12 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Effect-ive Clojure"
+    url: https://vimeo.com/313288415
+
+  - title: "Transpose a Matrix in Clojure"
+    url: http://mkarp.co/clojure-matrix-rotation
+
   - title: "Tables Considered Helpful - Daniel Gregoire"
     url: https://www.youtube.com/watch?v=b5UK-VHbJlQ
 

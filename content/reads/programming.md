@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Turning the database inside-out with Apache Samza"
+    url: https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
+
   - title: "Designing an email-only Slack interface"
     url: https://kevinlynagh.com/stop-slacking/
 

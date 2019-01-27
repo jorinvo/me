@@ -3,6 +3,9 @@ type: linklist
 title: Writing
 links:
 
+  - title: "Evan Czaplicki On Storytelling"
+    url: https://www.deconstructconf.com/2017/evan-czaplicki-on-storytelling
+
   - title: "Write English the Way You Write Code"
     url: http://russolsen.com/articles/2018/04/21/write-english.html
 

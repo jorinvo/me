@@ -3,6 +3,12 @@ type: linklist
 title: Work
 links:
 
+  - title: "How the Valley treats its experienced people"
+    url: https://rachelbythebay.com/w/2018/12/29/age/
+
+  - title: "Engineering Management: The Pendulum Or The Ladder"
+    url: https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/
+
   - title: "Animal House"
     url: https://torontolife.com/tech/truth-tech-insider-got/
 
