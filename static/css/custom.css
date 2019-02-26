@@ -147,6 +147,13 @@ code:focus {
   outline: none;
 }
 
+ul.hide-list {
+  padding-left: 3%;
+}
+ul.hide-list > li {
+  list-style: none;
+}
+
 
 /*
  * Print style
