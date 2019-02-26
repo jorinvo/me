@@ -3,6 +3,18 @@ type: linklist
 title: Programming
 links:
 
+  - title: "The log/event processing pipeline you can't have"
+    url: https://apenwarr.ca/log/20190216
+
+  - title: "Stuart Halloway - Narcissistic Design"
+    url: https://www.youtube.com/watch?v=LEZv-kQUSi4
+
+  - title: "Architecture Without an End State • Michael Nygard"
+    url: https://www.infoq.com/presentations/Architecture-Without-an-End-State
+
+  - title: "Uncoupling • Michael Nygard"
+    url: https://www.youtube.com/watch?v=esm-1QXtA2Q
+
   - title: "Turning the database inside-out with Apache Samza"
     url: https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
 
