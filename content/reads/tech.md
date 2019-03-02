@@ -39,9 +39,6 @@ links:
   - title: "I Can Text You A Pile of Poo, But I Can’t Write My Name"
     url: https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name
 
-  - title: "Generative Technology"
-    url: https://progrium.com/blog/2016/04/25/generativity/
-
   - title: "Ever wonder how Bitcoin actually work?"
     url: https://youtu.be/bBC-nXj3Ng4
 
@@ -58,7 +55,7 @@ links:
     url: https://priceonomics.com/which-countries-destroy-the-environment-the-most/
 
   - title: "Haunted By Data"
-    url: http://idlewords.com/talks/haunted_by_data.htm
+    url: https://idlewords.com/talks/haunted_by_data.htm
 
   - title: "Google.org Thinks It Can Engineer a Solution to the World’s Woes"
     url: https://www.wired.com/2016/03/giving-google-way/
@@ -160,7 +157,7 @@ links:
     url: https://medium.com/@davepell/news-is-different-10015579ebe4
 
   - title: "What Happens Next Will Amaze You"
-    url: http://idlewords.com/talks/what_happens_next_will_amaze_you.htm
+    url: https://idlewords.com/talks/what_happens_next_will_amaze_you.htm
 
   - title: "Don’t Worry, Smart Machines Will Take Us With Them"
     url: https://nautil.us/issue/28/2050/dont-worry-smart-machines-will-take-us-with-them
@@ -182,9 +179,6 @@ links:
 
   - title: "Reasons not to use (i.e., be used by) Facebook"
     url: https://stallman.org/facebook.html
-
-  - title: "Why Bitcoin Matters"
-    url: https://mobile.nytimes.com/blogs/dealbook/2014/01/21/why-bitcoin-matters/
 
 ---
 

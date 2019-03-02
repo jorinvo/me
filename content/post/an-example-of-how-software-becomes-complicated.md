@@ -191,7 +191,7 @@ That was quick. All you had to do was adding two *IF* statements.
 
 And this is how things get complicating: The simple cache is not simple anymore but entangled with the expiring cache. The simple scenario became harder to understand, slower and there are more opportunities to introduce bugs.
 
-**Every time you implement a feature by *simply* adding one more *IF* statement, you help growing it further – [the big ball of mud](http://www.joeyoder.com/PDFs/mud.pdf).**
+**Every time you implement a feature by *simply* adding one more *IF* statement, you help growing it further – [the big ball of mud](https://www.joeyoder.com/PDFs/mud.pdf).**
 
 How can we keep the original cache simple?
 

@@ -24,7 +24,7 @@ natural language processing,
 [search engines](https://github.com/jorinvo/r/blob/master/search.py),
 [machine learning](https://github.com/jorinvo/r/tree/master/ml),
 [neuronal networks](https://github.com/jorinvo/r/blob/master/ml/python/neural_net.py) and more.
-- I created [Slangbrain](https://slangbrain.com/), a chatbot for studying language, written in Go.
+- I created [Slangbrain](https://github.com/jorinvo/slangbrain/), a chatbot for studying language, written in Go.
 - I wrote my Bachelor's Thesis about <br>[Development and Applications of Chatbots](/chatbots.pdf).
 - In '16 I [emulated a bash environment in JavaScript](https://github.com/trybash/bash-emulator) as part of a student project.
 - In '15 I worked for four months as an intern at [Playlab](http://www.playlab.com/) where I built components for ETL pipelines in Ruby, solved Docker container issues, wrote integration tests in Node.js to track down Redis and Cassandra related bugs and created a dynamic admin interface with React.

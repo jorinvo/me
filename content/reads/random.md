@@ -16,7 +16,7 @@ links:
     url: https://www.youtube.com/watch?v=vpTHi7O66pI
 
   - title: "Evolving Floorplans"
-    url: http://www.joelsimon.net/evo_floorplans.html
+    url: https://www.joelsimon.net/evo_floorplans.html
 
   - title: "How China Plans to Feed 1.4 Billion Growing Appetites"
     url: https://www.nationalgeographic.com/magazine/2018/02/feeding-china-growing-appetite-food-industry-agriculture/
@@ -49,10 +49,10 @@ links:
     url: https://www.youtube.com/watch?v=JM77aTk1XyI
 
   - title: "A Five Minutes Guide to Better Typography"
-    url: http://pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
+    url: htt://pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
 
   - title: "How to Simulate the Universe in 134 Easy Steps"
-    url: http://ncase.me/OVC2016/
+    url: https://ncase.me/OVC2016/
 
   - title: "Tokyo Is Preparing for Floods ‘Beyond Anything We’ve Seen’"
     url: https://www.nytimes.com/2017/10/06/climate/tokyo-floods.html
@@ -73,7 +73,7 @@ links:
     url: https://www.washingtonpost.com/news/wonk/wp/2016/10/28/why-the-industrial-revolution-didnt-happen-in-china/
 
   - title: "Argentina On Two Steaks A Day"
-    url: http://www.idlewords.com/2006/04/argentina_on_two_steaks_a_day.htm
+    url: https://www.idlewords.com/2006/04/argentina_on_two_steaks_a_day.htm
 
   - title: "The Jelly Bean Problem"
     url: https://waitbutwhy.com/2016/03/the-jellybean-problem.html
@@ -177,9 +177,6 @@ links:
   - title: "Why Procrastinators Procrastinate"
     url: https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html
 
-  - title: "Tech in North Korea: Getting online in the world’s most isolated country"
-    url: https://www.techinasia.com/tech-north-korea-online-worlds-isolated-country/
-
   - title: "What You Can Do About Climate Change"
     url: https://www.nytimes.com/interactive/2015/12/03/upshot/what-you-can-do-about-climate-change.html
 
@@ -271,7 +268,7 @@ links:
     url: https://medium.com/@hughmcguire/why-can-t-we-read-anymore-503c38c131fe
 
   - title: "An introduction to economics under capitalism"
-    url: http://words.steveklabnik.com/an-introduction-to-economics-under-capitalism
+    url: https://words.steveklabnik.com/an-introduction-to-economics-under-capitalism
 
   - title: "Burma's bizarre capital: a super-sized slice of post-apocalypse suburbia"
     url: https://www.theguardian.com/cities/2015/mar/19/burmas-capital-naypyidaw-post-apocalypse-suburbia-highways-wifi

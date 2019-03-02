@@ -126,7 +126,7 @@ Most of the advantages listed here are actually not platform dependent.
 
 I love to see the web as a programming platform improve in areas
 like [tooling](https://github.com/marijnh/tern) and [coding style](https://github.com/feross/standard).
-In my opinion, Javascript can already compete with the [expressiveness](http://ramdajs.com/) of Ruby.
+In my opinion, Javascript can already compete with the [expressiveness](https://ramdajs.com/) of Ruby.
 The latest efforts enable us to reason about problems in [simple and declarative ways](https://github.com/staltz/todomvc-cycle).
 
 Now I would love to see a way to bring the safety and robustness of Go to the web.

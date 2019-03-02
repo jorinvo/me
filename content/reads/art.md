@@ -58,7 +58,7 @@ links:
     url: https://www.spoon-tamago.com/2013/05/28/tatsuo-horiuchi-excel-spreadsheet-artist/
 
   - title: "Cyber Attack Map"
-    url: http://map.norsecorp.com
+    url: http://www.norse-corp.com/map/
 
   - title: "The Life of Norman"
     url: https://upvoted.com/2016/01/08/the-life-of-norman-and-the-rise-of-boring/

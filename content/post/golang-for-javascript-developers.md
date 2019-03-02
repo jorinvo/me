@@ -24,7 +24,7 @@ Another thing to keep in mind is to don't take *"the right tool for the job"* to
 
 All this being said, let's talk about Go.
 
-There are certain issues that you might run into when using Node.js, which you can solve by using Go. There are other issues Go won't solve for you. [There is no silver bullet.](https://www.itu.dk/people/hesj/BSUP/artikler/no-silver-bullit.pdf)
+There are certain issues that you might run into when using Node.js, which you can solve by using Go. There are other issues Go won't solve for you. [There is no silver bullet.](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
 
 ----------
 

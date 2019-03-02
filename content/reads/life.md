@@ -7,7 +7,7 @@ links:
     url: https://www.youtube.com/watch?v=VO6XEQIsCoM
 
   - title: "The Century of The Self"
-    url: http://thoughtmaybe.com/the-century-of-the-self/
+    url: https://thoughtmaybe.com/the-century-of-the-self/
 
   - title: "HyperNormalisation"
     url: https://thoughtmaybe.com/hypernormalisation/
@@ -100,7 +100,7 @@ links:
     url: https://nymag.com/selectall/2016/09/andrew-sullivan-technology-almost-killed-me.html
 
   - title: "Why are Adults so busy?"
-    url: http://debarghyadas.com/writes/why-are-adults-so-busy/
+    url: https://debarghyadas.com/writes/why-are-adults-so-busy/
 
   - title: "Tennis with Plato"
     url: https://aeon.co/essays/it-is-play-and-not-work-that-gives-life-meaning
@@ -134,9 +134,6 @@ links:
 
   - title: "The Structure of Gratitude"
     url: https://www.nytimes.com/2015/07/28/opinion/david-brooks-the-structure-of-gratitude.html
-
-  - title: "Being A Developer After 40"
-    url: https://medium.com/@akosma/being-a-developer-after-40-3c5dd112210c#.u04gkjm5l
 
   - title: "1 Minute of All-Out Exercise May Have Benefits of 45 Minutes of Moderate Exertion"
     url: https://well.blogs.nytimes.com/2016/04/27/1-minute-of-all-out-exercise-may-equal-45-minutes-of-moderate-exertion/

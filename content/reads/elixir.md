@@ -31,7 +31,7 @@ links:
     url: https://www.youtube.com/watch?v=DZEs8_QiC8Q
 
   - title: "The Erlangelist - Rethinking app env"
-    url: http://www.theerlangelist.com/article/rethinking_app_env
+    url: https://www.theerlangelist.com/article/rethinking_app_env
 
   - title: "When to use Elixir language?"
     url: https://www.amberbit.com/blog/2018/5/15/when-to-use-elixir-language/
@@ -55,10 +55,10 @@ links:
     url: https://www.youtube.com/watch?v=xrIjfIjssLE
 
   - title: "Reducing the maximum latency of a bound buffer"
-    url: http://theerlangelist.com/article/reducing_maximum_latency
+    url: https ://theerlangelist.com/article/reducing_maximum_latency
 
   - title: "Observing low latency in Phoenix with wrk"
-    url: http://theerlangelist.com/article/phoenix_latency
+    url: https://theerlangelist.com/article/phoenix_latency
 
   - title: "Elixir :applications vs :extra_applications - a guide"
     url: https://www.amberbit.com/blog/2017/9/22/elixir-applications-vs-extra_applications-guide/
@@ -85,13 +85,13 @@ links:
     url: https://www.youtube.com/watch?v=MMfYXEH9KsY
 
   - title: "Why Elixir"
-    url: http://theerlangelist.com/article/why_elixir
+    url: https://theerlangelist.com/article/why_elixir
 
   - title: "Beyond Task.Async"
-    url: http://theerlangelist.com/article/beyond_taskasync
+    url: https://theerlangelist.com/article/beyond_taskasync
 
   - title: "Phoenix is modular"
-    url: http://theerlangelist.com/article/phoenix_is_modular
+    url: https://theerlangelist.com/article/phoenix_is_modular
 
   - title: "ElixirConf 2016 - Keynote by José Valim - GenStage and Flow"
     url: https://www.youtube.com/watch?v=srtMWzyqdp8

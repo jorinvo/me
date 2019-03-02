@@ -28,7 +28,7 @@ links:
     url: https://www.atrium.co/blog/dhh-competition-startups/
 
   - title: "Be Kind"
-    url: https://www.briangilham.com/be-kind
+    url: https://medium.com/@bgilham/be-kind-c747e0dbb458
 
   - title: "Your Most Important Job"
     url: http://russolsen.com/articles/2018/04/10/ex-010-most-important-job.html
@@ -52,7 +52,7 @@ links:
     url: https://artplusmarketing.com/what-hunter-s-thompson-could-teach-you-god-damn-animals-about-being-a-professional-e9d6e12990d
 
   - title: "Do You Really Want to be Doing This When You're 50?"
-    url: http://prog21.dadgum.com/154.html
+    url: https://prog21.dadgum.com/154.html
 
   - title: "The business of SaaS"
     url: https://stripe.com/atlas/guides/business-of-saas

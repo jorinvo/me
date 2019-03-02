@@ -112,7 +112,7 @@ links:
     url: https://www.microsoft.com/en-us/research/blog/exploding-software-engineering-myths/
 
   - title: "Observability: the hard parts"
-    url: http://peter.bourgon.org/observability-the-hard-parts/
+    url: https://peter.bourgon.org/observability-the-hard-parts/
 
   - title: "How I use Wireshark"
     url: https://jvns.ca/blog/2018/06/19/what-i-use-wireshark-for/
@@ -142,7 +142,7 @@ links:
     url: https://monkey.org/~marius/unix-tools-hints.html
 
   - title: "END-TO-END ARGUMENTS IN SYSTEM DESIGN"
-    url: http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
+    url: https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
 
   - title: "Two Perspectives on the End-to-End Principle"
     url: https://blog.nelhage.com/post/end-to-end-principle/
@@ -187,7 +187,7 @@ links:
     url: https://dev.to/nestedsoftware/calculating-a-moving-average-on-streaming-data-5a7k
 
   - title: "Organizational Skills Beat Algorithmic Wizardry"
-    url: http://prog21.dadgum.com/177.html
+    url: https://prog21.dadgum.com/177.html
 
   - title: "Let’s talk about usernames"
     url: https://www.b-list.org/weblog/2018/feb/11/usernames/
@@ -556,7 +556,7 @@ links:
     url: https://www.jon.gold/2016/05/robot-design-school/
 
   - title: "Joe Armstrong - Erlang and other stuff"
-    url: http://joearms.github.io/2014/02/07/why-programming-is-difficult.html
+    url: https://joearms.github.io/published/2014-02-07-why-programming-is-difficult.html
 
   - title: "Should you be scared of Unix signals?"
     url: https://jvns.ca/blog/2016/06/13/should-you-be-scared-of-signals/
@@ -565,7 +565,7 @@ links:
     url: https://jvns.ca/blog/2014/03/23/recovering-files-using-slash-proc-and-other-useful-facts/
 
   - title: "Debug your programs like they're closed source!"
-    url: https://jvns.ca/blog/2014/04/21/debug-your-programs-like-theyre-closed-source/
+    url: https://jvns.ca/blog/2014/04/20/debug-your-programs-like-theyre-closed-source/
 
   - title: "Data-hacking for The Best Pokémon of All Time"
     url: https://medium.com/@iwishcognitivedissonance/the-best-pok%C3%A9mon-of-all-time-eb222d69bf9#.jxqu0gcs9
@@ -590,9 +590,6 @@ links:
 
   - title: "How to Fold a Julia Fractal"
     url: https://acko.net/blog/how-to-fold-a-julia-fractal/
-
-  - title: "Reverse Engineering A Mysterious UDP Stream in My Hotel"
-    url: https://wiki.gkbrk.com/Hotel_Music.html
 
   - title: "Have Software Developers Given Up?"
     url: https://blog.dantup.com/2016/04/have-software-developers-given-up/
@@ -658,7 +655,7 @@ links:
     url: https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/
 
   - title: "The Website Obesity Crisis"
-    url: http://idlewords.com/talks/website_obesity.htm
+    url: https://idlewords.com/talks/website_obesity.htm
 
   - title: "Haunted by Data"
     url: https://www.youtube.com/watch?v=GAXLHM-1Psk
@@ -691,7 +688,7 @@ links:
     url: https://thomasbyttebier.be/blog/the-best-icon-is-a-text-label
 
   - title: "Bash One-Liners Explained - Redirections"
-    url: http://www.catonmat.net/blog/bash-one-liners-explained-part-three/
+    url: https://www.catonmat.net/blog/bash-one-liners-explained-part-three/
 
   - title: "The Value of Values - Rich Hickey"
     url: https://www.infoq.com/presentations/Value-Values
@@ -700,13 +697,13 @@ links:
     url: https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
 
   - title: "The Story Behind How Pocket Hit 20M Users with 20 People"
-    url: http://firstround.com/review/the-story-behind-how-pocket-hit-20m-users-with-20-people/
+    url: https://firstround.com/review/the-story-behind-how-pocket-hit-20m-users-with-20-people/
 
   - title: "Fighting spam with Haskell"
     url: https://code.facebook.com/posts/745068642270222/fighting-spam-with-haskell/
 
   - title: "Web Design : The First 100 Years"
-    url: http://idlewords.com/talks/web_design_first_100_years.htm
+    url: https://idlewords.com/talks/web_design_first_100_years.htm
 
   - title: "Dropdowns Should be the UI of Last Resort"
     url: https://www.lukew.com/ff/entry.asp?1950
@@ -715,7 +712,7 @@ links:
     url: https://rauchg.com/2015/pure-ui/
 
   - title: "Building SVG Icons with React"
-    url: http://jxnblk.com/react-icons/
+    url: https://jxnblk.com/react-icons/
 
   - title: "You’re Missing the Point of React"
     url: https://medium.com/@dan_abramov/youre-missing-the-point-of-react-a20e34a51e1a
@@ -770,9 +767,6 @@ links:
 
   - title: "Move fast & break nothing"
     url: https://zachholman.com/talk/move-fast-break-nothing/
-
-  - title: "Learning SVG"
-    url: https://flippinawesome.org/2014/02/03/learning-svg/
 
   - title: "Pipes and Filters"
     url: http://blog.petersobot.com/pipes-and-filters

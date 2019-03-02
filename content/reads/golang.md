@@ -4,7 +4,7 @@ title: Golang
 links:
 
   - title: "Go for Industrial Programming"
-    url: http://peter.bourgon.org/go-for-industrial-programming/
+    url: https://peter.bourgon.org/go-for-industrial-programming/
 
   - title: "From Java to Go, and Back Again"
     url: https://opencredo.com/java-go-back/
@@ -106,7 +106,7 @@ links:
     url: https://engineering.skroutz.gr/blog/rewriting-web-analytics-tracking-in-go/
 
   - title: "Pragmatic and Effective Testing in Go"
-    url: http://bepsays.com/en/2016/10/12/pragmatic-and-effective-testing-in-go/
+    url: https://bepsays.com/en/2016/10/12/pragmatic-and-effective-testing-in-go/
 
   - title: "A Story of a Fat Go Binary"
     url: https://hackernoon.com/a-story-of-a-fat-go-binary-20edc6549b97
