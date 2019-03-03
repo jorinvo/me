@@ -19,52 +19,43 @@ I run [my setup script](https://github.com/jorinvo/dotfiles/blob/master/setup-ma
 
 What does it look like in practice?
 
-Some changes are as simple as replacing each `mkdir` command with `mkdir -p` to ignore errors.
+Many commands work the same in an install and an update script. For example, to keep your Mac's software up to date, you use `sudo softwareupdate -i -a`.
 
-Files should only be linked if they don't exist yet. My helper function to do so looks like this:
+Other changes are as simple as replacing each `mkdir` command with
+`mkdir -p` to ignore errors.
+
+And files should only be linked if they don't exist yet. My helper function to do so looks like this:
 
 ```sh
 link_to() {
-  if [ ! -e $2 ]
-  then
-    ln -s $1 $2
-    printf "\nLinked $2"
+  if [ ! -e "$2" ]; then
+    if [ ! -e "$1" ]; then
+      printf "\nWARNING: cannot link $1 because it does not exist\n"
+    else
+      mkdir -p "$(dirname "$2")"
+      ln -s "$1" "$2"
+      printf "\nLinked $2"
+    fi
   fi
 }
 ```
 
-[Homebrew](https://brew.sh/) should only install packages not already installed. If you are not using Homebrew yet, do yourself a favor, stop right now and check it out. You don't want to install software without it. In my case I keep the packages in a separate [`brew.txt`](https://github.com/jorinvo/dotfiles/blob/master/brew.txt) file. To install only new packages I filter them like this:
+[Homebrew](https://brew.sh/) should only install packages not already installed (If you are not using `brew` yet, do yourself a favor, stop right now and check it out; you don't want to install software without it). In my case I keep the packages in a separate [`brew.txt`](https://github.com/jorinvo/dotfiles/blob/master/brew.txt) file. To install only new packages I filter them like this:
 
 ```sh
-comm -23 \
-  <(sort brew.txt) \
-  <( \
-    { \
-      brew ls --full-name; \
-      brew cask ls | sed -e 's#^#Caskroom/cask/#'; \
-    } \
-    | sort \
-  ) \
-  | xargs brew install
-```
-
-Additionally I also remove old taps. This forces me to track all packages in the `brew.txt` file.
-
-```sh
-# Remove old taps
-comm -13 <(sort brew.txt) <(brew leaves | sort) \
-  | xargs brew rm
-
-# Remove old cask taps
-comm -13 \
-  <(sort brew.txt) \
-  <(brew cask ls | sed -e 's#^#Caskroom/cask/#') \
-  | xargs brew cask rm
+printf "\nInstalling Brew taps\n"
+comm -23 <(sort brew.txt) <(brew leaves) | xargs brew install
+# Update brew.txt
+brew leaves > brew.txt
+printf "\nInstalling Cask taps\n"
+comm -23 <(sort cask.txt) <(brew cask ls) | xargs brew cask install
+# Update brew.txt
+brew cask ls > cask.txt
 ```
 
 You can use the above method also for other sources such as [npm packages](https://www.npmjs.com/) and [RubyGems](https://rubygems.org/).
 
-This might not be helpful to you unless you are using Vim, but I also setup and update [Neovim](https://neovim.io/) and [vim-plug](https://github.com/junegunn/vim-plug) here:
+The next thing might not be helpful to you unless you are using Vim, but I also setup and update [Neovim](https://neovim.io/) and [vim-plug](https://github.com/junegunn/vim-plug) here:
 
 ```sh
 # Neovim
