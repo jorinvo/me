@@ -1,3 +1,35 @@
+/* FONT */
+
+@font-face {
+  font-family: 'PT Serif';
+  src: local('PT Serif'), url('fonts/pt-serif.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: bold;
+  src: local('PT Serif Bold'), url('fonts/pt-serif-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  src: local('PT Serif Italic'), url('fonts/pt-serif-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: bold;
+  src: local('PT Serif Bold Italic'), url('fonts/pt-serif-bold-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oxygen Mono';
+  src: local('Oxygen Mono'), local('Oxygen Mono'), url(fonts/oxygen-mono.woff2) format('woff2');
+}
+
 body {
   font-family: 'PT Serif', serif;
 	max-width: 600px;
