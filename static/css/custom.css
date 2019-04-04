@@ -85,6 +85,10 @@ small {
 	font-size: 70%;
 }
 
+ol, ul {
+  padding-left: 5%;
+}
+
 li {
   padding: 1% 0;
 }
@@ -120,7 +124,7 @@ blockquote {
 }
 
 .post {
-	margin: 8% 0;
+	margin: 14% 0;
 }
 
 .post-header {
@@ -180,7 +184,7 @@ code:focus {
 }
 
 ul.hide-list {
-  padding-left: 3%;
+  padding-left: 0;
 }
 ul.hide-list > li {
   list-style: none;
