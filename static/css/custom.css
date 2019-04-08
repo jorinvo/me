@@ -95,6 +95,9 @@ li {
 ul > li {
   list-style: circle;
 }
+ul.posts > li, ul.hide-list > li {
+  padding: 1% 0;
+}
 
 header {
 	margin-bottom: 12%;
