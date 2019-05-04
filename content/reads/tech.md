@@ -3,6 +3,12 @@ type: linklist
 title: Technology
 links:
 
+  - title: "End-user programming"
+    url: https://www.inkandswitch.com/end-user-programming.html
+
+  - title: "Data is the New Oil"
+    url: https://www.michaelnygard.com/blog/2018/03/data-is-the-new-oil/
+
   - title: "Predicting the future of tech"
     url: http://mkarp.co/predicting-the-future-of-tech
 

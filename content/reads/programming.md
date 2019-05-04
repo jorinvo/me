@@ -3,6 +3,48 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Metamorphic Testing"
+    url: https://www.hillelwayne.com/post/metamorphic-testing/
+
+  - title: "Microservices versus Lean"
+    url: https://www.michaelnygard.com/blog/2015/08/microservices-versus-lean/
+
+  - title: "What programming is like"
+    url: https://blog.samstokes.co.uk/blog/2014/05/01/what-programming-is-like/
+
+  - title: "Our Software Dependency Problem - Russ Cox"
+    url: https://research.swtch.com/deps
+
+  - title: "The Perils of Semantic Coupling"
+    url: https://www.michaelnygard.com/blog/2015/04/the-perils-of-semantic-coupling/
+
+  - title: "Faceted Identities"
+    url: https://www.michaelnygard.com/blog/2015/06/faceted-identities/
+
+  - title: "Spectrum of Change"
+    url: https://www.michaelnygard.com/blog/2017/06/spectrum-of-change/
+
+  - title: "Give Them The Button!"
+    url: https://www.michaelnygard.com/blog/2015/10/give-them-the-button/
+
+  - title: "Some Useful Techniques From Bygone Eras"
+    url: https://www.michaelnygard.com/blog/2016/03/some-useful-techniques-from-bygone-eras/
+
+  - title: "Operable Software"
+    url: https://ferd.ca/operable-software.html
+
+  - title: "Stability Patterns and Antipatterns, Michael Nygard"
+    url: https://www.youtube.com/watch?v=IV2bQO9TfTk
+
+  - title: "Michael Nygard - Grinding the Monolith"
+    url: https://www.youtube.com/watch?v=xxW_c_8AHiE
+
+  - title: "Components and Glue"
+    url: https://www.michaelnygard.com/blog/2015/06/components-and-glue/
+
+  - title: "The Fear Cycle"
+    url: https://www.michaelnygard.com/blog/2015/07/the-fear-cycle/
+
   - title: "The log/event processing pipeline you can't have"
     url: https://apenwarr.ca/log/20190216
 

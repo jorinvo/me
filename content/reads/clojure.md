@@ -3,6 +3,12 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Clojure in Production with tools.deps"
+    url: https://cjohansen.no/clojure-in-production-tools-deps/
+
+  - title: "Parsing text with clojure.spec – The library that keeps on givin'"
+    url: https://juxt.pro/blog/posts/parsing-with-clojure-spec.html
+
   - title: "Effect-ive Clojure"
     url: https://vimeo.com/313288415
 

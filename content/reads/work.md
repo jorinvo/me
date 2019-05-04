@@ -3,6 +3,24 @@ type: linklist
 title: Work
 links:
 
+  - title: "How To Create Better Estimates"
+    url: http://clojurescriptmadeeasy.com/blog/how-to-create-better-estimates.html
+
+  - title: "How to Deliver Constructive Feedback in Difficult Situations"
+    url: https://medium.com/s/please-advise/the-essential-guide-to-difficult-conversations-41f736e63ccf
+
+  - title: "Reflecting on My Failure to Build a Billion-Dollar Company"
+    url: https://medium.com/s/story/reflecting-on-my-failure-to-build-a-billion-dollar-company-b0c31d7db0e7
+
+  - title: "jessfraz - Defining a Distinguished Engineer"
+    url: https://blog.jessfraz.com/post/defining-a-distinguished-engineer/
+
+  - title: "People Don't Belong to Organizations"
+    url: https://www.michaelnygard.com/blog/2015/04/people-dont-belong-to-organizations/
+
+  - title: "Mindfulness as a Management Technique Goes Back to at Least the 1970s"
+    url: https://hbr.org/2018/05/mindfulness-as-a-management-technique-goes-back-to-at-least-the-1970s
+
   - title: "How the Valley treats its experienced people"
     url: https://rachelbythebay.com/w/2018/12/29/age/
 
