@@ -3,6 +3,9 @@ type: linklist
 title: Work
 links:
 
+  - title: "21st Century Design - Don Norman"
+    url: https://vimeo.com/319654845
+
   - title: "How To Create Better Estimates"
     url: http://clojurescriptmadeeasy.com/blog/how-to-create-better-estimates.html
 

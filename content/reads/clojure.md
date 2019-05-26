@@ -3,6 +3,12 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Domain modelling with clojure.spec"
+    url: https://adambard.com/blog/domain-modeling-with-clojure-spec/
+
+  - title: "Clojure Rationale"
+    url: https://clojure.org/about/rationale
+
   - title: "Clojure in Production with tools.deps"
     url: https://cjohansen.no/clojure-in-production-tools-deps/
 

@@ -3,6 +3,18 @@ type: linklist
 title: Programming
 links:
 
+  - title: Waste – An ever evolving struggle against waste
+    url: https://juxt.pro/blog/posts/waste.html
+
+  - title: Boundaries
+    url: https://www.destroyallsoftware.com/talks/boundaries
+
+  - title: Lessons Learned while Working on Large-Scale Server Software
+    url: https://ferd.ca/lessons-learned-while-working-on-large-scale-server-software.html
+
+  - title: Property-Based Testing Basics
+    url: https://ferd.ca/property-based-testing-basics.html
+
   - title: "Metamorphic Testing"
     url: https://www.hillelwayne.com/post/metamorphic-testing/
 
