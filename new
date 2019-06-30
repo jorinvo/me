@@ -22,6 +22,6 @@ path="content/${rel}"
 hugo new ${rel}
 
 # Drop draft line. Add description instead.
-sed -e '4d' -i '' ${path}
+sed -e '4d' ${path}
 
 $EDITOR ${path}
