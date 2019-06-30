@@ -3,11 +3,7 @@ title: "Fixing the World With Software"
 date: 2019-06-30T15:07:21+02:00
 ---
 
-There are so many big problems the world faces today. We hear about them in the news every day.
-<br>
-You want to do something good in the world. You want to make a change. But you like building software.
-<br>
-What can a software developer do to _make the world a better place_?
+There are so many big problems the world faces today. We hear about them in the news every day. You want to do something good in the world. You want to make a change. But you like building software. What can a software developer do to _make the world a better place_?
 <!--more-->
 
 Probably most of humanity had big problems in their time. In some way or another we might always fight for survival, for our existence. Uniquely nowadays is the global scale of our problems. The challenges we are facing have never been more complex and as part of our information-driven society the media constantly keeps reminding us of the threads we are facing. At the same time our abilities and the reach of our actions has never been greater.
