@@ -10,7 +10,7 @@ Probably most of humanity had big problems in their time. In some way or another
 
 I mostly see three obvious challenges nowadays:
 
-1. **Keeping the global human society in order to prevent fatal conflicts between different groups of humans.** Even with free and diverse societies we need to find ways to solve conflicts peacefully. Modern warfare has advanced to a point where any wrong action could make the whole planet inhabitable.
+1. **Keeping the global human society in order to prevent fatal conflicts between different groups of humans.** Even with free and diverse societies we need to find ways to solve conflicts peacefully. Modern warfare has advanced to a point where any wrong action could make the whole planet uninhabitable.
 2. **Finding ways to control human health and prevent epidemics.** We still understand surprisingly little about the biology we are made of. A single virus could wipe out all of humanity.
 3. **Managing to live in harmony with our environment.** The impact humans have on the planet has become so big that we have to find ways to keep our planet's ecosystem in balance. We need to find sustainable ways to deal with [carbon emissions](http://worrydream.com/ClimateChange/), air pollution, energy consumption, waste, water pollution, food production and many other issues.
 
