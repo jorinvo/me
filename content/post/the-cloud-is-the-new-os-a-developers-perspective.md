@@ -70,3 +70,6 @@ There is still a lot of room in this space waiting to be filled. [Moving](https:
 Fellow developers, beware of the level of abstraction the problem you are trying to solve is on. Be ready to development in the cloud. Let's work together to make our new platforms a great place to work in.
 
 *Thank you.*
+
+
+**Update:** [The Dark language](https://medium.com/darklang/how-dark-deploys-code-in-50ms-771c6dd60671) is doing awesome things in this direction!
