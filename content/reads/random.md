@@ -229,7 +229,7 @@ links:
     url: htt://priceonomics.com/why-is-art-expensive/
 
   - title: "Schopenhauer on the art of not reading"
-    url: http://tumblr.austinkleon.com/post/129979274771
+    url: https://tumblr.austinkleon.com/post/129979274771
 
   - title: "The Fermi Paradox — Where Are All The Aliens?"
     url: https://www.youtube.com/watch?v=sNhhvQGsMEc
@@ -277,7 +277,7 @@ links:
     url: https://blog.bufferapp.com/how-meditation-affects-your-brain
 
   - title: "How to walk through walls using the 4th Dimension"
-    url: http://marctenbosch.com/news/2014/08/new-trailer-how-to-walk-through-walls-using-the-fourth-dimension/
+    url: https://marctenbosch.com/news/2014/08/new-trailer-how-to-walk-through-walls-using-the-fourth-dimension/
 
   - title: "The truth behind China’s Underground Wholesale Markets."
     url: https://www.youngmoneychina.com/2014/08/the-truth-behind-chinas-underground-wholesale-markets/

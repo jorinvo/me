@@ -7,7 +7,7 @@ links:
     url: https://www.linux.pictures/
 
   - title: "Photography by ヤマサキコージ"
-    url: http://www.yamasakiko-ji.com/
+    url: https://www.yamasakiko-ji.com/
 
   - title: "手指断了 - cyperpunk concept art"
     url: https://m.weibo.cn/p/1005052906185283
@@ -88,7 +88,7 @@ links:
     url: http://jack.ventures/2014/inner-mongolia/
 
   - title: "Portfolio of Jake Albaugh"
-    url: http://jakealbaugh.com/
+    url: https://jakealbaugh.com/
 
   - title: "The Bus Stops In The USSR Were Insane Masterpieces In The Middle Of Nowhere"
     url: https://www.fastcoexist.com/3051288/the-bus-stops-in-the-ussr-were-insane-masterpieces-in-the-middle-of-nowhere

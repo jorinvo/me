@@ -19,7 +19,7 @@ links:
     url: https://vimeo.com/313288415
 
   - title: "Transpose a Matrix in Clojure"
-    url: http://mkarp.co/clojure-matrix-rotation
+    url: https://mkarp.co/clojure-matrix-rotation
 
   - title: "Tables Considered Helpful - Daniel Gregoire"
     url: https://www.youtube.com/watch?v=b5UK-VHbJlQ
@@ -91,13 +91,13 @@ links:
     url: https://aphyr.com/posts/312-clojure-from-the-ground-up-modeling
 
   - title: "Readable Clojure"
-    url: http://tonsky.me/blog/readable-clojure/
+    url: https://tonsky.me/blog/readable-clojure/
 
   - title: "Values and Change: Clojure’s approach to Identity and State"
     url: https://clojure.org/about/state
 
   - title: "Hiccup, Macros, API design, and magic"
-    url: http://tonsky.me/blog/hiccup/
+    url: https://tonsky.me/blog/hiccup/
 
   - title: "The Story of Booting Mount"
     url: https://www.dotkam.com/2015/12/22/the-story-of-booting-mount/

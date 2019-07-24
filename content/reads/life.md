@@ -121,7 +121,7 @@ links:
     url: https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fdigitalculturist.com%2Fdrowning-in-a-sea-of-information-563a3160efbb
 
   - title: "Creativity is a great motivator"
-    url: http://tomrothe.de/posts/sketchbook.html
+    url: https://tomrothe.de/posts/sketchbook.html
 
   - title: "Here's Why You Should Support A Universal Basic Income"
     url: https://www.fastcoexist.com/3058710/heres-why-you-should-support-a-universal-basic-income

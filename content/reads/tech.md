@@ -10,7 +10,7 @@ links:
     url: https://www.michaelnygard.com/blog/2018/03/data-is-the-new-oil/
 
   - title: "Predicting the future of tech"
-    url: http://mkarp.co/predicting-the-future-of-tech
+    url: https://mkarp.co/predicting-the-future-of-tech
 
   - title: "Why don’t we follow password security best practices?"
     url: https://increment.com/security/password-security-best-practices/

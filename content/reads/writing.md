@@ -22,7 +22,7 @@ links:
     url: http://www.flyingmachinestudios.com/essays/process/
 
   - title: "Is language as we know it still relevant for the digital age?"
-    url: http://www.opendemocracy.net/digitaliberties/pavlo-shopin/meaning-of-language-why-do-arts-and-sciences-need-language
+    url: https://www.opendemocracy.net/digitaliberties/pavlo-shopin/meaning-of-language-why-do-arts-and-sciences-need-language
 
   - title: "Write."
     url: https://calv.info/write

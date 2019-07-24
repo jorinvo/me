@@ -160,7 +160,7 @@ links:
     url: https://charity.wtf/2018/08/17/on-engineers-and-influence/
 
   - title: "The power of embedded developers"
-    url: http://blog.jessitron.com/2014/08/the-power-of-embedded-developers.html
+    url: https://blog.jessitron.com/2014/08/the-power-of-embedded-developers.html
 
   - title: "Exploding Software-Engineering Myths"
     url: https://www.microsoft.com/en-us/research/blog/exploding-software-engineering-myths/
@@ -277,7 +277,7 @@ links:
     url: http://boringtechnology.club/
 
   - title: "What the Four Color Theorem can Teach Us About Writing Software"
-    url: http://alexkudlick.com/blog/what-the-four-color-theorem-can-teach-us-about-writing-software/
+    url: https://alexkudlick.com/blog/what-the-four-color-theorem-can-teach-us-about-writing-software/
 
   - title: "Pieter Hintjens - Our decentralized future"
     url: https://www.youtube.com/watch?v=36bKE_JsHZs
@@ -352,7 +352,7 @@ links:
     url: https://increment.com/development/center-stage-best-practices-for-staging-environments/
 
   - title: "Clojure vs. The Static Typing World"
-    url: http://www.lispcast.com/clojure-and-types
+    url: https://www.lispcast.com/clojure-and-types
 
   - title: "Designing for Reliability"
     url: https://www.fastly.com/blog/q-mindset-designing-reliability/
@@ -433,7 +433,7 @@ links:
     url: https://workplace.stackexchange.com/questions/93696/is-it-unethical-for-me-to-not-tell-my-employer-i-ve-automated-my-job
 
   - title: "Hyperproductive development"
-    url: http://blog.jessitron.com/2017/06/the-most-productive-circumstances-for.html
+    url: https://blog.jessitron.com/2017/06/the-most-productive-circumstances-for.html
 
   - title: "What can developers learn from being on call?"
     url: https://jvns.ca/blog/2017/06/18/operate-your-software/
