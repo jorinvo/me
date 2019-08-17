@@ -3,6 +3,15 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Say NO to Venn Diagrams When Explaining JOINs"
+    url: https://blog.jooq.org/2016/07/05/say-no-to-venn-diagrams-when-explaining-joins/
+
+  - title: "How Dark deploys code in 50ms"
+    url: https://medium.com/darklang/how-dark-deploys-code-in-50ms-771c6dd60671
+
+  - title: "STAMPing on event-stream"
+    url: https://www.hillelwayne.com/post/stamping-on-eventstream/
+
   - title: "Waste – An ever evolving struggle against waste"
     url: https://juxt.pro/blog/posts/waste.html
 

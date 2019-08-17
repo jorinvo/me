@@ -3,6 +3,9 @@ type: linklist
 title: Work
 links:
 
+  - title: "Choosing the Adventurous Route: The Career Path for Non-Managers"
+    url: https://emptysqua.re/blog/choosing-the-adventurous-route-video/
+
   - title: "21st Century Design - Don Norman"
     url: https://vimeo.com/319654845
 

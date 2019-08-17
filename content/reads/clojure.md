@@ -3,6 +3,12 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Billions of Random Numbers in a Blink of an Eye"
+    url: https://dragan.rocks/articles/19/Billion-random-numbers-blink-eye-Clojure
+
+  - title: "Clojure: Unlocking incremental automation"
+    url: https://orestis.gr/clojure-unlocking-incremental-automation/
+
   - title: "Domain modelling with clojure.spec"
     url: https://adambard.com/blog/domain-modeling-with-clojure-spec/
 

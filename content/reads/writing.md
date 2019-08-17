@@ -3,6 +3,9 @@ type: linklist
 title: Writing
 links:
 
+  - title: "Undervalued Software Engineering Skills: Writing Well"
+    url: https://blog.pragmaticengineer.com/on-writing-well/
+
   - title: "Evan Czaplicki On Storytelling"
     url: https://www.deconstructconf.com/2017/evan-czaplicki-on-storytelling
 

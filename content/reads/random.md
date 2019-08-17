@@ -3,6 +3,12 @@ type: linklist
 title: Random
 links:
 
+  - title: "The Art of Research – A History by Vi Hart"
+    url: https://theartofresearch.org/a-history/
+
+  - title: "How language shapes the way we think"
+    url: https://www.ted.com/talks/lera_boroditsky_how_language_shapes_the_way_we_think
+
   - title: "Joshua Foer: Step Outside Your Comfort Zone and Study Yourself Failing"
     url: https://vimeo.com/27067169
 
