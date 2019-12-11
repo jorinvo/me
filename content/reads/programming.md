@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "John Hughes - Testing the Hard Stuff and Staying Sane"
+    url: https://www.youtube.com/watch?v=zi0rHwfiX1Q&list=WL&index=68
+
   - title: "Say NO to Venn Diagrams When Explaining JOINs"
     url: https://blog.jooq.org/2016/07/05/say-no-to-venn-diagrams-when-explaining-joins/
 
