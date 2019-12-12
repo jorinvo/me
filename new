@@ -19,9 +19,9 @@ fi
 rel="post/${name}.md"
 path="content/${rel}"
 
-hugo new ${rel}
+hugo new "${rel}"
 
-# Drop draft line. Add description instead.
-sed -e '4d' ${path}
+# Drop draft line.
+sed -i -e '4d' "${path}"
 
-$EDITOR ${path}
+$EDITOR "${path}"
