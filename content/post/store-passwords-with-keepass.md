@@ -53,6 +53,7 @@ It appears less pretty but it is the most pleasant to use:
 - Searching, copying, editing - all its features can be controlled entirely with keyboard shortcuts.
 - It supports filling passwords in your browser with a global shortcut.
 - It allows storing and unlocking SSH keys.
+- You can add another factor of authentication by using a [YubiKey](https://www.yubico.com/).
 - And it even supports setting up TOTP for [two factor authentication](https://www.securenvoy.com/en-gb/two-factor-authentication/what-is-2fa) (please enable this for all your important services) which can be a nice alternative to [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2).
 
 Of course you also want your passwords on your phone. And you can. I had good experience with [Keepass2Android Password Safe](https://play.google.com/store/apps/details?id=keepass2android.keepass2android).
