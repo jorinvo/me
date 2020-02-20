@@ -3,11 +3,11 @@ title: "Crux as General-Purpose Database"
 date: 2019-12-12T22:14:54+01:00
 ---
 
-[Crux](https://opencrux.com/) is an innovative database in the Clojure world.
+Crux is an innovative database in the Clojure world.
 What follows is an experience report.
 <!--more-->
 
-Crux is open source, [*bitemporal*](https://en.wikipedia.org/wiki/Bitemporal_Modeling), highly scalable and built on solid foundations with [Kafka](https://kafka.apache.org/) and [RocksDB](https://rocksdb.org/) as default storage.
+[Crux](https://opencrux.com/) is open source, [*bitemporal*](https://en.wikipedia.org/wiki/Bitemporal_Modeling), highly scalable and built on solid foundations with [Kafka](https://kafka.apache.org/) and [RocksDB](https://rocksdb.org/) as default storage.
 It is very flexible and provides low-level building blocks to allow you to build exactly the database you need for your use-case.
 
 I believe that having time as first class concept in your database should be the default.

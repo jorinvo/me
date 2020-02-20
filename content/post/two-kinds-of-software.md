@@ -30,7 +30,7 @@ I like to see software development as the discipline we use to create software s
 
 Whenever we can encapsulate and precisely define a problem, an engineering approach will be very effective for producing software of high quality.
 
-However, once a system interacts with humans or other external systems in the world, things suddenly are much less fixed. It becomes hard to foresee all possible interactions and inputs our system will receive from the outside world. External systems can exhibit faulty behaviour or can even become malicious. Being situated in an ever-evolving world, the requirement we expect our systems to fulfill are in constant flux and change fundamentally over time.
+However, once a system interacts with humans or other external systems in the world, things suddenly are much less fixed. It becomes hard to foresee all possible interactions and inputs our system will receive from the outside world. External systems can exhibit faulty behaviour or can even become malicious. Being situated in an ever-evolving world, the requirement we expect our systems to fulfil are in constant flux and change fundamentally over time.
 
 Rigorous planning a correct solution is not a viable option when requirements are extremely dynamic and it is not something that can be achieved with any reasonable amount of effort.
 
@@ -38,7 +38,7 @@ We need different methods when working on such systems:
 
 - The first step is to accept that there will be mistakes and optimise your system to adapt and learn from errors.
 - Keeping your system flexible becomes one of the top priorities when decisions become invalid at any moment.
-- Being able to empirically try out different experiments is a useful tool when you cannot foresee the consequences of your system's behavior upfront.
+- Being able to empirically try out different experiments is a useful tool when you cannot foresee the consequences of your system's behaviour upfront.
 - Having visibility through monitoring your software in production becomes even more crucial when you are unable to verify correctness upfront.
 
 Creating social networks and online shops, but also building resource planning systems or working in financial markets - these systems keep on changing and should be development dynamically over time.
@@ -51,7 +51,7 @@ Once we accept that there is such a difference between the kinds of software sys
 
 For the first category, putting effort into upfront planning and all sort of efforts towards proving correctness can be very effective.
 
-For the second category, instead of finding a perfect solution upfront we start with our best guess. The most important property of such a system is to build it in away that allows us to adopt it quickly and to observe it over time.
+For the second category, instead of finding a perfect solution upfront we start with our best guess. The most important property of such a system is to build it in away that allows us to adapt it quickly and to observe it over time.
 
 
 If we take apart our work, identify different sub-systems and judge them separately, then we can make more educated decisions for selecting the most effective methods and tools.
