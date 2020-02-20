@@ -13,7 +13,7 @@ Since this were quite a lot of files and most of them were plain text, I put the
 Now, I needed to open one of the files again.
 
 But I wasn't able to unzip it.
-I got an error that the files doesn't seem to be a proper archive file.
+I got an error that the file doesn't seem to be a proper archive file.
 Luckily there was a quick way to fix the broken archive:
 
 ```sh
