@@ -3,6 +3,12 @@ type: linklist
 title: Life
 links:
 
+  - title: "What the Hell is Going On?"
+    url: https://www.perell.com/blog/what-the-hell-is-going-on
+
+  - title: "I went to see a movie, and instead I saw the future"
+    url: https://m.signalvnoise.com/i-went-to-see-a-movie-and-instead-i-saw-the-future/
+
   - title: "The paradox of choice"
     url: https://www.youtube.com/watch?v=VO6XEQIsCoM
 

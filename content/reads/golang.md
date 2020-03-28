@@ -1,7 +1,10 @@
 ---
 type: linklist
-title: Golang
+title: Go
 links:
+
+  - title: "Go for Cloud"
+    url: https://rakyll.org/go-cloud/
 
   - title: "Go for Industrial Programming"
     url: https://peter.bourgon.org/go-for-industrial-programming/

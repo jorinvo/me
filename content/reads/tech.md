@@ -3,6 +3,9 @@ type: linklist
 title: Technology
 links:
 
+  - title: "An Ode to Excel: 34 Years of Magic"
+    url: https://blog.stephsmith.io/history-of-excel/
+
   - title: "End-user programming"
     url: https://www.inkandswitch.com/end-user-programming.html
 

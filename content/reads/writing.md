@@ -3,6 +3,12 @@ type: linklist
 title: Writing
 links:
 
+  - title: "What nobody tells you about documentation"
+    url: https://www.divio.com/blog/documentation/
+
+  - title: "Writing is Thinking: Learning to Write with Confidence"
+    url: https://blog.stephsmith.io/learning-to-write-with-confidence/
+
   - title: "Undervalued Software Engineering Skills: Writing Well"
     url: https://blog.pragmaticengineer.com/on-writing-well/
 

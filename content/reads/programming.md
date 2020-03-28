@@ -3,6 +3,30 @@ type: linklist
 title: Programming
 links:
 
+  - title: "The Value of Values"
+    url: https://www.infoq.com/presentations/Value-Values/
+
+  - title: "In space, no one can hear you kernel panic"
+    url: https://increment.com/software-architecture/in-space-no-one-can-hear-you-kernel-panic/
+
+  - title: "Observations on Observability"
+    url: https://blog.colinbreck.com/observations-on-observability/
+
+  - title: "The Passport: A Tool for Better Metrics"
+    url: https://eng.fitbit.com/the-passport-a-tool-for-better-metrics/
+
+  - title: "Cybernetics Versus Informatics: Understanding the Type Wars"
+    url: https://medium.com/@rplevy/cybernetics-versus-informatics-understanding-the-type-wars-99878fe956d6
+
+  - title: "Taming Complexity with Reversibility"
+    url: https://www.facebook.com/notes/kent-beck/taming-complexity-with-reversibility/1000330413333156/
+
+  - title: "SRE as a Lifestyle Choice"
+    url: https://medium.com/@bellmar/sre-as-a-lifestyle-choice-de9f5a82d73d
+
+  - title: "A freemium model for scheduling"
+    url: https://www.drmaciver.com/2013/04/a-freemium-model-for-scheduling/
+
   - title: "John Hughes - Testing the Hard Stuff and Staying Sane"
     url: https://www.youtube.com/watch?v=zi0rHwfiX1Q&list=WL&index=68
 
@@ -68,9 +92,6 @@ links:
 
   - title: "The Fear Cycle"
     url: https://www.michaelnygard.com/blog/2015/07/the-fear-cycle/
-
-  - title: "The log/event processing pipeline you can't have"
-    url: https://apenwarr.ca/log/20190216
 
   - title: "Stuart Halloway - Narcissistic Design"
     url: https://www.youtube.com/watch?v=LEZv-kQUSi4
@@ -192,9 +213,6 @@ links:
   - title: "Ted Nelson -- Computers for Cynics"
     url: https://www.youtube.com/watch?v=hZ3gmh-d9oI
 
-  - title: "Fun with SQL: Recursive CTEs in Postgres"
-    url: https://www.citusdata.com/blog/2018/05/15/fun-with-sql-recursive-ctes/
-
   - title: "Agile is Dead • Pragmatic Dave Thomas"
     url: https://www.youtube.com/watch?v=a-BOSpxYJ9M
 
@@ -249,9 +267,6 @@ links:
   - title: "Antics, drift, and chaos by Lorin Hochstein"
     url: https://www.youtube.com/watch?v=SM2uXpmyJmA
 
-  - title: "Calculating a Moving Average on Streaming Data"
-    url: https://dev.to/nestedsoftware/calculating-a-moving-average-on-streaming-data-5a7k
-
   - title: "Organizational Skills Beat Algorithmic Wizardry"
     url: https://prog21.dadgum.com/177.html
 
@@ -263,9 +278,6 @@ links:
 
   - title: "Introduction to Contract Programming"
     url: https://www.hillelwayne.com/post/contracts/
-
-  - title: "Postgres Hidden Gems"
-    url: http://www.craigkerstiens.com/2018/01/31/postgres-hidden-gems/
 
   - title: "ZeroMQ RFC 42/C4 - Collective Code Construction Contract"
     url: https://rfc.zeromq.org/spec:42/C4/
@@ -312,9 +324,6 @@ links:
   - title: "Idée Fixe - David Nolen"
     url: https://www.youtube.com/watch?v=lzXHMy4ewtM
 
-  - title: "Joe Armstrong interviews Alan Kay"
-    url: https://www.youtube.com/watch?v=fhOHn9TClXY
-
   - title: "The Language of the System - Rich Hickey"
     url: https://www.youtube.com/watch?v=ROor6_NGIWU
 
@@ -345,20 +354,11 @@ links:
   - title: "Martin Fowler - Event Sourcing"
     url: https://www.youtube.com/watch?v=aweV9FLTZkU
 
-  - title: "Using logs to build a solid data infrastructure"
-    url: https://www.confluent.io/blog/using-logs-to-build-a-solid-data-infrastructure-or-why-dual-writes-are-a-bad-idea/
-
-  - title: "Materialized View Strategies Using PostgreSQL"
-    url: https://hashrocket.com/blog/posts/materialized-view-strategies-using-postgresql
-
   - title: "Ashley Williams - A brief history and mishistory of modularity"
     url: https://www.youtube.com/watch?v=LfOVyNQK5io
 
   - title: "How do you cut a monolith in half?"
     url: https://programmingisterrible.com/post/162346490883/how-do-you-cut-a-monolith-in-half
-
-  - title: "Publishing with Apache Kafka at The New York Times"
-    url: https://www.confluent.io/blog/publishing-apache-kafka-new-york-times/
 
   - title: "Best practices for staging environments"
     url: https://increment.com/development/center-stage-best-practices-for-staging-environments/
@@ -399,9 +399,6 @@ links:
   - title: "HTTPS on Stack Overflow"
     url: https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/
 
-  - title: "Apache Kafka, Samza, and the Unix Philosophy of Distributed Data"
-    url: https://www.confluent.io/blog/apache-kafka-samza-and-the-unix-philosophy-of-distributed-data/
-
   - title: "The Million Dollar Engineering Problem"
     url: https://segment.com/blog/the-million-dollar-eng-problem/
 
@@ -426,12 +423,6 @@ links:
   - title: "Greg Young - The art of destroying software"
     url: https://vimeo.com/108441214
 
-  - title: "The limitations of deep learning"
-    url: https://blog.keras.io/the-limitations-of-deep-learning.html
-
-  - title: "Simple but Handy Postgres Features"
-    url: http://www.craigkerstiens.com/2017/01/08/simple-but-handy-postgresql-features/
-
   - title: "OK Log"
     url: https://peter.bourgon.org/ok-log/
 
@@ -452,9 +443,6 @@ links:
 
   - title: "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets"
     url: https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
-
-  - title: "Looking inside machine learning black boxes"
-    url: https://jvns.ca/blog/2016/04/10/why-i-dont-like-black-boxes/
 
   - title: "Ten Rules for Open Source Success"
     url: http://hintjens.com/blog:95
@@ -491,9 +479,6 @@ links:
 
   - title: "Good comments explain WHY, not WHAT, and 3 more rules on writing good comments"
     url: https://dev.to/andreasklinger/comments-explain-why-not-what-and-2-more-rules-on-writing-good-comments
-
-  - title: "Redis in My Postgres"
-    url: http://www.craigkerstiens.com/2012/10/18/connecting_to_redis_from_postgres/
 
   - title: "Understand Go pointers in less than 800 words or your money back"
     url: https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back
@@ -549,32 +534,17 @@ links:
   - title: "Normalization of deviance in software: how broken practices become standard"
     url: https://danluu.com/wat/
 
-  - title: Is PostgreSQL good enough?
-    url: https://renesd.blogspot.de/2017/02/is-postgresql-good-enough.html
-
-  - title: "Automatically test your database backups"
-    url: https://marco.org/2017/02/01/db-backup-testing
-
   - title: "A case for microservices"
     url: https://peter.bourgon.org/a-case-for-microservices/
 
   - title: "A few drawings about Linux"
     url: https://jvns.ca/blog/2016/11/10/a-few-drawings-about-linux/
 
-  - title: "The amazing power of word vectors"
-    url: https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/
-
   - title: "What Does an Idle CPU Do?"
     url: http://duartes.org/gustavo/blog/post/what-does-an-idle-cpu-do
 
-  - title: "Practical advice for analysis of large, complex data sets by a Google data scientist"
-    url: http://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html
-
   - title: "15 Fundamental Laws of Software Development"
     url: https://www.exceptionnotfound.net/fundamental-laws-of-software-development/
-
-  - title: "How to trick a neural network into thinking a panda is a vulture"
-    url: https://codewords.recurse.com/issues/five/why-do-neural-networks-think-a-panda-is-a-vulture
 
   - title: "The MIT License, Line by Line"
     url: https://writing.kemitchell.com/2016/09/21/MIT-License-Line-by-Line.html
@@ -584,12 +554,6 @@ links:
 
   - title: "The Twelve-Factor App"
     url: https://12factor.net/
-
-  - title: "Machine Learning for Emoji Trends"
-    url: https://medium.com/@InstagramEng/machine-learning-for-emoji-trends-e676ac35e1d7/
-
-  - title: "Analyzing the Graph of Thrones"
-    url: https://www.lyonwj.com/2016/06/26/graph-of-thrones-neo4j-social-network-analysis/
 
   - title: "Applying the Linus Torvalds “Good Taste” Coding Requirement"
     url: https://medium.com/@bartobri/applying-the-linus-tarvolds-good-taste-coding-requirement-99749f37684a
@@ -633,26 +597,11 @@ links:
   - title: "Debug your programs like they're closed source!"
     url: https://jvns.ca/blog/2014/04/20/debug-your-programs-like-theyre-closed-source/
 
-  - title: "Data-hacking for The Best Pokémon of All Time"
-    url: https://medium.com/@iwishcognitivedissonance/the-best-pok%C3%A9mon-of-all-time-eb222d69bf9#.jxqu0gcs9
-
   - title: "What Makes Software Good?"
     url: https://medium.com/@mbostock/what-makes-software-good-943557f8a488
 
   - title: "Teaching Robots to Feel: Emoji & Deep Learning"
     url: https://getdango.com/emoji-and-deep-learning.html
-
-  - title: "Finding Similar Sounding Names"
-    url: http://daynebatten.com/2016/05/finding-similar-sounding-names-basics/
-
-  - title: "The Truth About Deep Learning"
-    url: http://blog.claymcleod.io/2016/06/01/The-truth-about-Deep-Learning/
-
-  - title: "Visualizing city similarity"
-    url: https://teleport.org/2016/02/visualizing-city-similarity/
-
-  - title: "Statistics for Hackers"
-    url: https://www.youtube.com/watch?v=-7I7MWTX0gA
 
   - title: "How to Fold a Julia Fractal"
     url: https://acko.net/blog/how-to-fold-a-julia-fractal/
@@ -722,9 +671,6 @@ links:
 
   - title: "The Website Obesity Crisis"
     url: https://idlewords.com/talks/website_obesity.htm
-
-  - title: "Haunted by Data"
-    url: https://www.youtube.com/watch?v=GAXLHM-1Psk
 
   - title: "The Making Of 'In Pieces'"
     url: https://www.smashingmagazine.com/2015/06/02/the-making-of-in-pieces/
@@ -797,9 +743,6 @@ links:
 
   - title: "Running A Software Business On 5 Hours A Week"
     url: https://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/
-
-  - title: "People Who Like This Also Like ..."
-    url: https://www.benfrederickson.com/distance-metrics/
 
   - title: "FizzBuzz In Too Much Detail — Tom Dalling"
     url: https://www.tomdalling.com/blog/software-design/fizzbuzz-in-too-much-detail/

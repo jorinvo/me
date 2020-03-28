@@ -3,6 +3,27 @@ type: linklist
 title: Work
 links:
 
+  - title: "Trust the process"
+    url: https://increment.com/teams/trust-the-process/
+
+  - title: "The Seven Habits of One Highly Effective Manager of Managers: Things I Learned from Charity Majors"
+    url: https://honkathon.com/2019-12-19-seven-habits/
+
+  - title: "Antifragility at Work: Change is the Only Constant"
+    url: https://blog.stephsmith.io/change-is-the-only-constant/
+
+  - title: "A guide to distributed teams"
+    url: https://increment.com/teams/a-guide-to-distributed-teams/
+
+  - title: "Thriving on the Technical Leadership Path"
+    url: https://keavy.com/work/thriving-on-the-technical-leadership-path/
+
+  - title: "The (Real) 11 Reasons I Don’t Hire You"
+    url: https://charity.wtf/2019/10/18/the-real-11-reasons-i-dont-hire-you/
+
+  - title: "How to do hard things"
+    url: https://www.drmaciver.com/2019/05/how-to-do-hard-things/
+
   - title: "Choosing the Adventurous Route: The Career Path for Non-Managers"
     url: https://emptysqua.re/blog/choosing-the-adventurous-route-video/
 

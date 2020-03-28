@@ -3,6 +3,15 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Logging: change your mind"
+    url: https://juxt.pro/blog/posts/logging.html
+
+  - title: "Everything is (not) a pipe"
+    url: https://lambdaisland.com/blog/2019-12-08-advent-of-parens-8-everything-is-a-pipe
+
+  - title: "Rich Already Answered That!"
+    url: https://gist.github.com/reborg/dc8b0c96c397a56668905e2767fd697f
+
   - title: "Billions of Random Numbers in a Blink of an Eye"
     url: https://dragan.rocks/articles/19/Billion-random-numbers-blink-eye-Clojure
 
