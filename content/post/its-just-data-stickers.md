@@ -12,7 +12,7 @@ They are transparent and die cut.
 
 Even better, you can download the Illustrator files and print your own:
 
-[![red](../images/itsjustdata-red-sticker-preview.png)](../files/itsjustdata-sticker-bw.ai)
+[![red](../images/itsjustdata-red-sticker-preview.png)](../files/itsjustdata-sticker-red.ai)
 
 [![black & white](../images/itsjustdata-bw-sticker-preview.png)](../files/itsjustdata-sticker-bw.ai)
 
