@@ -87,9 +87,6 @@ links:
   - title: "Standing Invitation | Kalzumeus Software"
     url: https://www.kalzumeus.com/standing-invitation/
 
-  - title: "pillar management"
-    url: https://www.gapingvoid.com/blog/2004/07/31/pillar-management/
-
   - title: "Stress & Depression – a Taboo in our Time • Gitte Klitgaard"
     url: https://www.youtube.com/watch?v=jGG6Wip_PGg
 

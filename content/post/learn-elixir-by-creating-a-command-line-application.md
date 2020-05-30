@@ -144,7 +144,7 @@ I also added a type spec annotation to my function in the same way I saw it in t
 ```
 
 I used [Dialyxir](https://github.com/jeremyjh/dialyxir) to check for errors in the types.
-Dialyxir is a wrapper around the Erlang tool [Dialyzer](http://erlang.org/doc/apps/dialyzer/dialyzer_chapter.html), which works for all languages running on the BEAM. It's great to see how well the Elixir and Erlang ecosystems work together and it allows to use many battle-proven tools and libraries.
+Dialyxir is a wrapper around the Erlang tool [Dialyzer](https://erlang.org/doc/apps/dialyzer/dialyzer_chapter.html), which works for all languages running on the BEAM. It's great to see how well the Elixir and Erlang ecosystems work together and it allows to use many battle-proven tools and libraries.
 
 After this I decided to add a property test for the module using the [StreamData](https://hexdocs.pm/stream_data/) package:
 

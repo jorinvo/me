@@ -12,9 +12,6 @@ links:
   - title: "Data is the New Oil"
     url: https://www.michaelnygard.com/blog/2018/03/data-is-the-new-oil/
 
-  - title: "Predicting the future of tech"
-    url: https://mkarp.co/predicting-the-future-of-tech
-
   - title: "Why don’t we follow password security best practices?"
     url: https://increment.com/security/password-security-best-practices/
 
@@ -103,7 +100,7 @@ links:
     url: https://freedom-to-tinker.com/blog/vitaly/gone-in-six-characters-short-urls-considered-harmful-for-cloud-services/
 
   - title: "What every Browser knows about you"
-    url: http://webkay.robinlinus.com/
+    url: https://webkay.robinlinus.com/
 
   - title: "How The Technology Behind Bitcoin Is Going To Change The Lives Of The Bottom Billion"
     url: https://www.fastcoexist.com/3056481/how-the-technology-behind-bitcoin-is-going-to-change-the-lives-of-the-bottom-billion

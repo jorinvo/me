@@ -111,9 +111,6 @@ links:
   - title: "Pragmatic and Effective Testing in Go"
     url: https://bepsays.com/en/2016/10/12/pragmatic-and-effective-testing-in-go/
 
-  - title: "A Story of a Fat Go Binary"
-    url: https://hackernoon.com/a-story-of-a-fat-go-binary-20edc6549b97
-
   - title: "What I love about Go"
     url: https://npf.io/2013/01/what-i-love-about-go/
 

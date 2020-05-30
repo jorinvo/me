@@ -58,16 +58,13 @@ links:
     url: https://www.spoon-tamago.com/2013/05/28/tatsuo-horiuchi-excel-spreadsheet-artist/
 
   - title: "Cyber Attack Map"
-    url: http://www.norse-corp.com/map/
+    url: https://www.norse-corp.com/map/
 
   - title: "The Life of Norman"
     url: https://upvoted.com/2016/01/08/the-life-of-norman-and-the-rise-of-boring/
 
   - title: "Highlights from Nat Geo’s 2016 Travel Photographer of the Year Contest"
     url: https://twistedsifter.com/2016/04/nat-geo-2016-travel-photographer-of-the-year-contest/
-
-  - title: "Tokyo Photography"
-    url: http://rachelisaweso.me/ok/tokyo-2015/
 
   - title: "Digital Art by Beeple"
     url: https://beeple-crap.com
@@ -79,7 +76,7 @@ links:
     url: https://www.jasondavies.com/maps/voronoi/airports/
 
   - title: "Website of TryMore Inc - We Are Very Lucky Company"
-    url: http://www.trymore-inc.jp/
+    url: https://www.trymore-inc.jp/
 
   - title: "I'm Google"
     url: https://dinakelberman.tumblr.com/

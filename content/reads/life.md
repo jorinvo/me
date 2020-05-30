@@ -93,9 +93,6 @@ links:
   - title: "How Technology Hijacks People’s Minds"
     url: https://medium.com/swlh/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3
 
-  - title: "Be Kind"
-    url: https://www.briangilham.com/be-kind
-
   - title: "Undergraduation"
     url: http://www.paulgraham.com/college.html
 
@@ -159,9 +156,6 @@ links:
   - title: "Sex & Startups"
     url: https://medium.com/@sexandstartups/sex-startups-53f2f63ded49
 
-  - title: "Stop Worrying and Love Your Imposter Syndrome"
-    url: http://blog.capwatkins.com/stop-worrying-and-love-your-imposter-syndrome
-
   - title: "Imagining your future projects is holding you back."
     url: https://jessicaabel.com/2016/01/27/idea-debt/
 
@@ -187,7 +181,7 @@ links:
     url: https://medium.com/@ystrickler/resist-and-thrive-1d36819853ca
 
   - title: "Motivating the monkey"
-    url: http://scattered-thoughts.net/blog/2015/09/22/motivating-the-monkey/
+    url: https://scattered-thoughts.net/blog/2015/09/22/motivating-the-monkey/
 
   - title: "The Problem With Problems"
     url: https://000fff.org/the-problem-with-problems/
@@ -253,7 +247,7 @@ links:
     url: https://dopeboy.github.io/consulting/
 
   - title: "Screw motivation, what you need is discipline."
-    url: http://www.wisdomination.com/screw-motivation-what-you-need-is-discipline/
+    url: https://www.wisdomination.com/screw-motivation-what-you-need-is-discipline/
 
   - title: "Why is everyone so busy?"
     url: https://www.economist.com/news/christmas-specials/21636612-time-poverty-problem-partly-perception-and-partly-distribution-why

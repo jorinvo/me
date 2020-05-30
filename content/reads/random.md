@@ -175,7 +175,7 @@ links:
     url: https://waitbutwhy.com/2015/06/how-tesla-will-change-your-life.html
 
   - title: "Humans should learn maths"
-    url: http://scattered-thoughts.net/blog/2014/11/15/humans-should-learn-maths/
+    url: https://scattered-thoughts.net/blog/2014/11/15/humans-should-learn-maths/
 
   - title: "How to Beat Procrastination"
     url: https://waitbutwhy.com/2013/11/how-to-beat-procrastination.html

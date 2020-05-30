@@ -393,9 +393,6 @@ links:
   - title: '"Managing Containers at Scale with CoreOS and Kubernetes" by Kelsey Hightower'
     url: https://www.youtube.com/watch?v=pozC9rBvAIs
 
-  - title: "Growing up with Dogma"
-    url: https://mrmrs.github.io/writing/2016/04/26/dogma/
-
   - title: "HTTPS on Stack Overflow"
     url: https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/
 

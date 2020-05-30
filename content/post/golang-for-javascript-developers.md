@@ -74,7 +74,7 @@ Additionally Go can run code in parallel. While Node.js has a great concurrency 
 
 If your problem is CPU-bound and maybe even parallizable, Go should be able to give you great performance gains over Node.js.
 
-In the extreme case Go will perform N times better — with N being the number of cores your program can make use of. But keep in mind that in many cases you can scale Node by simply running more processes. Scaling on a process level versus a thread level comes with a certain overhead, but unless you are also constrained in one of the above mentioned restrictions, it might not be an issue for you. The simplest way to coordinate multiple processes is using Nodes's [cluster module](https://nodejs.org/api/cluster.html). I also encourage you to have a look at other technologies such as [ZeroMQ](http://zeromq.org/) though.
+In the extreme case Go will perform N times better — with N being the number of cores your program can make use of. But keep in mind that in many cases you can scale Node by simply running more processes. Scaling on a process level versus a thread level comes with a certain overhead, but unless you are also constrained in one of the above mentioned restrictions, it might not be an issue for you. The simplest way to coordinate multiple processes is using Nodes's [cluster module](https://nodejs.org/api/cluster.html). I also encourage you to have a look at other technologies such as [ZeroMQ](https://zeromq.org/) though.
 
 
 - The **Deployment** of your application is limited by not having additional **dependencies** available on the machine or by **file size** the deployment is allowed to use.

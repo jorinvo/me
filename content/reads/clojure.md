@@ -33,9 +33,6 @@ links:
   - title: "Effect-ive Clojure"
     url: https://vimeo.com/313288415
 
-  - title: "Transpose a Matrix in Clojure"
-    url: https://mkarp.co/clojure-matrix-rotation
-
   - title: "Tables Considered Helpful - Daniel Gregoire"
     url: https://www.youtube.com/watch?v=b5UK-VHbJlQ
 
@@ -161,9 +158,6 @@ links:
 
   - title: "Anthony Marcar - Clojure At Scale @WalmartLabs"
     url: https://www.youtube.com/watch?v=av9Xi6CNqq4
-
-  - title: "From Pedestal routes to beautiful documentation"
-    url: https://frankiesardo.github.io/posts/2015-03-06-from-pedestal-routes-to-beautiful-documentation.html
 
   - title: "Datomic: The most innovative DB you've never heard of"
     url: https://augustl.com/blog/2016/datomic_the_most_innovative_db_youve_never_heard_of/
