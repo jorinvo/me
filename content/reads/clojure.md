@@ -3,6 +3,9 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Functions Explained Through Patterns"
+    url: http://blog.josephwilk.net/clojure/functions-explained-through-patterns.html
+
   - title: "Logging: change your mind"
     url: https://juxt.pro/blog/posts/logging.html
 

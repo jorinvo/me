@@ -3,6 +3,9 @@ type: linklist
 title: data
 links:
 
+  - title: "COVID19 data in the REPL"
+    url: http://www.appliedscience.studio/articles/covid19.html
+
   - title: "ClickHouse Cost-Efficiency in Action: Analyzing 500 Billion Rows on an Intel NUC"
     url: https://www.altinity.com/blog/2020/1/1/clickhouse-cost-efficiency-in-action-analyzing-500-billion-rows-on-an-intel-nuc
 

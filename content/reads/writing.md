@@ -3,6 +3,9 @@ type: linklist
 title: Writing
 links:
 
+  - title: "How to Write Usefully"
+    url: http://paulgraham.com/useful.html
+
   - title: "What nobody tells you about documentation"
     url: https://www.divio.com/blog/documentation/
 

@@ -3,6 +3,9 @@ type: linklist
 title: Programming
 links:
 
+  - title: "A primer on functional architecture"
+    url: https://increment.com/software-architecture/primer-on-functional-architecture/
+
   - title: "The Value of Values"
     url: https://www.infoq.com/presentations/Value-Values/
 
