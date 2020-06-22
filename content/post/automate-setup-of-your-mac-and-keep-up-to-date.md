@@ -15,7 +15,7 @@ The changes required are rather minimal. You simply need to make sure each comma
 
 The best part about this is that now you can also use this script to keep your system up to date and you have a single file that describes all of your setup in a reproducible way.
 
-I run [my setup script](https://github.com/jorinvo/dotfiles/blob/master/setup-mac) every week or so to have the latest software available.
+I run [my setup script](https://github.com/jorinvo/dotfiles/blob/mac/setup-mac) every week or so to have the latest software available.
 
 What does it look like in practice?
 
@@ -40,7 +40,7 @@ link_to() {
 }
 ```
 
-[Homebrew](https://brew.sh/) should only install packages not already installed (If you are not using `brew` yet, do yourself a favor, stop right now and check it out; you don't want to install software without it). In my case I keep the packages in a separate [`brew.txt`](https://github.com/jorinvo/dotfiles/blob/master/brew.txt) file. To install only new packages I filter them like this:
+[Homebrew](https://brew.sh/) should only install packages not already installed (If you are not using `brew` yet, do yourself a favor, stop right now and check it out; you don't want to install software without it). In my case I keep the packages in a separate [`brew.txt`](https://github.com/jorinvo/dotfiles/blob/mac/brew.txt) file. To install only new packages I filter them like this:
 
 ```sh
 printf "\nInstalling Brew taps\n"
@@ -78,5 +78,5 @@ fi
 nvim +PlugInstall +PlugUpgrade +PlugUpdate +PlugClean! +UpdateRemotePlugins +qall
 ```
 
-Have a look at my [dotfiles](https://github.com/jorinvo/dotfiles) to find out more. Maybe you find some new trick to add to your Vim or Bash setup.
+Have a look at my Mac [dotfiles](https://github.com/jorinvo/dotfiles/tree/mac) to find out more. Maybe you find some new trick to add to your Vim or Bash setup.
 I would love to hear from you about some part of your setup that you automated!
