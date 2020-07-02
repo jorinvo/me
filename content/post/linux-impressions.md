@@ -93,7 +93,7 @@ I mostly cannot tell a difference between Manjaro+KDE and Ubuntu+Gnome, but look
 
 Booting the system I have to say that Dell BIOS seems to be the fastest and Lenovo Thinkpad the slowest. Or Lenovo prefers likes to show their giant red logo for a bit longer.
 
-The actual Linux distros are both pretty fast, although KDE gives you a smoother booting experience.
+The actual Linux distros are both pretty fast. I find that KDE gives you a smoother booting experience and Manjaro doesn't have a loading screen while Ubuntu shows a loading screen for 1-2 seconds.
 
 One point for the MacBooks is that their sleep mode (closing the laptop lid) lasts longer. I think the Mac switches to hibernate automatically. While hibernate works on the Linux laptops, it seems to be not faster than rebooting from scratch.
 
