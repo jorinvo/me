@@ -88,7 +88,10 @@ It's also straight forward to theme GTK2 and GTK3 right in the KDE settings.
 I won't try to do any benchmarking here. More interesting to me is the perceived performance.
 
 Here I can say that the biggest difference is as, already mentioned, Docker.
-Apart from that file search in my editor and also starting applications are both definitely faster on Linux.
+
+Apart from that file search in my editor and also starting applications are both definitely faster on Linux. 
+*KRunner* in KDE also feels  faster than searching in Gnome or Spotlight on a Mac.
+
 I mostly cannot tell a difference between Manjaro+KDE and Ubuntu+Gnome, but looking at the system status you can see that Manjaro+KDE consumes less ressources and has less systemd services running. For me it was definitely a surprise to find out that in 2020 KDE is more lightweight than Gnome. That used to be very different.
 
 Booting the system I have to say that Dell BIOS seems to be the fastest and Lenovo Thinkpad the slowest. Or Lenovo prefers likes to show their giant red logo for a bit longer.
