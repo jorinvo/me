@@ -31,7 +31,7 @@ Luckily all of them work on all of the systems.
 
 Docker feels 10x faster on Linux. Probably related to us doing a lot of volume mounting. That is a huge productivity win for my work since we run everything in Docker.
 
-Google does not provide a Linux client for Google Drive. For me it is enough to use the web version. But there are some promising (paid) 3rd-party clients.
+Google does not provide a Linux client for Google Drive. For me it is enough to use the web version. Plus, [as a nice commenter told me](https://lobste.rs/s/gepn5p/linux_impressions#c_k7qqcb), there is an [integration for KDE's file browser](https://community.kde.org/KIO_GDrive) which allows me to access file transparently. There are also some promising open source and paid 3rd-party clients if you need to access files offline.
 
 Monitor, printers, Bluetooth speakers and Bluetooth XBox controller worked for me with all the devices so far.
 
