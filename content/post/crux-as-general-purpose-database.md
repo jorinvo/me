@@ -32,6 +32,8 @@ But for now, here are a few things I built in [the application's database layer]
 
 ## Single Transactor
 
+*Update: By now Crux officially supports [transaction functions](https://opencrux.com/reference/transactions.html#transaction-functions) which allow you to achieve the same things you would use a single transactor for, but in a distributed and potentially more performant way.*
+
 Enforcing constraints such as uniqueness is built into many databases.
 The simplest way to achieve this outside the database is to only allow a single write at a time.
 Reads can still happen in parallel.
