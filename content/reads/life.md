@@ -3,6 +3,15 @@ type: linklist
 title: Life
 links:
 
+  - title: "The Arborist"
+    url: https://www.epsilontheory.com/the-arborist/
+
+  - title: "Why efficiency is dangerous and slowing down makes life better"
+    url: https://psyche.co/ideas/why-efficiency-is-dangerous-and-slowing-down-makes-life-better
+
+  - title: "If you’re so smart, why aren’t you rich? Turns out it’s just chance."
+    url: https://www.technologyreview.com/2018/03/01/144958/if-youre-so-smart-why-arent-you-rich-turns-out-its-just-chance/
+
   - title: "What the Hell is Going On?"
     url: https://www.perell.com/blog/what-the-hell-is-going-on
 

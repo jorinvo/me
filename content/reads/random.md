@@ -3,6 +3,18 @@ type: linklist
 title: Random
 links:
 
+  - title: "Transcending capitalism: three different ways?"
+    url: http://glineq.blogspot.com/2020/02/transcending-capitalism-three-different.html
+
+  - title: "The importance of Taleb’s system: from the Fourth Quadrant to the Skin in the Game"
+    url: http://glineq.blogspot.com/2018/01/the-importance-of-talebs-system-from.html
+
+  - title: "How Mushrooms Can Save the World"
+    url: https://www.discovermagazine.com/environment/how-mushrooms-can-save-the-world
+
+  - title: "Ergodicity – The odd word with important implications for investors"
+    url: https://www.schroders.com/en/uk/the-value-perspective/blog/all-blogs/ergodicity-the-odd-word-with-important-implications-for-investors/
+
   - title: "The Art of Research – A History by Vi Hart"
     url: https://theartofresearch.org/a-history/
 

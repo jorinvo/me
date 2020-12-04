@@ -3,6 +3,9 @@ type: linklist
 title: Work
 links:
 
+  - title: "Your Company can’t out-hire its Problems"
+    url: https://medium.com/@stefan.willuda/your-company-cant-out-hire-its-problems-dc865b33cac6
+
   - title: "Trust the process"
     url: https://increment.com/teams/trust-the-process/
 

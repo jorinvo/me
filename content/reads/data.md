@@ -1,7 +1,10 @@
 ---
 type: linklist
-title: data
+title: Data
 links:
+
+  - title: "What is high cardinality, and how do time-series databases like InfluxDB and TimescaleDB compare?"
+    url: https://blog.timescale.com/blog/what-is-high-cardinality-how-do-time-series-databases-influxdb-timescaledb-compare/
 
   - title: "COVID19 data in the REPL"
     url: http://www.appliedscience.studio/articles/covid19.html

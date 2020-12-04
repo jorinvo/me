@@ -3,6 +3,21 @@ type: linklist
 title: Programming
 links:
 
+  - title: "I test in prod"
+    url: https://increment.com/testing/i-test-in-production/
+
+  - title: "What is your take on checking return values?"
+    url: http://rachelbythebay.com/w/2020/09/02/check/
+
+  - title: "Repeat yourself, do more than one thing, and rewrite everything"
+    url: https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and
+
+  - title: "Scaling in the presence of errors—don’t ignore them"
+    url: https://programmingisterrible.com/post/188942142748/scaling-in-the-presence-of-errorsdont-ignore
+
+  - title: "Write code that is easy to delete, not easy to extend."
+    url: https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to
+
   - title: "A primer on functional architecture"
     url: https://increment.com/software-architecture/primer-on-functional-architecture/
 
