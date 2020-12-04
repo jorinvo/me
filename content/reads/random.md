@@ -244,7 +244,7 @@ links:
     url: https://www.fastcoexist.com/3051869/google-is-planning-for-a-zero-waste-circular-economy
 
   - title: "Why Is Art Expensive?"
-    url: htt://priceonomics.com/why-is-art-expensive/
+    url: https://priceonomics.com/why-is-art-expensive/
 
   - title: "Schopenhauer on the art of not reading"
     url: https://tumblr.austinkleon.com/post/129979274771
