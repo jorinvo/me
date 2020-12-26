@@ -2,7 +2,7 @@
 title: Hello. My name is Jorin Vogel.
 ---
 
-I build feedback systems.
+I enjoy building feedback systems.
 <!--more-->
 
 <img style="width: 30%; float: right; padding-left: 20%" src="/images/what-i-look-like.jpg" alt="This is what I look like ...">
