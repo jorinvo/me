@@ -3,6 +3,12 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Reveal, REPLs and networking"
+    url: https://vlaaad.github.io/reveal-repls-and-networking
+
+  - title: "Into the Land of Quil"
+    url: https://landofquil.clojureverse.org/
+
   - title: "Functions Explained Through Patterns"
     url: https://blog.josephwilk.net/clojure/functions-explained-through-patterns.html
 

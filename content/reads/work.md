@@ -3,6 +3,15 @@ type: linklist
 title: Work
 links:
 
+  - title: "Normalization of non-deviance"
+    url: https://levels.io/deviance/
+
+  - title: "The Games People Play With Cash Flow"
+    url: https://commoncog.com/blog/cash-flow-games/
+
+  - title: "Bootstrapping and Convexity"
+    url: https://mccormick.cx/news/entries/bootstrapping-and-convexity
+
   - title: "Your Company can’t out-hire its Problems"
     url: https://medium.com/@stefan.willuda/your-company-cant-out-hire-its-problems-dc865b33cac6
 

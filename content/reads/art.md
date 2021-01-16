@@ -3,6 +3,12 @@ type: linklist
 title: Art
 links:
 
+  - title: "Code Goes In, Art Comes Out by Tyler Hobbs"
+    url: https://tylerxhobbs.com/essays/2019/code-goes-in-art-comes-out
+
+  - title: "Observable & creative coding by Lionel Radisson"
+    url: https://observablehq.com/@makio135/creative-coding
+
   - title: "free gnu/linux high-quality pictures"
     url: https://www.linux.pictures/
 
