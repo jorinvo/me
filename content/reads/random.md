@@ -4,10 +4,10 @@ title: Random
 links:
 
   - title: "Transcending capitalism: three different ways?"
-    url: http://glineq.blogspot.com/2020/02/transcending-capitalism-three-different.html
+    url: https://glineq.blogspot.com/2020/02/transcending-capitalism-three-different.html
 
   - title: "The importance of Taleb’s system: from the Fourth Quadrant to the Skin in the Game"
-    url: http://glineq.blogspot.com/2018/01/the-importance-of-talebs-system-from.html
+    url: https://glineq.blogspot.com/2018/01/the-importance-of-talebs-system-from.html
 
   - title: "How Mushrooms Can Save the World"
     url: https://www.discovermagazine.com/environment/how-mushrooms-can-save-the-world

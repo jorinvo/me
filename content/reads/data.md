@@ -61,7 +61,7 @@ links:
     url: https://dev.to/nestedsoftware/calculating-a-moving-average-on-streaming-data-5a7k
 
   - title: "Postgres Hidden Gems"
-    url: http://www.craigkerstiens.com/2018/01/31/postgres-hidden-gems/
+    url: https://www.craigkerstiens.com/2018/01/31/postgres-hidden-gems/
 
   - title: "Using logs to build a solid data infrastructure"
     url: https://www.confluent.io/blog/using-logs-to-build-a-solid-data-infrastructure-or-why-dual-writes-are-a-bad-idea/
@@ -79,7 +79,7 @@ links:
     url: https://blog.keras.io/the-limitations-of-deep-learning.html
 
   - title: "Simple but Handy Postgres Features"
-    url: http://www.craigkerstiens.com/2017/01/08/simple-but-handy-postgresql-features/
+    url: https://www.craigkerstiens.com/2017/01/08/simple-but-handy-postgresql-features/
 
   - title: "Looking inside machine learning black boxes"
     url: https://jvns.ca/blog/2016/04/10/why-i-dont-like-black-boxes/
@@ -97,7 +97,7 @@ links:
     url: https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/
 
   - title: "Practical advice for analysis of large, complex data sets by a Google data scientist"
-    url: http://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html
+    url: https://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html
 
   - title: "How to trick a neural network into thinking a panda is a vulture"
     url: https://codewords.recurse.com/issues/five/why-do-neural-networks-think-a-panda-is-a-vulture

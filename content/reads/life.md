@@ -154,7 +154,7 @@ links:
     url: https://mobile.nytimes.com/2016/04/10/opinion/sunday/congratulations-youve-been-fired.html
 
   - title: "What I Am About"
-    url: http://michaelrbernste.in/2015/09/13/what-i-am-about.html
+    url: https://michaelrbernste.in/2015/09/13/what-i-am-about.html
 
   - title: "Leaving Your Desk Behind"
     url: https://www.helpscout.net/blog/creativity-at-work/
@@ -262,7 +262,7 @@ links:
     url: https://www.economist.com/news/christmas-specials/21636612-time-poverty-problem-partly-perception-and-partly-distribution-why
 
   - title: "10 Things I Learned from Paul Graham"
-    url: http://betabeat.com/2014/06/10-things-i-learned-from-paul-graham-at-y-combinator/
+    url: https://betabeat.com/2014/06/10-things-i-learned-from-paul-graham-at-y-combinator/
 
   - title: "Why Procrastination Doesn’t Need a Cure"
     url: https://blog.bufferapp.com/dont-stop-procrastinating-procrastination-doesnt-need-a-cure-structured-distraction

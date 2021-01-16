@@ -160,7 +160,7 @@ links:
     url: https://www.troyhunt.com/2015/07/how-i-optimised-my-life-to-make-my-job.html
 
   - title: "The Best Entrepreneur I Know"
-    url: http://donpottinger.net/blog/2015/01/19/the-best-entrepreneur-i-know.html
+    url: https://donpottinger.net/blog/2015/01/19/the-best-entrepreneur-i-know.html
 
   - title: "Engineers Suck at Finding the Right Jobs"
     url: https://matt.aimonetti.net/posts/2012/11/14/engineers-suck-at-finding-right-jobs/

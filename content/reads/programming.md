@@ -7,7 +7,7 @@ links:
     url: https://increment.com/testing/i-test-in-production/
 
   - title: "What is your take on checking return values?"
-    url: http://rachelbythebay.com/w/2020/09/02/check/
+    url: https://rachelbythebay.com/w/2020/09/02/check/
 
   - title: "Repeat yourself, do more than one thing, and rewrite everything"
     url: https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and
@@ -172,7 +172,7 @@ links:
     url: https://www.facebook.com/atscaleevents/videos/2131701657102927/
 
   - title: "Documenting Architecture Decisions"
-    url: http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
+    url: https://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
 
   - title: "The Power of Living Systems"
     url: http://hintjens.com/blog:74

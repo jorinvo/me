@@ -31,7 +31,7 @@ links:
     url: https://www.inc.com/alison-davis/the-surprising-way-to-be-more-effective-at-storytelling.html
 
   - title: "My Writing Process"
-    url: http://www.flyingmachinestudios.com/essays/process/
+    url: https://www.flyingmachinestudios.com/essays/process/
 
   - title: "Is language as we know it still relevant for the digital age?"
     url: https://www.opendemocracy.net/digitaliberties/pavlo-shopin/meaning-of-language-why-do-arts-and-sciences-need-language
