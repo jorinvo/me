@@ -19,3 +19,8 @@ params:
 
 pygmentsuseclasses: true
 pygmentscodefences: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

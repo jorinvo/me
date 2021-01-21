@@ -1,7 +1,7 @@
 {{ partial "top.html" . }}
 
 <div class="posts">
-  {{ range where (where .Data.Pages "Section" "post") ".Params.unlist" "!=" "true"}}
+  {{ range where (where .Site.RegularPages "Section" "post") ".Params.unlist" "!=" "true"}}
   <a href="{{ .Permalink }}" class="post-link alternate">
     <div class="post">
       <small class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</small>
