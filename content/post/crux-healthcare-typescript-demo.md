@@ -25,7 +25,7 @@ Crux makes sure you know about every change to data, but at the same time you ha
 
 Lastly, Crux stores *documents*. You do not define schemas and relationships upfront. You can write any document to the database.
 Why is that helpful? Healthcare is made up of many complex sub-systems generating different data. Traditionally rather slow-moving, these days health tech is also picking up a faster pace of change.
-You need a way to deal with incomplete data, changing requirements and questions you didn't now will come up in the future.
+You need a way to deal with incomplete data, changing requirements and questions you didn't know will come up in the future.
 Modeling constraints becomes so complex that a single, consistent model is not enough. You need more flexibility in asserting facts about your data.
 Let the data store take care of storing data. Model your application logic in your application.
 
