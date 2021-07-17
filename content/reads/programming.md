@@ -3,6 +3,15 @@ type: linklist
 title: Programming
 links:
 
+  - title: "Lessons from 6 software rewrite stories"
+    url: https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22
+
+  - title: "Specific vs. general: Which is better?"
+    url: https://blog.jakubholy.net/2021/specific-vs-general-cryogen/
+
+  - title: "Why do config changes keep coming up in major incidents?"
+    url: https://surfingcomplexity.blog/2021/05/29/why-do-config-changes-keep-coming-up-in-major-incidents/
+
   - title: "I test in prod"
     url: https://increment.com/testing/i-test-in-production/
 

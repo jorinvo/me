@@ -3,6 +3,9 @@ type: linklist
 title: Technology
 links:
 
+  - title: "Making the world more programmable"
+    url: https://vimeo.com/159888358
+
   - title: "Is a billion-dollar worth of server lying on the ground?"
     url: https://cerebralab.com/Is_a_billion-dollar_worth_of_server_lying_on_the_ground
 

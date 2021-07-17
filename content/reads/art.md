@@ -3,6 +3,9 @@ type: linklist
 title: Art
 links:
 
+  - title: "Fidenza by Tyler Hobbs"
+    url: https://tylerxhobbs.com/fidenza
+
   - title: "Code Goes In, Art Comes Out by Tyler Hobbs"
     url: https://tylerxhobbs.com/essays/2019/code-goes-in-art-comes-out
 

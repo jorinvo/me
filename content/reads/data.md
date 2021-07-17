@@ -3,6 +3,9 @@ type: linklist
 title: Data
 links:
 
+  - title: "Gently down the stream - A gentle introduction to Kafka"
+    url: https://www.gentlydownthe.stream/
+
   - title: "What is high cardinality, and how do time-series databases like InfluxDB and TimescaleDB compare?"
     url: https://blog.timescale.com/blog/what-is-high-cardinality-how-do-time-series-databases-influxdb-timescaledb-compare/
 

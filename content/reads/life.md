@@ -3,6 +3,12 @@ type: linklist
 title: Life
 links:
 
+  - title: "The Tyranny Of Time"
+    url: https://www.noemamag.com/the-tyranny-of-time/
+
+  - title: "The Art of Misunderstanding & The 4 Sides Model of Communication"
+    url: https://medium.com/seek-blog/the-art-of-misunderstanding-and-the-4-sides-model-of-communication-7188408457ba
+
   - title: "The Arborist"
     url: https://www.epsilontheory.com/the-arborist/
 

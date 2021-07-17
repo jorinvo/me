@@ -3,6 +3,9 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "What is an Interceptor?"
+    url: http://pedestal.io/guides/what-is-an-interceptor
+
   - title: "Reveal, REPLs and networking"
     url: https://vlaaad.github.io/reveal-repls-and-networking
 
