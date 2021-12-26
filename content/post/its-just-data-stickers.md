@@ -18,11 +18,6 @@ Even better, you can download the Illustrator files and print your own:
 
 Feel free to share them, modify them or do anything you like.
 
-The *.ai* files are actually templates that can be directly used to order from Sticker Mule.
-So here is an affiliate link for you:
-
-[![Custom Stickers, Die Cut Stickers, Bumper Stickers - Sticker Mule](https://res.cloudinary.com/print-bear/image/upload/v1531752798/banners/stickermule-invite-friends-large.jpg)](https://www.stickermule.com/unlock?ref_id=6209142701&utm_content=728x90&utm_medium=embed&utm_source=invite)
-
 The inspiration for the sticker is the concept of how Clojure embraces data as first-class concept to drive everything.
 
 The *"Value of Values"* talk by Rich Hickey nicely illustrates the bigger picture for this line of thinking:
