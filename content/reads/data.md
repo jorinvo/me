@@ -3,6 +3,9 @@ type: linklist
 title: Data
 links:
 
+  - title: "The Data Dichotomy: Rethinking the Way We Treat Data and Services"
+    url: https://www.confluent.io/blog/data-dichotomy-rethinking-the-way-we-treat-data-and-services/
+
   - title: "Gently down the stream - A gentle introduction to Kafka"
     url: https://www.gentlydownthe.stream/
 

@@ -3,6 +3,9 @@ type: linklist
 title: Writing
 links:
 
+  - title: "Why writing matters in remote work"
+    url: http://www.timcasasola.com/blog/writing
+
   - title: "How to Write Usefully"
     url: http://paulgraham.com/useful.html
 

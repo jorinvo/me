@@ -3,6 +3,9 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "The Impedance Mismatch is Our Fault"
+    url: https://www.infoq.com/presentations/Impedance-Mismatch/
+
   - title: "What is an Interceptor?"
     url: http://pedestal.io/guides/what-is-an-interceptor
 

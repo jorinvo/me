@@ -3,6 +3,9 @@ type: linklist
 title: Life
 links:
 
+  - title: "Why the Flow of Time Is an Illusion"
+    url: https://getpocket.com/explore/item/why-the-flow-of-time-is-an-illusion
+
   - title: "The Tyranny Of Time"
     url: https://www.noemamag.com/the-tyranny-of-time/
 

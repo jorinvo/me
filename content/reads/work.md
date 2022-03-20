@@ -3,6 +3,9 @@ type: linklist
 title: Work
 links:
 
+  - title: "Sell yourself, Sell Your Work ..."
+    url: https://www.solipsys.co.uk/new/SellYourselfSellYourWork.html
+
   - title: "Normalization of non-deviance"
     url: https://levels.io/deviance/
 

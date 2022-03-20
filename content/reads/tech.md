@@ -3,6 +3,9 @@ type: linklist
 title: Technology
 links:
 
+  - title: "Why I left Google to join Grab"
+    url: https://steve-yegge.medium.com/why-i-left-google-to-join-grab-86dfffc0be84
+
   - title: "Making the world more programmable"
     url: https://vimeo.com/159888358
 

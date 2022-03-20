@@ -3,7 +3,19 @@ type: linklist
 title: Programming
 links:
 
-  - title: "Lessons from 6 software rewrite stories"
+  - title: "Rethinking Programming: Automated Observability"
+    url: https://hackernoon.com/rethinking-programming-automated-observability-dn14p3yxb
+
+  - title: "Bug analytics"
+    url: https://danluu.com/bugalytics/
+
+  - title: "A brief history of the UUID"
+    url: https://segment.com/blog/a-brief-history-of-the-uuid/
+
+  - title: "Centrifuge: a reliable system for delivering billions of events per day"
+    url: https://segment.com/blog/introducing-centrifuge/
+
+  - title: "Lessons from 6 software rewrite storieshqRLJfPzXab7vUUxRFrbQscF"
     url: https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22
 
   - title: "Specific vs. general: Which is better?"
