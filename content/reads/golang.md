@@ -3,6 +3,9 @@ type: linklist
 title: Go
 links:
 
+  - title: "Go Does Not Need a Java Style GC"
+    url: https://itnext.io/go-does-not-need-a-java-style-gc-ac99b8d26c60
+
   - title: "Go for Cloud"
     url: https://rakyll.org/go-cloud/
 

@@ -3,6 +3,15 @@ type: linklist
 title: Work
 links:
 
+  - title: "Should I Open Source my Company?"
+    url: https://supabase.com/blog/2022/03/25/should-i-open-source-my-company
+
+  - title: "Small tech"
+    url: https://www.scattered-thoughts.net/writing/small-tech/
+
+  - title: "How to become an expert"
+    url: https://www.julian.com/blog/craftspeople
+
   - title: "Sell yourself, Sell Your Work ..."
     url: https://www.solipsys.co.uk/new/SellYourselfSellYourWork.html
 

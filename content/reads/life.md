@@ -3,6 +3,24 @@ type: linklist
 title: Life
 links:
 
+  - title: "Humans Should Only Ever Talk About Their Experiences"
+    url: https://nicksukie.medium.com/humans-should-only-ever-talk-about-their-experiences-8ad510b0c592
+
+  - title: "How to Think: The Skill You’ve Never Been Taught"
+    url: https://fs.blog/how-to-think/
+
+  - title: "The Disease of More"
+    url: https://markmanson.net/disease-of-more
+
+  - title: "Empathy, Morality, Community, Culture—Apes Have It All"
+    url: https://nautil.us/empathy-morality-community-cultureapes-have-it-all-8056/
+
+  - title: "Feedback Equation"
+    url: https://larahogan.me/blog/feedback-equation/
+
+  - title: "What Is Wisdom?"
+    url: https://markmanson.net/what-is-wisdom
+
   - title: "Why the Flow of Time Is an Illusion"
     url: https://getpocket.com/explore/item/why-the-flow-of-time-is-an-illusion
 

@@ -3,6 +3,12 @@ type: linklist
 title: Programming
 links:
 
+  - title: "The most important thing to understand about queues"
+    url: https://blog.danslimmon.com/2016/08/26/the-most-important-thing-to-understand-about-queues/
+
+  - title: "Files are fraught with peril"
+    url: https://danluu.com/deconstruct-files/
+
   - title: "Rethinking Programming: Automated Observability"
     url: https://hackernoon.com/rethinking-programming-automated-observability-dn14p3yxb
 

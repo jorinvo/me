@@ -3,6 +3,12 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Abstract Clojure"
+    url: https://www.juxt.pro/blog/abstract-clojure
+
+  - title: "Clojure builds as an amalgamation of orthogonal parts"
+    url: https://blog.fogus.me/2021/07/20/clojure-builds-as-an-amalgamation-of-orthogonal-parts/
+
   - title: "The Impedance Mismatch is Our Fault"
     url: https://www.infoq.com/presentations/Impedance-Mismatch/
 

@@ -3,6 +3,12 @@ type: linklist
 title: Random
 links:
 
+  - title: "Antifragility"
+    url: https://stopa.io/post/277
+
+  - title: "Transcending capitalism: three different ways?"
+    url: https://glineq.blogspot.com/2020/02/transcending-capitalism-three-different.html
+
   - title: "Transcending capitalism: three different ways?"
     url: https://glineq.blogspot.com/2020/02/transcending-capitalism-three-different.html
 

@@ -3,6 +3,12 @@ type: linklist
 title: Technology
 links:
 
+  - title: "Why is it so hard to buy things that work well?"
+    url: https://danluu.com/nothing-works/
+
+  - title: "The Tyranny of Spreadsheets"
+    url: https://timharford.com/2021/07/the-tyranny-of-spreadsheets/
+
   - title: "Why I left Google to join Grab"
     url: https://steve-yegge.medium.com/why-i-left-google-to-join-grab-86dfffc0be84
 

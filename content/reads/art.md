@@ -3,6 +3,9 @@ type: linklist
 title: Art
 links:
 
+  - title: "People amazed I fold paper for a living, then they see it"
+    url: https://www.bbc.com/news/av/uk-wales-59729022
+
   - title: "Fidenza by Tyler Hobbs"
     url: https://tylerxhobbs.com/fidenza
 
