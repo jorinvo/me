@@ -1,18 +1,18 @@
 ---
-title: "Crux Healthcare Typescript Demo"
+title: "XTDB Healthcare Typescript Demo"
 date: 2021-01-24T14:50:06+01:00
 ---
 
-Crux is a great fit for healthcare applications. Let's see how to use it in JavaScript land.<!--more-->
+XTDB is a great fit for healthcare applications. Let's see how to use it in JavaScript land.<!--more-->
 
 
-## Why Crux for Healthcare?
+## Why XTDB for Healthcare?
 
-[Crux](https://opencrux.com/main/index.html) is an unbundled, bitemporal document store.
+[XTDB](https://xtdb.com) is an unbundled, bitemporal document store.
 
 Let's unwrap this.
 
-[![crux logo](https://raw.githubusercontent.com/juxt/crux/master/docs/reference/modules/ROOT/images/crux-logo-banner.svg)](https://opencrux.com/main/index.html)
+[![XTDB logo](https://xtdb.com/images/logo.svg)](https://xtdb.com)
 
 The term *Unbundled* comes from the [origin of Apache Kafka](https://martin.kleppmann.com/2015/03/04/turning-the-database-inside-out.html). Most databases use an event log internally for sending state to different parts of the system reliably. We now know that this pattern is also pretty useful in the bigger picture. It's especially useful when you have to build systems with lots of integrations. Not surprisingly a complex industry such as healthcare is made up of many sub-systems that all need to exchange data. HL7 or FHIR anyone? Having a solid foundation to build on helps a great deal with getting data synchronisation right.
 
@@ -21,9 +21,9 @@ With a *bitemporal* database you store history, plus you can fix errors in histo
 Turns out that both, fixing errors and keeping a record of all changes, are pretty handy when working with critical patient data.
 Regulations, audit requirements and demands for data integrity basically force you to model your system this way.
 
-Crux makes sure you know about every change to data, but at the same time you have the ability to erase data completely. [Evict](https://opencrux.com/reference/20.09-1.12.1/transactions.html#evict) makes sure you can be GDPR-compliant.
+XTDB makes sure you know about every change to data, but at the same time you have the ability to erase data completely. [Evict](https://docs.xtdb.com/language-reference/datalog-transactions/#evict) makes sure you can be GDPR-compliant.
 
-Lastly, Crux stores *documents*. You do not define schemas and relationships upfront. You can write any document to the database.
+Lastly, XTDB stores *documents*. You do not define schemas and relationships upfront. You can write any document to the database.
 Why is that helpful? Healthcare is made up of many complex sub-systems generating different data. Traditionally rather slow-moving, these days health tech is also picking up a faster pace of change.
 You need a way to deal with incomplete data, changing requirements and questions you didn't know will come up in the future.
 Modeling constraints becomes so complex that a single, consistent model is not enough. You need more flexibility in asserting facts about your data.
@@ -31,7 +31,7 @@ Let the data store take care of storing data. Model your application logic in yo
 
 To sum it up,
 
-**Crux is designed for complex systems with strict data integrity needs.**
+**XTDB is designed for complex systems with strict data integrity needs.**
 
 **Healthcare is such a system.**
 
@@ -40,11 +40,11 @@ To sum it up,
 
 The short answer is, *they are popular*.
 
-JavaScript makes software development accessible to so many people. They shouldn't miss out on Crux.
+JavaScript makes software development accessible to so many people. They shouldn't miss out on XTDB.
 
 TypeScript has also become more popular lately. It can help making a code base more robust and enables great IDE tools. This is especially helpful as projects become bigger.
 
-If we can provide a clearly defined interface for Crux in TypeScript, its usage becomes straight forward.
+If we can provide a clearly defined interface for XTDB in TypeScript, its usage becomes straight forward.
 
 
 ## Demo Time
@@ -53,7 +53,7 @@ I created a demo for people to see how such a setup could look like.
 
 You can find it [on Github](https://github.com/jorinvo/crux-typescript-healthcare-demo/).
 
-The example runs a minimal Crux setup via [Docker and Compose](https://docs.docker.com/compose/).
+The example runs a minimal XTDB setup via [Docker and Compose](https://docs.docker.com/compose/).
 
 ```clojure
 {:crux/tx-log {:kv-store {:crux/module crux.rocksdb/->kv-store
@@ -69,9 +69,9 @@ The example runs a minimal Crux setup via [Docker and Compose](https://docs.dock
  :crux.metrics.prometheus/http-exporter {:jvm-metrics? true}}
  ```
 
-The Crux configuration stores data in RocksDB. Crux provides an HTTP API which we can use from JS land. The setup also demos JMX and Prometheus metrics to watch what's going on in the database. You can find all the details in the README.
+The XTDB configuration stores data in RocksDB. XTDB provides an HTTP API which we can use from JS land. The setup also demos JMX and Prometheus metrics to watch what's going on in the database. You can find all the details in the README.
 
-The Node.js application talks to Crux via EDN over HTTP. I implemented a TypeScript interface on top of that. It's documented [here](https://github.com/jorinvo/crux-typescript-healthcare-demo#api-overview) and you can easily see [how it is done](https://github.com/jorinvo/crux-typescript-healthcare-demo/blob/master/client/src/crux/index.ts). We use [edn-data](https://github.com/jorinvo/edn-data) to talk to Crux.
+The Node.js application talks to XTDB via EDN over HTTP. I implemented a TypeScript interface on top of that. It's documented [here](https://github.com/jorinvo/crux-typescript-healthcare-demo#api-overview) and you can easily see [how it is done](https://github.com/jorinvo/crux-typescript-healthcare-demo/blob/master/client/src/crux/index.ts). We use [edn-data](https://github.com/jorinvo/edn-data) to talk to XTDB.
 
 
 ## Generate Data
@@ -117,20 +117,20 @@ And here are some examples of the kind of random data generated.
 
 ## Event Log
 
-[Another demo script](https://github.com/jorinvo/crux-typescript-healthcare-demo/#follow-the-event-log) show how to follow Crux's event log and how to process each transaction at least once.
+[Another demo script](https://github.com/jorinvo/crux-typescript-healthcare-demo/#follow-the-event-log) show how to follow XTDB's event log and how to process each transaction at least once.
 
-The program stores its cursor to know what has been processed in Crux itself.
+The program stores its cursor to know what has been processed in XTDB itself.
 
 The *follower* pattern is super useful to build any kind of external integrations. It's also useful to decouple internal logic such as sending out emails or keeping caches and search indices updated.
 
 
-## Query Crux in the REPL
+## Query XTDB in the REPL
 
 Node.js has a CLI that allows you executing code interactively.
 
 You can also build a customized REPL for your application, that knows about your application context.
 
-The demo [contains a custom REPL](https://github.com/jorinvo/crux-typescript-healthcare-demo#javascript-repl) to interact with Crux and shows how to extend such a REPL further.
+The demo [contains a custom REPL](https://github.com/jorinvo/crux-typescript-healthcare-demo#javascript-repl) to interact with XTDB and shows how to extend such a REPL further.
 
 ![REPL demo screenshot](/images/crux-repl-demo.png)
 
@@ -138,6 +138,10 @@ The demo [contains a custom REPL](https://github.com/jorinvo/crux-typescript-hea
 ----
 
 
-I am happy if you give the demo a try! Play around with Crux. Think about the possibilities of bitemporal data and event logs.
+I am happy if you give the demo a try! Play around with XTDB. Think about the possibilities of bitemporal data and event logs.
 
 Curious to hear your thoughts. Happy to chat more about this on [Twitter](https://twitter.com/jorinvo).
+
+-----
+
+_Update May 2022: Crux has been renamed to XTDB and I updated the article accordingly_
