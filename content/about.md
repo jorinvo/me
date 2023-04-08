@@ -1,5 +1,5 @@
 ---
-title: Hello. My name is Jorin Vogel.
+title: Hello. My name is Jorin.
 ---
 
 I build data and communication systems.
