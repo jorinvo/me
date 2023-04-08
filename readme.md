@@ -1,4 +1,4 @@
-Jorin's Logbook
+jorin.me
 ===============
 
 This site is built with [Hugo](https://gohugo.io/), thank you open source!
