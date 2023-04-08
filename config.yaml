@@ -12,7 +12,7 @@ permalinks:
   post: /:filename/
 
 params:
-  description: Writings about language, text interfaces, taming computers, testing and more things
+  description: Writings about language, data, communication systems and more
   github: jorinvo
   twitter: jorinvo
   disqus: jorinvo
