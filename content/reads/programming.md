@@ -3,6 +3,24 @@ type: linklist
 title: Programming
 links:
 
+  - title: 'Your "Simulation" Might Not Need State'
+    url: https://www.onsclom.net/posts/simulator-state
+
+  - title: "Gary Bernhardt - Boundaries"
+    url: https://www.destroyallsoftware.com/talks/boundaries
+
+  - title: "How to Test"
+    url: https://matklad.github.io/2021/05/31/how-to-test.html
+
+  - title: "Learnings from 5 years of tech startup code audits"
+    url: https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/
+
+  - title: "The Hitchhiker's Guide to the Unexpected"
+    url: https://ferd.ca/the-hitchhiker-s-guide-to-the-unexpected.html
+
+  - title: 'What "Worse is Better vs The Right Thing" is really about'
+    url: https://yosefk.com/blog/what-worse-is-better-vs-the-right-thing-is-really-about.html
+
   - title: "The most important thing to understand about queues"
     url: https://blog.danslimmon.com/2016/08/26/the-most-important-thing-to-understand-about-queues/
 

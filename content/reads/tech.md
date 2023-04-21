@@ -3,6 +3,12 @@ type: linklist
 title: Technology
 links:
 
+  - title: "trapped in the technologist factory"
+    url: https://ideolalia.com/essays/trapped-in-the-technologist-factory.html
+
+  - title: "Preventing the Collapse of Civilization / Jonathan Blow"
+    url: https://www.youtube.com/watch?v=ZSRHeXYDLko
+
   - title: "Why is it so hard to buy things that work well?"
     url: https://danluu.com/nothing-works/
 

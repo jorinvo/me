@@ -3,6 +3,18 @@ type: linklist
 title: Work
 links:
 
+  - title: "Imagination is Overrated"
+    url: https://newsletter.smallbets.co/p/imagination-is-overrated
+
+  - title: "27 Years Ago, Steve Jobs Said the Best Employees Focus on Content, Not Process. Research Shows He Was Right"
+    url: https://www.inc.com/jeff-haden/27-years-ago-steve-jobs-said-best-employees-focus-on-content-not-process-workplace-research-shows-he-was-right.html
+
+  - title: "How Big Tech Runs Tech Projects and the Curious Absence of Scrum"
+    url: https://blog.pragmaticengineer.com/project-management-at-big-tech/
+
+  - title: "Subtract: Why Getting to Less Can Mean Thinking More"
+    url: https://behavioralscientist.org/subtract-why-getting-to-less-can-mean-thinking-more/
+
   - title: "Should I Open Source my Company?"
     url: https://supabase.com/blog/2022/03/25/should-i-open-source-my-company
 

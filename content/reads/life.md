@@ -3,6 +3,18 @@ type: linklist
 title: Life
 links:
 
+  - title: "Why 'Atomic Habits' may not be working for you"
+    url: https://www.krishnabharadwaj.info/why-atomic-habits-may-not-be-working-for-you/
+
+  - title: "What To Do If You’re Feeling Lonely"
+    url: https://openup.com/blog/feeling-lonely/
+
+  - title: "Life Is Not Short"
+    url: https://dkb.show/post/life-is-not-short
+
+  - title: "Pieter Hintjens - Fighting Cancer"
+    url: http://hintjens.com/blog:123
+
   - title: "Humans Should Only Ever Talk About Their Experiences"
     url: https://nicksukie.medium.com/humans-should-only-ever-talk-about-their-experiences-8ad510b0c592
 

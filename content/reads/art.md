@@ -3,6 +3,9 @@ type: linklist
 title: Art
 links:
 
+  - title: "one-line drawings"
+    url: https://schollz.com/blog/one-line/
+
   - title: "People amazed I fold paper for a living, then they see it"
     url: https://www.bbc.com/news/av/uk-wales-59729022
 

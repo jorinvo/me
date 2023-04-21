@@ -3,6 +3,12 @@ type: linklist
 title: Random
 links:
 
+  - title: "Kevin Kelly: The Case for Optimism"
+    url: https://www.warpnews.org/premium-content/kevin-kelly-the-case-for-optimism/
+
+  - title: "We’re going to need a lot of solar panels"
+    url: https://caseyhandmer.wordpress.com/2022/07/22/were-going-to-need-a-lot-of-solar-panels/
+
   - title: "Antifragility"
     url: https://stopa.io/post/277
 
