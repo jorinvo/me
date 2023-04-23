@@ -2,7 +2,7 @@
 title: Hello. My name is Jorin.
 ---
 
-I build data and communication systems.
+I build communication tools.
 <!--more-->
 
 <img style="width: 30%; float: right; padding-left: 20%" src="/images/jorin.jpg" alt="My face ...">
@@ -12,8 +12,8 @@ You can send me a <a href="mailto:contact@jorin.me">mail</a> or talk to me on <a
 
 Some things I do:
 
-- Since November '17 I work as a software developer building data systems at [heartbeat](https://heartbeat-med.com/).
-- I created [edn-data](https://github.com/jorinvo/edn-data) so you can use the EDN data format from JavaScript and TypeScript.
+- Since November '17 I work as a software developer at [heartbeat](https://heartbeat-med.com/). At heartbeat I built backend services, APIs, integrations with hospital systems, monitoring systems, a new storage layer, our data platform and more.
+- I created [edn-data](https://github.com/jorinvo/edn-data) so you can use the EDN data format from JavaScript and Typescript.
 - I designed [ratlog](https://github.com/ratlog/ratlog.js), a logging format and library which contains some neat ideas. We used it successfully in prod for a few years.
 - I like to create tools, such as [googlesheets-sql-sync](https://github.com/jorinvo/googlesheets-sql-sync), [ghbackup](https://github.com/qvl/ghbackup), [httpsyet](https://github.com/qvl/httpsyet), [sleepto](https://github.com/qvl/sleepto) and [promplot](https://github.com/qvl/promplot).
 - From April '13 until September '17 I worked part-time and remote as a web developer for [sope.io](https://sope.io/) where I built servers in Node.js and worked on web and mobile applications using technologies ranging from jQuery and Backbone.js to Angular and React.
