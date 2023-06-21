@@ -2,7 +2,8 @@
 title: Hello. My name is Jorin.
 ---
 
-I build communication tools.
+I build communication tools
+<br>and write about data and technology.
 <!--more-->
 
 <img style="width: 30%; float: right; padding-left: 20%" src="/images/jorin.jpg" alt="My face ...">
