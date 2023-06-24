@@ -1,4 +1,5 @@
 {{ partial "top.html" . }}
+{{ partial "newsletter.html" . }}
 
 <div class="posts">
   {{ range where (where .Site.RegularPages "Section" "post") ".Params.unlist" "!=" "true"}}
@@ -12,4 +13,5 @@
   {{ end }}
 </div>
 
+{{ partial "newsletter.html" . }}
 {{ partial "bottom.html" . }}

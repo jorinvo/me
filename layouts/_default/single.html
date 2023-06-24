@@ -1,4 +1,7 @@
 {{ partial "top.html" . }}
+{{ if .Section }}
+{{ partial "newsletter.html" . }}
+{{ end }}
 
 <div class="post-header">
   <small class="post-meta"><span class="author">{{ .Site.Author.name }}{{ if .Section }} - {{ end }}</span>{{ if .Section }}{{ .Date.Format "Jan 2, 2006" }}{{ end }}</small>
@@ -39,4 +42,7 @@
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {{ end }}
 
+{{ if .Section }}
+{{ partial "newsletter.html" . }}
+{{ end }}
 {{ partial "bottom.html" . }}
