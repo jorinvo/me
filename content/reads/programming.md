@@ -3,6 +3,15 @@ type: linklist
 title: Programming
 links:
 
+  - title: 'Jamie Brandon - Coding'
+    url: https://www.scattered-thoughts.net/writing/coding/
+
+  - title: 'Jamie Brandon - The shape of data'
+    url: https://www.scattered-thoughts.net/writing/the-shape-of-data/
+
+  - title: 'Your "Simulation" Might Not Need State'
+    url: https://www.onsclom.net/posts/simulator-state
+
   - title: 'Your "Simulation" Might Not Need State'
     url: https://www.onsclom.net/posts/simulator-state
 
