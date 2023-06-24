@@ -8,7 +8,7 @@ Learn how to use channels to model your data flow by building a web crawler in G
 The other day I built a crawler that checks links on your website to see if there are any links that you can update from HTTP to HTTPS.
 You can find it at [qvl.io/httpsyet](https://qvl.io/httpsyet).
 
-I came up with an implementation that abstracts the coordination using channels and I would like to share it in this article.
+I came up with an implementation that abstracts the coordination using channels and I would like to share it in this post.
 
 Let's start with the requirements:
 
@@ -16,7 +16,7 @@ The program should start with the URLs we pass to it, find all links on the site
 All external links that start with `http://` should be tested if they also work with `https://`.
 And all this should happen in parallel.
 
-*Note that I skip validation and some settings in this article.*
+*Note that I skip validation and some settings in this post.*
 
 The crawler is a settings `struct` with a single function.
 
@@ -182,6 +182,6 @@ for _, u := range urls {
 ```
 
 Not all details of the implementation have been covered here and I encourage you to have a look at the source [on Github](https://github.com/qvl/httpsyet).
-This article focuses on the usage of channels to handle communication in a concurrent scenario, that requires a little more than a single channel, four channels and one `WaitGroup` to be exact.
+This post focuses on the usage of channels to handle communication in a concurrent scenario, that requires a little more than a single channel, four channels and one `WaitGroup` to be exact.
 
 Please let me know if you have any questions and I would be really interested to hear about other solutions for this scenario!

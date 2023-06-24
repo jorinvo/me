@@ -3,7 +3,7 @@ title: "Why Go for Node.js Developers"
 date: 2017-12-14T22:20:37+01:00
 ---
 
-This article is an attempt at explaining Go as an alternative to Node.js.
+This post is an attempt at explaining Go as an alternative to Node.js.
 <!--more-->
 
 The following is not an attempt to convince anyone that one technology is better than the other, instead I like to explore the strong points of each so we can better choose the appropriate tool for a given task.
@@ -12,11 +12,11 @@ I have been working with [Node.js](https://nodejs.org/) for more than five years
 
 At this point I like to document my thought process for choosing between these language for solving a given task.
 
-This article might be the most useful for people that, like me, have used Node.js in the past and now hear a lot of talk about the success everyone has with switching to Go.
+This post might be the most useful for people that, like me, have used Node.js in the past and now hear a lot of talk about the success everyone has with switching to Go.
 
-Just to be clear about it, we are talking about server-side technologies here. Some people do actually use [Go in the browser](https://github.com/gopherjs/gopherjs), but this is not what this article is about.
+Just to be clear about it, we are talking about server-side technologies here. Some people do actually use [Go in the browser](https://github.com/gopherjs/gopherjs), but this is not what this post is about.
 
-Also note that even if this article or other reasons convince you that you are better off using a different technology for what you are trying to do, it is [never a good idea](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/) to rewrite your whole system at once. Find components that can be easily decoupled and make changes incrementally.
+Also note that even if this post or other reasons convince you that you are better off using a different technology for what you are trying to do, it is [never a good idea](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/) to rewrite your whole system at once. Find components that can be easily decoupled and make changes incrementally.
 
 Another thing to keep in mind is to don't take *"the right tool for the job"* to an extreme. Don't underestimate the complexity of working with multiple ecosystems at once. Be careful about introducing new technology in your system. Complexity always comes with a cost.
 
@@ -178,7 +178,7 @@ func main() {
 ```
 
 
-At this point if you feel like going deeper into a debate of static vs. dynamic languages, I recommend you [this](https://www.lispcast.com/clojure-and-types) interesting article.
+At this point if you feel like going deeper into a debate of static vs. dynamic languages, I recommend you [this](https://www.lispcast.com/clojure-and-types) interesting post.
 
 
 ----------

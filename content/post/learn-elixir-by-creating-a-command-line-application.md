@@ -7,7 +7,7 @@ I'd like to share my experience of getting started with Elixir by writing a simp
 and introduce the setup for basic Elixir projects.<!--more-->
 
 Lately I have been fascinated by [Elixir](https://elixir-lang.org/). It is a nice little language built on a rock-solid foundation: the BEAM - Erlang's virtual machine.
-Not just the syntax, which is pretty easy on the eyes with its Ruby-esque look, but also available articles and tooling welcome you with simple instructions and intuitive to use interfaces.
+Not just the syntax, which is pretty easy on the eyes with its Ruby-esque look, but also available posts and tooling welcome you with simple instructions and intuitive to use interfaces.
 
 Building on Erlang which has been a functional language from the beginning, functional concepts are center to Elixir and they don't feel misplaced or like an afterthought as I often get the feeling with functional languages built on top of the JVM or JavaScript runtimes.
 

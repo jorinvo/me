@@ -29,7 +29,7 @@ I would say that at least to some degree we achieved those goals and even today 
 However, personally I haven't used Litewrite since more than three years now.
 The reason for this is not that I think another application is doing a better job. It is because I do not take notes digitally anymore.
 
-I still write digitally though when writing articles or other documents,
+I still write digitally though when writing posts or other documents,
 but in those cases I prefer to write using the same editor I use for all my other work and I like to share documents using Git and a web server instead of a custom application.
 
 But I realized that digital tools do not help me organizing my thoughts.

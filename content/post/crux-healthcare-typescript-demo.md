@@ -144,4 +144,4 @@ Curious to hear your thoughts. Happy to chat more about this on [Twitter](https:
 
 -----
 
-_Update May 2022: Crux has been renamed to XTDB and I updated the article accordingly_
+_Update May 2022: Crux has been renamed to XTDB and I updated the post accordingly_

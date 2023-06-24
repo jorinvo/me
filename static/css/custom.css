@@ -190,6 +190,14 @@ ul.hide-list > li {
 }
 
 
+/* Style for newsletter form */
+
+input {
+  padding: 3px;
+  margin: 3% 0;
+}
+
+
 /*
  * Print style
  */
