@@ -1,6 +1,6 @@
 ---
 title: "Problem Solving"
-date: 2023-06-24T16:57:25+02:00
+date: 2023-06-25T11:57:25+02:00
 ---
 
 Software creates value by solving problems. But effectively solving problems is hard. How can we get better at it?
