@@ -7,7 +7,7 @@ I build communication tools
 <!--more-->
 
 <img style="width: 30%; float: right; padding-left: 20%" src="/images/jorin.jpg" alt="My face ...">
-You can send me a <a href="mailto:contact@jorin.me">mail</a> or talk to me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">Twitter</a>.
+You can send me a <a href="mailto:contact@jorin.me">mail</a>, talk to me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">Twitter</a> or even <a href="https://instagram.com/jorin.v">Instagram</a>. 
 
 <div style ="clear: right"></div>
 
