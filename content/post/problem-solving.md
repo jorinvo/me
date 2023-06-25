@@ -14,12 +14,12 @@ We are certain our users need a new dashboard view. It will solve all their prob
 A month later we are sure the users need 3 more filter options on the dashboard, then all their problems will go away.
 A year later users are still loading data into their custom Excel file and barely anyone touches the fancy dashboard we built.
 
-*We create solutions without actually knowing what the problem is.*
+**We create solutions without actually knowing what the problem is.**
 
 We all want to create value for our users. We want to create solutions that truly solve their problems. We want happy users. We want to build features that remain useful and do not become a burden down the line.
 So how do we create solutions that effectively solve problems?
 
-*It all starts with really understanding what the problem is.*
+**It all starts with really understanding what the problem is.**
 
 The problem is not always what it seems and the most obvious solution might not be the best.
 
@@ -56,18 +56,23 @@ Problem solving is an iterative process. Repeat until you get it right.
 
 A framework can be a helpful tool to guide our thinking.
 But to become really good at problems solving we need to change our mindset.
+
 Create a culture that encourages people to **ask questions**, challenge assumptions and explore alternatives.
 Learning, reflection and active listening need to become part of your daily work.
 Establish a team of people with diverse backgrounds and perspectives.
 Encourage people to think of interdependencies, feedback loops and long-term implications when choosing a solution.
+
 All this is not a simple undertaking and takes time.
+
 **Start by making time for it and lead by example.**
 
 
 ## Summary
 
 Software development is problem solving. Focus on understanding problems.
+
 Define the problem and the context.
+
 List multiple solution options and document your decision.
 
 -------
