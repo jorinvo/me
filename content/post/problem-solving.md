@@ -52,7 +52,10 @@ Sleep over it for at least a night before making a decision.
 
 After you made a decision and implemented the solution, make sure to come back to it.
 It's fine to get things wrong. You are one step further in any case. You gained new knowledge about what doesn't work.
-Problem solving is an iterative process. Repeat until you get it right.
+
+**Problem solving is an iterative process.**
+
+Repeat until you get it right.
 
 
 ## Mindset
