@@ -28,9 +28,12 @@ It will pay off many times over.
 
 Not only do you significantly increase the chance of building the right thing to start with - you enable yourself and your team to improve the product sustainably in the future.
 
-Capturing your thought also process creates a powerful artifact to work with in the future.
+Capturing your thought also process creates a powerful artifact to work with in the future:
+
 No one gets everything right the first time. And that's fine.
+
 But you want to be able to look back and know which problem you tried to solve. What was the known context at the time? Which solutions did you consider? What was the reason to go with the chosen option?
+
 With answers to these questions at hand you don't have to guess why things are the way they are and you can improve the product with confidence.
 
 
