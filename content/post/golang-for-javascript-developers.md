@@ -131,7 +131,7 @@ If any of the above arguments convinced you, that Go might be a more suitable to
 
 
 
-### When not to use Go
+## When not to use Go
 
 If none of the above points are of concern to what you are trying to achive, you might also use any other language than Go. There is no good reason for you to throw away all your work and rewrite it in another language.
 

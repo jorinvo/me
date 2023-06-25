@@ -33,7 +33,7 @@ In some rare cases when I really needed to see some content, I opened it in an i
 I didn't include mobile in the experiment. But I don't use my phone much to browse websites.
 
 
-### The Result
+## The Result
 
 After continuing this experiment for all of January,
 I would like to share the results.

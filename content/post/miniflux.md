@@ -96,7 +96,7 @@ It turns out, you don't need any framework or library to get all this.
 I created __[Miniflux-TodoMVC][miniflux]__ as a starting point for everyone curious.
 
 
-#### Update: Time Travel
+### Update: Time Travel
 I added time traveling to the demo application.
 It records all states and you can preview them or set the current state to one of the previous ones.
 It's really basic for now but it works pretty well already.

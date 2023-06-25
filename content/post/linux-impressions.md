@@ -14,7 +14,7 @@ The main conclusion for me definitely is that they are all good enough for what 
 
 Still, there are differences:
 
-### Let's start with the hardware
+## Let's start with the hardware
 
 What still stands out are the touchpad and the speakers of the MacBook.
 Personally I do most things with the keyboard though for which which I prefer, both, the Thinkpad and Dell. And I either use headphones or connect to external speakers anyways.
@@ -23,7 +23,7 @@ The Thinkpad is impressive for the amount of ports it has: HDMI, LAN, SIM card, 
 
 The Dell is probably my favorite for its size, keyboard, touchpad and overall feel.
 
-### Now let's talk about software
+## Now let's talk about software
 
 Most notable software I use are [Firefox](https://www.mozilla.org/en-US/firefox/), [Alacritty](https://github.com/alacritty/alacritty), [Neovim](https://neovim.io/), Dropbox, Spotify, [KeepassXC](https://keepassxc.org/) plus YubiKey. Then for work there is also Slack, Docker, VirtualBox and Google Drive. Occasionally I also use [Kdenlive](https://kdenlive.org/), [Krita](https://krita.org/en/), [OBS Studio](https://obsproject.com/) and Steam.
 
@@ -36,7 +36,7 @@ Google does not provide a Linux client for Google Drive. For me it is enough to 
 Monitor, printers, Bluetooth speakers and Bluetooth XBox controller worked for me with all the devices so far.
 
 
-### Package management
+## Package management
 
 Installing software is not a big deal on any of the systems.
 
@@ -50,7 +50,7 @@ I also like the rolling releases of Manjaro itself. There are no big scary upgra
 Also interesting has been that on the Mac I actually had to install more software than on Linux: Starting with Homebrew for package management, [Spectacle](https://www.spectacleapp.com/) for aligning windows, [Tunnelblick](https://tunnelblick.net/) for VPN and also many [basic command line tools](https://github.com/jorinvo/dotfiles/blob/mac/brew.txt).
 
 
-### Configuration
+## Configuration
 
 From my experience MacOS has actually been the most annoying out of them. While in general it is pretty polished, there have been some rather annoying issues.
 With both the Linux distros there are also issues, but you have enough flexibility and there is enough help online to fix all of it (especially nice is the [Arch wiki](https://wiki.archlinux.org/) when using Manjaro).
@@ -83,13 +83,13 @@ It's also straight forward to theme GTK2 and GTK3 right in the KDE settings.
 
 [![KDE Settings - GTK Theme](/images/kde/kde-settings-gtk-theme.png)](/images/kde/kde-settings-gtk-theme.png)
 
-### Performance
+## Performance
 
 I won't try to do any benchmarking here. More interesting to me is the perceived performance.
 
 Here I can say that the biggest difference is as, already mentioned, Docker.
 
-Apart from that file search in my editor and also starting applications are both definitely faster on Linux. 
+Apart from that file search in my editor and also starting applications are both definitely faster on Linux.
 *KRunner* in KDE also feels  faster than searching in Gnome or Spotlight on a Mac.
 
 I mostly cannot tell a difference between Manjaro+KDE and Ubuntu+Gnome, but looking at the system status you can see that Manjaro+KDE consumes less ressources and has less systemd services running. For me it was definitely a surprise to find out that in 2020 KDE is more lightweight than Gnome. That used to be very different.
@@ -101,7 +101,7 @@ The actual Linux distros are both pretty fast. I find that KDE gives you a smoot
 One point for the MacBooks is that their sleep mode (closing the laptop lid) lasts longer. I think the Mac switches to hibernate automatically. While hibernate works on the Linux laptops, it seems to be not faster than rebooting from scratch.
 
 
-### Conclusion
+## Conclusion
 
 I hope this experience report is helpful.
 Of course it only applies to the specifics of my use case and preferences, but there might be still some takeaways for others in here.

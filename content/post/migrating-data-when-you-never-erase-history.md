@@ -11,7 +11,7 @@ To make any decision about migration strategies in a particular system, you have
 
 *Feel free to skip sections and jump to the ones relevant to you.*
 
-### Why keep history?
+## Why keep history?
 
 Many things become possible once you store change events and thus the previous state of a software system.
 
@@ -24,7 +24,7 @@ From a technical perspective building solid, fault-tolerant, distributed softwar
 The value of storing historic data is huge and often the need for it will only arise later on. I argue that all software should be built this way by default. Ignoring history should be merely a possible performance optimisation for scenarios required that.
 
 
-### How to store history?
+## How to store history?
 
 Storing historic data can be achieved in many ways. In a large-scale architecture it might be interesting to work with raw events. [Apache Kafka](https://kafka.apache.org/) is a great store for raw events. Having raw events directly accessible as interface for interactions provides a lot of flexibility and control necessary to work at scale. However, it also requires building a lot of logic on top to recreate a view of the current state of the world.
 
@@ -37,7 +37,7 @@ The **SQL standard** also specifies the concept of *temporal tables*. [SQL Serve
 Apart from existing implementations of temporal and bitemporal datastores, there are also use cases with needs for scale and operational characteristics, which might be best served by implementing a custom solution on top of another storage.
 
 
-### Keep history forever?
+## Keep history forever?
 
 Different use cases of historic data demand different strategies for data retention. Ideally you can always keep all data around forever. Unfortunately that can become unfeasible in certain situations. In that case you have different options to reducing the number of data points you have to retain:
 
@@ -49,7 +49,7 @@ Different use cases of historic data demand different strategies for data retent
 An important property to consider when planning a retention strategy is the ability to recreate the current state from the log of historic data.
 
 
-### How do you use historic data?
+## How do you use historic data?
 
 - Do you control the code that receives the data? Can you update it in sync with changes to the data schema?
 - Are the use cases of the current view of the data and historic data separate from each other?
@@ -58,7 +58,7 @@ An important property to consider when planning a retention strategy is the abil
 - Do you know the data schema version that downstream consumers support? Can you remove support for deprecated data features once all consumers are on a recent version?
 
 
-### What changes to the data do you need to make?
+## What changes to the data do you need to make?
 
 The most important thing to consider when changing data is that you want to **avoid breaking changes**.
 
@@ -74,7 +74,7 @@ Sometimes we don't have to change the shape of data but the data itself. This is
 Changes to the data itself can be seen as normal updates to the current state of the sytem. A temporal storage then gives you a record of everything for later reference. A bitemporal system also allows you to correct errors in historic data while keeping a record of everything.
 
 
-### Do data changes only apply to current state of data or also historic data?
+## Do data changes only apply to current state of data or also historic data?
 
 - If you introduce a new attribute, do you only need it in the current view of the data or do you need to generate it also for historic data? Is it even possible to reconstruct the attribute for past data points?
 - If you work with valid and transaction time, is it enough to introduce a new attribute for historic data in valid time or do you also need to rewrite transaction time?

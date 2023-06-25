@@ -29,7 +29,7 @@ For all examples we will use [this](https://unsplash.com/photos/Cey5ljV8R6A) ima
 
 ![Captain Dog](/images/gm/captain-dog.jpg)
 
-### Resizing
+## Resizing
 
 Before we start, `gm` provides different commands and those take flags and arguments for configuration.
 To do resizing we will use the `gm convert` command. Note that you can use `gm mogrify` with basically the same options, but `mogrify` overwrites
@@ -100,7 +100,7 @@ convert -gravity center -extent 100 \
 Note that if you like to use a faster resizing algorithm you can use `-scale` instead of `-resize`.
 
 
-### Cropping
+## Cropping
 
 Closely related to resizing, we often need to cut out a certain part of an image.
 
@@ -150,7 +150,7 @@ convert -resize x200 -crop 200x200+75 \
 ![Dog squared](/images/gm/dog-square-center-small2.jpg)
 
 
-### Mirror Images
+## Mirror Images
 
 You can mirror images on both axes:
 
@@ -167,7 +167,7 @@ convert -flip captain-dog.jpg dog-flip.jpg
 ![Dog flipped](/images/gm/dog-flip.jpg)
 
 
-### Create a Montage by Combining Multiple Images Into One
+## Create a Montage by Combining Multiple Images Into One
 
 Images can be combined by using the `montage` command. You need to specify the result dimensions:
 
@@ -197,7 +197,7 @@ montage -tile 1x -geometry 300x200 \
 ![Dog montage vertical](/images/gm/dog-montage-vertical.jpg)
 
 
-### Combine Images Into a PDF
+## Combine Images Into a PDF
 
 GraphicsMagick gives you a really quick way to combine a few images into a PDF:
 
@@ -211,7 +211,7 @@ convert captain-dog.jpg dog-flop.jpg dog-flip.jpg \
 There is not just PDF but over 88 supported formats from which and to which you can easily convert your graphic files.
 
 
-### Change Images to Black & White
+## Change Images to Black & White
 
 As last example, let's convert the image to black & white:
 

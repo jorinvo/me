@@ -21,7 +21,7 @@ since everyone is talking about it lately.
 The following is a summary of my thoughts about those programming environments.
 
 
-### What Ruby taught me
+## What Ruby taught me
 
 Ruby really feels like a higher level language.
 It focuses a lot on __abstractions and DSLs__.
@@ -65,7 +65,7 @@ Since I can look up so many things right inside my development environment,
 I find myself spending way less time searching for API documentation.
 
 
-### What Go taught me
+## What Go taught me
 
 __Static typing__ speeds up the workflow since I see many errors right in the editor.
 It protects me against silly typo errors.
@@ -117,7 +117,7 @@ that I ended up __thinking about every possible error__.
 It might take a little bit more time if you just want to get something working, but the end result feels more robust.
 
 
-### What's next?
+## What's next?
 
 It would be nice to have all of the advantages of both languages in one programming environment.
 Maybe my next target should be [Haskell](http://learnyouahaskell.com/)?

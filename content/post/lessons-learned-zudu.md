@@ -15,7 +15,7 @@ At [sope.io](https://sope.io/) we built a product discovery app, [Zudu](http://w
 This are some things I learned along the way:
 
 
-### Choose the Right Framework
+## Choose the Right Framework
 The first version of Zudu was built using [Backbone Marionette](https://marionettejs.com/). We decided to rewrite it because Marionette turned out as unnecessary abstraction and we often had to work around it.
 
 Writing the [Angular](https://angularjs.org/) version was straight forward and we ended up with less than half of lines of code. Also the minified version is a little smaller.
@@ -25,12 +25,12 @@ Sure, it's easier to write good code if you do it the second time, but the _Angu
 Both have their strengths.
 
 
-### Design Your API Carefully
+## Design Your API Carefully
 Building a proper REST API makes the required client-side code for syncing the data quiet simple and HTTP status codes map nicely to appropriate messages for the user.
 A good API Design can make a big difference.
 
 
-### Build Pluggable Components
+## Build Pluggable Components
 If you happen to build your own node.js framework around [express.js](https://expressjs.com/) make use of the pluggable nature of express. You can build independent components and just plug them in at whatever url you want.
 
 ```js
@@ -49,19 +49,19 @@ var hannibal = new Hannibal(config)
 ```
 
 
-### Skip Unnecessary Abstractions
+## Skip Unnecessary Abstractions
 [MongoDB](https://www.mongodb.org/) is a powerful and flexible database and it served use well. However, looking back I would skip the [mongoose](https://mongoosejs.com/) abstraction. The main thing mongoose gives you is validation via schemas. This makes it more familiar if you mainly worked with relational databases before. But it's not really needed for MongoDB. Having schemas you tend to think relational again.
 
 You are better off just using the native driver for MongoDB and keep the hands from abstractions you don't need.
 
 
-### Write Many Small Functions
+## Write Many Small Functions
 For most server components the API is the entry point. The method handlers get easily big and complicated with asynchronous code. Make sure to separate different concerns in their own functions to avoid too many nested callbacks.
 
 Also separate business logic from the API completely where possible.
 
 
-### Wrapping Up
+## Wrapping Up
 These might look like basic software design principles, but working with new technologies we end up running in the same pitfalls over and over again.
 
 It's not an easy task to find the right way to use general principles in an idiomatic way for a certain software stack.
