@@ -81,6 +81,9 @@ Define the problem and the context.
 
 List multiple solution options and document your decision.
 
+Putting in this extra effort to clarify your thoughts doesn't have to be a big undertaking.
+For simple problems it might only take a few minutes. Your future self will thank you.
+
 -------
 
 If you like to learn more, I can highly recommend watching the talk [Design in Practice](https://www.youtube.com/watch?v=fTtnx1AAJ-c) by Rich Hickey.
