@@ -3,6 +3,9 @@ type: linklist
 title: Clojure
 links:
 
+  - title: "Tour of our 250k line Clojure codebase"
+    url: https://blog.redplanetlabs.com/2021/06/03/tour-of-our-250k-line-clojure-codebase/
+
   - title: "Abstract Clojure"
     url: https://www.juxt.pro/blog/abstract-clojure
 
