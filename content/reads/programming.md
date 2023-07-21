@@ -3,14 +3,14 @@ type: linklist
 title: Programming
 links:
 
+  - title: 'tef - how (not) to write a pipeline'
+    url: https://cohost.org/tef/post/1764930-how-not-to-write-a
+
   - title: 'Jamie Brandon - Coding'
     url: https://www.scattered-thoughts.net/writing/coding/
 
   - title: 'Jamie Brandon - The shape of data'
     url: https://www.scattered-thoughts.net/writing/the-shape-of-data/
-
-  - title: 'Your "Simulation" Might Not Need State'
-    url: https://www.onsclom.net/posts/simulator-state
 
   - title: 'Your "Simulation" Might Not Need State'
     url: https://www.onsclom.net/posts/simulator-state
