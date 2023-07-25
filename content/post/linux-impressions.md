@@ -1,5 +1,5 @@
 ---
-title: "Linux Impressions"
+title: "Linux on the Desktop in 2020"
 date: 2020-07-01T19:58:58+02:00
 ---
 
