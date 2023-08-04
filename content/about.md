@@ -2,16 +2,15 @@
 title: Hello. My name is Jorin.
 ---
 
-I build communication tools
-<br>and write about data and technology.
+I write about data and technology.
 <!--more-->
 
-<img style="width: 30%; float: right; padding-left: 20%" src="/images/jorin.jpg" alt="My face ...">
+<img style="width: 30%; float: right; padding-left: 20%" src="/images/jorin.jpg" alt="Photo of me">
 You can send me a <a href="mailto:contact@jorin.me">mail</a>, talk to me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">Twitter</a> or <a href="https://instagram.com/jorin.v">Instagram</a>.
 
 <div style ="clear: right"></div>
 
-Some things I do:
+Projects:
 
 - Since November '17 I work as a software developer at [heartbeat](https://heartbeat-med.com/). At heartbeat I built backend services, APIs, integrations with hospital systems, monitoring systems, a new storage layer, our data platform and more.
 - I created [edn-data](https://github.com/jorinvo/edn-data) so you can use the EDN data format from JavaScript and Typescript.
