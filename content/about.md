@@ -12,7 +12,7 @@ You can send me a <a href="mailto:contact@jorin.me">mail</a>, talk to me on <a h
 
 Projects:
 
-- Since November '17 I work as a software developer at [heartbeat](https://heartbeat-med.com/). At heartbeat I built backend services, APIs, integrations with hospital systems, monitoring systems, a new storage layer, our data platform and more.
+- From November '17 to September '23 I work as one of the first software developers at [heartbeat](https://heartbeat-med.com/). At heartbeat I built backend services, APIs, integrations with hospital systems, monitoring systems, a new storage layer, our data platform and more.
 - I created [edn-data](https://github.com/jorinvo/edn-data) so you can use the EDN data format from JavaScript and Typescript.
 - I designed [ratlog](https://github.com/ratlog/ratlog.js), a logging format and library which contains some neat ideas. We used it successfully in prod for a few years.
 - I like to create tools, such as [googlesheets-sql-sync](https://github.com/jorinvo/googlesheets-sql-sync), [prometheus-pushgateway-cleaner](https://github.com/jorinvo/prometheus-pushgateway-cleaner), [ghbackup](https://github.com/qvl/ghbackup), [httpsyet](https://github.com/qvl/httpsyet), [sleepto](https://github.com/qvl/sleepto) and [promplot](https://github.com/qvl/promplot).
