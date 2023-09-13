@@ -2,17 +2,20 @@
 title: Hello. My name is Jorin.
 ---
 
-I write about data and technology.
+<img style="width: 30%; float: right; padding-left: 20%" src="/images/jorin.jpg" alt="Photo of me">
+
+I am on a mission to make data tools accessible to everyone.
 <!--more-->
 
-<img style="width: 30%; float: right; padding-left: 20%" src="/images/jorin.jpg" alt="Photo of me">
-You can send me a <a href="mailto:contact@jorin.me">mail</a>, talk to me on <a href="https://x.com/intent/user?screen_name=jorinvo">X</a>, <a href="https://instagram.com/jorin.v">Instagram</a> or <a href="https://www.linkedin.com/in/jorinvo/">LinkedIn</a>.
+I am available for consulting with data infrastructure projects.
+
+You can send me a <a href="mailto:contact@jorin.me">mail</a>,<br> talk to me on <a href="https://x.com/intent/user?screen_name=jorinvo">X</a>, <a href="https://instagram.com/jorin.v">Instagram</a> or <a href="https://www.linkedin.com/in/jorinvo/">LinkedIn</a>.
 
 <div style ="clear: right"></div>
 
 Projects:
 
-- From November '17 to September '23 I work as one of the first software developers at [heartbeat](https://heartbeat-med.com/). At heartbeat I built backend services, APIs, integrations with hospital systems, monitoring systems, a new storage layer, our data platform and more.
+- From November '17 to September '23 I worked as one of the first software developers at [heartbeat](https://heartbeat-med.com/). At heartbeat I built backend services, APIs, integrations with hospital systems, monitoring systems, a new storage layer, our data platform and more.
 - I created [edn-data](https://github.com/jorinvo/edn-data) so you can use the EDN data format from JavaScript and Typescript.
 - I designed [ratlog](https://github.com/ratlog/ratlog.js), a logging format and library which contains some neat ideas. We used it successfully in prod for a few years.
 - I like to create tools, such as [googlesheets-sql-sync](https://github.com/jorinvo/googlesheets-sql-sync), [prometheus-pushgateway-cleaner](https://github.com/jorinvo/prometheus-pushgateway-cleaner), [ghbackup](https://github.com/qvl/ghbackup), [httpsyet](https://github.com/qvl/httpsyet), [sleepto](https://github.com/qvl/sleepto) and [promplot](https://github.com/qvl/promplot).
