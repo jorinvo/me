@@ -6,7 +6,7 @@ I write about data and technology.
 <!--more-->
 
 <img style="width: 30%; float: right; padding-left: 20%" src="/images/jorin.jpg" alt="Photo of me">
-You can send me a <a href="mailto:contact@jorin.me">mail</a>, talk to me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">Twitter</a> or <a href="https://instagram.com/jorin.v">Instagram</a>.
+You can send me a <a href="mailto:contact@jorin.me">mail</a>, talk to me on <a href="https://x.com/intent/user?screen_name=jorinvo">X</a>, <a href="https://instagram.com/jorin.v">Instagram</a> or <a href="https://www.linkedin.com/in/jorinvo/">LinkedIn</a>.
 
 <div style ="clear: right"></div>
 
