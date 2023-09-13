@@ -9,7 +9,7 @@ I am on a mission to make data tools accessible to everyone.
 
 I am available for consulting with data infrastructure projects.
 
-You can send me a <a href="mailto:contact@jorin.me">mail</a>,<br> talk to me on <a href="https://x.com/intent/user?screen_name=jorinvo">X</a>, <a href="https://instagram.com/jorin.v">Instagram</a> or <a href="https://www.linkedin.com/in/jorinvo/">LinkedIn</a>.
+You can send me a <a href="mailto:contact@jorin.me">mail</a>,<br> talk to me on <a href="https://x.com/intent/user?screen_name=jorinvo">Twitter</a> or <a href="https://www.linkedin.com/in/jorinvo/">LinkedIn</a>.
 
 <div style ="clear: right"></div>
 
