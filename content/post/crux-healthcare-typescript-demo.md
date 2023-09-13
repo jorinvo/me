@@ -12,8 +12,6 @@ XTDB is a great fit for healthcare applications. Let's see how to use it in Java
 
 Let's unwrap this.
 
-[![XTDB logo](https://xtdb.com/images/logo.svg)](https://xtdb.com)
-
 The term *Unbundled* comes from the [origin of Apache Kafka](https://martin.kleppmann.com/2015/03/04/turning-the-database-inside-out.html). Most databases use an event log internally for sending state to different parts of the system reliably. We now know that this pattern is also pretty useful in the bigger picture. It's especially useful when you have to build systems with lots of integrations. Not surprisingly a complex industry such as healthcare is made up of many sub-systems that all need to exchange data. HL7 or FHIR anyone? Having a solid foundation to build on helps a great deal with getting data synchronisation right.
 
 With a *temporal* data store you store all of history. You will always know about all changes to the data.
