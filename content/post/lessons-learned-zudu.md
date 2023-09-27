@@ -8,7 +8,7 @@ and it might be a good idea to take a moment after the work is done
 to think about what was good and what could be done differently.<!--more-->
 
 
-At [sope.io](https://sope.io/) we built a product discovery app, [Zudu](http://www.zudu.cc/).
+At [sope.io](https://sope.io/) we built a product discovery app, Zudu (discontinued).
 
 [![Zudo Screenshot](/images/zudu.jpg)](http://www.zudu.cc/)
 
