@@ -1,6 +1,6 @@
 ---
 title: "Getting started building a data-driven business"
-date: 2023-10-04T17:40:19+07:00
+date: 2023-10-07T17:40:19+07:00
 ---
 
 Making effective use of data is non-trivial. Let me share what worked for us.
