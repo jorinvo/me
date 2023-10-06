@@ -32,13 +32,9 @@ You might end up researching data warehouses, stream processing, ETLs, business 
 
 You can go further than you think with simple solutions such as Excel and a few custom scripts.
 
-**More important than tooling is mindset:
-<br>
-You need to understand what you want out of the data.**
+**More important than tooling is mindset: You need to understand what you want out of the data.**
 
-Start with business intelligence dashboards to support decision makers.
-<br>
-Then provide teams the data they need to perform their everyday operational work.
+Start with business intelligence dashboards to support decision makers. Then provide teams the data they need to perform their everyday operational work.
 
 
 ## Using business intelligence to support decision making
@@ -55,10 +51,9 @@ This work might also require more complex queries that bring together different 
 
 Decision makers mostly use these metrics in regular intervals. Instead of a live dashboard this can also be a PDF or an email.
 
-**Figuring out what's truly important for the business is as important as the resulting metrics.**
+**Figuring out what's truly important for the business is as essential as the resulting metrics.**
 
 The whole point of these metrics is to support decision making by quantifying the important data points. The data doesn't have to be 100% accurate, but it has to follow a heuristic that points into a useful direction.
-<br>
 The most interesting insights for strategic decisions are anomalies.
 
 **People want to find out something they don't already know.**
@@ -68,13 +63,9 @@ If you do this well data has the potential to point to unknown threads & new opp
 
 ## Using data to optimise operational workflows
 
-Apart from decision making, data is part of everyday work across the company:
-<br>
-Think of support requests that need to trace a user across different data sources to answer a user's question.
+Apart from decision making, data is part of everyday work across the company: Think of support requests that need to trace a user across different data sources to answer a user's question.
 
-Unlike decision making, this work doesn't require summaries across many data points, but it requires searching and filtering until you find specific data.
-<br>
-Some of these workflows might be already built into your product's admin interface, but there are always things that are not possible yet.
+Unlike decision making, this work doesn't require summaries across many data points, but it requires searching and filtering until you find specific data. Some of these workflows might be already built into your product's admin interface, but there are always things that are not possible yet.
 
 **You want to give the whole company the option to access any data they might need.**
 
@@ -91,9 +82,9 @@ Building a self-serve UI that covers all needs is a really complex task. Just th
 
 ## In conclusion
 
-You don't need a dedicated data team to start using data effectively.
-<br>
-All you need is motivation. Then you have to put in the work.
+You don't need a dedicated data team to start using data effectively. 
+
+Be ready to spend some time figuring out what you actually want out of the data.
 
 Have a technical person sit together with each decision maker in the company to create specialized dashboards to support their specific needs.
 
