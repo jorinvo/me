@@ -13,13 +13,17 @@
 </article>
 
 {{ if .Section }}
+{{ partial "newsletter.html" . }}
+{{ end }}
+{{ if .Section }}
+
 <div class="post-footer">
   <img src="{{ "images/vo.png" | relURL }}" alt="Jorin Vogel" class="avatar" width="64px" height="64px" style="padding-left: 4px; padding-bottom: 4px; background: black;" />
 
   <p>
-    Hi, I'm Jorin.
+    Thanks for reading!
     <br>
-    I build data and communication systems.
+    My name is Jorin and I build data systems.
     <br>
     Feel free to send me a <a href="mailto:{{ .Site.Author.email }}">mail</a> or talk to me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">twitter</a>.
   </p>
@@ -42,7 +46,4 @@
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {{ end }}
 
-{{ if .Section }}
-{{ partial "newsletter.html" . }}
-{{ end }}
 {{ partial "bottom.html" . }}
