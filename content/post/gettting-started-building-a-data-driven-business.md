@@ -43,9 +43,7 @@ To make impactful decisions the company management and team leads need to know w
 
 **It's not trivial to figure out what metrics to focus on and metrics are different for every role.**
 
-It took us a long time of trying out different things until we knew which metrics are truly important and which ones not. It's not enough to talk once about the requirements, implement it and be done with it.
-<br>
-This work might also require more complex queries that bring together different data sources.
+It took us a long time of trying out different things until we knew which metrics are truly important and which ones not. It's not enough to talk once about the requirements, implement it and be done with it. This work might also require more complex queries that bring together different data sources.
 
 **A technical person should pair with the individual decision makers to implement metrics.**
 
@@ -53,7 +51,7 @@ Decision makers mostly use these metrics in regular intervals. Instead of a live
 
 **Figuring out what's truly important for the business is as essential as the resulting metrics.**
 
-The whole point of these metrics is to support decision making by quantifying the important data points. The data doesn't have to be 100% accurate, but it has to follow a heuristic that points into a useful direction.
+The whole point of these metrics is to support decision making by quantifying the important data points. The data doesn't have to be 100% accurate, but it has to point into a useful direction.
 The most interesting insights for strategic decisions are anomalies.
 
 **People want to find out something they don't already know.**
