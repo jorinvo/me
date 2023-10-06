@@ -1,6 +1,7 @@
 ---
 title: "Edit Images on the Command Line With GraphicsMagick"
 date: 2017-11-22T20:20:37+01:00
+favorite: true
 ---
 
 Let's explore how to fulfill your image editing needs right in the terminal.

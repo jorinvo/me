@@ -1,6 +1,7 @@
 ---
 title: "Migrating Data When You Never Erase History"
 date: 2020-10-25T16:48:46+02:00
+favorite: true
 ---
 
 Let's explore the considerations necessary when evolving temporal data over time.<!--more-->

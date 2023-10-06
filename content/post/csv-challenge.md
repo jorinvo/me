@@ -1,6 +1,7 @@
 ---
 date: 2015-05-09T00:00:00Z
 title: CSV Challenge
+favorite: true
 ---
 
 I created this little experiment to find out about the tools

@@ -1,6 +1,7 @@
 ---
 date: 2015-07-04T00:00:00Z
 title: Miniflux
+favorite: true
 comments: true
 ---
 

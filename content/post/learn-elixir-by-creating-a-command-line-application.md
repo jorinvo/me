@@ -1,6 +1,7 @@
 ---
 title: "Learn Elixir by Creating a Command Line Application"
 date: 2018-04-09T07:22:56+02:00
+favorite: true
 ---
 
 I'd like to share my experience of getting started with Elixir by writing a simple command line application

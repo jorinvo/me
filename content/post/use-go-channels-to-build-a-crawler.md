@@ -1,6 +1,7 @@
 ---
 title: "Use Go Channels to Build a Crawler"
 date: 2017-10-11T13:38:24+02:00
+favorite: true
 ---
 
 Learn how to use channels to model your data flow by building a web crawler in Go.<!--more-->

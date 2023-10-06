@@ -1,6 +1,7 @@
 ---
 title: " Stickers - It's Just Data"
 date: 2020-05-21T13:10:15+01:00
+favorite: true
 ---
 
 I designed stickers. Find me at a conference some day or get in touch if you like them!

@@ -1,6 +1,7 @@
 ---
 title: "An Example of How Software Becomes Complicated"
 date: 2018-05-27T20:21:45+02:00
+favorite: true
 ---
 
 Let's write a cache in JavaScript and see what it means to keep things simple.<!--more-->
