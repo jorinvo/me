@@ -194,6 +194,7 @@ ul.hide-list > li {
 input {
   padding: 3px;
   margin: 3% 0;
+  cursor: pointer;
 }
 
 .newsletter-section {
