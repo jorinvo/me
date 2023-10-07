@@ -12,7 +12,7 @@ permalinks:
   post: /:filename/
 
 params:
-  description: Writings about language, data, communication systems and more
+  description: Jorin's blog on building data system
   github: jorinvo
   twitter: jorinvo
   disqus: jorinvo
