@@ -41,17 +41,17 @@ Start with business intelligence dashboards to support decision makers. Then pro
 
 To make impactful decisions the company management and team leads need to know where they stand.
 
-**It's not trivial to figure out what metrics to focus on and metrics are different for every role.**
+**It's not easy to figure out what metrics to focus on and metrics are different for every role.**
 
-It took us a long time of trying out different things until we knew which metrics are truly important and which ones not. It's not enough to talk once about the requirements, implement it and be done with it. This work might also require more complex queries that bring together different data sources.
+It took us a long time of trying out different things until we knew which metrics are truly essential and which ones not. It's not enough to talk once about the requirements, implement it and be done with it. This work might also require more complex queries that bring together different data sources.
 
 **A technical person should pair with the individual decision makers to implement metrics.**
 
 Decision makers mostly use these metrics in regular intervals. Instead of a live dashboard this can also be a PDF or an email.
 
-**Figuring out what's truly important for the business is as essential as the resulting metrics.**
+**Figuring out what's truly essential for the business is as crucial as the resulting metrics.**
 
-The whole point of these metrics is to support decision making by quantifying the important data points. The data doesn't have to be 100% accurate, but it has to point into a useful direction.
+The whole point of these metrics is to support decision making by quantifying the relevant data points. The data doesn't have to be 100% accurate, but it has to point into a useful direction.
 The most interesting insights for strategic decisions are anomalies.
 
 **People want to find out something they don't already know.**
@@ -80,7 +80,7 @@ Building a self-serve UI that covers all needs is a really complex task. Just th
 
 ## In conclusion
 
-You don't need a dedicated data team to start using data effectively. 
+You don't need a dedicated data team to start using data effectively.
 
 Be ready to spend some time figuring out what you actually want out of the data.
 
