@@ -27,38 +27,40 @@
 
 body {
   font-family: 'Fantasque Sans Mono', serif;
-	max-width: 600px;
-	margin: auto;
-	padding: 2% 5%;
-	line-height: 140%;
-	font-size: 120%;
+  max-width: 600px;
+  margin: auto;
+  padding: 2% 5%;
+  line-height: 140%;
+  font-size: 120%;
 }
 
 h1 {
-	color: black;
-	font-size: 210%;
-	line-height: 110%;
+  color: black;
+  font-size: 210%;
+  line-height: 110%;
 }
 
 h2 {
-	margin: 1% 0 0 0;
-	font-size: 160%;
-	line-height: 120%;
+  margin: 12% 0 0 0;
+  font-size: 160%;
+  line-height: 120%;
+  text-align: left;
 }
 
 h3 {
   margin-top: 7%;
   margin-bottom: 1%;
   font-size: 140%;
-	line-height: 120%;
+  line-height: 120%;
+  text-align: left;
 }
 
 p {
-	margin: 5% 0;
+  margin: 3% 0;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
   color: #2f2fd2;
 }
 
@@ -71,12 +73,12 @@ a.alternate:focus,
 a.alternate:hover,
 a.alternate:focus > *,
 a.alternate:hover > * {
-	text-decoration: none;
+  text-decoration: none;
   background: #f3f3f3;
 }
 
 small {
-	font-size: 70%;
+  font-size: 70%;
 }
 
 ol, ul {
@@ -94,14 +96,14 @@ ul.posts > li, ul.hide-list > li {
 }
 
 header {
-	margin-top: 2%;
-	margin-bottom: 12%;
+  margin-top: 2%;
+  margin-bottom: 12%;
 }
 
 footer {
-	margin-top: 24%;
-	text-align: center;
-	font-size: 80%;
+  margin-top: 24%;
+  text-align: center;
+  font-size: 80%;
 }
 
 hr {
@@ -118,11 +120,11 @@ blockquote {
 }
 
 .post-link {
-	color: black;
+  color: black;
 }
 
 .post {
-	margin: 12% 0;
+  margin: 12% 0;
 }
 
 .post-header {
@@ -142,10 +144,10 @@ blockquote {
 }
 
 .post-footer {
-	margin: 24% auto;
-	text-align: center;
-	font-style: italic;
-	font-size: 80%;
+  margin: 24% auto;
+  text-align: center;
+  font-style: italic;
+  font-size: 80%;
 }
 
 .author {
@@ -153,7 +155,7 @@ blockquote {
 }
 
 .avatar {
-	border-radius: 50%;
+  border-radius: 50%;
 }
 
 header a {
