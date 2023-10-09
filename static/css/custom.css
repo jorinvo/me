@@ -2,6 +2,7 @@
 
 @font-face {
   font-family: 'Fantasque Sans Mono';
+  font-display: swap;
   src: url('/fonts/FantasqueSansMono-Regular.woff2') format('woff2');
 }
 
@@ -9,12 +10,14 @@
   font-family: 'Fantasque Sans Mono';
   font-style: normal;
   font-weight: bold;
+  font-display: swap;
   src: url('/fonts/FantasqueSansMono-Bold.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Fantasque Sans Mono';
   font-style: italic;
+  font-display: swap;
   src: url('/fonts/FantasqueSansMono-Italic.woff2') format('woff2');
 }
 
@@ -22,6 +25,7 @@
   font-family: 'Fantasque Sans Mono';
   font-style: italic;
   font-weight: bold;
+  font-display: swap;
   src: url('/fonts/FantasqueSansMono-BoldItalic.woff2') format('woff2');
 }
 
