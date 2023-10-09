@@ -69,7 +69,7 @@ The example runs a minimal XTDB setup via [Docker and Compose](https://docs.dock
 
 The XTDB configuration stores data in RocksDB. XTDB provides an HTTP API which we can use from JS land. The setup also demos JMX and Prometheus metrics to watch what's going on in the database. You can find all the details in the README.
 
-The Node.js application talks to XTDB via EDN over HTTP. I implemented a TypeScript interface on top of that. It's documented [here](https://github.com/jorinvo/crux-typescript-healthcare-demo#api-overview) and you can easily see [how it is done](https://github.com/jorinvo/crux-typescript-healthcare-demo/blob/master/client/src/crux/index.ts). We use [edn-data](https://github.com/jorinvo/edn-data) to talk to XTDB.
+The Node.js application talks to XTDB via EDN over HTTP. I implemented a TypeScript interface on top of that. It's documented [on Github](https://github.com/jorinvo/crux-typescript-healthcare-demo#api-overview) and you can easily see [how it is done](https://github.com/jorinvo/crux-typescript-healthcare-demo/blob/master/client/src/crux/index.ts). We use [edn-data](https://github.com/jorinvo/edn-data) to talk to XTDB.
 
 
 ## Generate Data
