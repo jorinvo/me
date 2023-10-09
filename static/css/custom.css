@@ -68,7 +68,8 @@ p {
 
 a {
   text-decoration: none;
-  color: #2f2fd2;
+  /* link color must be at least 3:1 to text color */
+  color: #4343D6;
 }
 
 a:focus, a:hover {
@@ -171,6 +172,7 @@ blockquote {
 
 header a {
   font-style: italic;
+  /* padding might seem funny, but this is to avoid ux issues on mobile. buttons must be big enough */
   padding: 4% 4% 4% 0;
   display: inline-block;
 }
