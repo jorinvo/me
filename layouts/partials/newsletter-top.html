@@ -1,7 +1,9 @@
+{{/* duplicate newsletter because pagespeed complains when there are multiple labels for the same input ID */}}
 <div class="newsletter-section">
   <form action="https://buttondown.email/api/emails/embed-subscribe/jorin" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/jorin', 'popupwindow')" class="embeddable-buttondown-form">
-    <label for="bd-email">Get new posts in your inbox:</label>
-    <input type="email" name="email" id="bd-email" placeholder="email">
+    <label for="bd-email-top">Get new posts in your inbox:</label>
+    <input type="email" name="email" id="bd-email-top" placeholder="email">
     <input type="submit" value="subscribe">
   </form>
 </div>
+

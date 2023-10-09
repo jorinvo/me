@@ -1,6 +1,6 @@
 {{ partial "top.html" . }}
 {{ if .Section }}
-{{ partial "newsletter.html" . }}
+{{ partial "newsletter-top.html" . }}
 {{ end }}
 
 <div class="post-header">
@@ -13,7 +13,7 @@
 </article>
 
 {{ if .Section }}
-{{ partial "newsletter.html" . }}
+{{ partial "newsletter-bottom.html" . }}
 {{ end }}
 {{ if .Section }}
 
