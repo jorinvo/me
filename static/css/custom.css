@@ -156,6 +156,10 @@ blockquote {
   font-style: italic;
   font-size: 80%;
 }
+.post-footer a {
+  /* accessability issue if link is not marked as such here */
+  text-decoration: underline;
+}
 
 .author {
   display: none;
