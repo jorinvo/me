@@ -2,7 +2,7 @@
 title: Hello. My name is Jorin.
 ---
 
-<img style="width: 30%; float: right; padding-left: 20%" src="/images/jorin.jpg" alt="Photo of me">
+<img style="width: 30%; height: auto; float: right; padding-left: 20%" src="/images/jorin.jpg" alt="Photo of me" width="300" height="300">
 
 I am a software developer excited about data and feedback loops.
 <!--more-->
