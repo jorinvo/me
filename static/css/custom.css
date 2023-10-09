@@ -166,8 +166,9 @@ blockquote {
 }
 
 header a {
-  margin-right: 2%;
   font-style: italic;
+  padding: 4% 4% 4% 0;
+  display: inline-block;
 }
 
 pre {
