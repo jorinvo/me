@@ -21,13 +21,7 @@ Projects:
 - I designed [ratlog](https://github.com/ratlog/ratlog.js), a logging format and library which contains some neat ideas. We used it successfully in prod for a few years.
 - I like to create tools, such as [googlesheets-sql-sync](https://github.com/jorinvo/googlesheets-sql-sync), [prometheus-pushgateway-cleaner](https://github.com/jorinvo/prometheus-pushgateway-cleaner), [ghbackup](https://github.com/qvl/ghbackup), [httpsyet](https://github.com/qvl/httpsyet), [sleepto](https://github.com/qvl/sleepto) and [promplot](https://github.com/qvl/promplot).
 - From April '13 until September '17 I worked part-time and remote as a web developer for [sope.io](https://sope.io/) where I built servers in Node.js and worked on web and mobile applications using technologies ranging from jQuery and Backbone.js to Angular and React.
-- From October '13 until October '17 I studied [International Media and Computing](https://imi-bachelor.htw-berlin.de/) in Berlin.
-I learned new things about the networking stack,
-[image processing algorithms](/img-filter-in-canvas/),
-natural language processing,
-[search engines](https://github.com/jorinvo/r/blob/master/search.py),
-[machine learning](https://github.com/jorinvo/r/tree/master/ml),
-[neuronal networks](https://github.com/jorinvo/r/blob/master/ml/python/neural_net.py) and more.
+- From October '13 until October '17 I studied [International Media and Computing](https://imi-bachelor.htw-berlin.de/) in Berlin. I learned new things about the networking stack, [image processing algorithms](/img-filter-in-canvas/), natural language processing, [search engines](https://github.com/jorinvo/r/blob/master/search.py), [machine learning](https://github.com/jorinvo/r/tree/master/ml), [neuronal networks](https://github.com/jorinvo/r/blob/master/ml/python/neural_net.py) and more.
 - I created [Slangbrain](https://github.com/jorinvo/slangbrain/), a chatbot for studying language, written in Go.
 - I wrote my Bachelor's Thesis about [Development and Applications of Chatbots](/chatbots.pdf).
 - In '16 I [emulated a bash environment in JavaScript](https://github.com/trybash/bash-emulator) as part of a student project.
