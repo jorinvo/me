@@ -1,0 +1,336 @@
+/* FONT */
+
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  font-display: swap;
+  src: url('/fonts/FantasqueSansMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url('/fonts/FantasqueSansMono-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  font-style: italic;
+  font-display: swap;
+  src: url('/fonts/FantasqueSansMono-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  font-style: italic;
+  font-weight: bold;
+  font-display: swap;
+  src: url('/fonts/FantasqueSansMono-BoldItalic.woff2') format('woff2');
+}
+
+body {
+  font-family: 'Fantasque Sans Mono', Courier, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 2% 5%;
+  line-height: 140%;
+  font-size: 120%;
+}
+
+h1 {
+  color: black;
+  font-size: 210%;
+  line-height: 110%;
+}
+
+h2 {
+  margin: 12% 0 0 0;
+  font-size: 160%;
+  line-height: 120%;
+  text-align: left;
+}
+.posts h2 {
+  margin-top: 1%;
+}
+
+h3 {
+  margin-top: 7%;
+  margin-bottom: 1%;
+  font-size: 140%;
+  line-height: 120%;
+  text-align: left;
+}
+
+p {
+  margin: 3% 0;
+}
+
+a {
+  text-decoration: none;
+  /* link color must be at least 3:1 to text color */
+  color: #4343D6;
+}
+
+a:focus, a:hover {
+  outline: none;
+  text-decoration: underline;
+}
+
+a.alternate:focus,
+a.alternate:hover,
+a.alternate:focus > *,
+a.alternate:hover > * {
+  text-decoration: none;
+  background: #f3f3f3;
+}
+
+small {
+  font-size: 70%;
+}
+
+ol, ul {
+  padding-left: 5%;
+}
+
+li {
+  padding: 3% 0;
+}
+ul > li {
+  list-style: circle;
+}
+ul.posts > li, ul.hide-list > li {
+  padding: 1% 0;
+}
+
+header {
+  margin-top: 2%;
+  margin-bottom: 12%;
+}
+
+footer {
+  margin-top: 24%;
+  text-align: center;
+  font-size: 80%;
+}
+
+hr {
+  margin: 10% auto;
+  height: 1px;
+  width: 80%;
+  border: none;
+  outline: none;
+  background: grey;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.post-link {
+  color: black;
+}
+
+.post {
+  margin: 12% 0;
+}
+
+.post-header {
+  margin-bottom: 3%;
+}
+
+.post-header a {
+  color: black;
+}
+
+.post-header h1 {
+  margin-top: 1%;
+}
+
+.post-content {
+  text-align: justify;
+}
+
+.post-content > p:first-child {
+  font-style: italic;
+}
+
+.post-content img {
+  max-width: 100%;
+}
+
+.post-footer {
+  margin: 24% auto;
+  text-align: center;
+  font-style: italic;
+  font-size: 80%;
+}
+.post-footer a {
+  /* accessability issue if link is not marked as such here */
+  text-decoration: underline;
+}
+
+.author {
+  display: none;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+header a {
+  font-style: italic;
+  /* padding might seem funny, but this is to avoid ux issues on mobile. buttons must be big enough */
+  padding: 4% 4% 4% 0;
+  display: inline-block;
+}
+
+pre {
+  border-width: 1px;
+  border-color: #E7E7E7;
+  border-style: solid;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 3%;
+  overflow-x: auto;
+}
+
+code, pre {
+  font-family: 'Fantasque Sans Mono', monospace;
+  font-size: 90%;
+  color: #686868;
+}
+
+code:focus {
+  outline: none;
+}
+
+ul.hide-list {
+  padding-left: 0;
+}
+ul.hide-list > li {
+  list-style: none;
+}
+
+
+/* Style for newsletter form */
+
+input {
+  padding: 3px;
+  margin: 3% 0;
+  cursor: pointer;
+}
+
+.newsletter-section {
+  margin-bottom: 12%;
+  margin-top: 12%;
+  font-size: 80%;
+}
+
+
+/*
+ * Print style
+ */
+
+@media print {
+  body {
+    font-size: 80%;
+    line-height: 120%;
+    padding: 0 20%;
+  }
+
+  small, footer, .post-footer {
+    font-size: 60%;
+  }
+
+  header, footer, .post-footer {
+    display: none;
+  }
+
+  article a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .author {
+    display: initial;
+  }
+
+  p, pre {
+    page-break-inside: avoid;
+  }
+
+  .post {
+    page-break-inside: avoid;
+  }
+}
+
+
+/*
+ * Github-inspired code highlighting
+ * Thanks to
+ * https://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html
+ */
+
+.makeup .hll { background-color: #ffffcc }
+.makeup .c { color: #999988; font-style: italic } /* Comment */
+.makeup .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.makeup .k { color: #000000; font-weight: bold } /* Keyword */
+.makeup .o { color: #000000; font-weight: bold } /* Operator */
+.makeup .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.makeup .cp { color: #999999; font-weight: bold; font-style: italic } /* Comment.Preproc */
+.makeup .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.makeup .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.makeup .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.makeup .ge { color: #000000; font-style: italic } /* Generic.Emph */
+.makeup .gr { color: #aa0000 } /* Generic.Error */
+.makeup .gh { color: #999999 } /* Generic.Heading */
+.makeup .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.makeup .go { color: #888888 } /* Generic.Output */
+.makeup .gp { color: #555555 } /* Generic.Prompt */
+.makeup .gs { font-weight: bold } /* Generic.Strong */
+.makeup .gu { color: #aaaaaa } /* Generic.Subheading */
+.makeup .gt { color: #aa0000 } /* Generic.Traceback */
+.makeup .kc { color: #000000; font-weight: bold } /* Keyword.Constant */
+.makeup .kd { color: #000000; font-weight: bold } /* Keyword.Declaration */
+.makeup .kn { color: #000000; font-weight: bold } /* Keyword.Namespace */
+.makeup .kp { color: #000000; font-weight: bold } /* Keyword.Pseudo */
+.makeup .kr { color: #000000; font-weight: bold } /* Keyword.Reserved */
+.makeup .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.makeup .m { color: #009999 } /* Literal.Number */
+.makeup .s { color: #d01040 } /* Literal.String */
+.makeup .na { color: #008080 } /* Name.Attribute */
+.makeup .nb { color: #0086B3 } /* Name.Builtin */
+.makeup .nc { color: #445588; font-weight: bold } /* Name.Class */
+.makeup .no { color: #008080 } /* Name.Constant */
+.makeup .nd { color: #3c5d5d; font-weight: bold } /* Name.Decorator */
+.makeup .ni { color: #800080 } /* Name.Entity */
+.makeup .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.makeup .nf { color: #990000; font-weight: bold } /* Name.Function */
+.makeup .nl { color: #990000; font-weight: bold } /* Name.Label */
+.makeup .nn { color: #555555 } /* Name.Namespace */
+.makeup .nt { color: #000080 } /* Name.Tag */
+.makeup .nv { color: #008080 } /* Name.Variable */
+.makeup .ow { color: #000000; font-weight: bold } /* Operator.Word */
+.makeup .w { color: #bbbbbb } /* Text.Whitespace */
+.makeup .mf { color: #009999 } /* Literal.Number.Float */
+.makeup .mh { color: #009999 } /* Literal.Number.Hex */
+.makeup .mi { color: #009999 } /* Literal.Number.Integer */
+.makeup .mo { color: #009999 } /* Literal.Number.Oct */
+.makeup .sb { color: #d01040 } /* Literal.String.Backtick */
+.makeup .sc { color: #d01040 } /* Literal.String.Char */
+.makeup .sd { color: #d01040 } /* Literal.String.Doc */
+.makeup .s2 { color: #d01040 } /* Literal.String.Double */
+.makeup .se { color: #d01040 } /* Literal.String.Escape */
+.makeup .sh { color: #d01040 } /* Literal.String.Heredoc */
+.makeup .si { color: #d01040 } /* Literal.String.Interpol */
+.makeup .sx { color: #d01040 } /* Literal.String.Other */
+.makeup .sr { color: #009926 } /* Literal.String.Regex */
+.makeup .s1 { color: #d01040 } /* Literal.String.Single */
+.makeup .ss { color: #990073 } /* Literal.String.Symbol */
+.makeup .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.makeup .vc { color: #008080 } /* Name.Variable.Class */
+.makeup .vg { color: #008080 } /* Name.Variable.Global */
+.makeup .vi { color: #008080 } /* Name.Variable.Instance */
+.makeup .il { color: #009999 } /* Literal.Number.Integer.Long */
+

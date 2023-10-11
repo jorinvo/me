@@ -1,5 +1,0 @@
----
-title: Posts
-aliases:
-  - /posts/
----

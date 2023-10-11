@@ -1,8 +1,0 @@
-/*
-  Strict-Transport-Security: max-age=31536000;
-  X-Frame-Options: Deny
-  X-XSS-Protection: 1; mode=block
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: unsafe-url
-  Content-Security-Policy: default-src 'self' www.google.com/s2/favicons *.gstatic.com/faviconV2 codepen.io *.codepen.io *.github.com disqus.com *.disqus.com *.disquscdn.com *.cloudfront.net youtube.com *.youtube.com *.githubassets.com *.githubusercontent.com res.cloudinary.com 'unsafe-inline' 'unsafe-eval';
-
