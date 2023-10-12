@@ -24,6 +24,7 @@ defmodule JorinMe.MixProject do
       {:makeup_elixir, "~> 0.16.1"},
       {:makeup_js, "~> 0.1.0"},
       {:phoenix_live_view, "~> 0.20.0"},
+      {:xml_builder, "~> 2.2.0"},
       {:esbuild, "~> 0.7.1"},
       {:tailwind, "~> 0.2.1"},
       {:bandit, "~> 0.7.7"},

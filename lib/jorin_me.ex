@@ -228,48 +228,56 @@ defmodule JorinMe do
   end
 
   def rss(posts) do
-    ~E"""
-    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-      <channel>
-        <title><%= site_title() %></title>
-        <link><%= site_url() %></link>
-        <description>Recent content on <%= site_title() %></description>
-        <language>en-us</language>
-        <managingEditor><%= site_author() %> (<%= site_email() %>)</managingEditor>
-        <webMaster><%= site_author() %> (<%= site_email() %>)</webMaster>
-        <copyright><%= site_copyright() %></copyright>
-        <lastBuildDate><%= format_rss_date(now()) %></lastBuildDate>
-        <atom:link href="<%= site_url() %>/index.xml" rel="self" type="application/rss+xml" />
-        <%= for post <- Enum.take(posts, rss_post_limit()) do %>
-        <item>
-          <title><%= site_url() %><%= post.title %></title>
-          <link><%= site_url() %><%= post.route %></link>
-          <pubDate><%= format_rss_date(date_to_datetime(post.date)) %></pubDate>
-          <author><%= site_author() %> (<%= site_email() %>)</author>
-          <guid><%= site_url() %><%= post.route %></guid>
-          <description><%= post.description %></description>
-        </item>
-        <% end %>
-      </channel>
-    </rss>
-    """
+    XmlBuilder.element(:rss, %{version: "2.0", "xmlns:atom": "http://www.w3.org/2005/Atom"}, [
+      {:channel,
+       [
+         {:title, site_title()},
+         {:link, site_url()},
+         {:description, "Recent content on #{site_title()}"},
+         {:language, "en-us"},
+         {:managingEditor, "#{site_author()} (#{site_email()})"},
+         {:webMaster, "#{site_author()} (#{site_email()})"},
+         {:copyright, site_copyright()},
+         {:lastBuildDate, format_rss_date(now())},
+         {:"atom:link",
+          %{href: "#{site_url()}/index.xml", rel: "self", type: "application/rss+xml"}}
+       ] ++
+         for post <- Enum.take(posts, rss_post_limit()) do
+           {:item,
+            [
+              {:title, post.title},
+              {:link, site_url() <> post.route},
+              {:pubDate, format_rss_date(date_to_datetime(post.date))},
+              {:author, "#{site_author()} (#{site_email()})"},
+              {:guid, site_url() <> post.route},
+              {:description, post.description}
+            ]}
+         end}
+    ])
+    |> XmlBuilder.generate()
   end
 
   def sitemap(pages) do
-    ~E"""
-    <urlset>
-      <url>
-        <loc><%= site_url() %></loc>
-        <lastmod><%= now_iso() %></lastmod>
-      </url>
-      <%= for page <- pages do %>
-      <url>
-        <loc><%= site_url() %><%= page.route %></loc>
-        <lastmod><%= if page.date do format_iso_date(page.date) else now_iso() end %></lastmod>
-      </url>
-      <% end %>
-    </urlset>
-    """
+    XmlBuilder.element(:urlset, [
+      {:url,
+       [
+         {:loc, site_url()},
+         {:lastmod, now_iso()}
+       ]}
+      | for page <- pages do
+          {:url,
+           [
+             {:loc, site_url() <> page.route},
+             {:lastmod,
+              if page.date do
+                format_iso_date(page.date)
+              else
+                now_iso()
+              end}
+           ]}
+        end
+    ])
+    |> XmlBuilder.generate()
   end
 
   def build_pages() do
@@ -277,8 +285,8 @@ defmodule JorinMe do
     posts = Content.all_posts()
     about_page = Content.about_page()
     render_file("index.html", index(%{posts: posts}))
-    render_file("index.xml", rss(posts))
-    render_file("sitemap.xml", sitemap(pages))
+    write_file("index.xml", rss(posts))
+    write_file("sitemap.xml", sitemap(pages))
     render_file(about_page.html_path, page(%{page: about_page}))
 
     for post <- posts do
@@ -288,9 +296,8 @@ defmodule JorinMe do
     :ok
   end
 
-  def render_file(path, rendered) do
-    Logger.info("Rendering #{path}")
-    safe = Phoenix.HTML.Safe.to_iodata(rendered)
+  def write_file(path, data) do
+    Logger.info("Writing #{path}")
     dir = Path.dirname(path)
     output = Path.join([@output_dir, path])
 
@@ -298,7 +305,12 @@ defmodule JorinMe do
       File.mkdir_p!(Path.join([@output_dir, dir]))
     end
 
-    File.write!(output, safe)
+    File.write!(output, data)
+  end
+
+  def render_file(path, rendered) do
+    safe = Phoenix.HTML.Safe.to_iodata(rendered)
+    write_file(path, safe)
   end
 
   def build_all() do
