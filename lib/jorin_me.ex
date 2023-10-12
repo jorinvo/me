@@ -23,6 +23,18 @@ defmodule JorinMe do
     "https://jorin.me"
   end
 
+  def redirects() do
+    %{
+      "/dirtymoney" => "https://gist.github.com/jorinvo/3d7f6a60fcede1863fa9f0788b8cc1b4",
+      "/feed.xml" => "/index.xml",
+      "/rss.xml" => "/index.xml",
+      "/feed" => "/index.xml",
+      "/blog" => "/",
+      "/post" => "/",
+      "/posts" => "/"
+    }
+  end
+
   def format_iso_date(date) do
     date
     |> DateTime.new!(~T[06:00:00])
@@ -217,7 +229,7 @@ defmodule JorinMe do
     Logger.info("Ensure output directory")
     File.mkdir_p!("output")
     Logger.info("Copying static files")
-    File.cp_r!("static", "output/")
+    File.cp_r!("assets/static", "output/")
     Logger.info("Building pages")
 
     {micro, :ok} =
