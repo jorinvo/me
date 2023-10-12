@@ -8,11 +8,12 @@ defmodule JorinMe.DevServer do
 
   get "/*path" do
     path = Path.join([File.cwd!(), "output"] ++ conn.path_info ++ ["index.html"])
-    send_file(conn, 200, path)
-  end
 
-  # TODO: port 404 page
-  match _ do
-    send_resp(conn, 404, "oops")
+    if File.exists?(path) do
+      send_file(conn, 200, path)
+    else
+      path = Path.join([File.cwd!(), "output", "404.html"])
+      send_file(conn, 404, path)
+    end
   end
 end

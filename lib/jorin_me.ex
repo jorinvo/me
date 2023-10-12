@@ -284,9 +284,11 @@ defmodule JorinMe do
     pages = Content.all_pages()
     posts = Content.all_posts()
     about_page = Content.about_page()
+    not_found_page = Content.not_found_page()
     render_file("index.html", index(%{posts: posts}))
     write_file("index.xml", rss(posts))
     write_file("sitemap.xml", sitemap(pages))
+    render_file("404.html", page(%{page: not_found_page}))
     render_file(about_page.html_path, page(%{page: about_page}))
 
     for post <- posts do
@@ -314,7 +316,8 @@ defmodule JorinMe do
   end
 
   def build_all() do
-    Logger.info("Ensure output directory")
+    Logger.info("Clear output directory")
+    File.rm_rf!("output")
     File.mkdir_p!("output")
     Logger.info("Copying static files")
     File.cp_r!("assets/static", "output/")

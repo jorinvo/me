@@ -16,6 +16,10 @@ defmodule JorinMe.Content do
     @pages |> Enum.find(&(&1.id == "about"))
   end
 
+  def not_found_page do
+    @pages |> Enum.find(&(&1.id == "404"))
+  end
+
   def all_pages do
     [about_page() | all_posts()]
   end
