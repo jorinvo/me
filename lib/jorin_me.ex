@@ -5,7 +5,6 @@ defmodule JorinMe do
   import Phoenix.HTML
 
   @output_dir "./output"
-  File.mkdir_p!(@output_dir)
 
   def site_title() do
     "jorin.me"
@@ -83,7 +82,13 @@ defmodule JorinMe do
   def newsletter(assigns) do
     ~H"""
     <div class="newsletter-section">
-      <form action="https://buttondown.email/api/emails/embed-subscribe/jorin" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/jorin', 'popupwindow')" class="embeddable-buttondown-form">
+      <form
+        action="https://buttondown.email/api/emails/embed-subscribe/jorin"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/jorin', 'popupwindow')"
+        class="embeddable-buttondown-form"
+      >
         <label for={@input_id}>Get new posts in your inbox:</label>
         <input type="email" name="email" id={@input_id} placeholder="email" />
         <input type="submit" value="subscribe" />
@@ -94,7 +99,15 @@ defmodule JorinMe do
 
   def post(assigns) do
     ~H"""
-    <.layout title={"#{@post.title} — #{site_title()}"} description={@post.description} og_type="article" route={@post.route} date={@post.date} keywords={@post.keywords} wordcount={count_words(@post)}>
+    <.layout
+      title={"#{@post.title} — #{site_title()}"}
+      description={@post.description}
+      og_type="article"
+      route={@post.route}
+      date={@post.date}
+      keywords={@post.keywords}
+      wordcount={count_words(@post)}
+    >
       <.newsletter input_id="bd-email-top" />
       <div class="post-header">
         <small class="post-meta"><span class="author">Jorin Vogel - </span><%= format_post_date(@post.date) %></small>
@@ -108,7 +121,14 @@ defmodule JorinMe do
       </article>
       <.newsletter input_id="bd-email-bottom" />
       <div class="post-footer">
-        <img src="/images/vo.png" alt="Jorin Vogel" class="avatar" width="64px" height="64px" style="padding-left: 4px; padding-bottom: 4px; background: black;" />
+        <img
+          src="/images/vo.png"
+          alt="Jorin Vogel"
+          class="avatar"
+          width="64px"
+          height="64px"
+          style="padding-left: 4px; padding-bottom: 4px; background: black;"
+        />
         <p>
         Thanks for reading!
         <br />
@@ -136,7 +156,12 @@ defmodule JorinMe do
 
   def index(assigns) do
     ~H"""
-    <.layout title={site_title()} description={site_description()} route="/" og_type="website">
+    <.layout
+      title={site_title()}
+      description={site_description()}
+      route="/"
+      og_type="website"
+    >
       <.newsletter input_id="bd-email-top" />
       <div class="posts">
         <a :for={post <- @posts} href={post.route} class="post-link alternate">
@@ -157,7 +182,12 @@ defmodule JorinMe do
 
   def page(assigns) do
     ~H"""
-    <.layout title={"#{@page.title} — #{site_title()}"} description={@page.description} og_type="website" route={@page.route}>
+    <.layout
+      title={"#{@page.title} — #{site_title()}"}
+      description={@page.description}
+      og_type="website"
+      route={@page.route}
+    >
       <div class="post-header">
         <a href={@page.route}>
           <h1><%= @page.title %></h1>
@@ -354,10 +384,10 @@ defmodule JorinMe do
 
   def build_all() do
     Logger.info("Clear output directory")
-    File.rm_rf!("output")
-    File.mkdir_p!("output")
+    File.rm_rf!(@output_dir)
+    File.mkdir_p!(@output_dir)
     Logger.info("Copying static files")
-    File.cp_r!("assets/static", "output/")
+    File.cp_r!("assets/static", @output_dir)
     Logger.info("Building pages")
 
     {micro, :ok} =
@@ -368,7 +398,7 @@ defmodule JorinMe do
     ms = micro / 1000
     Logger.info("Pages built in #{ms}ms")
     Logger.info("Running tailwind")
-    # Using mix task because it install the binaries if not available yet
+    # Using mix task because it installs tailwind if not available yet
     Mix.Tasks.Tailwind.run(["default", "--minify"])
   end
 end
