@@ -280,11 +280,23 @@ defmodule JorinMe do
     |> XmlBuilder.generate()
   end
 
+  def assert_uniq_page_ids!(pages) do
+    ids = JorinMe.Content.all_pages() |> Enum.map(& &1.id)
+    dups = Enum.uniq(ids -- Enum.uniq(ids))
+
+    if dups |> Enum.empty?() do
+      :ok
+    else
+      raise "Duplicate pages: #{inspect(dups)}"
+    end
+  end
+
   def build_pages() do
     pages = Content.all_pages()
     posts = Content.all_posts()
     about_page = Content.about_page()
     not_found_page = Content.not_found_page()
+    assert_uniq_page_ids!(pages)
     render_file("index.html", index(%{posts: posts}))
     write_file("index.xml", rss(posts))
     write_file("sitemap.xml", sitemap(pages))
