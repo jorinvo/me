@@ -33,13 +33,14 @@ defmodule JorinMe do
 
   def redirects() do
     %{
-      "/dirtymoney" => "https://gist.github.com/jorinvo/3d7f6a60fcede1863fa9f0788b8cc1b4",
+      "/dirtymoney/index.html" =>
+        "https://gist.github.com/jorinvo/3d7f6a60fcede1863fa9f0788b8cc1b4",
       "/feed.xml" => "/index.xml",
       "/rss.xml" => "/index.xml",
-      "/feed" => "/index.xml",
-      "/blog" => "/",
-      "/post" => "/",
-      "/posts" => "/"
+      "/feed/index.html" => "/index.xml",
+      "/blog/index.html" => "/",
+      "/post/index.html" => "/",
+      "/posts/index.html" => "/"
     }
   end
 
@@ -285,8 +286,23 @@ defmodule JorinMe do
     |> XmlBuilder.generate()
   end
 
+  def redirect(assigns) do
+    ~H"""
+    <!DOCTYPE html>
+    <html lang="en-us">
+      <head>
+        <title><%= @target%></title>
+        <link rel="canonical" href={@target}>
+        <meta name="robots" content="noindex">
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content={"0; url=#{@target}"}>
+      </head>
+    </html>
+    """
+  end
+
   def assert_uniq_page_ids!(pages) do
-    ids = JorinMe.Content.all_pages() |> Enum.map(& &1.id)
+    ids = pages |> Enum.map(& &1.id)
     dups = Enum.uniq(ids -- Enum.uniq(ids))
 
     if dups |> Enum.empty?() do
@@ -310,6 +326,10 @@ defmodule JorinMe do
 
     for post <- posts do
       render_file(post.html_path, post(%{post: post}))
+    end
+
+    for {path, target} <- redirects() do
+      render_file(path, redirect(%{target: target}))
     end
 
     :ok
