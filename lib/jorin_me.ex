@@ -23,6 +23,14 @@ defmodule JorinMe do
     "https://jorin.me"
   end
 
+  def site_email() do
+    "hi@jorin.me"
+  end
+
+  def site_copyright() do
+    "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+  end
+
   def redirects() do
     %{
       "/dirtymoney" => "https://gist.github.com/jorinvo/3d7f6a60fcede1863fa9f0788b8cc1b4",
@@ -35,14 +43,34 @@ defmodule JorinMe do
     }
   end
 
+  def now() do
+    DateTime.now!("Etc/UTC")
+  end
+
+  def now_iso() do
+    DateTime.to_iso8601(now())
+  end
+
+  def date_to_datetime(date) do
+    DateTime.new!(date, ~T[06:00:00])
+  end
+
   def format_iso_date(date) do
     date
-    |> DateTime.new!(~T[06:00:00])
+    |> date_to_datetime()
     |> DateTime.to_iso8601()
   end
 
   def format_post_date(date) do
     Calendar.strftime(date, "%b %-d, %Y")
+  end
+
+  def format_rss_date(date) do
+    Calendar.strftime(date, "%a, %d %b %Y %H:%M:%S %z")
+  end
+
+  def rss_post_limit() do
+    20
   end
 
   def count_words(post) do
@@ -85,7 +113,7 @@ defmodule JorinMe do
         <br />
         My name is Jorin and I am currently building a new feedback tool.
         <br />
-        Feel free to send me a <a href="mailto:hi@jorin.me">mail</a> or talk to me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">twitter</a>.
+        Feel free to send me a <a href={"mailto:${site_email()}"}>mail</a> or talk to me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">twitter</a>.
           </p>
         </div>
         <footer>
@@ -199,10 +227,58 @@ defmodule JorinMe do
     """
   end
 
+  def rss(posts) do
+    ~E"""
+    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+      <channel>
+        <title><%= site_title() %></title>
+        <link><%= site_url() %></link>
+        <description>Recent content on <%= site_title() %></description>
+        <language>en-us</language>
+        <managingEditor><%= site_author() %> (<%= site_email() %>)</managingEditor>
+        <webMaster><%= site_author() %> (<%= site_email() %>)</webMaster>
+        <copyright><%= site_copyright() %></copyright>
+        <lastBuildDate><%= format_rss_date(now()) %></lastBuildDate>
+        <atom:link href="<%= site_url() %>/index.xml" rel="self" type="application/rss+xml" />
+        <%= for post <- Enum.take(posts, rss_post_limit()) do %>
+        <item>
+          <title><%= site_url() %><%= post.title %></title>
+          <link><%= site_url() %><%= post.route %></link>
+          <pubDate><%= format_rss_date(date_to_datetime(post.date)) %></pubDate>
+          <author><%= site_author() %> (<%= site_email() %>)</author>
+          <guid><%= site_url() %><%= post.route %></guid>
+          <description><%= post.description %></description>
+        </item>
+        <% end %>
+      </channel>
+    </rss>
+    """
+  end
+
+  def sitemap(pages) do
+    ~E"""
+    <urlset>
+      <url>
+        <loc><%= site_url() %></loc>
+        <lastmod><%= now_iso() %></lastmod>
+      </url>
+      <%= for page <- pages do %>
+      <url>
+        <loc><%= site_url() %><%= page.route %></loc>
+        <lastmod><%= if page.date do format_iso_date(page.date) else now_iso() end %></lastmod>
+      </url>
+      <% end %>
+    </urlset>
+    """
+  end
+
   def build_pages() do
+    pages = Content.all_pages()
     posts = Content.all_posts()
     about_page = Content.about_page()
     render_file("index.html", index(%{posts: posts}))
+    render_file("index.xml", rss(posts))
+    render_file("sitemap.xml", sitemap(pages))
     render_file(about_page.html_path, page(%{page: about_page}))
 
     for post <- posts do

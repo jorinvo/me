@@ -15,4 +15,8 @@ defmodule JorinMe.Content do
   def about_page do
     @pages |> Enum.find(&(&1.id == "about"))
   end
+
+  def all_pages do
+    [about_page() | all_posts()]
+  end
 end
