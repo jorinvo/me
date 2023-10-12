@@ -124,7 +124,12 @@ defmodule JorinMe do
           or
           <a href="https://github.com/jorinvo/me/issues">give me feedback</a>
         </footer>
-    </.layout>
+        <script>
+          document.querySelectorAll('code').forEach(function(el) {
+            el.contentEditable = true
+          })
+        </script>
+      </.layout>
     """
   end
 
@@ -345,7 +350,5 @@ defmodule JorinMe do
     Logger.info("Running tailwind")
     # Using mix task because it install the binaries if not available yet
     Mix.Tasks.Tailwind.run(["default", "--minify"])
-    Logger.info("Running esbuild")
-    Mix.Tasks.Esbuild.run(["default", "--minify"])
   end
 end
