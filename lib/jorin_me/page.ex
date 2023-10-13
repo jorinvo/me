@@ -5,7 +5,7 @@ defmodule JorinMe.Page do
     :title,
     :description,
     :body,
-    :md_path,
+    :src_path,
     :html_path,
     :route
   ]
@@ -17,7 +17,7 @@ defmodule JorinMe.Page do
     :body,
     :description,
     :date,
-    :md_path,
+    :src_path,
     :html_path,
     :route,
     :keywords,
@@ -28,11 +28,11 @@ defmodule JorinMe.Page do
     [year, month, day, id] = String.split(Path.rootname(filename), "-", parts: 4)
     date = Date.from_iso8601!("#{year}-#{month}-#{day}")
     html_path = Path.join(id, "index.html")
-    md_path = "pages/posts/#{filename}"
+    src_path = "pages/posts/#{filename}"
     route = Path.join("/", Path.dirname(html_path))
 
     unless Map.has_key?(attrs, :keywords) do
-      raise "#{md_path} no keywords defined"
+      raise "#{src_path} no keywords defined"
     end
 
     struct!(
@@ -42,7 +42,7 @@ defmodule JorinMe.Page do
         type: :post,
         date: date,
         body: body,
-        md_path: md_path,
+        src_path: src_path,
         html_path: html_path,
         route: route
       ] ++
@@ -53,7 +53,7 @@ defmodule JorinMe.Page do
   def build(file_path, attrs, body) do
     id = Path.basename(Path.rootname(file_path))
     html_path = Path.join(id, "index.html")
-    md_path = file_path
+    src_path = file_path
     route = Path.join("/", Path.dirname(html_path))
 
     struct!(
@@ -62,7 +62,7 @@ defmodule JorinMe.Page do
         id: id,
         type: :page,
         body: body,
-        md_path: md_path,
+        src_path: src_path,
         html_path: html_path,
         route: route
       ] ++

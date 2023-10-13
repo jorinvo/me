@@ -73,10 +73,8 @@ defmodule JorinMe do
     20
   end
 
-  def count_words(post) do
-    body_count = post.body |> String.split() |> Enum.count()
-    description_count = post.description |> String.split() |> Enum.count()
-    body_count + description_count
+  def count_words(text) do
+    text |> String.split() |> Enum.count()
   end
 
   def newsletter(assigns) do
@@ -100,24 +98,24 @@ defmodule JorinMe do
   def post(assigns) do
     ~H"""
     <.layout
-      title={"#{@post.title} — #{site_title()}"}
-      description={@post.description}
+      title={"#{@title} — #{site_title()}"}
+      description={@description}
       og_type="article"
-      route={@post.route}
-      date={@post.date}
-      keywords={@post.keywords}
-      wordcount={count_words(@post)}
+      route={@route}
+      date={@date}
+      keywords={@keywords}
+      wordcount={count_words(@description <>" " <> @body)}
     >
       <.newsletter input_id="bd-email-top" />
       <div class="post-header">
-        <small class="post-meta"><span class="author">Jorin Vogel - </span><%= format_post_date(@post.date) %></small>
-        <a href={@post.route}>
-          <h1><%= @post.title %></h1>
+        <small class="post-meta"><span class="author">Jorin Vogel - </span><%= format_post_date(@date) %></small>
+        <a href={@route}>
+          <h1><%= @title %></h1>
         </a>
       </div>
       <article class="post-content">
-        <p><%= @post.description %></p>
-        <%= raw @post.body %>
+        <p><%= @description %></p>
+        <%= raw @body %>
       </article>
       <.newsletter input_id="bd-email-bottom" />
       <div class="post-footer">
@@ -139,7 +137,7 @@ defmodule JorinMe do
         </div>
         <footer>
           use github to
-          <a href={"https://github.com/jorinvo/me/edit/master/#{@post.md_path}"}>
+          <a href={"https://github.com/jorinvo/me/edit/master/#{@src_path}"}>
             edit the post source
           </a>
           or
@@ -183,22 +181,22 @@ defmodule JorinMe do
   def page(assigns) do
     ~H"""
     <.layout
-      title={"#{@page.title} — #{site_title()}"}
-      description={@page.description}
+      title={"#{@title} — #{site_title()}"}
+      description={@description}
       og_type="website"
-      route={@page.route}
+      route={@route}
     >
       <div class="post-header">
-        <a href={@page.route}>
-          <h1><%= @page.title %></h1>
+        <a href={@route}>
+          <h1><%= @title %></h1>
         </a>
       </div>
       <article class="post-content">
-        <%= raw @page.body %>
+        <%= raw @body %>
       </article>
         <footer>
           use github to
-          <a href={"https://github.com/jorinvo/me/edit/master/#{@page.md_path}"}>
+          <a href={"https://github.com/jorinvo/me/edit/master/#{@src_path}"}>
             edit the page source
           </a>
           or
@@ -244,7 +242,6 @@ defmodule JorinMe do
             <meta property="article:modified_time" content={format_iso_date(@date)} />
           <% end %>
           <link rel="stylesheet" href="/assets/app.css" />
-          <script type="text/javascript" src="/assets/app.js" />
         </head>
         <body>
           <header>
@@ -260,6 +257,35 @@ defmodule JorinMe do
           <%= render_slot(@inner_block) %>
         </body>
       </html>
+    """
+  end
+
+  def reads_index(assigns) do
+    ~H"""
+    <.layout
+      title="Reads"
+      description="A list of articles I read and recommend."
+      og_type="website"
+      route="/reads"
+    >
+      <div class="post-header">
+        <a href="/reads">
+          <h1>Reads</h1>
+        </a>
+      </div>
+      <article class="post-content">
+          <ul class="posts">
+            <li :for={page <- @pages}>
+              <a href={ page.route } class="post-link">
+                <%= page.title %>
+              </a>
+            </li>
+           </ul>
+      </article>
+        <footer>
+          use github to <a href="https://github.com/jorinvo/me/issues">give me feedback</a>
+        </footer>
+    </.layout>
     """
   end
 
@@ -342,25 +368,68 @@ defmodule JorinMe do
     end
   end
 
+  def reads(assigns) do
+    ~H"""
+    <.layout
+      title={"#{@title} — #{site_title()}"}
+      description={@description}
+      og_type="website"
+      route={@route}
+    >
+      <div class="post-header">
+        <a href={@route}>
+          <h1><%= @title %></h1>
+        </a>
+      </div>
+      <article class="post-content">
+        <p><%= @description %></p>
+        <ul class="hide-list">
+          <li :for={link <- @links}>
+            <a href={ link["url"] }>
+              <img src={"https://www.google.com/s2/favicons?domain=#{ URI.parse(link["url"]).host }"} />
+              <%= link["title"] %>
+            </a>
+          </li>
+         </ul>
+      </article>
+        <footer>
+          use github to
+          <a href={"https://github.com/jorinvo/me/edit/master/#{@src_path}"}>
+            edit the page source
+          </a>
+          or
+          <a href="https://github.com/jorinvo/me/issues">give me feedback</a>
+        </footer>
+    </.layout>
+    """
+  end
+
   def build_pages() do
     pages = Content.all_pages()
     posts = Content.all_posts()
     about_page = Content.about_page()
     not_found_page = Content.not_found_page()
+    reads = Content.get_reads()
     assert_uniq_page_ids!(pages)
     render_file("index.html", index(%{posts: posts}))
     write_file("index.xml", rss(posts))
     write_file("sitemap.xml", sitemap(pages))
-    render_file("404.html", page(%{page: not_found_page}))
-    render_file(about_page.html_path, page(%{page: about_page}))
+    render_file("404.html", page(not_found_page))
+    render_file(about_page.html_path, page(about_page))
 
     for post <- posts do
-      render_file(post.html_path, post(%{post: post}))
+      render_file(post.html_path, post(post))
     end
 
     for {path, target} <- redirects() do
       render_file(path, redirect(%{target: target}))
     end
+
+    for page <- reads do
+      render_file(page.html_path, reads(page))
+    end
+
+    render_file("reads/index.html", reads_index(%{pages: reads}))
 
     :ok
   end
