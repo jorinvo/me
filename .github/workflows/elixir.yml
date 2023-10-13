@@ -57,6 +57,8 @@ jobs:
         run: mix format --check-formatted
       - name: Run credo
         run: mix credo
+      - name: Build site
+        run: mix build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
