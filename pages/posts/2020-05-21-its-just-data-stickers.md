@@ -1,5 +1,5 @@
 %{
-  title: "It's Just Data Sticker",
+  title: "It's Just Data Stickers",
   description: "I designed stickers. Find me at a conference some day or get in touch if you like them!",
   keywords: ["stickers", "just", "data"]
 }
@@ -17,7 +17,7 @@ Even better, you can download the Illustrator files and print your own:
 
 Feel free to share them, modify them or do anything you like.
 
-The inspiration for the sticker is the concept of how Clojure embraces data as first-class concept to drive everything.
+The inspiration for the stickers is the concept of how Clojure embraces data as first-class concept to drive everything.
 
 The *"Value of Values"* talk by Rich Hickey nicely illustrates the bigger picture for this line of thinking:
 

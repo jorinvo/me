@@ -174,6 +174,34 @@ defmodule JorinMe do
           </div>
         </a>
       </div>
+      <hr />
+      <p><center><i>Find more posts in the <a href="/archive">archive</a></i></center></p>
+      <.newsletter input_id="bd-email-bottom" />
+      <footer>
+        use github to <a href="https://github.com/jorinvo/me/issues">give me feedback</a>
+      </footer>
+    </.layout>
+    """
+  end
+
+  def archive(assigns) do
+    ~H"""
+    <.layout
+      title={site_title()}
+      description={site_description()}
+      route="/"
+      og_type="website"
+    >
+      <h1>Archive</h1>
+      <.newsletter input_id="bd-email-top" />
+      <div class="posts">
+        <a :for={post <- @posts} href={post.route} class="post-link alternate">
+          <div class="archive-post">
+            <small class="post-meta"><%= format_post_date(post.date) %></small>
+            <div class="post-summary"><%= post.title %></div>
+          </div>
+        </a>
+      </div>
       <.newsletter input_id="bd-email-bottom" />
       <footer>
         use github to <a href="https://github.com/jorinvo/me/issues">give me feedback</a>
@@ -250,7 +278,7 @@ defmodule JorinMe do
         <body>
           <header>
             <div class="social">
-              <a href="/">Posts</a>
+              <a href="/">Home</a>
               <a href="/about">About</a>
               <a type="application/rss+xml" href="/index.xml">RSS</a>
               <a href="https://github.com/jorinvo">Github</a>
@@ -410,18 +438,20 @@ defmodule JorinMe do
 
   def build_pages() do
     pages = Content.all_pages()
-    posts = Content.all_posts()
+    all_posts = Content.all_posts()
+    active_posts = Content.active_posts()
     about_page = Content.about_page()
     not_found_page = Content.not_found_page()
     reads = Content.get_reads()
     assert_uniq_page_ids!(pages)
-    render_file("index.html", index(%{posts: posts}))
-    write_file("index.xml", rss(posts))
+    render_file("index.html", index(%{posts: active_posts}))
+    write_file("index.xml", rss(all_posts))
     write_file("sitemap.xml", sitemap(pages))
     render_file("404.html", page(not_found_page))
     render_file(about_page.html_path, page(about_page))
+    render_file("archive/index.html", archive(%{posts: all_posts}))
 
-    for post <- posts do
+    for post <- all_posts do
       render_file(post.html_path, post(post))
     end
 

@@ -14,6 +14,10 @@ defmodule JorinMe.Content do
     @pages |> Enum.filter(&(&1.type == :post)) |> Enum.sort_by(& &1.date, {:desc, Date})
   end
 
+  def active_posts do
+    all_posts() |> Enum.reject(& &1.archive)
+  end
+
   def about_page do
     @pages |> Enum.find(&(&1.id == "about"))
   end
