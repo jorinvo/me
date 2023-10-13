@@ -141,7 +141,7 @@ defmodule JorinMe do
         </div>
         <footer>
           use github to
-          <a href={"https://github.com/jorinvo/me/edit/master/#{@src_path}"}>
+          <a href={"https://github.com/jorinvo/me/edit/main/#{@src_path}"}>
             edit the post source
           </a>
           or
@@ -200,7 +200,7 @@ defmodule JorinMe do
       </article>
         <footer>
           use github to
-          <a href={"https://github.com/jorinvo/me/edit/master/#{@src_path}"}>
+          <a href={"https://github.com/jorinvo/me/edit/main/#{@src_path}"}>
             edit the page source
           </a>
           or
@@ -398,7 +398,7 @@ defmodule JorinMe do
       </article>
         <footer>
           use github to
-          <a href={"https://github.com/jorinvo/me/edit/master/#{@src_path}"}>
+          <a href={"https://github.com/jorinvo/me/edit/main/#{@src_path}"}>
             edit the page source
           </a>
           or

@@ -34,7 +34,7 @@ Before we start, `gm` provides different commands and those take flags and argum
 
 GraphicsMagick also provides binaries to access its commands directly from the command line. So in the examples below we will simply use `convert` instead of `gm convert`, but they do the same thing.
 
-To follow along, you can find the images in [this](https://github.com/jorinvo/me/tree/master/static/images/gm) folder.
+To follow along, you can find the images in [this](https://github.com/jorinvo/me/tree/main/assets/static/images/gm) folder.
 
 First we run the following which tells us the dimensions of 600 by 400 pixels:
 
