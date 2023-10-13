@@ -1,27 +1,33 @@
-# JorinMe
+# jorin.me - Jorin's personal blog
 
-**TODO: Add description**
+This site is generated as static files via custom code using [Elixir](https://elixir-lang.org/) and hosted on Github pages.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `jorin_me` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:jorin_me, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/jorin_me>.
+After using [Hugo](https://gohugo.io/) for nearly a decade, I decided to take things in my own hands.
+With the current setup I am in complete control over the rendering and do not have to learn a custom static site generator.
+All used tooling are common Elixir ecosystem packages.
 
 
+## Structure
 
-Thanks to https://fly.io/phoenix-files/crafting-your-own-static-site-generator-using-phoenix/
+- `pages/` contains the markdown and YAML content I regularly publish
+- `assets/` contains static content
+- `lib/` contains the code generating the side
+- `output/` is where the generated files are rendered
 
-Run:
-`mix run --no-halt`
+
+## Running
+
+- `mix build` generates the site and exits. This runs on commits using a Github Action
+- `iex -S mix` runs a dev server serving the side for local development
+
+
+## Acknowledgement
+
+Thanks to [fly.io's post on SSG using Elixir](https://fly.io/phoenix-files/crafting-your-own-static-site-generator-using-phoenix/) for helping me getting started.
+
+
+## License
+
+[![Creative Commons Attribution-ShareAlike 3.0 Unported License](https://licensebuttons.net/l/by-sa/3.0/80x15.png)](https://creativecommons.org/licenses/by-sa/3.0/)
+
+The content is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/). The code is licensed under the [MIT license](https://opensource.org/licenses/MIT).
