@@ -1,0 +1,66 @@
+name: Build and deploy to pages
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build only
+    runs-on: ubuntu-latest
+    if: github.ref != 'refs/heads/main'
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Elixir
+      uses: erlef/setup-beam@a255120a8298b1d3ebd952d84954db5471801f8f
+      with:
+        elixir-version: '1.14.3' # Define the elixir version [required]
+        otp-version: '25.3' # Define the OTP version [required]
+    - name: Install dependencies
+      run: mix deps.get
+    - name: Check Compile Warnings
+      run: mix compile --warnings-as-errors --all-warnings
+    - name: Check format
+      run: mix format --check-formatted
+    - name: Run credo
+      run: mix credo
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Elixir
+        uses: erlef/setup-beam@a255120a8298b1d3ebd952d84954db5471801f8f
+        with:
+          elixir-version: '1.14.3' # Define the elixir version [required]
+          otp-version: '25.3' # Define the OTP version [required]
+      - name: Install dependencies
+        run: mix deps.get
+      - name: Check Compile Warnings
+        run: mix compile --warnings-as-errors --all-warnings
+      - name: Check format
+        run: mix format --check-formatted
+      - name: Run credo
+        run: mix credo
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: 'output'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2

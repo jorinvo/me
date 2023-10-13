@@ -1,4 +1,6 @@
 defmodule JorinMe.Page do
+  @moduledoc false
+
   @enforce_keys [
     :id,
     :type,

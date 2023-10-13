@@ -1,4 +1,6 @@
 defmodule JorinMe.Content do
+  @moduledoc false
+
   alias JorinMe.Page
 
   use NimblePublisher,

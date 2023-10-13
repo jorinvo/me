@@ -1,4 +1,6 @@
 defmodule JorinMe.DevServer do
+  @moduledoc false
+
   use Plug.Router
 
   plug(Plug.Logger, log: :info)

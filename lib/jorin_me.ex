@@ -1,4 +1,8 @@
 defmodule JorinMe do
+  @moduledoc """
+  All functionality for rendering and building the site
+  """
+
   require Logger
   alias JorinMe.Content
   use Phoenix.Component
@@ -74,7 +78,7 @@ defmodule JorinMe do
   end
 
   def count_words(text) do
-    text |> String.split() |> Enum.count()
+    text |> HtmlSanitizeEx.strip_tags() |> String.split() |> Enum.count()
   end
 
   def newsletter(assigns) do
