@@ -50,17 +50,10 @@ Elixir renders static HTML pages from Markdown and YAML content. Most pages are 
 ```elixir
 def sitemap(pages) do
   XmlBuilder.element(:urlset, [
-    {:url,
-     [
-       {:loc, Content.site_url()},
-       {:lastmod, now_iso()}
-     ]}
+    {:url, [{:loc, Content.site_url()}, {:lastmod, now_iso()}]}
     | for page <- pages do
         {:url,
-         [
-           {:loc, Content.site_url() <> page.route},
-           {:lastmod, format_iso_date(page.date)}
-         ]}
+         [{:loc, Content.site_url() <> page.route}, {:lastmod, format_iso_date(page.date)}]}
       end
   ])
   |> XmlBuilder.generate()
