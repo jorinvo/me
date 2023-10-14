@@ -10,6 +10,43 @@ defmodule JorinMe.Content do
     highlighters: [:makeup_elixir, :makeup_js],
     earmark_options: [breaks: true]
 
+  def site_title() do
+    "jorin.me"
+  end
+
+  def site_description() do
+    "Jorin's personal blog on building data and communication systems"
+  end
+
+  def site_author() do
+    "Jorin Vogel"
+  end
+
+  def site_url() do
+    "https://jorin.me"
+  end
+
+  def site_email() do
+    "hi@jorin.me"
+  end
+
+  def site_copyright() do
+    "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+  end
+
+  def redirects() do
+    %{
+      "/dirtymoney/index.html" =>
+        "https://gist.github.com/jorinvo/3d7f6a60fcede1863fa9f0788b8cc1b4",
+      "/feed.xml" => "/index.xml",
+      "/rss.xml" => "/index.xml",
+      "/feed/index.html" => "/index.xml",
+      "/blog/index.html" => "/",
+      "/post/index.html" => "/",
+      "/posts/index.html" => "/"
+    }
+  end
+
   def all_posts do
     @pages |> Enum.filter(&(&1.type == :post)) |> Enum.sort_by(& &1.date, {:desc, Date})
   end
