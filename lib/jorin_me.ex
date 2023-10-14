@@ -45,15 +45,15 @@ defmodule JorinMe do
     reads = Content.get_reads()
     assert_uniq_page_ids!(pages)
     render_file("index.html", Render.index(%{posts: Content.active_posts()}))
-    write_file("index.xml", Render.rss(all_posts))
-    write_file("sitemap.xml", Render.sitemap(pages))
     render_file("404.html", Render.page(Content.not_found_page()))
     render_file(about_page.html_path, Render.page(about_page))
     render_file("archive/index.html", Render.archive(%{posts: all_posts}))
+    render_file("reads/index.html", Render.reads_index(%{pages: reads}))
+    write_file("index.xml", Render.rss(all_posts))
+    write_file("sitemap.xml", Render.sitemap(pages))
     render_posts(all_posts)
     render_redirects(Content.redirects())
     render_reads(reads)
-    render_file("reads/index.html", Render.reads_index(%{pages: reads}))
     :ok
   end
 
