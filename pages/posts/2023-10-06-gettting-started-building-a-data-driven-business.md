@@ -1,5 +1,5 @@
 %{
-  title: "Getting started building a data-driven business",
+  title: "Getting Started Building a Data-driven Business",
   description: "Making effective use of data is non-trivial. Let me share what worked for us.",
   keywords: ["data-drive", "decision-making", "business", "culture", "intelligence", "dashboards", "operations", "workflow"]
 }

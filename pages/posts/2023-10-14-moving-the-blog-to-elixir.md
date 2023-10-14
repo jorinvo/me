@@ -1,5 +1,5 @@
 %{
-  title: "Moving the blog to Elixir",
+  title: "Moving the Blog to Elixir",
   description: "I moved my blog from Hugo to a custom Elixir static side generator.",
   keywords: ["Elixir", "Hugo", "blog", "website", "static", "HTML", "render", "markdown"]
 }
