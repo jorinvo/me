@@ -17,7 +17,7 @@ All used tooling are common Elixir ecosystem packages.
 
 ## Running
 
-- `mix build` generates the site and exits. This runs on commits using a Github Action
+- `mix compile` compiles code and generates the site during the compile step. This runs on commits using a Github Action.
 - `iex -S mix` runs a dev server serving the side for local development
 
 

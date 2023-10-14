@@ -15,5 +15,4 @@ config :tailwind,
 config :exsync,
   src_monitor: true,
   extra_extensions: [".md", ".js", ".css"],
-  addition_dirs: ["/pages", "/assets"],
-  reload_callback: {JorinMe, :build_all, []}
+  addition_dirs: ["/pages", "/assets"]

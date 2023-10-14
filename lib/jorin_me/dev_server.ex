@@ -3,6 +3,12 @@ defmodule JorinMe.DevServer do
 
   use Plug.Router
 
+  JorinMe.build_all()
+  # Recompiling every time.
+  # We want to be sure to trigger `build_all`.
+  # Performance doesn't really matter.
+  def __mix_recompile__?, do: true
+
   plug(Plug.Logger, log: :info)
   plug(Plug.Static, at: "/", from: "output")
   plug(:match)

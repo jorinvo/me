@@ -469,7 +469,6 @@ defmodule JorinMe do
   end
 
   def write_file(path, data) do
-    Logger.info("Writing #{path}")
     dir = Path.dirname(path)
     output = Path.join([@output_dir, path])
 
