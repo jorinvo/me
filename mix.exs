@@ -23,6 +23,7 @@ defmodule JorinMe.MixProject do
       {:nimble_publisher, "~> 1.0.0"},
       {:makeup_elixir, "~> 0.16.1"},
       {:makeup_js, "~> 0.1.0"},
+      {:makeup_html, "~> 0.1.1"},
       {:phoenix_live_view, "~> 0.20.0"},
       {:xml_builder, "~> 2.2.0"},
       {:yaml_elixir, "~> 2.9.0"},

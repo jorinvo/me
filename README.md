@@ -6,6 +6,8 @@ After using [Hugo](https://gohugo.io/) for nearly a decade, I decided to take th
 With the current setup I am in complete control over the rendering and do not have to learn a custom static site generator.
 All used tooling are common Elixir ecosystem packages.
 
+You can read more about the setup in my [Moving the blog to Elixir](https://jorin.me/moving-blog-to-elixir/) post.
+
 
 ## Structure
 
@@ -17,6 +19,7 @@ All used tooling are common Elixir ecosystem packages.
 
 ## Running
 
+- `mix deps.get` to install dependencies
 - `mix compile` compiles code and generates the site during the compile step. This runs on commits using a Github Action.
 - `iex -S mix` runs a dev server serving the side for local development
 

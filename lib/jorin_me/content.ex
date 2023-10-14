@@ -7,7 +7,7 @@ defmodule JorinMe.Content do
     build: Page,
     from: "./pages/**/*.md",
     as: :pages,
-    highlighters: [:makeup_elixir, :makeup_js],
+    highlighters: [:makeup_elixir, :makeup_js, :makeup_html],
     earmark_options: [breaks: true]
 
   def site_title() do
@@ -72,7 +72,7 @@ defmodule JorinMe.Content do
 
       %{
         id: id,
-        date: nil,
+        date: DateTime.utc_now(),
         type: :reads,
         title: data["title"],
         description: data["description"],

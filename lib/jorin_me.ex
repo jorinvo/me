@@ -20,35 +20,40 @@ defmodule JorinMe do
     end
   end
 
-  def build_pages() do
-    pages = Content.all_pages()
-    all_posts = Content.all_posts()
-    active_posts = Content.active_posts()
-    about_page = Content.about_page()
-    not_found_page = Content.not_found_page()
-    reads = Content.get_reads()
-    assert_uniq_page_ids!(pages)
-    render_file("index.html", Render.index(%{posts: active_posts}))
-    write_file("index.xml", Render.rss(all_posts))
-    write_file("sitemap.xml", Render.sitemap(pages))
-    render_file("404.html", Render.page(not_found_page))
-    render_file(about_page.html_path, Render.page(about_page))
-    render_file("archive/index.html", Render.archive(%{posts: all_posts}))
-
-    for post <- all_posts do
+  def render_posts(posts) do
+    for post <- posts do
       render_file(post.html_path, Render.post(post))
     end
+  end
 
-    for {path, target} <- Content.redirects() do
+  def render_redirects(redirects) do
+    for {path, target} <- redirects do
       render_file(path, Render.redirect(%{target: target}))
     end
+  end
 
+  def render_reads(reads) do
     for page <- reads do
       render_file(page.html_path, Render.reads(page))
     end
+  end
 
+  def build_pages() do
+    pages = Content.all_pages()
+    all_posts = Content.all_posts()
+    about_page = Content.about_page()
+    reads = Content.get_reads()
+    assert_uniq_page_ids!(pages)
+    render_file("index.html", Render.index(%{posts: Content.active_posts()}))
+    write_file("index.xml", Render.rss(all_posts))
+    write_file("sitemap.xml", Render.sitemap(pages))
+    render_file("404.html", Render.page(Content.not_found_page()))
+    render_file(about_page.html_path, Render.page(about_page))
+    render_file("archive/index.html", Render.archive(%{posts: all_posts}))
+    render_posts(all_posts)
+    render_redirects(Content.redirects())
+    render_reads(reads)
     render_file("reads/index.html", Render.reads_index(%{pages: reads}))
-
     :ok
   end
 

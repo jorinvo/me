@@ -5,22 +5,22 @@ defmodule JorinMe.Render do
   alias JorinMe.Content
   import Phoenix.HTML
 
-  def now() do
-    DateTime.now!("Etc/UTC")
-  end
-
   def now_iso() do
-    DateTime.to_iso8601(now())
+    DateTime.to_iso8601(DateTime.utc_now())
   end
 
   def date_to_datetime(date) do
     DateTime.new!(date, ~T[06:00:00])
   end
 
-  def format_iso_date(date) do
+  def format_iso_date(date = %DateTime{}) do
+    DateTime.to_iso8601(date)
+  end
+
+  def format_iso_date(date = %Date{}) do
     date
     |> date_to_datetime()
-    |> DateTime.to_iso8601()
+    |> format_iso_date()
   end
 
   def format_post_date(date) do
@@ -225,9 +225,7 @@ defmodule JorinMe.Render do
             <meta itemprop="keywords" content={Enum.join(@keywords, ",")} />
             <meta property="article:author" content={Content.site_author()} />
             <meta property="article:section" content="Software" />
-            <%= for keyword <- @keywords do %>
-              <meta property="article:tag" content={keyword} />
-            <% end %>
+            <meta :for={keyword <- @keywords} property="article:tag" content={keyword} />
             <meta property="article:published_time" content={format_iso_date(@date)} />
             <meta property="article:modified_time" content={format_iso_date(@date)} />
           <% end %>
@@ -290,7 +288,7 @@ defmodule JorinMe.Render do
          {:managingEditor, "#{Content.site_author()} (#{Content.site_email()})"},
          {:webMaster, "#{Content.site_author()} (#{Content.site_email()})"},
          {:copyright, Content.site_copyright()},
-         {:lastBuildDate, format_rss_date(now())},
+         {:lastBuildDate, format_rss_date(DateTime.utc_now())},
          {:"atom:link",
           %{href: "#{Content.site_url()}/index.xml", rel: "self", type: "application/rss+xml"}}
        ] ++
@@ -320,12 +318,7 @@ defmodule JorinMe.Render do
           {:url,
            [
              {:loc, Content.site_url() <> page.route},
-             {:lastmod,
-              if page.date do
-                format_iso_date(page.date)
-              else
-                now_iso()
-              end}
+             {:lastmod, format_iso_date(page.date)}
            ]}
         end
     ])

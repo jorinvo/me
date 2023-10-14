@@ -66,7 +66,8 @@ defmodule JorinMe.Page do
         body: body,
         src_path: src_path,
         html_path: html_path,
-        route: route
+        route: route,
+        date: DateTime.utc_now()
       ] ++
         Map.to_list(attrs)
     )
