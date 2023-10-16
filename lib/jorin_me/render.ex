@@ -319,13 +319,19 @@ defmodule JorinMe.Render do
   end
 
   def sitemap(pages) do
-    XmlBuilder.element(:urlset, [
-      {:url, [{:loc, Content.site_url()}, {:lastmod, format_sitemap_date(DateTime.utc_now())}]}
-      | for page <- pages do
-          {:url,
-           [{:loc, Content.site_url() <> page.route}, {:lastmod, format_sitemap_date(page.date)}]}
-        end
-    ])
+    {:urlset,
+     %{
+       xmlns: "http://www.sitemaps.org/schemas/sitemap/0.9",
+       "xmlns:xhtml": "http://www.w3.org/1999/xhtml"
+     },
+     [
+       {:url, [{:loc, Content.site_url()}, {:lastmod, format_sitemap_date(DateTime.utc_now())}]}
+       | for page <- pages do
+           {:url,
+            [{:loc, Content.site_url() <> page.route}, {:lastmod, format_sitemap_date(page.date)}]}
+         end
+     ]}
+    |> XmlBuilder.document()
     |> XmlBuilder.generate()
   end
 
