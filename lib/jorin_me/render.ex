@@ -15,16 +15,6 @@ defmodule JorinMe.Render do
     |> format_iso_date()
   end
 
-  def format_sitemap_date(date = %DateTime{}) do
-    Calendar.strftime(date, "%Y-%m-%dT%H:%M:%S%z")
-  end
-
-  def format_sitemap_date(date = %Date{}) do
-    date
-    |> DateTime.new!(~T[06:00:00])
-    |> format_sitemap_date()
-  end
-
   def format_post_date(date) do
     Calendar.strftime(date, "%b %-d, %Y")
   end
@@ -325,10 +315,10 @@ defmodule JorinMe.Render do
        "xmlns:xhtml": "http://www.w3.org/1999/xhtml"
      },
      [
-       {:url, [{:loc, Content.site_url()}, {:lastmod, format_sitemap_date(DateTime.utc_now())}]}
+       {:url, [{:loc, Content.site_url()}, {:lastmod, format_iso_date(DateTime.utc_now())}]}
        | for page <- pages do
            {:url,
-            [{:loc, Content.site_url() <> page.route}, {:lastmod, format_sitemap_date(page.date)}]}
+            [{:loc, Content.site_url() <> page.route}, {:lastmod, format_iso_date(page.date)}]}
          end
      ]}
     |> XmlBuilder.document()
