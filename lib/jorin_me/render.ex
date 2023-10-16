@@ -5,30 +5,38 @@ defmodule JorinMe.Render do
   alias JorinMe.Content
   import Phoenix.HTML
 
-  def now_iso() do
-    DateTime.to_iso8601(DateTime.utc_now())
-  end
-
-  def date_to_datetime(date) do
-    DateTime.new!(date, ~T[06:00:00])
-  end
-
   def format_iso_date(date = %DateTime{}) do
     DateTime.to_iso8601(date)
   end
 
   def format_iso_date(date = %Date{}) do
     date
-    |> date_to_datetime()
+    |> DateTime.new!(~T[06:00:00])
     |> format_iso_date()
+  end
+
+  def format_sitemap_date(date = %DateTime{}) do
+    Calendar.strftime(date, "%Y-%m-%dT%H:%M:%S%z")
+  end
+
+  def format_sitemap_date(date = %Date{}) do
+    date
+    |> DateTime.new!(~T[06:00:00])
+    |> format_sitemap_date()
   end
 
   def format_post_date(date) do
     Calendar.strftime(date, "%b %-d, %Y")
   end
 
-  def format_rss_date(date) do
+  def format_rss_date(date = %DateTime{}) do
     Calendar.strftime(date, "%a, %d %b %Y %H:%M:%S %z")
+  end
+
+  def format_rss_date(date = %Date{}) do
+    date
+    |> DateTime.new!(~T[06:00:00])
+    |> format_rss_date()
   end
 
   def rss_post_limit() do
@@ -300,7 +308,7 @@ defmodule JorinMe.Render do
             [
               {:title, post.title},
               {:link, Content.site_url() <> post.route},
-              {:pubDate, format_rss_date(date_to_datetime(post.date))},
+              {:pubDate, format_rss_date(post.date)},
               {:author, "#{Content.site_author()} (#{Content.site_email()})"},
               {:guid, Content.site_url() <> post.route},
               {:description, post.description}
@@ -312,10 +320,10 @@ defmodule JorinMe.Render do
 
   def sitemap(pages) do
     XmlBuilder.element(:urlset, [
-      {:url, [{:loc, Content.site_url()}, {:lastmod, now_iso()}]}
+      {:url, [{:loc, Content.site_url()}, {:lastmod, format_sitemap_date(DateTime.utc_now())}]}
       | for page <- pages do
           {:url,
-           [{:loc, Content.site_url() <> page.route}, {:lastmod, format_iso_date(page.date)}]}
+           [{:loc, Content.site_url() <> page.route}, {:lastmod, format_sitemap_date(page.date)}]}
         end
     ])
     |> XmlBuilder.generate()
