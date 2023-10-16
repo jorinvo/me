@@ -31,7 +31,7 @@ defmodule JorinMe.Page do
     date = Date.from_iso8601!("#{year}-#{month}-#{day}")
     html_path = Path.join(id, "index.html")
     src_path = "pages/posts/#{filename}"
-    route = Path.join("/", Path.dirname(html_path))
+    route = Path.join("/", Path.dirname(html_path)) <> "/"
 
     unless Map.has_key?(attrs, :keywords) do
       raise "#{src_path} no keywords defined"
@@ -56,7 +56,7 @@ defmodule JorinMe.Page do
     id = Path.basename(Path.rootname(file_path))
     html_path = Path.join(id, "index.html")
     src_path = file_path
-    route = Path.join("/", Path.dirname(html_path))
+    route = Path.join("/", Path.dirname(html_path)) <> "/"
 
     struct!(
       __MODULE__,

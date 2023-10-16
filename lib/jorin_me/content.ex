@@ -79,7 +79,7 @@ defmodule JorinMe.Content do
         links: data["links"],
         src_path: src_path,
         html_path: html_path,
-        route: Path.join("/", Path.dirname(html_path))
+        route: Path.join("/", Path.dirname(html_path)) <> "/"
       }
     end
   end

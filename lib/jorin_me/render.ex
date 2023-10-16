@@ -135,7 +135,7 @@ defmodule JorinMe.Render do
         </a>
       </div>
       <hr />
-      <p><center><i>Find more posts in the <a href="/archive">archive</a></i></center></p>
+      <p><center><i>Find more posts in the <a href="/archive/">archive</a></i></center></p>
       <.newsletter input_id="bd-email-bottom" />
       <footer>
         use github to <a href="https://github.com/jorinvo/me/issues">give me feedback</a>
@@ -231,13 +231,14 @@ defmodule JorinMe.Render do
             <meta property="article:published_time" content={format_iso_date(@date)} />
             <meta property="article:modified_time" content={format_iso_date(@date)} />
           <% end %>
+          <link rel="canonical" href={"#{Content.site_url()}#{@route}"} />
           <link rel="stylesheet" href="/assets/app.css" />
         </head>
         <body>
           <header>
             <div class="social">
               <a href="/">Home</a>
-              <a href="/about">About</a>
+              <a href="/about/">About</a>
               <a type="application/rss+xml" href="/index.xml">RSS</a>
               <a href="https://github.com/jorinvo">Github</a>
               <a href="https://twitter.com/jorinvo">Twitter</a>
@@ -256,10 +257,10 @@ defmodule JorinMe.Render do
       title="Reads"
       description="A list of articles I read and recommend."
       og_type="website"
-      route="/reads"
+      route="/reads/"
     >
       <div class="post-header">
-        <a href="/reads">
+        <a href="/reads/">
           <h1>Reads</h1>
         </a>
       </div>
