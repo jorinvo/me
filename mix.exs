@@ -29,7 +29,7 @@ defmodule JorinMe.MixProject do
       {:yaml_elixir, "~> 2.9.0"},
       {:html_sanitize_ex, "~> 1.4.3"},
       {:tailwind, "~> 0.2.1"},
-      {:bandit, "~> 0.7.7"},
+      {:bandit, "~> 1.0.0"},
       {:exsync, "~> 0.2"},
       {:credo, "~> 1.7.1"}
     ]
