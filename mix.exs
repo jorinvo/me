@@ -20,7 +20,7 @@ defmodule JorinMe.MixProject do
 
   defp deps do
     [
-      {:nimble_publisher, "~> 1.0.0"},
+      {:nimble_publisher, "~> 1.1.0"},
       {:makeup_elixir, "~> 0.16.1"},
       {:makeup_js, "~> 0.1.0"},
       {:makeup_html, "~> 0.1.1"},
