@@ -8,8 +8,7 @@
 
 I work with data and communication technology to build better feedback loops.
 
-You can send me a [mail](mailto:contact@jorin.me),
-talk to me on [Twitter](https://x.com/intent/user?screen_name=jorinvo) or [LinkedIn](https://www.linkedin.com/in/jorinvo/).
+You can send me a [mail](mailto:contact@jorin.me) or talk to me on [Twitter](https://x.com/intent/user?screen_name=jorinvo) and [LinkedIn](https://www.linkedin.com/in/jorinvo/).
 
 <div style ="clear: right"></div>
 
