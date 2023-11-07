@@ -6,7 +6,7 @@
 
 <img style="width: 30%; height: auto; float: right; padding-left: 20%" src="/images/jorin.jpg" alt="Photo of me" width="300" height="300">
 
-I am a software developer excited about data and feedback loops.
+I work with data and communication technology to build better feedback loops.
 
 You can send me a [mail](mailto:contact@jorin.me),
 talk to me on [Twitter](https://x.com/intent/user?screen_name=jorinvo) or [LinkedIn](https://www.linkedin.com/in/jorinvo/).
@@ -15,7 +15,7 @@ talk to me on [Twitter](https://x.com/intent/user?screen_name=jorinvo) or [Linke
 
 Projects:
 
-- Currently building a feedback tool for product teams
+- Building [critmap](http://critmap.com/) to help teams use feedback and build better products.
 - From November '17 to September '23 I worked as one of the first software developers at [heartbeat](https://heartbeat-med.com/). At heartbeat I built backend services, APIs, integrations with hospital systems, monitoring systems, a new storage layer, our data platform and more.
 - I created [edn-data](https://github.com/jorinvo/edn-data) so you can use the EDN data format from JavaScript and Typescript.
 - I designed [ratlog](https://github.com/ratlog/ratlog.js), a logging format and library which contains some neat ideas. We used it successfully in prod for a few years.
