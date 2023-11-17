@@ -1,6 +1,6 @@
 %{
   title: "Moving the Blog to Elixir",
-  description: "I moved my blog from Hugo to a custom Elixir static side generator.",
+  description: "I moved my blog from Hugo to a custom Elixir static site generator.",
   keywords: ["Elixir", "Hugo", "blog", "website", "static", "HTML", "render", "markdown"]
 }
 ---
