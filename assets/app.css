@@ -165,6 +165,7 @@ blockquote {
   text-align: center;
   font-style: italic;
   font-size: 80%;
+  line-height: 170%;
 }
 .post-footer a {
   /* accessability issue if link is not marked as such here */
