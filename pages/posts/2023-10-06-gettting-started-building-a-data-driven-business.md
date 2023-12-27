@@ -54,5 +54,3 @@ Be ready to spend some time figuring out what you actually want out of the data.
 Have a technical person sit together with each decision maker in the company to create specialized dashboards to support their specific needs.
 
 Provide manual access to data for operational workflows and only productise solutions once you know the requirements very well.
-
-I will go into implementation and specific tools in a follow-up post.
