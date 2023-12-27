@@ -14,7 +14,7 @@ You can send me a [mail](mailto:contact@jorin.me) or talk to me on [Twitter](htt
 
 Projects:
 
-- Building [taleshape](https://taleshape.com/) to help teams use feedback and build better products.
+- Building [taleshape](https://taleshape.com/) to help teams make effective use of feedback and build better products.
 - From November '17 to September '23 I worked as one of the first software developers at [heartbeat](https://heartbeat-med.com/). At heartbeat I built backend services, APIs, integrations with hospital systems, monitoring systems, a new storage layer, our data platform and more.
 - I created [edn-data](https://github.com/jorinvo/edn-data) so you can use the EDN data format from JavaScript and Typescript.
 - I designed [ratlog](https://github.com/ratlog/ratlog.js), a logging format and library which contains some neat ideas. We used it successfully in prod for a few years.
