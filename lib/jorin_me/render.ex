@@ -357,7 +357,7 @@ defmodule JorinMe.Render do
         <p><%= @description %></p>
         <ul class="hide-list">
           <li :for={link <- @links}>
-            <a href={ link["url"] }>
+            <a href={ link["url"] } rel="nofollow">
               <img src={"https://www.google.com/s2/favicons?domain=#{ URI.parse(link["url"]).host }"} />
               <%= link["title"] %>
             </a>
