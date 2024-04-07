@@ -237,10 +237,10 @@ defmodule JorinMe.Render do
             <div class="social">
               <a href="/">Home</a>
               <a href="/about/">About</a>
+              <a href="https://taleshape.com">Taleshape</a>
               <a type="application/rss+xml" href="/index.xml">RSS</a>
               <a href="https://github.com/jorinvo">Github</a>
               <a href="https://twitter.com/jorinvo">Twitter</a>
-              <a rel="me" href="https://mas.to/@jorin">Mastodon</a>
             </div>
           </header>
           <%= render_slot(@inner_block) %>
