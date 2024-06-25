@@ -92,7 +92,7 @@ defmodule JorinMe.Render do
         <br />
         My name is Jorin.
         <br />
-        I am currently building a new feedback tool.
+        I am currently building <a href="https://taleshape.com">Taleshape</a>.
         <br />
         Feel free to send me a <a href={"mailto:${site_email()}"}>mail</a> or talk to me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">twitter</a>.
           </p>
