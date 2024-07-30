@@ -8,14 +8,16 @@ defmodule JorinMe.Application do
 
   @impl true
   def start(_type, _args) do
+    port = 3000
+
     children = [
-      {Bandit, plug: JorinMe.DevServer, scheme: :http, port: 3000}
+      {Bandit, plug: JorinMe.DevServer, scheme: :http, port: port}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: JorinMe.Supervisor]
-    Logger.info("serving dev site at http://localhost:3000")
+    Logger.info("serving dev site at http://localhost:#{port}")
     Supervisor.start_link(children, opts)
   end
 end
