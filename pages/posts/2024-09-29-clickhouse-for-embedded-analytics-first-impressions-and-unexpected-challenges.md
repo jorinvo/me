@@ -1,6 +1,6 @@
 %{
   title: "Clickhouse for Embedded Analytics: First Impressions and Unexpected Challenges",
-  description: "I implemented Clickhouse for an embedded analytics project handling millions of data points, and here I share my first-hand experience with its impressive performance benefits and the unexpected challenges I encountered along the way.",
+  description: "I chose Clickhouse for an embedded analytics project. Here are my first impressions and some surprises I encountered along the way.",
   keywords: ["clickhouse", "analytics", "database", "postgres", "OLAP"]
 }
 
