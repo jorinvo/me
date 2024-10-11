@@ -39,7 +39,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 0b852855aa7a6d1fe0f8efd73cc966ba
-          projectName: jorinme
+          projectName: jorin
           directory: output
           branch: main
           wranglerVersion: '3'
