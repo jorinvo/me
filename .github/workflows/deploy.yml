@@ -1,4 +1,4 @@
-name: Build and deploy to pages
+name: Build and deploy to Cloudflare Pages
 
 on:
   push:
@@ -16,7 +16,7 @@ concurrency:
 jobs:
   build_and_deploy:
     environment:
-      name: github-pages
+      name: cloudflare
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
@@ -28,19 +28,19 @@ jobs:
           otp-version: '25.3' # Define the OTP version [required]
       - name: Install dependencies
         run: mix deps.get
-      - name: Compile and generate output
+      - name: Compile
         run: mix compile --warnings-as-errors --all-warnings
       - name: Check format
         run: mix format --check-formatted
       - name: Run credo
         run: mix credo
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
         with:
-          path: 'output'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-        if: github.ref == 'refs/heads/main'
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 0b852855aa7a6d1fe0f8efd73cc966ba
+          projectName: taleshape
+          directory: output
+          branch: main
+          wranglerVersion: '3'
+
