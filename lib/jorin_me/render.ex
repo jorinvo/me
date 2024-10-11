@@ -231,11 +231,6 @@ defmodule JorinMe.Render do
           <% end %>
           <link rel="canonical" href={"#{Content.site_url()}#{@route}"} />
           <link rel="stylesheet" href="/assets/app.css" />
-          <script
-            src="https://beamanalytics.b-cdn.net/beam.min.js"
-            data-token="9f0636a9-efe7-4b75-a3b0-68ac0ae262ae"
-            defer
-          ></script>
         </head>
         <body>
           <header>
