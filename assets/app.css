@@ -65,6 +65,7 @@ h3 {
 
 p {
   margin: 3% 0;
+  text-wrap: balance;
 }
 
 a {
@@ -148,10 +149,6 @@ blockquote {
   margin-top: 1%;
 }
 
-.post-content {
-  text-align: justify;
-}
-
 .post-content > p:first-child {
   font-style: italic;
 }
@@ -170,6 +167,10 @@ blockquote {
 .post-footer a {
   /* accessability issue if link is not marked as such here */
   text-decoration: underline;
+}
+
+.post-title {
+  text-wrap: balance;
 }
 
 .author {
