@@ -24,7 +24,7 @@ defmodule JorinMe.MixProject do
       {:makeup_elixir, "~> 1.0.0"},
       {:makeup_js, "~> 0.1.0"},
       {:makeup_html, "~> 0.1.1"},
-      {:phoenix_live_view, "~> 0.20.0"},
+      {:phoenix_live_view, "~> 1.0.0"},
       {:xml_builder, "~> 2.3.0"},
       {:yaml_elixir, "~> 2.11.0"},
       {:html_sanitize_ex, "~> 1.4.3"},
