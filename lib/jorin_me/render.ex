@@ -94,7 +94,7 @@ defmodule JorinMe.Render do
         <br />
         I am currently building <a href="https://taleshape.com">Taleshape</a>.
         <br />
-        Feel free to send me a <a href={"mailto:${site_email()}"}>mail</a> or talk to me on <a href="https://twitter.com/intent/user?screen_name=jorinvo">twitter</a>.
+        Feel free to send me a <a href={"mailto:${site_email()}"}>mail</a> or talk to me on <a href="https://www.linkedin.com/in/jorinvo/">linkedin</a>.
           </p>
         </div>
         <footer>
@@ -240,7 +240,7 @@ defmodule JorinMe.Render do
               <a href="https://taleshape.com">Taleshape</a>
               <a type="application/rss+xml" href="/index.xml">RSS</a>
               <a href="https://github.com/jorinvo">Github</a>
-              <a href="https://twitter.com/jorinvo">Twitter</a>
+              <a href="https://www.linkedin.com/in/jorinvo/">LinkedIn</a>
             </div>
           </header>
           <%= render_slot(@inner_block) %>
