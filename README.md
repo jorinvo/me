@@ -6,8 +6,7 @@ After using [Hugo](https://gohugo.io/) for nearly a decade, I decided to take th
 With the current setup I am in complete control over the rendering and do not have to learn a custom static site generator.
 All used tooling are common Elixir ecosystem packages.
 
-You can read more about the setup in my [Moving the blog to Elixir](https://jorin.me/moving-blog-to-elixir/) post.
-
+You can read more about the setup in my [Moving the blog to Elixir](https://jorin.me/moving-the-blog-to-elixir/) post.
 
 ## Structure
 
