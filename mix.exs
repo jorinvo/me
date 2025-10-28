@@ -28,7 +28,7 @@ defmodule JorinMe.MixProject do
       {:xml_builder, "~> 2.4.0"},
       {:yaml_elixir, "~> 2.12.0"},
       {:html_sanitize_ex, "~> 1.4.3"},
-      {:tailwind, "~> 0.3.1"},
+      {:tailwind, "~> 0.4.1"},
       {:bandit, "~> 1.8.0"},
       {:exsync, "~> 0.2"},
       {:credo, "~> 1.7.1"}
