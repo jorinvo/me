@@ -19,7 +19,7 @@ And with this Shaper was born as the **"BI as SQL - powered by DuckDB"** solutio
 
 ## Current Status
 
-That initial consulting client turn into my first customer so from the beginning I was building Shaper **driven by needs of actual users**. And half a year later I was lucky that another company I work with in the past was also interested in this embedded analytics solution and after a **proof of concept** they quickly became my second customer. So my work kept being driven by customer feedback and real use cases.
+That initial consulting client turn into my first customer so from the beginning I was building Shaper **driven by needs of actual users**. And half a year later I was lucky that another company I worked with in the past was also interested in this embedded analytics solution and after a **proof of concept** they quickly became my second customer. So my work kept being driven by customer feedback and real use cases.
 
 Then eventually I had to get the word out and start **finding customers** beyond the lucky start. So I open sourced Shaper, built a website, documentation, started blogging and getting the word out. I saw clear interest in the open source tool I built and Shaper is now actively used by more companies than I even know about.
 
