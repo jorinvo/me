@@ -2,7 +2,7 @@ name: Build and deploy to Cloudflare Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 permissions:
   contents: read
@@ -22,10 +22,10 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Set up Elixir
-        uses: erlef/setup-beam@ee09b1e59bb240681c382eb1f0abc6a04af72764
+        uses: erlef/setup-beam@v1
         with:
-          elixir-version: '1.14.3' # Define the elixir version [required]
-          otp-version: '25.3' # Define the OTP version [required]
+          elixir-version: "1.19" # Define the elixir version [required]
+          otp-version: "28" # Define the OTP version [required]
       - name: Install dependencies
         run: mix deps.get
       - name: Compile
@@ -42,5 +42,4 @@ jobs:
           projectName: jorin
           directory: output
           branch: main
-          wranglerVersion: '3'
-
+          wranglerVersion: "3"
