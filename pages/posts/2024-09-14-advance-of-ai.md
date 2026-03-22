@@ -1,7 +1,8 @@
 %{
   title: "Advance of AI",
   description: "AI is here to stay. What does that mean for us humans?",
-  keywords: ["AI", "technology", "innovation", "ethics", "humanity"]
+  keywords: ["AI", "technology", "innovation", "ethics", "humanity"],
+  archive: true
 }
 ---
 
