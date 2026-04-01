@@ -27,7 +27,7 @@ defmodule JorinMe.MixProject do
       {:phoenix_live_view, "~> 1.1.2"},
       {:xml_builder, "~> 2.4.0"},
       {:yaml_elixir, "~> 2.12.0"},
-      {:html_sanitize_ex, "~> 1.4.3"},
+      {:html_sanitize_ex, "~> 1.5.0"},
       {:tailwind, "~> 0.3.1"},
       {:bandit, "~> 1.10.0"},
       {:exsync, "~> 0.2"},
