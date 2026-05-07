@@ -8,7 +8,7 @@
 
 I am a software engineer turned founder.
 
-You can send me a [mail](mailto:contact@jorin.me) or talk to me on [LinkedIn](https://www.linkedin.com/in/jorinvo/) and [Bluesky](https://bsky.app/profile/jorinvo.bsky.social).
+You can send me a [mail](mailto:contact@jorin.me) or talk to me on [LinkedIn](https://www.linkedin.com/in/jorinvo/) and [Bluesky](https://bsky.app/profile/jorin.me).
 
 <div style ="clear: right"></div>
 
